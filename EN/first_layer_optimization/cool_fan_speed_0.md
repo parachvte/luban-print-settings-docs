@@ -7,10 +7,3 @@ The fan speed will gradually transition from the Initial Fan Speed to the Regula
 
 ### **Usage**
 The Initial Fan Speed is normally set lower than the Regular Fan Speed. This allows the material to cool down slower and sag further onto the build plate, and thus improves build plate adhesion.
-
-<!--本文术语：
-Initial Fan Speed 起始风扇速度
-Regular Fan Speed 正常风扇速度
-Regular Fan Speed At Layer 正常风扇速度（层）
-build plate 打印平台
--->
