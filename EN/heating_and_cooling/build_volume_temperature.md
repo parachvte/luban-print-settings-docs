@@ -6,6 +6,3 @@ Printing at a greater build volume temperature can reduce the warping effect fro
 
 However printing at a greater temperature will also reduce the effectiveness of cooling with the fans. This reduces overhang quality and causes sagging and elephant feet.
 
-<!--疑问：
-目前我们的机器应该还无法控制外罩内温度，这个参数是否要删除？
--->

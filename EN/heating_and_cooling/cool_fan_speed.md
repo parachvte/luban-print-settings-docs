@@ -10,7 +10,3 @@ Fan Speed is the speed at which the fans on the toolhead will spin throughout mo
 * A greater speed will produce better overhangs and reduces the pillowing effect.
 * A lower speed will reduce warping with some materials and will make the print stronger.
 * The fan speed should almost always be maximum when printing materials with a low glass transition temperature range, such as PLA.
-
-<!--本文术语：
-Fan Speed 风扇速度
--->
