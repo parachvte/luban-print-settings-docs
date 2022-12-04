@@ -138,3 +138,16 @@ The gyroid infill pattern produces a wavy pattern that alternates directions.
 * Equally strong in all directions, but not very strong. This makes it useful for flexible materials, but the result will be somewhat harder, less squishy, than the Cross (3D) infill patterns.
 * Resistant to shearing.
 * Takes a long time to slice and produces large g-code files. For some printers it may be hard to keep up with the many g-code commands per second, and it may be hard to keep up with over serial connection on low baud rates.
+
+Lightning
+----
+
+![Lightning](../images/infill_pattern_lightning.png)
+![The lightning pattern builds up from the sides](../images/infill_pattern_lightning_side.png)
+
+The lightning infill pattern is a jagged minimal pattern that only aims to support the top surface. The infill density specified will only be reached right underneath the top side of the infill volume.
+
+* Saves a massive amount of time and material by only producing infill underneath the surface.
+* Increasing the infill density leads to the best top surface quality of all patterns while not taking any more time and material.
+* Prevents infill from shining through the walls in many places, by simply not having infill.
+* Does not add to the strength of the part in any significant way.
