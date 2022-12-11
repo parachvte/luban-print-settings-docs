@@ -1,6 +1,6 @@
 Minimum Wall Line Width
 ====
-When printing thin pieces, Cura adjusts the width of wall lines to fit the exact width of the model. Cura can also decide to use fewer wall lines instead. This setting decides the threshold at which Cura decides to remove a wall instead of making the existing walls thinner.
+When printing thin pieces, Luban adjusts the width of wall lines to fit the exact width of the model. Luban can also decide to use fewer wall lines instead. This setting decides the threshold at which Luban decides to remove a wall instead of making the existing walls thinner.
 
 <!--screenshot {
 "image_path": "min_wall_line_width_0_34.png",

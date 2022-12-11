@@ -1,6 +1,6 @@
 Minimum Odd Wall Line Width
 ====
-When printing thin pieces, Cura adjusts the width of wall lines to fit the exact width of the model. Cura can also decide to use fewer wall lines instead. This setting is the threshold at which Cura will remove a line in the centre. It can be adjusted separately from the [threshold at which the middle two lines combine](min_even_wall_line_width.md).
+When printing thin pieces, Luban adjusts the width of wall lines to fit the exact width of the model. Luban can also decide to use fewer wall lines instead. This setting is the threshold at which Luban will remove a line in the centre. It can be adjusted separately from the [threshold at which the middle two lines combine](min_even_wall_line_width.md).
 
 <!--screenshot {
 "image_path": "min_wall_line_width_0_34.png",

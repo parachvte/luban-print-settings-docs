@@ -1,6 +1,6 @@
 Wall Transition Length
 ====
-In thin parts, not all of the walls fit inside of the shape. If the part is thinner in some places than in others, Cura needs to use different numbers of walls in some places. This setting controls how wide the transitional area will be where it adds or removes one of the walls.
+In thin parts, not all of the walls fit inside of the shape. If the part is thinner in some places than in others, Luban needs to use different numbers of walls in some places. This setting controls how wide the transitional area will be where it adds or removes one of the walls.
 
 <!--screenshot {
 "image_path": "wall_transition_length_0_2.png",

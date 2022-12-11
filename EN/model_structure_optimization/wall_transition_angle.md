@@ -1,6 +1,6 @@
 Wall Transitioning Threshold Angle
 ====
-This angle indicates the angle at which Cura starts creating transitions to properly fill the space. Any corners that are sharper than this angle will get filled with variable-width lines.
+This angle indicates the angle at which Luban starts creating transitions to properly fill the space. Any corners that are sharper than this angle will get filled with variable-width lines.
 
 <!--screenshot {
 "image_path": "wall_transition_angle.png",

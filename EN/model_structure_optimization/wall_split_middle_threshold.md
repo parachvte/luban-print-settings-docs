@@ -1,6 +1,6 @@
 Split Middle Line Threshold
 ====
-When printing thin pieces, Cura adjusts the width of wall lines to fit the exact width of the model. Cura can also decide to use fewer wall lines instead. This setting is the threshold at which Cura will split a single line in the centre into two, when the width of the part increases. It can be adjusted separately from the [threshold at which a new centre line is added](wall_add_middle_threshold.md).
+When printing thin pieces, Luban adjusts the width of wall lines to fit the exact width of the model. Luban can also decide to use fewer wall lines instead. This setting is the threshold at which Luban will split a single line in the centre into two, when the width of the part increases. It can be adjusted separately from the [threshold at which a new centre line is added](wall_add_middle_threshold.md).
 
 This setting is the same as the [Minimum Even Wall Line Width](min_even_wall_line_width.md), but uses a different unit. The unit of this setting is in fractions of a line width that the width of a part needs to increase to split the centre line into two. Because the difference in width is divided over the two lines in the middle after splitting, a smaller Minimum Even Wall Line Width is equivalent to a much smaller Split Middle Line Threshold than in the case of removing an odd wall.
 
