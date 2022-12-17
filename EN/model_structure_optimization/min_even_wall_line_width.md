@@ -1,6 +1,6 @@
 Minimum Even Wall Line Width
 ====
-When printing thin pieces, Cura adjusts the width of wall lines to fit the exact width of the model. Cura can also decide to use fewer wall lines instead. This setting is the threshold at which Cura will combine two lines into one. It can be adjusted separately from the [threshold at which the middle line is removed](min_odd_wall_line_width.md).
+When printing thin pieces, Luban adjusts the width of wall lines to fit the exact width of the model. Luban can also decide to use fewer wall lines instead. This setting is the threshold at which Luban will combine two lines into one. It can be adjusted separately from the [threshold at which the middle line is removed](min_odd_wall_line_width.md).
 
 <!--screenshot {
 "image_path": "min_wall_line_width_0_34.png",
