@@ -1,15 +1,15 @@
-Support Density
+Stützdichte
 ====
-### **Description**
-This setting defines the rate at which the support structures are filled with material. At great infill rates, the support lines will be placed very close together. At low infill rates, the lines will be placed further apart.
+### **Beschreibung**
+Diese Einstellung definiert die Geschwindigkeit, mit der die Stützstrukturen mit Material gefüllt werden. Bei großen Füllungsraten werden die Stützlinien sehr dicht beieinander platziert. Bei niedrigen Füllraten werden die Linien weiter auseinander platziert.
 
-![Low support density](../images/support_infill_rate_low.png)
-![High support density](../images/support_infill_rate_high.png)
+![Niedrige Stützdichte](../images/support_infill_rate_low.png)
+![Hohe Stützdichte](../images/support_infill_rate_high.png)
 
-### **Influence**
-Increasing the density of support has some positive and negative effects. Here are some of the effects that need to be weighed off:
-* Since the distance between the support lines is smaller, the surface resting on top of this support will sag less.
-* The support will be stronger, improving reliability of the print.
-* It's harder to remove the support due to the increased adhesion surface.
-* It will take more material to print the support.
-* The print will take longer to complete.
+### **Einfluss**
+Die Erhöhung der Unterstützungsdichte hat einige positive und negative Auswirkungen. Hier sind einige der Effekte, die abgewogen werden müssen:
+* Da der Abstand zwischen den Stützlinien kleiner ist, wird die auf dieser Stütze aufliegende Fläche weniger durchhängen.
+* Die Unterstützung wird stärker, wodurch die Zuverlässigkeit des Drucks verbessert wird.
+* Aufgrund der vergrößerten Haftfläche ist es schwieriger, die Stütze zu entfernen.
+* Zum Drucken der Stütze wird mehr Material benötigt.
+* Der Druck dauert länger.

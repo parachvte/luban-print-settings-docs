@@ -1,10 +1,10 @@
-Support Roof Acceleration
+Dachbeschleunigung unterstützen
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while printing the support roof. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse beim Drucken des Stützdachs in verschiedene Richtungen beschleunigt.
 
-### **Influence**
-The support roof is more sensitive to inaccurate printing, because it directly affects the overhang quality. Enabling the support roof to have a lower acceleration rate than the support bottom can give better overhang quality for a similar printing time.
+### **Einfluss**
+Das Stützdach ist empfindlicher gegenüber ungenauem Druck, da es die Überhangqualität direkt beeinflusst. Das Ermöglichen, dass das Stützdach eine niedrigere Beschleunigungsrate hat als der Stützboden, kann eine bessere Überhangqualität für eine ähnliche Druckzeit ergeben.
 
-### **Usage**
-The Support Roof Acceleration can be set to a different rate than the support floor.
+### **Verwendung**
+Die Beschleunigung des Stützdachs kann auf eine andere Rate als die des Stützbodens eingestellt werden.

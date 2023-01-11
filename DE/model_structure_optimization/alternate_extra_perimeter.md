@@ -1,7 +1,7 @@
-Alternate Extra Wall
+Alternative zusätzliche Wand
 ====
-This setting adds an extra wall every other layer. This way the infill gets wedged vertically into the walls, resulting in stronger prints.
+Diese Einstellung fügt jeder zweiten Ebene eine zusätzliche Wand hinzu. Auf diese Weise wird die Füllung vertikal in die Wände eingekeilt, was zu stärkeren Drucken führt.
 
-For example, if you set the wall line count to two walls and enable alternate extra wall, it will print two walls on even numbered layers and three walls on odd numbered layers.
+Wenn Sie beispielsweise die Anzahl der Wandlinien auf zwei Wände einstellen und alternative zusätzliche Wände aktivieren, werden zwei Wände auf Ebenen mit gerader Nummer und drei Wände auf Ebenen mit ungerader Nummer gedruckt.
 
-![This image shows the walls affected when changing this setting.](../images/alternate_extra_perimeter.gif)
+![Dieses Bild zeigt die betroffenen Wände, wenn diese Einstellung geändert wird.](../images/alternate_extra_perimeter.gif)

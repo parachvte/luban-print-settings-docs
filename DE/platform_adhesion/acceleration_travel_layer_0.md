@@ -1,20 +1,14 @@
-Initial Layer Travel Acceleration
+Reisebeschleunigung der ersten Ebene
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while travelling across the build plate during the first layer. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse in verschiedene Richtungen beschleunigt, während sie sich während der ersten Schicht über die Bauplatte bewegt.
 
-### **Influence**
-Printing at high rates of acceleration can cause vibrations of the printer. In particular, these vibrations can make the build plate shake up and down, which can cause the nozzle to hit the build plate and damage the printer. 
+### **Einfluss**
+Drucken mit hoher Beschleunigung kann zu Vibrationen des Druckers führen. Insbesondere diese Vibrationen können dazu führen, dass die Bauplatte auf und ab rüttelt, was dazu führen kann, dass die Düse auf die Bauplatte trifft und den Drucker beschädigt.
 
-The vibrations can also continue on after the travel move and affect extrusion, which is detrimental to the adhesion between the model and the build plate. 
+Die Vibrationen können auch nach der Fahrbewegung weitergehen und die Extrusion beeinträchtigen, was die Haftung zwischen dem Modell und der Bauplatte beeinträchtigt.
 
-Reducing the acceleration of travel moves during the first layer compared to other layers can prevent these effects. However to save time, the acceleration during travelling in the first layer can still be higher than during the extrusion moves of the first layer, because vibrations are usually only a problem while extruding.
+Eine Verringerung der Beschleunigung von Fahrbewegungen während der ersten Schicht im Vergleich zu anderen Schichten kann diese Effekte verhindern. Um Zeit zu sparen, kann die Beschleunigung beim Einfahren in die erste Schicht jedoch immer noch höher sein als während der Extrusionsbewegungen der ersten Schicht, da Vibrationen normalerweise nur beim Extrudieren ein Problem darstellen.
 
-### **Usage**
-The acceleration during travels on the first layer can be set to a different rate from the travel moves in the rest of the print or the extrusion moves of the first layer.
-
-
-
-
-
-
+### **Verwendung**
+Die Beschleunigung während der Fahrten auf der ersten Schicht kann auf eine andere Geschwindigkeit eingestellt werden als die Fahrtbewegungen im Rest des Drucks oder die Extrusionsbewegungen der ersten Schicht.

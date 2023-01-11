@@ -1,5 +1,5 @@
-Nozzle Switch Prime Speed
+Düsenschalter Prime Speed
 ====
-While a nozzle is on stand-by, the material is kept out of the heat zone to protect it from degrading. This setting configures how fast the material is pushed back in the nozzle chamber after the extruder switches back.
+Während sich eine Düse im Standby-Modus befindet, wird das Material von der Hitzezone ferngehalten, um es vor Zersetzung zu schützen. Diese Einstellung konfiguriert, wie schnell das Material in die Düsenkammer zurückgeschoben wird, nachdem der Extruder zurückschaltet.
 
-Since the retraction for the extruder switch is longer, this setting can be configured separately from the speed of ordinary retractions. Increasing the setting can reduce oozing, but has a chance of grinding the filament which may cause the feeder to lose grip on the filament.
+Da der Rückzug für den Extruderschalter länger ist, kann diese Einstellung getrennt von der Geschwindigkeit des normalen Rückzugs konfiguriert werden. Eine Erhöhung der Einstellung kann das Auslaufen reduzieren, birgt jedoch die Möglichkeit, dass das Filament schleift, was dazu führen kann, dass die Zuführung das Filament nicht mehr greift.

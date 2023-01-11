@@ -1,12 +1,12 @@
-Travel Acceleration
+Reisebeschleunigung
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while travelling across the build volume. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse in verschiedene Richtungen beschleunigt, während sie sich über das Bauvolumen bewegt.
 
-### **Influence**
-Setting the Travel Acceleration rate too high can cause the motors to lose some steps, leading to layer shifts.
+### **Einfluss**
+Eine zu hohe Einstellung der Fahrbeschleunigungsrate kann dazu führen, dass die Motoren einige Schritte verlieren, was zu Schichtverschiebungen führt.
 
-### **Usage**
-Since the printer is not extruding any material during the fast travel moves, any vibrations of the printer don't have any real effect on the print. As a result, the Travel Acceleration should be set pretty high to save printing time.
+### **Verwendung**
+Da der Drucker während der schnellen Verfahrbewegungen kein Material extrudiert, wirken sich eventuelle Vibrationen des Druckers nicht wirklich auf den Druck aus. Daher sollte die Reisebeschleunigung ziemlich hoch eingestellt werden, um Druckzeit zu sparen.
 
-The Travel Acceleration can be set to a different rate than the rest of the print while material is extruded.
+Die Bewegungsbeschleunigung kann auf eine andere Rate als der Rest des Drucks eingestellt werden, während Material extrudiert wird.

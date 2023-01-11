@@ -1,17 +1,17 @@
-Travel Speed
+Reisegeschwindigkeit
 ====
-### **Description**
-This setting configures the speed at which the toolhead moves when it's not extruding any material.
+### **Beschreibung**
+Diese Einstellung konfiguriert die Geschwindigkeit, mit der sich der Werkzeugkopf bewegt, wenn kein Material extrudiert wird.
 
-![Various structures printed at different speeds](../images/speed_difference.png)
+![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
-### **Influence**
-The Travel Speed is generally much higher than any other speed setting. Some effects of increasing the Travel Speed include:
-* A higher Travel Speed can slightly reduce the printing time.
-* Increasing the Travel Speed will reduce the time that the filament has to ooze out of the material, making a cleaner part overall with smaller blobs due to oozing.
-* However, increasing the Travel Speed also tends to make the printer vibrate more, which increases ringing. 
-* Increasing the Travel Speed increases the chance of your print being knocked over, especially if [combing](../travel/retraction_combing.md) is disabled.
-* When taken to extreme speeds, the motors of the printer might also lose some steps, causing a layer shift.
+### **Einfluss**
+Die Fahrgeschwindigkeit ist im Allgemeinen viel höher als jede andere Geschwindigkeitseinstellung. Einige Auswirkungen der Erhöhung der Reisegeschwindigkeit sind:
+* Eine höhere Reisegeschwindigkeit kann die Druckzeit leicht verkürzen.
+* Durch Erhöhen der Verfahrgeschwindigkeit wird die Zeit verkürzt, in der das Filament aus dem Material austreten muss, wodurch ein insgesamt saubereres Teil mit kleineren Tropfen aufgrund des Austretens entsteht.
+* Eine Erhöhung der Verfahrgeschwindigkeit neigt jedoch auch dazu, den Drucker stärker vibrieren zu lassen, wodurch das Klingeln verstärkt wird.
+* Eine Erhöhung der Reisegeschwindigkeit erhöht die Wahrscheinlichkeit, dass Ihr Druck umgestoßen wird, insbesondere wenn [combing](../travel/retraction_combing.md) deaktiviert ist.
+* Bei extremen Geschwindigkeiten können auch die Motoren des Druckers einige Schritte verlieren, was zu einer Schichtverschiebung führt.
 
-### **Usage**
-**The Travel Speed has less of an effect on the total printing time than most people assume. This is because the travel time is usually only a small fraction of the total printing time, and because it takes a long time for the high speeds are reached, being limited mostly by acceleration rather than maximum speed.**
+### **Verwendung**
+**Die Reisegeschwindigkeit hat weniger Einfluss auf die Gesamtdruckzeit als die meisten Leute annehmen. Dies liegt daran, dass die Reisezeit normalerweise nur einen kleinen Bruchteil der gesamten Druckzeit ausmacht und dass es lange dauert, bis die hohen Geschwindigkeiten erreicht werden, die hauptsächlich durch die Beschleunigung und nicht durch die maximale Geschwindigkeit begrenzt sind.**

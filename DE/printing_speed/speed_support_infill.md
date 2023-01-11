@@ -1,13 +1,12 @@
-Support Infill Speed
+Unterstützung der Füllgeschwindigkeit
 ====
-### **Description**
-This setting configures the speed at which the main support structures are printed. It should be noted that the main support structures do not include the roof and floor.
+### **Beschreibung**
+Diese Einstellung konfiguriert die Geschwindigkeit, mit der die Hauptstützstrukturen gedruckt werden. Es ist zu beachten, dass die Hauptstützstrukturen nicht das Dach und den Boden umfassen.
 
-![Various structures printed at different speeds](../images/speed_difference.png)
+![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
-### **Influence**
-Increasing this setting too much will cause a difference in flow rate between the support and the rest of the print, which leads to overextrusion when switching from support to the print and underextrusion when switching from the print to support.
+### **Einfluss**
+Eine zu starke Erhöhung dieser Einstellung führt zu einem Unterschied in der Durchflussrate zwischen dem Träger und dem Rest des Drucks, was zu einer Überextrusion beim Wechseln vom Träger zum Druck und zu einer Unterextrusion beim Wechseln vom Druck zum Träger führt.
 
-### **Usage**
-Normally the support doesn't need to be printed very accurately, so it is safe to print the support at a higher speed than the rest of the print. This can save some printing time.
-
+### **Verwendung**
+Normalerweise muss der Träger nicht sehr genau gedruckt werden, daher ist es sicher, den Träger mit einer höheren Geschwindigkeit als den Rest des Drucks zu drucken. Dies kann etwas Druckzeit sparen.

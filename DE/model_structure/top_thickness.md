@@ -1,17 +1,17 @@
-Top Thickness
+Obere Dicke
 ====
-### **Description**
-This setting configures how thick the top layers of the print will be.
+### **Beschreibung**
+Diese Einstellung konfiguriert, wie dick die oberen Schichten des Drucks sein werden.
 
-Different from the normal layers that are made up of walls and infill, the top layers are solid layers. They are fully printed so as to close the print.
+Im Gegensatz zu den normalen Schichten, die aus Wänden und Füllungen bestehen, sind die Deckschichten Massivschichten. Sie werden vollständig gedruckt, um den Druck zu schließen.
 
-![Ordinary top thickness](../images/top_bottom_thickness_0.8.png)
-![Greatly increased thickness](../images/top_thickness.png)
+![Normale obere Dicke](../images/top_bottom_thickness_0.8.png)
+![Stark erhöhte Dicke](../images/top_thickness.png)
 
-### **Influence**
-By increasing the thickness of the top layers, you can achieve the following effects:
-* Your print will be stronger with a thick and solid top.
-* The top surface will be smoother. Any pillowing and sagging on the upper part will get smoothed out by the layers put on top.
-* Your model will be more watertight. A thicker top will be more capable of blocking water or other fluids from getting in.
-* Your print will consume more material, since the top layers use more material than the normal layers that contain sparse infill.
-* Your print will take more time, since more material must be placed down.
+### **Einfluss**
+Durch Erhöhen der Dicke der Deckschichten können Sie folgende Effekte erzielen:
+* Ihr Druck wird mit einer dicken und festen Oberseite stärker.
+* Die Oberfläche wird glatter. Jegliches Aufpolstern und Durchhängen im oberen Teil wird durch die darüber gelegten Schichten ausgeglichen.
+* Ihr Modell wird wasserdichter. Eine dickere Oberseite ist besser in der Lage, das Eindringen von Wasser oder anderen Flüssigkeiten zu verhindern.
+* Ihr Druck wird mehr Material verbrauchen, da die obersten Schichten mehr Material verbrauchen als die normalen Schichten, die spärliche Füllung enthalten.
+* Ihr Druck dauert länger, da mehr Material abgelegt werden muss.

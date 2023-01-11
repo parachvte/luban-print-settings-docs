@@ -1,22 +1,21 @@
-Enable Retractions
+Retraktionen aktivieren
 ====
-### **Description**
-When a 3D printer stops pushing material, the material won't immediately stop flowing from the end of the nozzle. The residual material in the nozzle will keep oozing out. To actually stop the material from flowing, the printer needs to retract the material backward from the nozzle opening. This is necessary to make clean travel moves without stringing.
+### **Beschreibung**
+Wenn ein 3D-Drucker aufhört, Material zu drücken, hört das Material nicht sofort auf, aus dem Ende der Düse zu fließen. Das Restmaterial in der Düse quillt immer wieder heraus. Um das Fließen des Materials tatsächlich zu stoppen, muss der Drucker das Material von der Düsenöffnung nach hinten zurückziehen. Dies ist notwendig, um saubere Reisebewegungen ohne Besaitung auszuführen.
 
-![Retractions disabled](../images/retraction_enable_disabled.png)
-![Retracted travel moves show as a lighter blue](../images/retraction_enable_enabled.png)
+![Retraktionen deaktiviert](../images/retraction_enable_disabled.png)
+![Rückzugsbewegungen werden heller blau dargestellt](../images/retraction_enable_enabled.png)
 
-After you enable retractions, the extruder will retract material while making travel moves that are particularly sensitive to stringing. For travel moves that only pass through infill or from support to support, the extruder will not perform retraction. There is also a limit to how often the material can be retracted, through the [Maximum Retraction Count](retraction_count_max.md) and [Minimum Extrusion Distance Window](retraction_extrusion_window.md) settings.
+Nachdem Sie die Rückzüge aktiviert haben, zieht der Extruder Material zurück, während er Verfahrbewegungen ausführt, die besonders empfindlich auf Fadenziehen reagieren. Bei Fahrbewegungen, die nur durch Füllung oder von Stütze zu Stütze verlaufen, führt der Extruder kein Zurückziehen durch. Es gibt auch eine Grenze dafür, wie oft das Material zurückgezogen werden kann, durch die Einstellungen [Maximum Retraction Count](retraction_count_max.md) und [Minimum Extrusion Distance Window](retraction_extrusion_window.md).
 
-Advantages of Retraction
-* It'll reduce stringing significantly.
-* It will significantly reduce the amount and size of blobs on the surface where the nozzle enters the perimeter of a part.
+Vorteile des Rückzugs
+* Es wird das Stringing deutlich reduzieren.
+* Es wird die Menge und Größe von Klecksen auf der Oberfläche, wo die Düse in den Umfang eines Teils eintritt, erheblich reduzieren.
 
-Disadvantages of Retraction
-* It takes a bit of time to retract.
-* The material flow gets interrupted when a retraction happens. This has negative consequences for dimensional accuracy, and may lead to underextrusion.
-* The filament could wear down when too many retractions happen, preventing the feeder from gripping the material.
+Nachteile des Rückzugs
+* Das Zurückziehen dauert etwas.
+* Der Materialfluss wird bei einem Rückzug unterbrochen. Dies hat negative Folgen für die Maßhaltigkeit und kann zu Unterextrusion führen.
+* Das Filament kann sich abnutzen, wenn zu viele Rückzüge erfolgen, wodurch verhindert wird, dass die Zuführung das Material greift.
 
-### **Usage**
-Flexible materials are harder to retract, because pulling on the filament makes the filament stretch instead of retracting backward from the nozzle tip. It may be very time consuming and relatively ineffective to enable retraction with such materials.
-
+### **Verwendung**
+Flexible Materialien lassen sich schwerer zurückziehen, da durch Ziehen am Filament das Filament gedehnt wird, anstatt sich von der Düsenspitze nach hinten zurückzuziehen. Es kann sehr zeitaufwändig und relativ ineffektiv sein, das Zurückziehen mit solchen Materialien zu ermöglichen.

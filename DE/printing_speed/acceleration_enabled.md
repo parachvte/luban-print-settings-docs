@@ -1,15 +1,15 @@
-Enable Acceleration Control
+Beschleunigungskontrolle aktivieren
 ====
-### **Description**
-This setting configures how fast the toolhead should accelerate. 
+### **Beschreibung**
+Diese Einstellung konfiguriert, wie schnell der Werkzeugkopf beschleunigen soll.
 
-![A graph of the speed (V) over time when moving a nozzle back and forth. Acceleration is the slope of the line when it is starting, stopping or changing direction.](../images/velocity_acceleration_jerk.svg)
+![Ein Diagramm der Geschwindigkeit (V) über die Zeit, wenn eine Düse hin und her bewegt wird. Die Beschleunigung ist die Steigung der Linie beim Starten, Stoppen oder Richtungswechsel.](../images/velocity_acceleration_jerk.svg)
 
-### **Influence**
-Increasing this setting have the following two effects:
-* The toolhead will reach the desired speed sooner, which ensures faster print, especially when printing small parts. 
+### **Einfluss**
+Das Erhöhen dieser Einstellung hat die folgenden zwei Auswirkungen:
+* Der Werkzeugkopf erreicht früher die gewünschte Geschwindigkeit, was einen schnelleren Druck gewährleistet, insbesondere beim Drucken kleiner Teile.
 
-* More vibrations will occur, which will reduce dimensional accuracy and cause ringing.
+* Es treten mehr Vibrationen auf, die die Maßhaltigkeit verringern und Klingeln verursachen.
 
-### **Usage**
-Normally the printer decides by itself how fast the toolhead should change direction and speed, but if this setting is enabled, Luban can decide this instead, which allows you to set different acceleration rates for each feature of a print.
+### **Verwendung**
+Normalerweise entscheidet der Drucker selbst, wie schnell der Werkzeugkopf Richtung und Geschwindigkeit ändern soll, aber wenn diese Einstellung aktiviert ist, kann Luban dies stattdessen entscheiden, wodurch Sie unterschiedliche Beschleunigungsraten für jedes Merkmal eines Drucks einstellen können.

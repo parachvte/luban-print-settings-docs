@@ -1,6 +1,7 @@
-Minimum Even Wall Line Width
+Minimale gerade Wandlinienbreite
 ====
-When printing thin pieces, Cura adjusts the width of wall lines to fit the exact width of the model. Cura can also decide to use fewer wall lines instead. This setting is the threshold at which Cura will combine two lines into one. It can be adjusted separately from the [threshold at which the middle line is removed](min_odd_wall_line_width.md).
+Beim Drucken dünner Teile passt Cura die Breite der Wandlinien an die exakte Breite des Modells an. Cura kann sich auch dafür entscheiden, stattdessen weniger Wandlinien zu verwenden. Diese Einstellung ist der Schwellenwert, bei dem Cura zwei Linien zu einer kombiniert. Es kann getrennt von der eingestellt werden
+[Schwelle, bei der die mittlere Linie entfernt wird](min_odd_wall_line_width.md).
 
 <!--screenshot {
 "image_path": "min_wall_line_width_0_34.png",
@@ -30,18 +31,18 @@ When printing thin pieces, Cura adjusts the width of wall lines to fit the exact
 ![The centre line is made wider to fit](../images/min_wall_line_width_0_34.png)
 ![Reducing this setting, it uses two lines instead](../images/min_wall_line_width_even_0_1.png)
 
-Even vs. Odd Lines
+Gerade vs. ungerade Linien
 ----
-This setting allows adjusting the threshold for removing lines specifically when there is an even number of lines. This is when there are two lines in the centre rather than a single line. It determines when these two lines in the middle combine into a single line.
+Mit dieser Einstellung können Sie den Schwellenwert für das Entfernen von Linien speziell bei einer geraden Anzahl von Linien anpassen. Dies ist der Fall, wenn in der Mitte zwei Linien statt einer einzelnen Linie vorhanden sind. Es bestimmt, wann diese beiden Linien in der Mitte zu einer einzigen Linie kombiniert werden.
 
-The minimum even wall line width might be different from the minimum odd wall line width because of the way they join together. Even lines join at their ends by making the ends come closer together. There is some overlap with these lines there, leading to overextrusion. This is different from when there is an odd number of walls: The line in the middle then just stops, leaving a gap in the print. Reducing the minimum even wall line width reduces the overextrusion at the transitions from even to odd lines. Reducing the minimum odd wall line width reduces the size of the gap at the transitions from odd to even lines.
+Die Mindestbreite der geraden Wandlinie kann aufgrund der Art und Weise, wie sie miteinander verbunden sind, von der Mindestbreite der ungeraden Wandlinie abweichen. Sogar Linien verbinden sich an ihren Enden, indem sie die Enden näher zusammenbringen. Dort gibt es eine gewisse Überlappung mit diesen Linien, was zu einer Überextrusion führt. Das ist anders als bei einer ungeraden Anzahl von Wänden: Die Linie in der Mitte hört dann einfach auf und hinterlässt eine Lücke im Druck. Das Reduzieren der minimalen Breite der geraden Wandlinie reduziert die Überextrusion an den Übergängen von geraden zu ungeraden Linien. Das Reduzieren der minimalen Breite der ungeraden Wandlinien reduziert die Grße der Lücke an den Übergängen von ungeraden zu geraden Linien.
 
-The gaps left when an odd line ends are more visible in the end result than a bit of overextrusion at a joint, so it could help to set the Minimum Even Wall Line Width a bit higher than the Minimum Odd Wall Line Width.
+Die Lücken, die hinterlassen werden, wenn eine ungerade Linie endet, sind im Endergebnis besser sichtbar als ein bisschen Überextrusion an einer Verbindung, daher könnte es hilfreich sein, die minimale gerade Wandlinienbreite etwas höher als die minimale ungerade Wandlinienbreite einzustellen.
 
-Reducing this setting leads to:
-* Reduced area of overlap where two lines join together to merge into one line.
-* Reduced maximum width of single centre lines.
-* Thinner lines, which may not extrude well.
-* More lines, which take longer to print.
+Das Reduzieren dieser Einstellung führt zu:
+* Reduzierter Überlappungsbereich, wo zwei Linien zusammenkommen, um zu einer Linie zu verschmelzen.
+* Reduzierte maximale Breite einzelner Mittellinien.
+* Dünnere Linien, die möglicherweise nicht gut extrudiert werden.
+* Mehr Zeilen, deren Druck länger dauert.
 
-**This setting doesn't just apply to normal walls, but also to extra skin walls, support walls, infill walls and concentric patterns.**
+**Diese Einstellung gilt nicht nur für normale Wände, sondern auch für Außenhautwände, Stützwände, Füllwände und konzentrische Muster.**

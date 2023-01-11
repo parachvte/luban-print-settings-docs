@@ -1,17 +1,17 @@
-Enable Ironing
+Bügeln aktivieren
 ====
-### **Description**
-Ironing causes the printer to do another pass over the top surface in order to make it extra smooth. This extra pass prints very small lines extremely slow.
+### **Beschreibung**
+Beim Bügeln führt der Drucker einen weiteren Durchgang über die obere Oberfläche aus, um sie besonders glatt zu machen. Dieser zusätzliche Durchgang druckt sehr kleine Linien extrem langsam.
 
-![A normal print, viewed from the top side](../images/ironing_enabled_disabled.png)
-![With ironing enabled, notice the thin lines on top.](../images/ironing_enabled_enabled.png)
+![Ein normaler Druck, von oben betrachtet](../images/ironing_enabled_disabled.png)
+![Beachten Sie bei aktiviertem Bügeln die dünnen Linien oben.](../images/ironing_enabled_enabled.png)
 
-### **Influence**
-Ironing will print a line pattern on top of the top surface of your print. This has two major beneficial effects:
-* It melts the top surface again by going over it multiple times with a hot nozzle. This is where the name "Ironing" comes from. Because the moving speed is so low and the line width is so small, the nozzle will heat up the surface significantly. The flat part of the nozzle then strokes it smooth.
-* It fills in gaps in the top surface. The ironing motion is done at the same height as the layer itself. It has less flow than a full layer, but still has some flow. In theory, this flow has nowhere to go, but in practice it will keep pressure inside the nozzle chamber. Whenever the nozzle passes over an unevenness in the surface, the material in the nozzle will flow into that gap.
+### **Einfluss**
+Beim Bügeln wird ein Linienmuster auf die Oberseite Ihres Drucks gedruckt. Dies hat zwei große positive Auswirkungen:
+* Es schmilzt die Oberfläche wieder, indem es mehrmals mit einer heißen Düse darüber fährt. Daher kommt auch der Name „Bügeln“. Da die Bewegungsgeschwindigkeit so niedrig und die Linienbreite so klein ist, erwärmt die Düse die Oberfläche erheblich. Der flache Teil der Düse streicht dann glatt darüber.
+* Es füllt Lücken in der oberen Oberfläche. Die Bügelbewegung erfolgt auf gleicher Höhe wie die Schicht selbst. Es hat weniger Fluss als eine volle Schicht, aber immer noch etwas Fluss. Theoretisch kann dieser Strom nirgendwo hin, aber in der Praxis hält er den Druck in der Düsenkammer. Immer wenn die Düse über eine Unebenheit in der Oberfläche fährt, fließt das Material in der Düse in diesen Spalt.
 
-However, ironing comes with some disadvantages as well:
-* It increases printing time significantly.
-* If the ironing pattern has interruptions (because it has to travel to different parts), it will leave a visible line between two different ironed parts. This can sometimes be avoided by selecting a proper [Ironing Pattern](ironing_pattern.md).
-* Sloped surfaces, or top surfaces with lots of detail, may get ironed as well, which increases the topography effect. The borders between the layers will become more pronounced. This can be prevented by enabling [Iron Only Highest Layer](ironing_only_highest_layer.md).
+Allerdings bringt das Bügeln auch einige Nachteile mit sich:
+* Es erhöht die Druckzeit erheblich.
+* Wenn das Bügelmuster Unterbrechungen aufweist (weil es zu verschiedenen Teilen wandern muss), hinterlässt es eine sichtbare Linie zwischen zwei verschiedenen gebügelten Teilen. Dies kann manchmal vermieden werden, indem ein geeignetes [Bügelmuster] (ironing_pattern.md) ausgewählt wird.
+* Schräge Oberflächen oder Oberflächen mit vielen Details können ebenfalls gebügelt werden, was den Topografieeffekt verstärkt. Die Grenzen zwischen den Schichten werden deutlicher. Dies kann verhindert werden, indem [Nur höchste Schicht bügeln] (ironing_only_highest_layer.md) aktiviert wird.

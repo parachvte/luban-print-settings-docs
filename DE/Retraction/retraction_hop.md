@@ -1,9 +1,9 @@
-Z Hop Height
+Z-Hop-Höhe
 ====
-### **Description**
-If a Z hop is performed, this setting determines how high the nozzle will move up before travelling to the destination.
+### **Beschreibung**
+Wenn ein Z-Sprung durchgeführt wird, bestimmt diese Einstellung, wie hoch sich die Düse nach oben bewegt, bevor sie zum Ziel fährt.
 
-![A Z hop being performed with a certain height](../images/retraction_hop_enabled.svg)
+![Ein Z-Hop wird mit einer bestimmten Höhe ausgeführt](../images/retraction_hop_enabled.svg)
 
-### **Influence**
-Higher Z hops take more time to do, which increases the total printing time and slightly increases the amount of oozing as well. However passing too low over the surface allows the ooze out of the nozzle to hit the model anyway, defeating the purpose of the Z hop.
+### **Einfluss**
+Sprünge mit höherem Z benötigen mehr Zeit, was die Gesamtdruckzeit erhöht und auch die Menge des Auslaufens leicht erhöht. Wenn Sie jedoch zu tief über die Oberfläche fahren, kann der aus der Düse austretende Schlamm das Modell trotzdem treffen, wodurch der Zweck des Z-Sprungs zunichte gemacht wird.

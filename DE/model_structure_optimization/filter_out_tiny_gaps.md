@@ -1,5 +1,5 @@
-Filter Out Tiny Gaps
+Filtern Sie winzige Lücken heraus
 ====
-Filling gaps between walls introduces extra travel moves. If the gaps are extremely small, the material will typically not get enough time to flow out the nozzle very well. If this setting is enabled, the printer can skip some of the smallest gaps.
+Das Füllen von Lücken zwischen Wänden führt zu zusätzlichen Reisebewegungen. Wenn die Lücken extrem klein sind, hat das Material normalerweise nicht genug Zeit, um sehr gut aus der Düse zu fließen. Wenn diese Einstellung aktiviert ist, kann der Drucker einige der kleinsten Lücken überspringen.
 
-Gaps smaller than 2 square outer wall line widths count as "tiny gaps". For instance, if your [Outer Wall Line Width](../resolution/wall_line_width_0.md) is set to 0.4 mm, gaps with an area no larger than 0.4 mm Ã— 0.4 mm Ã— 2 = 0.32 mmÂ² will not get filled.
+Lücken, die kleiner als 2 quadratische Außenwandlinienbreiten sind, zählen als „kleine Lücken“. Wenn beispielsweise Ihre [Außenwandlinienbreite](../resolution/wall_line_width_0.md) auf 0,4 mm eingestellt ist, werden Lücken mit einer Fläche von nicht mehr als 0,4 mm × 0,4 mm × 2 = 0,32 mm² nicht gefüllt .

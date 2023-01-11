@@ -1,16 +1,16 @@
-Print Thin Walls
+Drucken Sie dünne Wände
 ====
-### **Description**
-Normally, Luban will omit walls that are thinner than the [Outer Wall Line Width](../resolution/wall_line_width_0.md), discarding them as being too small to print.
+### **Beschreibung**
+Normalerweise verzichtet Luban auf dünnere Wände[Linienbreite der Außenwand](../resolution/wall_line_width_0.md), verwerfen, da sie zu klein zum Drucken sind.
 
-If this setting is enabled, Luban will make an attempt at printing these pieces anyway. The resulting print will be inaccurate and messy, but it should produce the desired shape somewhat reliably.
+Wenn diese Einstellung aktiviert ist, versucht Luban trotzdem, diese Teile zu drucken. Der resultierende Druck wird ungenau und unsauber sein, aber er sollte die gewünschte Form einigermaßen zuverlässig erzeugen.
 
-![Some parts are too thin to print](../images/fill_outline_gaps_disabled.png)
-![With this setting enabled, even thin parts will get printed](../images/fill_outline_gaps_enabled.png)
+![Einige Teile sind zu dünn zum Drucken](../images/fill_outline_gaps_disabled.png)
+![Wenn diese Einstellung aktiviert ist, werden sogar dünne Teile gedruckt](../images/fill_outline_gaps_enabled.png)
 
-### **Influence**
-The tiny pieces are filled with extremely thin lines. These lines are then combined if they are short and adjacent to one another. This works for many cases, but in some cases it produces a tiny zig zag, significantly increasing printing time.
+### **Einfluss**
+Die winzigen Stücke sind mit hauchdünnen Linien gefüllt. Diese Linien werden dann zusammengefasst, wenn sie kurz und nebeneinander sind. Dies funktioniert in vielen Fällen, aber in einigen Fällen erzeugt es einen winzigen Zickzack, wodurch die Druckzeit erheblich verlängert wird.
 
-It is advisable, before resorting to this setting, to try adjusting the outer wall line width slightly. If your part is slightly thinner than one line width, it might give a better result if you reduce the outer wall line width of your entire print such that the thin parts print normally. However reducing the line width too far will cause the material to flow unreliably, leading to underextrusion.
+Bevor Sie auf diese Einstellung zurückgreifen, sollten Sie versuchen, die Breite der Außenwandlinie leicht anzupassen. Wenn Ihr Teil etwas dünner als eine Linienbreite ist, erhalten Sie möglicherweise ein besseres Ergebnis, wenn Sie die Linienbreite der Außenwand Ihres gesamten Drucks so reduzieren, dass die dünnen Teile normal gedruckt werden. Eine zu starke Verringerung der Linienbreite führt jedoch dazu, dass das Material unzuverlässig fließt, was zu einer Unterextrusion führt.
 
-This will only attempt to print pieces that are thin in the horizontal plane. For thin pieces in the Z direction, see the [Slicing Tolerance](../experimental/slicing_tolerance.md) setting or increase the layer height.
+Dadurch wird nur versucht, Teile zu drucken, die in der horizontalen Ebene dünn sind. Für dünne Teile in Z-Richtung siehe die[Slicing-Toleranz](../experimental/slicing_tolerance.md) Ebenenhöhe einstellen oder erhöhen.

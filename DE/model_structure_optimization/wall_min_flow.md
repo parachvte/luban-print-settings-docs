@@ -1,14 +1,14 @@
-Minimum Wall Flow
+Minimaler Wandfluss
 ====
-### **Description**
-Compensating for wall overlaps will reduce the flow rate of some of the wall lines. This can be problematic, because it can reduce the flow rate arbitrarily low, down to 1% if the walls almost completely overlap. Printing at extremely low flow rates doesn't work well. It tends to form a droplet pattern instead of continuously extruding lines.
+### **Beschreibung**
+Durch das Kompensieren von Wandüberlappungen wird die Durchflussrate einiger Wandlinien reduziert. Dies kann problematisch sein, da es die Strömungsgeschwindigkeit beliebig weit reduzieren kann, bis auf 1 %, wenn sich die Wände fast vollständig überlappen. Das Drucken mit extrem niedrigen Flussraten funktioniert nicht gut. Es neigt dazu, ein Tropfenmuster zu bilden, anstatt kontinuierlich Linien zu extrudieren.
 
-This setting will turn those lines with extremely low flow rate into travel moves, effectively snapping their flow rate to 0%. Material will still ooze out as with normal travel moves, but will not form beads. The nozzle will still follow the path of the wall in order to ooze in the correct location.
+Diese Einstellung verwandelt diese Linien mit extrem niedriger Flussrate in Bewegungsbewegungen und bringt ihre Flussrate effektiv auf 0%. Das Material quillt immer noch wie bei normalen Fahrbewegungen heraus, bildet aber keine Perlen. Die Düse folgt weiterhin dem Weg der Wand, um an der richtigen Stelle auszusickern.
 
-![Overlaps between walls are compensated normally](../images/wall_min_flow_0.png)
-![Walls with less than 50% extrusion are turned into travel moves](../images/wall_min_flow_50.png)
+![Überlappungen zwischen Wänden werden normal ausgeglichen](../images/wall_min_flow_0.png)
+![Wände mit weniger als 50 % Extrusion werden in Bewegungsbewegungen umgewandelt](../images/wall_min_flow_50.png)
 
-### **Usage**
-Increasing this setting will cause your walls to be thinner than desired. The printer will omit the very thin lines. Technically this is underextrusion, causing your part to be thinner than desired. Instead of drawing a long line of blips or beads across the wall, nothing will be printed, making the wall a bit smoother.
+### **Verwendung**
+Wenn Sie diese Einstellung erhöhen, werden Ihre Wände dünner als gewünscht. Der Drucker lässt die sehr dünnen Linien weg. Technisch gesehen ist dies eine Unterextrusion, die dazu führt, dass Ihr Teil dünner als gewünscht ist. Anstatt eine lange Reihe von Blips oder Perlen über die Wand zu ziehen, wird nichts gedruckt, wodurch die Wand etwas glatter wird.
 
-Adjust this setting to the minimum wall flow rate that your nozzle can achieve without forming droplets. Typically this is about 60%. If the line width is reduced below 60%, those droplets would form. If you are printing at greater layer heights or using thicker wall lines, you may be able to reduce this setting a bit to get greater dimensional accuracy.
+Stellen Sie diese Einstellung auf den minimalen Wanddurchfluss ein, den Ihre Düse ohne Tropfenbildung erreichen kann. Typischerweise sind dies etwa 60 %. Wenn die Linienbreite unter 60 % reduziert wird, würden sich diese Tröpfchen bilden. Wenn Sie mit größeren Schichthöhen drucken oder dickere Wandlinien verwenden, können Sie diese Einstellung möglicherweise etwas reduzieren, um eine größere Maßgenauigkeit zu erhalten.

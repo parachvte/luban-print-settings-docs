@@ -1,17 +1,17 @@
-Infill Density
+Fülldichte
 ====
-### **Description**
-This setting configures the density of the volume inside the print, which is a major factor in the strength of the final print as well as the top surface quality. The greater the infill density, the closer the infill lines will be placed together. You can even go above 100% density, but that will result in overextrusion.
+### **Beschreibung**
+Diese Einstellung konfiguriert die Dichte des Volumens innerhalb des Drucks, was ein wichtiger Faktor für die Stärke des endgültigen Drucks sowie für die Oberflächenqualität ist. Je größer die Fülldichte, desto dichter werden die Fülllinien zusammengelegt. Sie können sogar über 100 % Dichte gehen, aber das führt zu einer Überextrusion.
 
-![20% density](../images/infill_sparse_density_high.png)
-![10% density](../images/infill_sparse_density_low.png)
+![20% Dichte](../images/infill_sparse_density_high.png)
+![10% Dichte](../images/infill_sparse_density_low.png)
 
-### **Usage**
-For different infill patterns, you may need to set different densities. Infill patterns with lots of corners and crossings will not work well at great infill densities. Corners are a problem because the filament tends to drag along with the corner, creating air pockets in the outside of the corner where the material should've been deposited. Crossings are an even greater problem, because when one line crosses another, the line flow will get interrupted, causing underextrusion right after the crossing.
+### **Verwendung**
+Für unterschiedliche Füllmuster müssen Sie möglicherweise unterschiedliche Dichten einstellen. Füllmuster mit vielen Ecken und Kreuzungen funktionieren bei großen Fülldichten nicht gut. Ecken sind ein Problem, da das Filament dazu neigt, mit der Ecke mitzuschleifen, wodurch Lufteinschlüsse an der Außenseite der Ecke entstehen, wo das Material hätte abgelegt werden sollen. Kreuzungen sind ein noch größeres Problem, denn wenn eine Linie eine andere kreuzt, wird der Linienfluss unterbrochen, was direkt nach der Kreuzung zu einer Unterextrusion führt.
 
-Increasing the infill density (by reducing the line distance) has a big effect on your print, namely:
-* Your print will be stronger.
-* The top surface will be supported better, becoming smoother and more watertight.
-* The pillowing effect will be reduced because the pockets of heat will be smaller.
-* Your print will require more material and as a result will be heavier.
-* It takes longer time to print.
+Das Erhöhen der Fülldichte (durch Verringern des Linienabstands) hat einen großen Einfluss auf Ihren Druck, nämlich:
+* Ihr Druck wird stärker.
+* Die Oberfläche wird besser gestützt, glatter und wasserdichter.
+* Der Polstereffekt wird reduziert, da die Wärmetaschen kleiner werden.
+* Ihr Druck benötigt mehr Material und wird dadurch schwerer.
+* Das Drucken dauert länger.

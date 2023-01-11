@@ -1,33 +1,23 @@
-Wall Transitioning Threshold Angle
+Wandübergangsschwellenwinkel
 ====
-This angle indicates the angle at which Cura starts creating transitions to properly fill the space. Any corners that are sharper than this angle will get filled with variable-width lines.
+Dieser Winkel gibt den Winkel an, bei dem Cura beginnt, Übergänge zu erstellen, um den Raum richtig zu füllen. Alle Ecken, die schärfer als dieser Winkel sind, werden mit Linien variabler Breite gefüllt.
 
-<!--screenshot {
-"image_path": "wall_transition_angle.png",
-"models": [{"script": "sharpening_corners.scad"}],
-"camera_position": [0, 11, 106],
-"settings": {
-	"wall_transition_angle": 11,
-	"wall_line_count": 4
-},
-"colours": 64
-}-->
-![Wider than 10Â°, it's no longer creating transitions](../images/wall_transition_angle.png)
+![Bei einer Breite von mehr als 10° werden keine Übergänge mehr erstellt](../images/wall_transition_angle.png)
 
-Effectively this turns variable line widths on or off for certain corners. If two opposite walls are almost parallel, smaller than the angle specified in this setting, the area between them gets filled with lines that may vary in their width. If they are at a greater angle from one another, the space between them gets filled with constant-width walls.
+Effektiv schaltet dies variable Linienbreiten für bestimmte Ecken ein oder aus. Wenn zwei gegenüberliegende Wände fast parallel sind, kleiner als der in dieser Einstellung angegebene Winkel, wird der Bereich zwischen ihnen mit Linien gefüllt, die in ihrer Breite variieren können. Wenn sie in einem größeren Winkel zueinander stehen, wird der Raum zwischen ihnen mit Wänden konstanter Breite ausgefüllt.
 
-As always, this is a trade-off. Using a variable width has some advantages, such as:
-* It leaves no gaps between the lines.
-* It doesn't fill the same space multiple times.
-* The dimensions of the print will be more accurate there.
+Wie immer ist dies ein Kompromiss. Die Verwendung einer variablen Breite hat einige Vorteile, wie zum Beispiel:
+* Es hinterlässt keine Lücken zwischen den Zeilen.
+* Es füllt denselben Raum nicht mehrmals.
+* Die Abmessungen des Drucks werden dort genauer sein.
 
-However it also has some disadvantages:
-* It introduces corners in thin pieces that may appear as ripples on the surface.
-* It creates extra travel moves.
-* The printer may not accurately change the line width in quick succession.
+Allerdings hat es auch einige Nachteile:
+* Es fügt Ecken in dünne Stücke ein, die als Wellen auf der Oberfläche erscheinen können.
+* Es erzeugt zusätzliche Reisebewegungen.
+* Der Drucker ändert die Linienbreite möglicherweise nicht genau in schneller Folge.
 
-In practice, it's good to make this angle large enough to reduce the size of the gaps in sharp corners, as can be seen in layer view, but as small as possible otherwise. A smaller angle generally makes the surface look smoother.
+In der Praxis ist es gut, diesen Winkel groß genug zu machen, um die Größe der Lücken in scharfen Ecken zu reduzieren, wie in der Ebenenansicht zu sehen, aber ansonsten so klein wie möglich. Ein kleinerer Winkel lässt die Oberfläche im Allgemeinen glatter aussehen.
 
-It's not possible to reduce the angle to 0Â° to get rid of variable line widths altogether. Parallel opposite walls will always get their line width adjusted to fit the space.
+Es ist nicht möglich, den Winkel auf 0° zu reduzieren, um variable Linienbreiten ganz zu beseitigen. Parallel gegenüberliegende Wände erhalten immer eine Linienbreite, die an den Raum angepasst wird.
 
-**This setting doesn't just apply to normal walls, but also to extra skin walls, support walls, infill walls and concentric patterns.**
+**Diese Einstellung gilt nicht nur für normale Wände, sondern auch für Außenhautwände, Stützwände, Füllwände und konzentrische Muster.**

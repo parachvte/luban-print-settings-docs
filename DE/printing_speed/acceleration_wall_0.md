@@ -1,12 +1,12 @@
-Outer Wall Acceleration
+Beschleunigung der Auﬂenwand
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while printing the outer walls. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die D¸se beim Drucken der Auﬂenw‰nde in verschiedene Richtungen beschleunigt.
 
-### **Influence**
-Adjusting this setting will greatly affect the dimensional accuracy of the print. High acceleration rates cause shock waves throughout the printer. These shock waves can be seen in the print when the nozzle or the build plate vibrates. 
+### **Einfluss**
+Die Anpassung dieser Einstellung wirkt sich stark auf die Maﬂhaltigkeit des Drucks aus. Hohe Beschleunigungsraten verursachen Stoﬂwellen im gesamten Drucker. Diese Stoﬂwellen sind im Druck zu sehen, wenn die D¸se oder die Bauplatte vibrieren.
 
-### **Usage**
-As the outer walls are very visible from the outside, it's common to have the outer walls printed with a lower rate of acceleration than the inner walls, which will increase the printing time though.
+### **Verwendung**
+Da die Auﬂenw‰nde von auﬂen sehr gut sichtbar sind, ist es ¸blich, die Auﬂenw‰nde mit einer geringeren Beschleunigung zu drucken als die Innenw‰nde, was jedoch die Druckzeit verl‰ngert.
 
-The acceleration during the outer walls can be set to a different rate than the inner walls.
+Die Beschleunigung an den Auﬂenw‰nden kann anders eingestellt werden als an den Innenw‰nden.

@@ -1,10 +1,10 @@
-Extra Skin Wall Count
+Zusätzliche Hautwandanzahl
 ====
-### **Description**
-When printing the top and bottom with the lines pattern, the outer rim of the skin areas can still be printed with a few concentric lines. This is different than printing an extra wall, because the extra skin wall gets put around each separate piece of skin instead of around the whole printing part.
+### **Beschreibung**
+Beim Bedrucken der Ober- und Unterseite mit dem Linienmuster kann der äußere Rand der Hautbereiche noch mit einigen konzentrischen Linien bedruckt werden. Dies unterscheidet sich vom Drucken einer zusätzlichen Wand, da die zusätzliche Hautwand um jedes einzelne Stück Haut gelegt wird, anstatt um den gesamten Druckteil.
 
-![No extra skin outlines](../images/skin_outline_count_0.png)
-![Two extra skin outlines](../images/skin_outline_count_2.png)
+![Keine zusätzlichen Hautkonturen](../images/skin_outline_count_0.png)
+![Zwei zusätzliche Hautkonturen](../images/skin_outline_count_2.png)
 
-### **Usage**
-By configuring Extra Skin Wall Count, the printer will print a perimeter around the skin that the normal skin lines can attach to. This way, the skin won't sag as much in the end points. In the end, this tends to improve the quality of top surfaces a bit.
+### **Verwendung**
+Durch Konfigurieren von Extra Skin Wall Count druckt der Drucker einen Umfang um die Haut herum, an dem die normalen Hautlinien anhaften können. Auf diese Weise wird die Haut an den Endpunkten nicht so stark durchhängen. Am Ende verbessert dies tendenziell die Qualität der Oberflächen etwas.

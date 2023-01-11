@@ -1,7 +1,7 @@
-Z Hop After Extruder Switch
+Z-Sprung nach Extruderwechsel
 ====
-This setting, if enabled, will make the nozzle move up slightly with a Z hop during the switching of extruders.
+Wenn diese Einstellung aktiviert ist, bewegt sich die Düse während des Umschaltens der Extruder mit einem Z-Sprung leicht nach oben.
 
-Switching extruders brings in a nozzle that has had some extra time to ooze, so you may decide to give this a bit of a higher Z hop than the normal Z hops during the print.
+Das Wechseln von Extrudern führt zu einer Düse, die etwas mehr Zeit zum Aussickern hatte, sodass Sie sich entscheiden können, dieser während des Drucks einen etwas höheren Z-Sprung als den normalen Z-Sprung zu geben.
 
-If a prime tower is printed, this will only increase the Z hop height when travelling away from the print and to the prime tower. Since blobs on the prime tower are sort of expected anyway, it's not effective to increase this setting too much when using a prime tower.
+Wenn ein Hauptturm gedruckt wird, erhöht dies nur die Z-Hop-Höhe, wenn man sich vom Druck weg und zum Hauptturm bewegt. Da Blobs auf dem Prime Tower sowieso erwartet werden, ist es nicht effektiv, diese Einstellung zu stark zu erhöhen, wenn ein Prime Tower verwendet wird.

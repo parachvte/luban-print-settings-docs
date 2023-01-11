@@ -1,16 +1,15 @@
-Retraction Distance
+Rückzugsabstand
 ====
-### **Description**
-Retraction distance is the distance that the material is retracted from the nozzle tip when a retraction is made. 
+### **Beschreibung**
+Der Rückzugsabstand ist der Abstand, um den das Material von der Düsenspitze zurückgezogen wird, wenn ein Rückzug durchgeführt wird.
 
-### **Influence**
-This setting has five effects:
-* Retraction produces an underpressure inside the nozzle chamber, which pulls the material back from the nozzle opening. Retracting the material farther increases this underpressure, so that it works for denser materials.
-* When making long travel moves, the retracted material still has some time to melt in the nozzle chamber. Retracting the material farther offers a longer time for this molten material to drip out, preventing stringing.
-* Retractions wear down the material where the feeder grips them. Longer retractions wear down more of the material. This may cause the feeder to lose grip, thereby making the printer stop extruding altogether.
-* Longer retractions take more time than shorter ones.
-* Retractions that are made on the surface of the model will cause a bigger blob while the material is being retracted, because the nozzle pauses for a longer time while the material is being retracted.
+### **Einfluss**
+Diese Einstellung hat fünf Auswirkungen:
+* Der Rückzug erzeugt einen Unterdruck in der Düsenkammer, der das Material aus der Düsenöffnung zurückzieht. Durch weiteres Zurückziehen des Materials wird dieser Unterdruck erhöht, sodass er für dichtere Materialien funktioniert.
+* Bei langen Verfahrwegen hat das eingezogene Material noch etwas Zeit, um in der Düsenkammer aufzuschmelzen. Ein weiteres Zurückziehen des Materials bietet eine längere Zeit für dieses geschmolzene Material, um herauszutropfen, wodurch eine Fadenbildung verhindert wird.
+* Rückzüge verschleißen das Material dort, wo der Feeder sie erfasst. Längere Rückzüge verschleißen mehr Material. Dies kann dazu führen, dass die Zuführung den Halt verliert, wodurch der Drucker das Extrudieren ganz einstellt.
+* Längere Retraktionen nehmen mehr Zeit in Anspruch als kürzere.
+* Rückzüge, die auf der Oberfläche des Modells vorgenommen werden, verursachen einen größeren Klecks, während das Material zurückgezogen wird, da die Düse für eine längere Zeit pausiert, während das Material zurückgezogen wird.
 
-### **Usage**
-If the feeder is very far removed from the nozzle, then the retraction distance must be very large as well. 
-
+### **Verwendung**
+Wenn der Speiser sehr weit von der Düse entfernt ist, muss auch der Rückzugsweg sehr groß sein.

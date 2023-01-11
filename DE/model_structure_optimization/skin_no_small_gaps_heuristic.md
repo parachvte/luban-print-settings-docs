@@ -1,10 +1,10 @@
-No Skin In Z Gaps
+Keine Haut in Z-Lücken
 ====
-If your model has a small slit, smaller than the top/bottom skin thickness, this setting doesn't bother filling the top and bottom above/below that completely with skin. This saves on slicing and printing time, but might expose infill to the air.
+Wenn Ihr Modell einen kleinen Schlitz hat, der kleiner als die Hautdicke oben/unten ist, kümmert sich diese Einstellung nicht darum, die Ober- und Unterseite darüber/darunter vollständig mit Haut zu füllen. Dies spart Schnitt- und Druckzeit, kann aber die Füllung der Luft aussetzen.
 
-![Normally there is skin around the small horizontal slit](../images/skin_no_small_gaps_heuristic_disabled.png)
-![If this is enabled, it doesn't properly close the skin](../images/skin_no_small_gaps_heuristic_enabled.png)
+![Normalerweise befindet sich Haut um den kleinen horizontalen Schlitz](../images/skin_no_small_gaps_heuristic_disabled.png)
+![Wenn dies aktiviert ist, wird der Skin nicht richtig geschlossen](../images/skin_no_small_gaps_heuristic_enabled.png)
 
-The main intent of this setting is to reduce slicing time. This setting effectively reduces the resolution where skin should have been placed. Depending on the shape of the model, this could save anywhere between 5% and 30% on slicing time. It will also save on printing time, because instead of skin it will print infill in small gaps. If the model has no gaps smaller than the skin thickness, the only effect will be reducing slicing time.
+Der Hauptzweck dieser Einstellung besteht darin, die Slicing-Zeit zu reduzieren. Diese Einstellung reduziert effektiv die Auflösung dort, wo Skin hätte platziert werden sollen. Abhängig von der Form des Modells kann dies zwischen 5 % und 30 % der Slicing-Zeit einsparen. Es spart auch Druckzeit, da anstelle von Haut Füllungen in kleine Lücken gedruckt werden. Wenn das Modell keine Lücken aufweist, die kleiner als die Hautdicke sind, besteht der einzige Effekt darin, die Slicing-Zeit zu verkürzen.
 
-If the model does have such small gaps, there might be infill exposed through the gaps. However if the gap is small enough, the overhang would make the walls sag down enough that it won't be visible anyway.
+Wenn das Modell solch kleine Lücken hat, kann es sein, dass durch die Lücken Füllmaterial freigelegt wird. Wenn die Lücke jedoch klein genug ist, würde der Überhang die Wände so stark durchhängen lassen, dass sie sowieso nicht sichtbar sind.

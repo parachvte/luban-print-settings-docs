@@ -1,47 +1,22 @@
-Minimum Odd Wall Line Width
+Minimale Breite der ungeraden Wandlinie
 ====
-When printing thin pieces, Cura adjusts the width of wall lines to fit the exact width of the model. Cura can also decide to use fewer wall lines instead. This setting is the threshold at which Cura will remove a line in the centre. It can be adjusted separately from the [threshold at which the middle two lines combine](min_even_wall_line_width.md).
+Beim Drucken dünner Teile passt Luban die Breite der Wandlinien an die exakte Breite des Modells an. Cura kann sich auch dafür entscheiden, stattdessen weniger Wandlinien zu verwenden. Diese Einstellung ist der Schwellenwert, bei dem Cura eine Linie in der Mitte entfernt. Sie kann separat vom [Schwellenwert, bei dem die beiden mittleren Linien kombiniert werden] (min_even_wall_line_width.md) angepasst werden.
 
-<!--screenshot {
-"image_path": "min_wall_line_width_0_34.png",
-"models": [{"script": "moon_sickle.scad"}],
-"camera_position": [0, 0, 63],
-"settings": {
-	"min_wall_line_width": 0.34,
-	"wall_line_count": 3,
-	"wall_transition_angle": 20
-},
-"layer": 14,
-"colours": 32
-}-->
-<!--screenshot {
-"image_path": "min_wall_line_width_odd_0_1.png",
-"models": [{"script": "moon_sickle.scad"}],
-"camera_position": [0, 0, 63],
-"settings": {
-	"min_odd_wall_line_width": 0.1,
-	"min_wall_line_width": 0.34,
-	"wall_line_count": 3,
-	"wall_transition_angle": 20
-},
-"layer": 14,
-"colours": 32
-}-->
-![When the centre line is too small, the two lines around it are made wider](../images/min_wall_line_width_0_34.png)
-![Reducing this setting, the centre line starts and ends much smaller](../images/min_wall_line_width_odd_0_1.png)
+![Wenn die Mittellinie zu klein ist, werden die beiden Linien darum herum breiter](../images/min_wall_line_width_0_34.png)
+![Wenn Sie diese Einstellung reduzieren, beginnt und endet die Mittellinie viel kleiner](../images/min_wall_line_width_odd_0_1.png)
 
-Even vs. Odd Lines
+Gerade vs. ungerade Linien
 ----
-This setting allows adjusting the threshold for removing lines specifically when there is an odd number of lines. This is when there is a single line in the centre rather than two. It determines when this single line is removed in favour of having the two lines around it be slightly wider.
+Diese Einstellung ermöglicht die Anpassung des Schwellenwerts für das Entfernen von Linien, insbesondere wenn eine ungerade Anzahl von Linien vorhanden ist. Dies ist der Fall, wenn sich in der Mitte eine einzelne Linie befindet und nicht zwei. Es bestimmt, wann diese einzelne Linie entfernt wird, damit die beiden Linien um sie herum etwas breiter sind.
 
-The minimum odd wall line width might be different from the minimum even line width because of the way they transition. When an odd line is removed, it stops before the transition and lets the surrounding walls close in. During the transition there is a bit of a gap where the surrounding lines haven't quite come together yet. This is different from when there is an even number of walls: The two lines in the middle then collapse together, overlapping them slightly. Reducing the minimum odd wall line width reduces the size of the gap at the transitions from odd to even lines. Reducing the minimum even wall line width reduces the overextrusion at the transitions from even to odd lines.
+Die minimale Breite der ungeraden Wandlinie kann aufgrund der Art und Weise, wie sie übergehen, von der minimalen Breite der geraden Linie abweichen. Wenn eine ungerade Linie entfernt wird, stoppt sie vor dem Übergang und lässt die umgebenden Wände schließen. Während des Übergangs gibt es eine kleine Lücke, wo die umgebenden Linien noch nicht ganz zusammengekommen sind. Dies ist anders als bei einer geraden Anzahl von Wänden: Die beiden Linien in der Mitte fallen dann zusammen und überlappen sie leicht. Das Reduzieren der minimalen Breite der ungeraden Wandlinien reduziert die Grße der Lücke an den Übergängen von ungeraden zu geraden Linien. Das Reduzieren der minimalen Breite der geraden Wandlinie reduziert die Überextrusion an den Übergängen von geraden zu ungeraden Linien.
 
-The gaps left when an odd line ends are more visible in the end result than a bit of overextrusion at a joint, so it could help to set the Minimum Odd Wall Line Width a bit lower than the Minimum Even Wall Line Width.
+Die Lücken, die hinterlassen werden, wenn eine ungerade Linie endet, sind im Endergebnis besser sichtbar als ein bisschen Überextrusion an einer Verbindung, daher könnte es hilfreich sein, die minimale Breite der ungeraden Wandlinie etwas niedriger als die minimale Breite der geraden Wandlinie einzustellen.
 
-Reducing this setting leads to:
-* Smaller gaps when a central line ends.
-* Reduced maximum width of a pair of even centre lines.
-* Thinner lines, which may not extrude well.
-* Longer lines, which take longer to print.
+Das Reduzieren dieser Einstellung führt zu:
+* Kleinere Lücken, wenn eine Mittellinie endet.
+* Reduzierte maximale Breite eines Paares gerader Mittellinien.
+* Dünnere Linien, die möglicherweise nicht gut extrudiert werden.
+* Längere Zeilen, deren Druck länger dauert.
 
-**This setting doesn't just apply to normal walls, but also to extra skin walls, support walls, infill walls and concentric patterns.**
+**Diese Einstellung gilt nicht nur für normale Wände, sondern auch für Außenhautwände, Stützwände, Füllwände und konzentrische Muster.**

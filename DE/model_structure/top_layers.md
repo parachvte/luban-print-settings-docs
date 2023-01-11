@@ -1,17 +1,17 @@
-Top Layers
+Obere Schichten
 ====
-### **Description**
-This setting configures how many solid layers are printed for the top of the print. 
+### **Beschreibung**
+Diese Einstellung konfiguriert, wie viele solide Schichten für die Oberseite des Drucks gedruckt werden.
 
-Different from the normal layers beneath them, the top layers are not made up of walls and infill. They are fully printed so as to close the print.
+Anders als die normalen Schichten darunter bestehen die obersten Schichten nicht aus Wänden und Füllungen. Sie werden vollständig gedruckt, um den Druck zu schließen.
 
-![12 top layers](../images/top_bottom_thickness_0.8.png)
-![50 top layers](../images/top_thickness.png)
+![12 obere Schichten](../images/top_bottom_thickness_0.8.png)
+![50 oberste Schichten](../images/top_thickness.png)
 
-### **Influence**
-By increasing the number of top layers, you can achieve the following effects:
-* Your print will be stronger. Having more top layers will mean that your print will be made more firm, with less infill and more solid layers.
-* The top surface will be smoother. Any pillowing and sagging on the upper part will get smoothed out by the layers put on top.
-* Your print will be more watertight. More solid layers on the top will be more capable of blocking water or other fluids from getting in.
-* Your print will use more material, since more layers are fully filled.
-* Your print will take more time, since more material must be placed down. Besides, the top layers are normally printed more slowly than the infill.
+### **Einfluss**
+Indem Sie die Anzahl der oberen Schichten erhöhen, können Sie die folgenden Effekte erzielen:
+* Ihr Druck wird stärker. Wenn Sie mehr Deckschichten haben, wird Ihr Druck fester, mit weniger Füllung und festeren Schichten.
+* Die Oberfläche wird glatter. Jegliches Aufpolstern und Durchhängen im oberen Teil wird durch die darüber gelegten Schichten ausgeglichen.
+* Ihr Druck wird wasserdichter. Festere Schichten auf der Oberseite sind besser in der Lage, das Eindringen von Wasser oder anderen Flüssigkeiten zu verhindern.
+* Ihr Druck verbraucht mehr Material, da mehr Schichten vollständig gefüllt sind.
+* Ihr Druck dauert länger, da mehr Material abgelegt werden muss. Außerdem werden die oberen Schichten normalerweise langsamer gedruckt als die Füllung.

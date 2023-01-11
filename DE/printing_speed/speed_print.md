@@ -1,16 +1,16 @@
-Print Speed
+Druckgeschwindigkeit
 ====
-### **Description**
-This setting adjusts the overall speeds at which the model is printed.
+### **Beschreibung**
+Diese Einstellung passt die Gesamtgeschwindigkeit an, mit der das Modell gedruckt wird.
 
-![The prepare stage has a colour scheme that visualises the print speed](../images/speed_difference.png)
+![Die Vorbereitungsphase hat ein Farbschema, das die Druckgeschwindigkeit visualisiert](../images/speed_difference.png)
 
-### **Influence**
-This setting is a great influence on the balance between printed part quality and printing time. Increasing the printing speed will reduce the duration of the print, but will increase vibration of the toolhead. A higher printing speed will also make it more difficult for the feeder to keep up, making the print more sensitive to overextrusion and underextrusion.
+### **Einfluss**
+Diese Einstellung hat großen Einfluss auf das Gleichgewicht zwischen Druckteilqualität und Druckzeit. Eine Erhöhung der Druckgeschwindigkeit verkürzt die Druckdauer, erhöht jedoch die Vibration des Werkzeugkopfs. Eine höhere Druckgeschwindigkeit macht es auch für den Feeder schwieriger, Schritt zu halten, wodurch der Druck empfindlicher für Über- und Unterextrusion wird.
 
-### **Usage**
-Since speeds can also be adjusted separately for individual structures of the print, the actual printing speed will still vary. This setting causes the rest of the speeds to adjust by ratio.
+### **Verwendung**
+Da Geschwindigkeiten auch separat für einzelne Strukturen des Drucks eingestellt werden können, wird die tatsächliche Druckgeschwindigkeit dennoch variieren. Diese Einstellung bewirkt, dass die restlichen Geschwindigkeiten im Verhältnis angepasst werden.
 
-When increasing the print speed, it is advisable to increase the material temperature as well. Increasing the material temperature will make the material slightly more runny, which allows it to flow more easily at greater speeds.
+Wenn Sie die Druckgeschwindigkeit erhöhen, ist es ratsam, auch die Materialtemperatur zu erhöhen. Durch Erhöhen der Materialtemperatur wird das Material etwas flüssiger, wodurch es bei höheren Geschwindigkeiten leichter fließen kann.
 
-**Increasing the printing speed will not have a large effect if the print has many small details. Acceleration and jerk are the bottleneck then.**
+**Eine Erhöhung der Druckgeschwindigkeit hat keine große Wirkung, wenn der Druck viele kleine Details enthält. Beschleunigung und Ruck sind dann der Flaschenhals.**

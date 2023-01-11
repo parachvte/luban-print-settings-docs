@@ -1,10 +1,10 @@
-Support Infill Acceleration
+Unterstützung der Füllbeschleunigung
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while printing the main part of the support. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse in verschiedene Richtungen beschleunigt, während der Hauptteil des Trägers gedruckt wird.
 
-### **Influence**
-Increasing this setting enables the printer to print the support faster, but less carefully. A higher acceleration rate for support infill will reduce the printing time, but increases the chance for the printer to knock over the support as well and will make the support structure weaker. 
+### **Einfluss**
+Durch Erhöhen dieser Einstellung kann der Drucker den Träger schneller, aber weniger sorgfältig drucken. Eine höhere Beschleunigungsrate für das Füllen des Trägers verkürzt die Druckzeit, erhöht jedoch auch die Wahrscheinlichkeit, dass der Drucker den Träger umstößt, und macht die Trägerstruktur schwächer.
 
-### **Usage**
-Typically the support is printed at raised acceleration compared to the rest of the print. The Support Infill Acceleration can be set to a different rate than the support interface.
+### **Verwendung**
+Typischerweise wird der Träger im Vergleich zum Rest des Drucks mit erhöhter Beschleunigung gedruckt. Die Support-Infill-Beschleunigung kann auf eine andere Rate als die Support-Schnittstelle eingestellt werden.

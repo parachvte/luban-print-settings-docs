@@ -1,15 +1,14 @@
-Bottom Thickness
+Untere Dicke
 ====
-### **Description**
-This setting configures how thick the bottom layers of the print will be.
+### **Beschreibung**
+Diese Einstellung konfiguriert, wie dick die unteren Schichten des Drucks sein werden.
 
-Different from the normal layers that are made up of walls and infill, the bottom layers are solid layers. They are fully printed so as to close the gaps at the print bottom.
+Im Gegensatz zu den normalen Schichten, die aus Wänden und Füllungen bestehen, sind die unteren Schichten feste Schichten. Sie werden vollständig bedruckt, um die Lücken am Druckboden zu schließen.
+![Normale Bodendicke](../images/top_bottom_thickness_0.8.png)
+![Viel dickere Unterseite](../images/bottom_thickness.png)
 
-![Ordinary bottom thickness](../images/top_bottom_thickness_0.8.png)
-![Much thicker bottom side](../images/bottom_thickness.png)
-
-### **Influence**
-By increasing the thickness of the bottom layers, you can achieve the following effects:
-* Your print will be more watertight. The bottom layers can close gaps on the bottom side of your print.
-* Your print will be stronger. Having more bottom layers will mean that your print will be made more firm, with less infill and more solid layers.
-* Your print will cost more time and material.
+### **Einfluss**
+Durch Erhöhen der Dicke der unteren Schichten können Sie die folgenden Effekte erzielen:
+* Ihr Druck wird wasserdichter. Die unteren Schichten können Lücken auf der Unterseite Ihres Drucks schließen.
+* Ihr Druck wird stärker. Wenn Sie mehr untere Schichten haben, wird Ihr Druck fester, mit weniger Füllung und festeren Schichten.
+* Ihr Druck kostet mehr Zeit und Material.

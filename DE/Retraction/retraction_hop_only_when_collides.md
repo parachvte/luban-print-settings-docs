@@ -1,7 +1,7 @@
-Z Hop Only Over Printed Parts
+Z Hop nur über gedruckte Teile
 ====
-### **Description**
-If the [Avoid Printed Parts](travel_avoid_other_parts.md) setting is enabled, the nozzle will avoid other parts when travelling from one place to another. Normally, if a Z hop is applied, avoiding printed parts is not necessary any more. This setting switches that logic around: If avoiding printed parts is not possible, a Z hop is applied.
+### **Beschreibung**
+Wenn die Einstellung [Gedruckte Teile vermeiden] (travel_avoid_other_parts.md) aktiviert ist, vermeidet die Düse andere Teile, wenn sie von einem Ort zum anderen fährt. Wenn ein Z-Hop angewendet wird, ist es normalerweise nicht mehr notwendig, gedruckte Teile zu vermeiden. Diese Einstellung schaltet diese Logik um: Wenn das Vermeiden gedruckter Teile nicht möglich ist, wird ein Z-Hop angewendet.
 
-### **Usage**
-Z hops can be problematic for the wear of the Z axis of some printers. This setting can reduce the amount of Z hops by going around an object horizontally instead of vertically. For some printers, moving horizontally can also be faster than moving vertically, and thus save time.
+### **Verwendung**
+Z-Hüpfer können für den Verschleiß der Z-Achse einiger Drucker problematisch sein. Diese Einstellung kann die Menge an Z-Sprüngen reduzieren, indem ein Objekt horizontal statt vertikal umgangen wird. Bei einigen Druckern kann die horizontale Bewegung auch schneller sein als die vertikale Bewegung und somit Zeit sparen.

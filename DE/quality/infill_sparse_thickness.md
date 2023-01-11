@@ -1,16 +1,16 @@
-Infill Layer Thickness
+Dicke der Füllschicht
 ====
-### **Description**
-This setting causes multiple infill layers to be combined together. When this setting is enabled, the toolhead will then not print any infill on some of the layers, but in the highest of the combined layers it will extrude more material to make up for it.
+### **Beschreibung**
+Diese Einstellung bewirkt, dass mehrere Füllschichten miteinander kombiniert werden. Wenn diese Einstellung aktiviert ist, druckt der Werkzeugkopf dann keine Füllung auf einige der Ebenen, aber in der höchsten der kombinierten Ebenen wird mehr Material extrudiert, um dies auszugleichen.
 
-In layer view, it will look as if the infill lines have become much wider. When actually printed, the infill lines will drop down further instead of spreading out horizontally.
+In der Ebenenansicht sieht es so aus, als wären die Fülllinien viel breiter geworden. Wenn sie tatsächlich gedruckt werden, fallen die Fülllinien weiter nach unten, anstatt sich horizontal auszubreiten.
 
-![Infill Layer Thickness is set to three times the layer height](../images/infill_sparse_thickness.png)
+![Die Dicke der Füllschicht ist auf das Dreifache der Schichthöhe eingestellt](../images/infill_sparse_thickness.png)
 
-### **Usage**
-Since the layer height of the infill is not important for visual quality, you can use thicker layers for the infill to reduce the printing time. 
+### **Verwendung**
+Da die Schichthöhe der Füllung für die visuelle Qualität nicht wichtig ist, können Sie dickere Schichten für die Füllung verwenden, um die Druckzeit zu verkürzen.
 
-The Infill Layer Thickness must be a multiple of the ordinary layer height. Otherwise, this setting will be rounded to the closest layer height.
+Die Füllschichtdicke muss ein Vielfaches der normalen Schichthöhe sein. Andernfalls wird diese Einstellung auf die nächste Schichthöhe gerundet.
 
-* Be careful with increasing this setting too much. When switching to and from infill, the flow rate through the nozzle needs to accelerate and decelerate significantly. There is some delay on the acceleration and deceleration, so the nozzle will extrude too little at the beginning of the infill and too much after the end of the infill.
-* In the in-between layers, the toolhead will still print infill with a lower layer thickness where there is no infill in the layers around it. This can cause small lines of infill to be printed alongside sloping walls.
+* Seien Sie vorsichtig, wenn Sie diese Einstellung zu stark erhöhen. Beim Wechseln zum und vom Füllen muss die Durchflussrate durch die Düse erheblich beschleunigt und verlangsamt werden. Beim Beschleunigen und Abbremsen gibt es eine gewisse Verzögerung, sodass die Düse zu Beginn des Füllvorgangs zu wenig und nach dem Ende des Füllvorgangs zu viel ausstößt.
+* In den Zwischenschichten druckt der Werkzeugkopf immer noch Füllung mit einer geringeren Schichtdicke, wo keine Füllung in den Schichten um ihn herum vorhanden ist. Dies kann dazu führen, dass kleine Fülllinien entlang schräger Wände gedruckt werden.

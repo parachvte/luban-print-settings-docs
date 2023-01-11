@@ -1,21 +1,21 @@
-Wall Thickness
+Wandstärke
 ====
-### **Description**
-Wall Thickness determines how thick the wall of the print will be. 
+### **Beschreibung**
+Die Wandstärke bestimmt, wie dick die Wand des Drucks sein wird.
 
-The walls of a print consist of the outer wall and the inner walls. Normally, there is only one outer wall but multiple inner walls. Therefore, ultimately it adjusts the number of inner walls to achieve the desired Wall Thickness.
+Die Wände eines Drucks bestehen aus der Außenwand und den Innenwänden. Normalerweise gibt es nur eine Außenwand, aber mehrere Innenwände. Daher passt es letztendlich die Anzahl der Innenwände an, um die gewünschte Wandstärke zu erreichen.
 
-![0.8mm thick walls](../images/wall_thickness_0.8.png)
-![1.6mm thick walls](../images/wall_thickness_1.6.png)
+![0,8 mm dicke Wände](../images/wall_thickness_0.8.png)
+![1,6 mm dicke Wände](../images/wall_thickness_1.6.png)
 
-The wall thickness must be a multiple of the wall line width. If it is not, it will be rounded to be an exact multiple.
+Die Wandstärke muss ein Vielfaches der Wandlinienbreite sein. Ist dies nicht der Fall, wird auf ein genaues Vielfaches gerundet.
 
-### **Influence**
-Wall Thickness is a major factor in how strong the print will be. Since the walls are adjacent, they can reinforce each other leading to a stronger part. For larger prints, this can be a much more effective way to get a strong object than adjusting the infill, depending on the shape.
+### **Einfluss**
+Die Wandstärke ist ein wichtiger Faktor dafür, wie stark der Druck sein wird. Da die Wände benachbart sind, können sie sich gegenseitig verstärken, was zu einem stärkeren Teil führt. Bei größeren Drucken kann dies je nach Form ein viel effektiverer Weg sein, um ein starkes Objekt zu erhalten, als die Füllung anzupassen.
 
-Increasing the wall thickness will:
-* Greatly increase the strength of the print.
-* Reduces the shine-through effect where the infill pattern is visible on the outside.
-* Improve overhang stability.
-* Make the model more watertight.
-* Significantly increase the printing time and material consumption of the print.
+Eine Erhöhung der Wandstärke bewirkt:
+* Erhöhen Sie die Stärke des Drucks erheblich.
+* Reduziert den Durchscheineffekt, wo das Füllmuster auf der Außenseite sichtbar ist.
+* Verbessern Sie die Stabilität des Überhangs.
+* Machen Sie das Modell wasserdichter.
+* Erhöhen Sie die Druckzeit und den Materialverbrauch des Drucks erheblich.

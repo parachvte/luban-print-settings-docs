@@ -1,15 +1,12 @@
-Skirt/Brim Acceleration
+Schürzen-/Randbeschleunigung
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while printing the skirt or the brim. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse beim Drucken der Schürze oder des Randes in verschiedene Richtungen beschleunigt.
 
-### **Influence**
-The brim is crucial for bed adhesion, so reducing the acceleration rates during the printing of the brim can reduce vibrations while the brim is printed and then make the adhesion of the brim to the build plate better, increasing the effectiveness of the brim at a minor printing time cost.
+### **Einfluss**
+Der Rand ist entscheidend für die Adhäsion des Betts, daher kann eine Reduzierung der Beschleunigungsraten während des Druckens des Rands Vibrationen reduzieren, während der Rand gedruckt wird, und dann die Haftung des Rands an der Bauplatte verbessern, wodurch die Wirksamkeit des Rands geringfügig erhöht wird Druckzeit kostet.
 
-The effect of acceleration on the brim and skirt is usually extremely small though, because the brim and skirt consist of lines with smooth curves. The acceleration is often completely taken over by the [Skirt/Brim Jerk](jerk_skirt_brim.md) setting.
+Die Auswirkung der Beschleunigung auf die Krempe und den Rock ist normalerweise jedoch äußerst gering, da die Krempe und der Rock aus Linien mit sanften Kurven bestehen. Die Beschleunigung wird oft komplett von der Einstellung [Skirt/Brim Jerk](jerk_skirt_brim.md) übernommen.
 
-### **Usage**
-The acceleration during the skirt or the brim can be set to a different rate than the rest of the print. Even though the skirt and brim are always exclusive to the initial layer, this setting overrides the [Initial Layer Print Acceleration](acceleration_print_layer_0.md) setting. The Brim or skirt will be printed using the acceleration determined with this setting, not the setting for the initial layer in general.
-
-
-
+### **Verwendung**
+Die Beschleunigung während des Rocks oder der Krempe kann auf eine andere Geschwindigkeit als der Rest des Drucks eingestellt werden. Obwohl Rock und Krempe immer exklusiv für die Anfangsebene sind, überschreibt diese Einstellung die Einstellung [Druckbeschleunigung der Anfangsebene](acceleration_print_layer_0.md). Die Krempe oder Schürze wird mit der Beschleunigung gedruckt, die mit dieser Einstellung bestimmt wird, nicht mit der Einstellung für die Anfangsschicht im Allgemeinen.

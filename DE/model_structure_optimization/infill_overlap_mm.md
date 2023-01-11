@@ -1,10 +1,10 @@
-Infill Overlap
+Füllüberlappung
 ====
-### **Description**
-If the infill overlaps a bit with the walls, it will adhere better to the walls, causing the part to be much stronger. This setting controls how much the infill overlaps with the walls.
+### **Beschreibung**
+Wenn die Füllung ein wenig mit den Wänden überlappt, haftet sie besser an den Wänden, wodurch das Teil viel stärker wird. Diese Einstellung steuert, wie stark die Füllung die Wände überlappt.
 
-![A visualisation of the infill overlap and wipe distance](../images/infill_overlap.svg)
+![Eine Visualisierung der Füllungsüberlappung und des Wischabstands](../images/infill_overlap.svg)
 
-### **Influence**
-* Increasing the overlap causes the infill to bond better to the walls, resulting in a stronger part.
-* However, it will also cause the infill to shine through the walls, resulting in a pattern on the surface of the print. This reduces the visual surface quality.
+### **Einfluss**
+* Die Erhöhung der Überlappung bewirkt, dass sich die Füllung besser mit den Wänden verbindet, was zu einem stärkeren Teil führt.
+* Es wird jedoch auch dazu führen, dass die Füllung durch die Wände scheint, was zu einem Muster auf der Oberfläche des Drucks führt. Dadurch wird die optische Oberflächenqualität reduziert.

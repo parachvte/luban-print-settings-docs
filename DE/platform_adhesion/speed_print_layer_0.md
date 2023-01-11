@@ -1,10 +1,10 @@
-Initial Layer Print Speed
+Druckgeschwindigkeit der ersten Ebene
 ====
-### **Description**
-This setting controls the speed when printing the initial layer of the model.
+### **Beschreibung**
+Diese Einstellung steuert die Geschwindigkeit beim Drucken der ersten Schicht des Modells.
 
-### **Influence**
-Reducing the initial layer printing speed will improve the adhesion between the model and the build plate. This is because the material stays hotter for a longer time and can then flow out further. This reduces the internal stresses in the material and increases the contact area, both of which increase the adhesion.
+### **Einfluss**
+Eine Verringerung der Druckgeschwindigkeit der ersten Schicht verbessert die Haftung zwischen dem Modell und der Bauplatte. Denn das Material bleibt länger heiß und kann dann weiter ausfließen. Dadurch werden die Eigenspannungen im Material reduziert und die Kontaktfläche vergrößert, was beides die Haftung erhöht.
 
-### **Usage**
-Adjusting this setting will adjust the speed of the extrusion moves in the first layer, but not the travel moves. For that, adjust the [Initial Layer Travel Speed](speed_travel_layer_0.md) setting. By default, this setting influences the [Skirt/Brim Speed](skirt_brim_speed.md) setting, but it can still be adjusted separately. The [speed of the raft base layer](../platform_adhesion/raft_base_speed.md) is not affected.
+### **Verwendung**
+Durch Anpassen dieser Einstellung wird die Geschwindigkeit der Extrusionsbewegungen in der ersten Schicht angepasst, nicht jedoch die Bewegungsbewegungen. Passen Sie dazu die Einstellung [Initial Layer Travel Speed] (speed_travel_layer_0.md) an. Standardmäßig beeinflusst diese Einstellung die Einstellung [Skirt/Brim Speed](skirt_brim_speed.md), kann aber dennoch separat angepasst werden. Die [Geschwindigkeit der Raftbasisschicht](../platform_adhesion/raft_base_speed.md) wird nicht beeinflusst.

@@ -1,23 +1,23 @@
-Model Structure
+Modellstruktur
 ====
-This setting allows you to choose which type of structure you want to print.
+Mit dieser Einstellung können Sie auswählen, welche Art von Struktur Sie drucken möchten.
 
-Normal Structure
+Normale Struktur
 ----
-By default, Luban uses Normal Structure to print the model. With this selection, all parts of the model will be printed integrally.
+Standardmäßig verwendet Luban Normal Structure, um das Modell zu drucken. Bei dieser Auswahl werden alle Teile des Modells integral gedruckt.
 
-The stronger the model is, the longer printing time it takes and more material it consumes. On the contrary, the thinner the model is, the shorter printing time it takes and less material it consumes.
+Je stärker das Modell ist, desto länger dauert der Druck und desto mehr Material wird verbraucht. Im Gegenteil, je dünner das Modell ist, desto kürzer ist die Druckzeit und desto weniger Material wird verbraucht.
 
-Vase Structure
+Vasenstruktur
 ----
-Vase Structure, also called *Spiralize Outer Contour*/*Vase Mode*, prints only the bottom layer and the outer wall of the model. The structure of the print is similar to that of a vase, with a bottom and a wall, but with no infill or top cover.
+Vase Structure, auch *Spiralize Outer Contour*/*Vase Mode* genannt, druckt nur die untere Schicht und die Außenwand des Modells. Die Struktur des Drucks ähnelt der einer Vase, mit einem Boden und einer Wand, aber ohne Füllung oder obere Abdeckung.
 
-Crucially, if [Smooth Spiralized Contours](smooth_spiralized_contours.md) is enabled, height of the nozzle will gradually increase over the course of a layer. This way a spiral is created following the contour of the model. There will be no significant toolhead lift from one layer to another, because the nozzle is gradually moving up towards the next layer. When printing layer by layer, the nozzle normally needs to move from one layer to the next. This movement causes the nozzle to stand almost still in XY direction for a fraction of a second, which leaves a seam on the surface called the Z seam. Spiralising the model can prevent that.
+Entscheidend ist, dass, wenn [Smooth Spiralized Contours](smooth_spiralized_contours.md) aktiviert ist, die Höhe der Düse im Verlauf einer Ebene allmählich zunimmt. Auf diese Weise entsteht eine Spirale, die der Kontur des Modells folgt. Es gibt keine signifikante Anhebung des Werkzeugkopfes von einer Schicht zur anderen, da sich die Düse allmählich nach oben zur nächsten Schicht bewegt. Beim schichtweisen Drucken muss sich die Düse normalerweise von einer Schicht zur nächsten bewegen. Diese Bewegung bewirkt, dass die Düse für den Bruchteil einer Sekunde fast still in XY-Richtung steht, was eine Naht auf der Oberfläche hinterlässt, die als Z-Naht bezeichnet wird. Das Spiralisieren des Modells kann das verhindern.
 
-Vase Structure has the following effects:
-* Prints extremely fast.
-* The surface becomes very smooth. There is no [Z seam](../troubleshooting/seam.md) any more where it moved to the next layer if [Smooth Spiralized Contours](smooth_spiralized_contours.md) is enabled.
-* The model will not be very strong. If the model is too big, it tends to split due to [warping](../troubleshooting/warping.md).
-* It is difficult to get the print to be watertight if it is large.
+Vasenstruktur hat die folgenden Effekte:
+* Druckt extrem schnell.
+* Die Oberfläche wird sehr glatt. Es gibt keine [Z-Naht](../troubleshooting/seam.md) mehr, wo sie zur nächsten Ebene verschoben wurde, wenn [Smooth Spiralized Contours](smooth_spiralized_contours.md) aktiviert ist.
+* Das Modell wird nicht sehr stark sein. Wenn das Modell zu groß ist, neigt es aufgrund von [Verzerrung](../troubleshooting/warping.md) dazu, sich zu teilen.
+* Es ist schwierig, den Druck wasserdicht zu machen, wenn er groß ist.
 
-Vase Structure will not work well with prints with many horizontal surfaces. It doesn't handle overhangs at all, and doesn't print top surfaces so nothing will be able to lean on a horizontal surface. It also doesn't work well when there are multiple parts on a layer.
+Vasenstruktur funktioniert nicht gut bei Drucken mit vielen horizontalen Flächen. Es kommt überhaupt nicht mit Überhängen zurecht und druckt keine oberen Flächen, sodass sich nichts auf einer horizontalen Fläche abstützen kann. Es funktioniert auch nicht gut, wenn sich mehrere Teile auf einer Ebene befinden.

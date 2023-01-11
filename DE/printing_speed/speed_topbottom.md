@@ -1,15 +1,15 @@
-Top/Bottom Speed
+Höchst-/Untergeschwindigkeit
 ====
-### **Description**
-Top/Bottom Speed refers to the speed at which the top and bottom side of the model is printed. This setting can be configured separately from the normal print speed.
+### **Beschreibung**
+Top/Bottom Speed bezieht sich auf die Geschwindigkeit, mit der die Ober- und Unterseite des Modells gedruckt wird. Diese Einstellung kann getrennt von der normalen Druckgeschwindigkeit konfiguriert werden.
 
-![Various structures printed at different speeds](../images/speed_difference.png)
+![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
-### **Influence**
-Printing the top and bottom side of the model slowly will cause the following effects:
-* The printing time increases, sometimes drastically. Since the top and bottom sides have long lines, the speed has the greatest effect on printing time, rather than acceleration and jerk. Top and bottom can be a significant part of the total printing time.
-* The quality of overhang will be improved, if there is a very flat overhang. Overhang that is still sloped steeply is not affected much, since the skin in that overhang is not exposed then. Printing overhang more slowly keeps the tension on the strings of filament, allowing it to cool down longer.
-* Similar to overhang, it will improve the quality of the top surface. The same overhang effect is applied to the way that the top surface rests on the infill.
-* The printer will generally vibrate less. If the build plate vibrates less, the top and bottom will look better.
+### **Einfluss**
+Das langsame Drucken der Ober- und Unterseite des Modells führt zu folgenden Effekten:
+* Die Druckzeit verlängert sich teilweise drastisch. Da die Ober- und Unterseite lange Linien haben, hat die Geschwindigkeit den größten Einfluss auf die Druckzeit, eher als Beschleunigung und Ruck. Ober- und Unterseite können einen erheblichen Teil der gesamten Druckzeit ausmachen.
+* Die Qualität des Überhangs wird verbessert, wenn ein sehr flacher Überhang vorhanden ist. Überhang, der noch steil geneigt ist, wird nicht stark beeinträchtigt, da die Haut in diesem Überhang dann nicht freigelegt ist. Durch langsameres Drucken des Überhangs wird die Spannung auf den Filamentsträngen gehalten, sodass sie länger abkühlen können.
+* Ähnlich wie beim Überhang wird die Qualität der Oberfläche verbessert. Derselbe Überhangeffekt wird auf die Art und Weise angewendet, wie die obere Oberfläche auf der Füllung ruht.
+* Der Drucker vibriert im Allgemeinen weniger. Wenn die Bauplatte weniger vibriert, sehen Ober- und Unterseite besser aus.
 
-**This setting has no significant effect on the build plate adhesion. The [Initial Layer Print Speed](speed_print_layer_0.md) is used for the first few layers.**
+**Diese Einstellung hat keinen signifikanten Einfluss auf die Haftung der Bauplatte. Die [Anfangsschicht-Druckgeschwindigkeit](speed_print_layer_0.md) wird für die ersten paar Schichten verwendet.**

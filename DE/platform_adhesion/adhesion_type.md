@@ -1,25 +1,23 @@
-Build Plate Adhesion Types
+Adhäsionstypen der Bauplatte
 ====
-There are three types of build plate adhesion: skirt, brim and raft. You can also disable adhesion by setting the Build Plate Adhesion Type to None.
+Es gibt drei Arten der Bauplattenhaftung: Schürze, Rand und Raft. Sie können die Adhäsion auch deaktivieren, indem Sie den Build Plate Adhesion Type auf None setzen.
 
-![Skirt](../images/adhesion_type_skirt.png)
-![Brim](../images/adhesion_type_brim.png)
-![Raft](../images/adhesion_type_raft.png)
+![Rock](../images/adhesion_type_skirt.png)
+![Krempe](../images/adhesion_type_brim.png)
+![Floß](../images/adhesion_type_raft.png)
 
-Skirt
+Rock
 ----
-A skirt is single line or multiple lines encircling the base of your print. It will not directly contribute anything to build plate adhesion. However if you don't want to use the other adhesion methods, this method still serves two functions.
-* It causes your nozzle to prime before starting the printing of your actual model, to make sure that the material is properly flowing.
-* It allows you to see whether or not your build plate is properly levelled.
+Ein Rock ist eine einzelne Linie oder mehrere Linien, die die Basis Ihres Drucks umgeben. Es trägt nicht direkt zum Aufbau der Plattenhaftung bei. Wenn Sie jedoch die anderen Klebemethoden nicht verwenden möchten, erfüllt diese Methode immer noch zwei Funktionen.
+* Dadurch wird Ihre Düse vorgefüllt, bevor Sie mit dem Drucken Ihres tatsächlichen Modells beginnen, um sicherzustellen, dass das Material richtig fließt.
+* Damit können Sie sehen, ob Ihre Bauplatte richtig nivelliert ist oder nicht.
 
-Brim
+Rand
 ----
-A brim is a single layer flat area around the base of your model. Its purpose is to keep the edges of your print down and make the contact area between your print and the build plate bigger.
-* The bigger surface area allows your print to stick better to the build plate. This is useful for pretty much any print larger than a few centimetres.
-* This brim will also keep the edges of your print down. Materials that shrink a lot when cooling down (like ABS) tend to warp a lot while printing. Having a brim with sufficient width can keep the corners in place, preventing this warping.
+Eine Krempe ist ein einlagiger flacher Bereich um die Basis Ihres Modells. Sein Zweck ist es, die Kanten Ihres Drucks unten zu halten und die Kontaktfläche zwischen Ihrem Druck und der Bauplatte größer zu machen.
+* Durch die größere Oberfläche haftet Ihr Druck besser auf der Bauplatte. Dies ist für so ziemlich jeden Druck nützlich, der größer als ein paar Zentimeter ist.
+* Diese Krempe hält auch die Ränder Ihres Drucks unten. Materialien, die beim Abkühlen stark schrumpfen (wie ABS), neigen dazu, sich beim Drucken stark zu verziehen. Eine ausreichend breite Krempe kann die Ecken an Ort und Stelle halten und dieses Verziehen verhindern.
 
-Raft
+Floß
 ----
-A raft is a thick plate between the model and the build plate. This raft shields your print from the heat of the build plate. It will also have a lot of surface area to stick to the build plate with. The print gets put on top of this raft, where it may stick much better. Be careful with thin prints though, since it may be hard to remove the raft without damaging the print.
-
-
+Ein Floß ist eine dicke Platte zwischen dem Modell und der Bauplatte. Dieses Floß schützt Ihren Druck vor der Hitze der Bauplatte. Es wird auch viel Oberfläche haben, um an der Bauplatte zu haften. Der Druck wird auf dieses Floß gelegt, wo er viel besser haften kann. Seien Sie jedoch vorsichtig mit dünnen Drucken, da es schwierig sein kann, das Floß zu entfernen, ohne den Druck zu beschädigen.

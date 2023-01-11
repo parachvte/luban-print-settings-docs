@@ -1,15 +1,15 @@
-Support Floor Speed
+Bodengeschwindigkeit unterstützen
 ====
-### **Description**
-This setting configures the speed at which the bottom side of the support is printed, if [Support Floor is enabled](../support/support_bottom_enable.md).
+### **Beschreibung**
+Diese Einstellung konfiguriert die Geschwindigkeit, mit der die Unterseite des Supports gedruckt wird, wenn [Support Floor aktiviert ist](../support_adv/support_bottom_enable.md).
 
-![Various structures printed at different speeds](../images/speed_difference.png)
+![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
-A higher Support Floor Speed can save some printing time.
+Eine höhere Support Floor Speed kann etwas Druckzeit sparen.
 
-### **Usage**
-The effect of this setting greatly depends on circumstances. With some materials, especially materials that cool quickly and with a large [Support Bottom Distance](../support/support_bottom_distance.md), greater speed will increase the adhesion between the support and the model. The effect is similar to bridging: At greater speeds, the material is less carefully suspended and doesn't get time to get cooled by the fans on the toolhead. This is something you don't normally want, because it will cause the support to leave a greater mark on your surface.
+### **Verwendung**
+Die Wirkung dieser Einstellung hängt stark von den Umständen ab. Bei einigen Materialien, insbesondere Materialien, die schnell abkühlen und einen großen [Support Bottom Distance](../support_adv/support_bottom_distance.md) aufweisen, erhöht eine höhere Geschwindigkeit die Haftung zwischen dem Support und dem Modell. Der Effekt ähnelt dem Überbrücken: Bei höheren Geschwindigkeiten wird das Material weniger sorgfältig aufgehängt und hat keine Zeit, von den Lüftern am Werkzeugkopf gekühlt zu werden. Dies ist etwas, was Sie normalerweise nicht wollen, da es dazu führt, dass der Träger eine größere Spur auf Ihrer Oberfläche hinterlässt.
 
-With other materials, greater speed reduces the force with which the material is put down and doesn't allow it to flow out much. This effect is similar to bed adhesion. The greater speed is then only advantageous until you start reaching the limits of the change in flow rate that occurs at the start and end of the support floors.
+Bei anderen Materialien verringert eine höhere Geschwindigkeit die Kraft, mit der das Material aufgelegt wird, und lässt es nicht viel herausfließen. Dieser Effekt ähnelt der Betthaftung. Die höhere Drehzahl ist dann nur bis zum Erreichen der Grenzen der am Anfang und am Ende der Stützböden auftretenden Volumenstromänderung vorteilhaft.
 
-If the support floor is very close to the model, such as for PVA or other soluble support materials, increasing the support floor speed can also cause the nozzle to overshoot into the model, marring the surface slightly.
+Wenn sich der Stützboden sehr nahe am Modell befindet, wie z. B. bei PVA oder anderen löslichen Stützmaterialien, kann eine Erhöhung der Geschwindigkeit des Stützbodens auch dazu führen, dass die Düse in das Modell hineinschießt und die Oberfläche leicht beschädigt.

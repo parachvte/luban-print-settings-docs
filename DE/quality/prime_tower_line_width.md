@@ -1,7 +1,7 @@
-Prime Tower Line Width
+Prime Tower-Linienbreite
 ====
-This setting determines the width of the lines with which the prime tower is drawn.
+Diese Einstellung bestimmt die Breite der Linien, mit denen der Prime Tower gezeichnet wird.
 
-![The blue material has a larger line width than the orange material](../images/prime_tower_line_width.png)
+![Das blaue Material hat eine größere Linienbreite als das orangefarbene Material](../images/prime_tower_line_width.png)
 
-Choosing a thicker line width causes the prime tower to print faster. If the volume extruded by one contour is sufficiently big, increasing this setting makes another loop unnecessary. However, increasing this setting too much can make the prime tower weaker because not enough material can be extruded fast enough.
+Die Wahl einer dickeren Linienbreite bewirkt, dass der Prime Tower schneller druckt. Wenn das von einer Kontur extrudierte Volumen ausreichend groß ist, macht eine Erhöhung dieser Einstellung eine weitere Schleife überflüssig. Wenn Sie diese Einstellung jedoch zu stark erhöhen, kann der Prime Tower schwächer werden, da nicht genug Material schnell genug extrudiert werden kann.

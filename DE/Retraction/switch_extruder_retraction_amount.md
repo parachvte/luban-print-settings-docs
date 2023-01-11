@@ -1,10 +1,9 @@
-Nozzle Switch Retraction Distance
+Rückzugsabstand des Düsenschalters
 ====
-### **Description**
-When printing with multiple extruders, the extruders that aren't currently printing will be held on stand-by. The material must be retracted out of the heat zone completely while they are on stand-by, because they will get a lot of time to ooze otherwise.
+### **Beschreibung**
+Beim Drucken mit mehreren Extrudern werden die Extruder, die derzeit nicht drucken, im Standby-Modus gehalten. Das Material muss im Stand-by vollständig aus der Heizzone herausgezogen werden, da sie sonst viel Zeit zum Aussickern bekommen.
 
-This setting determines how far the material for this extruder is retracted when the extruder goes into stand-by during an extruder switch. 
+Diese Einstellung bestimmt, wie weit das Material für diesen Extruder zurückgezogen wird, wenn der Extruder während eines Extruderwechsels in den Standby-Modus geht.
 
-### **Usage**
-This setting can be configured separately from the regular retraction distance. Generally, the retraction distance for stand-by extruder is much greater. This is to ensure that the material doesn't keep oozing in the nozzle chamber while the other extruder is printing.
-
+### **Verwendung**
+Diese Einstellung kann getrennt vom regulären Rückzugsweg konfiguriert werden. Im Allgemeinen ist der Rückzugsweg für Standby-Extruder viel größer. Dadurch soll sichergestellt werden, dass das Material nicht ständig in die Düsenkammer sickert, während der andere Extruder druckt.

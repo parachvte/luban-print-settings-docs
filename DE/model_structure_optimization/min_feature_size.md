@@ -1,9 +1,11 @@
-Minimum Feature Size
+Minimale Feature-Größe
 ====
-This setting controls the minimum width of details of the model that will be printed. Anything thinner than this will not get printed.
+Diese Einstellung steuert die Mindestbreite der zu druckenden Details des Modells. Alles, was dünner ist, wird nicht gedruckt.
 
-Details that are smaller than the nozzle size are not likely to print well. This is a limitation of the printer. However Cura can still attempt to print them, accepting that it will not have a nice extrusion rate, or that the details will end up thicker than modelled.
+Details, die kleiner als die Düsengröße sind, werden wahrscheinlich nicht gut gedruckt. Dies ist eine Einschränkung des Druckers. Cura kann jedoch immer noch versuchen, sie zu drucken, wobei akzeptiert wird, dass es keine schöne Extrusionsrate hat oder dass die Details dicker als modelliert werden.
 
-Reducing the Minimum Feature Size makes the printer print smaller details of the print. Depending on the [Minimum Thin Wall Line Width](min_bead_width.md), these tiny details may be printed by extruding very little (causing [underextrusion](../troubleshooting/underextrusion.md)), or by extruding more reasonable line widths but printing them over-sized. Setting this value to 0 makes the printer go all the way into the very tips of every sharp corner.
+Durch das Reduzieren der minimalen Feature-Größe druckt der Drucker kleinere Details des Drucks. Abhängig von
+ [Mindestbreite dünner Wandlinien](min_bead_width.md), diese winzigen Details können gedruckt werden, indem sehr wenig extrudiert wird
+(verursacht [Unterextrusion](../troubleshooting/underextrusion.md)), oder indem vernünftigere Linienbreiten extrudiert, aber überdimensioniert gedruckt werden. Wenn Sie diesen Wert auf 0 setzen, geht der Drucker bis ganz in die Spitzen jeder scharfen Ecke.
 
-Increasing the Minimum Feature Size makes the printer not bother with small details that wouldn't come out nicely anyway. This saves a bit of time and could make the print come out cleaner.
+Durch Erhöhen der minimalen Feature-Größe kümmert sich der Drucker nicht mehr um kleine Details, die sowieso nicht gut herauskommen würden. Das spart etwas Zeit und könnte den Druck sauberer erscheinen lassen.

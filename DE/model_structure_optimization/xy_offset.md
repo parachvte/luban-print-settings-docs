@@ -1,15 +1,15 @@
-Horizontal Expansion
+Horizontale Expansion
 ====
-### **Description**
-This setting causes the entire model to be slightly wider or slimmer. It is a compensating measure for dimensional inaccuracies of the printing process.
+### **Beschreibung**
+Diese Einstellung bewirkt, dass das gesamte Modell etwas breiter oder schmaler wird. Es ist eine Ausgleichsmaßnahme für Maßungenauigkeiten des Druckprozesses.
 
-![The original model](../images/xy_offset_neutral.png)
-![Horizontally expanded, the screw holes are smaller now](../images/xy_offset_wider.png)
-![A negative value shrinks the model, making the screw holes wider](../images/xy_offset_slimmer.png)
+![Das Originalmodell](../images/xy_offset_neutral.png)
+![Horizontal erweitert, die Schraubenlöcher sind jetzt kleiner](../images/xy_offset_wider.png)
+![Ein negativer Wert verkleinert das Modell und macht die Schraubenlöcher breiter](../images/xy_offset_slimmer.png)
 
-A positive value will make the print fatter. This reduces the size of cavities. A negative value will make the print slimmer and increase the size of cavities.
+Ein positiver Wert macht den Druck dicker. Dies reduziert die Größe der Hohlräume. Ein negativer Wert macht den Druck schmaler und vergrößert die Kavitäten.
 
-### **Usage**
-If the tolerance of a print is important, this setting can be very useful. Due to a slight deformation of plastics, the actual dimensions of the print may not completely correspond with the dimensions of the digital model. Gain errors can be compensated for by simply scaling the model, but offset errors due to the print method can be compensated for with this setting.
+### **Verwendung**
+Wenn die Toleranz eines Drucks wichtig ist, kann diese Einstellung sehr nützlich sein. Aufgrund einer leichten Verformung von Kunststoffen stimmen die tatsächlichen Abmessungen des Drucks möglicherweise nicht vollständig mit den Abmessungen des digitalen Modells überein. Verstärkungsfehler können durch einfaches Skalieren des Modells kompensiert werden, aber Offsetfehler aufgrund des Druckverfahrens können mit dieser Einstellung kompensiert werden.
 
-If you know that your printer always prints too wide due to some overextrusion or inaccuracy in its movement, you can also compensate for that with this setting.
+Wenn Sie wissen, dass Ihr Drucker aufgrund von Überdruck oder Ungenauigkeit in seiner Bewegung immer zu breit druckt, können Sie dies auch mit dieser Einstellung ausgleichen.

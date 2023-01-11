@@ -1,15 +1,15 @@
-Bottom Layers
+Untere Schichten
 ====
-### **Description**
-This setting configures how many solid layers are printed for the bottom of the print. 
+### **Beschreibung**
+Diese Einstellung konfiguriert, wie viele solide Schichten für den unteren Teil des Drucks gedruckt werden.
 
-Different from the normal layers that are made up of walls and infill, the bottom layers are solid layers. They are fully printed so as to close the gaps at the print bottom.
+Im Gegensatz zu den normalen Schichten, die aus Wänden und Füllungen bestehen, sind die unteren Schichten feste Schichten. Sie werden vollständig bedruckt, um die Lücken am Druckboden zu schließen.
 
-![12 bottom layers](../images/top_bottom_thickness_0.8.png)
-![50 bottom layers](../images/bottom_thickness.png)
+![12 unteren Schichten](../images/top_bottom_thickness_0.8.png)
+![50 unteren Schichten](../images/bottom_thickness.png)
 
-### **Influence**
-By increasing the number of bottom layers, you can achieve the following effects:
-* Your print will be more watertight. The bottom layers can close gaps on the bottom side of your print.
-* Your print will be stronger. Having more bottom layers will mean that your print will be made more firm, with less infill and more solid layers.
-* Your print will cost more time and material.
+### **Einfluss**
+Indem Sie die Anzahl der unteren Ebenen erhöhen, können Sie die folgenden Effekte erzielen:
+* Ihr Druck wird wasserdichter. Die unteren Schichten können Lücken auf der Unterseite Ihres Drucks schließen.
+* Ihr Druck wird stärker. Wenn Sie mehr untere Schichten haben, wird Ihr Druck fester, mit weniger Füllung und festeren Schichten.
+* Ihr Druck kostet mehr Zeit und Material.

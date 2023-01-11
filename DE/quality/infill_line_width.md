@@ -1,14 +1,14 @@
-Infill Line Width
+Fülllinienbreite
 ====
-### **Description**
-The Infill Line Width refers to the width of every line of infill being drawn. 
+### **Beschreibung**
+Die Fülllinienbreite bezieht sich auf die Breite jeder gezeichneten Fülllinie.
 
-![The infill lines are significantly wider than the rest](../images/infill_line_width.png)
+![Die Fülllinien sind deutlich breiter als der Rest](../images/infill_line_width.png)
 
-### **Influence**
-The width of a line can be different from the nozzle size simply by extruding more or less material than needed. If more material is extruded, the plastic will flow towards the sides, making the line thicker. If less material is extruded, the surface tension of the material tends to pull the material towards the centre line of the nozzle's path.
+### **Einfluss**
+Die Breite einer Linie kann sich von der Düsengröße unterscheiden, indem einfach mehr oder weniger Material als benötigt extrudiert wird. Wenn mehr Material extrudiert wird, fließt der Kunststoff zu den Seiten, wodurch die Linie dicker wird. Wenn weniger Material extrudiert wird, neigt die Oberflächenspannung des Materials dazu, das Material in Richtung der Mittellinie des Düsenwegs zu ziehen.
 
-### **Usage**
-Making the infill lines wider can make your print stronger and reduce printing time as well. However, increasing this setting too much can cause great extrusion fluctuations. This will cause underextrusion when printing the infill and overextrusion when printing whatever comes after infill, because the flow through the nozzle cannot adjust fast enough.
+### **Verwendung**
+Breitere Fülllinien können Ihren Druck stärker machen und auch die Druckzeit verkürzen. Eine zu starke Erhöhung dieser Einstellung kann jedoch zu starken Extrusionsschwankungen führen. Dies führt zu einer Unterextrusion beim Drucken der Füllung und zu einer Überextrusion beim Drucken dessen, was nach der Füllung kommt, da der Fluss durch die Düse nicht schnell genug angepasst werden kann.
 
-**The actual infill lines may come out wider than what this setting says, if you've adjusted the [Infill Layer Thickness](../infill/infill_sparse_thickness.md) setting.**
+**Die tatsächlichen Fülllinien können breiter erscheinen als in dieser Einstellung angegeben, wenn Sie die Einstellung [Dicke der Füllschicht](../infill/infill_sparse_thickness.md) angepasst haben.**

@@ -1,49 +1,24 @@
-Split Middle Line Threshold
+Schwellenwert für geteilte Mittellinie
 ====
-When printing thin pieces, Cura adjusts the width of wall lines to fit the exact width of the model. Cura can also decide to use fewer wall lines instead. This setting is the threshold at which Cura will split a single line in the centre into two, when the width of the part increases. It can be adjusted separately from the [threshold at which a new centre line is added](wall_add_middle_threshold.md).
+Beim Drucken dünner Teile passt Cura die Breite der Wandlinien an die exakte Breite des Modells an. Cura kann sich auch dafür entscheiden, stattdessen weniger Wandlinien zu verwenden. Diese Einstellung ist der Schwellenwert, bei dem Cura eine einzelne Linie in der Mitte in zwei teilt, wenn die Breite des Teils zunimmt. Sie kann getrennt von der [Schwelle, bei der eine neue Mittellinie hinzugefügt wird] (wall_add_middle_threshold.md) angepasst werden.
 
-This setting is the same as the [Minimum Even Wall Line Width](min_even_wall_line_width.md), but uses a different unit. The unit of this setting is in fractions of a line width that the width of a part needs to increase to split the centre line into two. Because the difference in width is divided over the two lines in the middle after splitting, a smaller Minimum Even Wall Line Width is equivalent to a much smaller Split Middle Line Threshold than in the case of removing an odd wall.
+Diese Einstellung entspricht der [Mindestbreite gerader Wandlinien] (min_even_wall_line_width.md), verwendet jedoch eine andere Einheit. Die Einheit dieser Einstellung ist in Bruchteilen einer Linienbreite, die die Breite eines Teils erhöhen muss, um die Mittellinie in zwei Teile zu teilen. Da der Unterschied in der Breite nach dem Teilen auf die beiden Linien in der Mitte aufgeteilt wird, entspricht eine kleinere Mindestbreite der geraden Wandlinie einem viel kleineren Schwellenwert für die geteilte mittlere Linie als im Fall des Entfernens einer ungeraden Wand.
 
-<!--screenshot {
-"image_path": "min_wall_line_width_0_34.png",
-"models": [{"script": "moon_sickle.scad"}],
-"camera_position": [0, 0, 63],
-"settings": {
-	"min_wall_line_width": 0.34,
-	"wall_line_count": 3,
-	"wall_transition_angle": 20
-},
-"layer": 14,
-"colours": 32
-}-->
-<!--screenshot {
-"image_path": "min_wall_line_width_even_0_1.png",
-"models": [{"script": "moon_sickle.scad"}],
-"camera_position": [0, 0, 63],
-"settings": {
-	"min_even_wall_line_width": 0.1,
-	"min_wall_line_width": 0.34,
-	"wall_line_count": 3,
-	"wall_transition_angle": 20
-},
-"layer": 14,
-"colours": 32
-}-->
-![The centre line is made wider to fit](../images/min_wall_line_width_0_34.png)
-![Reducing this setting, it uses two lines instead](../images/min_wall_line_width_even_0_1.png)
+![Die Mittellinie wird passend breiter gemacht](../images/min_wall_line_width_0_34.png)
+![Wenn Sie diese Einstellung reduzieren, werden stattdessen zwei Linien verwendet](../images/min_wall_line_width_even_0_1.png)
 
-Even vs. Odd Lines
+Gerade vs. ungerade Linien
 ----
-This setting allows adjusting the threshold for adding lines specifically when it becomes an even number of lines. This is when there are two lines in the centre rather than a single line. It determines when a line in the centre splits into two lines.
+Diese Einstellung ermöglicht die Anpassung des Schwellenwerts für das Hinzufügen von Linien, insbesondere wenn es eine gerade Anzahl von Linien wird. Dies ist der Fall, wenn in der Mitte zwei Linien statt einer einzelnen Linie vorhanden sind. Es bestimmt, wann sich eine Linie in der Mitte in zwei Linien aufteilt.
 
-The threshold for splitting a middle line might be different from the threshold for adding a centre line because of the way they join together. Even lines join at their ends by making the ends come closer together. There is some overlap with these lines there, leading to overextrusion. This is different from when there is an odd number of walls: The line in the middle then just stops, leaving a gap in the print. Reducing the Split Middle Line Threshold reduces the overextrusion at the transitions from even to odd lines. Reducing the Add Middle Line Threshold reduces the size of the gap at the transitions from odd to even lines.
+Der Schwellenwert zum Teilen einer Mittellinie kann sich aufgrund der Art und Weise, wie sie miteinander verbunden werden, von dem Schwellenwert zum Hinzufügen einer Mittellinie unterscheiden. Sogar Linien verbinden sich an ihren Enden, indem sie die Enden näher zusammenbringen. Dort gibt es eine gewisse Überlappung mit diesen Linien, was zu einer Überextrusion führt. Das ist anders als bei einer ungeraden Anzahl von Wänden: Die Linie in der Mitte hört dann einfach auf und hinterlässt eine Lücke im Druck. Das Verringern des Schwellwertes für die Mittellinie geteilt reduziert die Überextrusion an den Übergängen von geraden zu ungeraden Linien. Durch Verringern des Schwellenwerts „Mittellinie hinzufügen“ wird die Größe der Lücke an den Übergängen von ungeraden zu geraden Linien verringert.
 
-The gaps left when adding a centre line are more visible in the end result than a bit of overextrusion at a joint, so it could help to set the Split Middle Line Threshold a bit higher than the Add Middle Line Threshold.
+Die Lücken, die beim Hinzufügen einer Mittellinie verbleiben, sind im Endergebnis besser sichtbar als ein wenig Überextrusion an einer Verbindung, daher könnte es hilfreich sein, den Schwellenwert „Mittellinie teilen“ etwas höher als den Schwellenwert „Mittellinie hinzufügen“ einzustellen.
 
-Reducing this setting leads to:
-* Reduced area of overlap where two lines join together to merge into one line.
-* Reduced maximum width of single centre lines.
-* Thinner lines, which may not extrude well.
-* More lines, which take longer to print.
+Das Reduzieren dieser Einstellung führt zu:
+* Reduzierter Überlappungsbereich, wo zwei Linien zusammenkommen, um zu einer Linie zu verschmelzen.
+* Reduzierte maximale Breite einzelner Mittellinien.
+* Dünnere Linien, die möglicherweise nicht gut extrudiert werden.
+* Mehr Zeilen, deren Druck länger dauert.
 
-**This setting doesn't just apply to normal walls, but also to extra skin walls, support walls, infill walls and concentric patterns.**
+**Diese Einstellung gilt nicht nur für normale Wände, sondern auch für Außenhautwände, Stützwände, Füllwände und konzentrische Muster.**

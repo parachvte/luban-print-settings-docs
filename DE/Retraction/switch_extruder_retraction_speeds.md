@@ -1,9 +1,9 @@
-Nozzle Switch Retraction Speed
+Rückzugsgeschwindigkeit des Düsenschalters
 ====
-### **Description**
-While a nozzle is on stand-by, the material is kept out of the heat zone to protect it from oozing out. This setting configures how fast the material is retracted from the nozzle chamber when switching to a different extruder, and how fast it's being pushed back when switching back to this extruder.
+### **Beschreibung**
+Während sich eine Düse in Bereitschaft befindet, wird das Material aus der Hitzezone herausgehalten, um es vor dem Austreten zu schützen. Diese Einstellung konfiguriert, wie schnell das Material aus der Düsenkammer zurückgezogen wird, wenn auf einen anderen Extruder umgeschaltet wird, und wie schnell es zurückgeschoben wird, wenn auf diesen Extruder umgeschaltet wird.
 
-### **Usage**
-Increasing the setting can reduce oozing, but has a chance of grinding the filament which may cause the feeder to lose grip on the filament.
+### **Verwendung**
+Eine Erhöhung der Einstellung kann das Auslaufen reduzieren, birgt jedoch die Möglichkeit, dass das Filament schleift, was dazu führen kann, dass die Zuführung das Filament nicht mehr greift.
 
-Since the retraction for the extruder switch is longer, this setting can be configured separately from the speed of ordinary retractions. 
+Da der Rückzug für den Extruderschalter länger ist, kann diese Einstellung getrennt von der Geschwindigkeit des normalen Rückzugs konfiguriert werden.

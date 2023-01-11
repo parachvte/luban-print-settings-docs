@@ -1,13 +1,13 @@
-Initial Layer Travel Speed
+Reisegeschwindigkeit der ersten Ebene
 ====
-### **Description**
-This setting adjusts the speed of the travel moves during the printing of the first layer.
+### **Beschreibung**
+Diese Einstellung passt die Geschwindigkeit der Verfahrbewegungen während des Druckens der ersten Schicht an.
 
-### **Influence**
-During the first layer, the print is more sensitive to vibrations of the build plate. Increasing the initial layer's travel speed can cause more vibrations. This reduces adhesion between the print and the build plate, increasing the chance of failure in the end.
+### **Einfluss**
+Während der ersten Schicht ist der Druck empfindlicher gegenüber Vibrationen der Bauplatte. Eine Erhöhung der Transportgeschwindigkeit der ersten Schicht kann mehr Vibrationen verursachen. Dies verringert die Haftung zwischen dem Druck und der Bauplatte und erhöht am Ende die Wahrscheinlichkeit eines Versagens.
 
 
-### **Usage**
-The travel speed needs to be lower during the first layer than during the rest of the print, because there is a greater chance for the nozzle to rip the print off the build plate.
+### **Verwendung**
+Die Vorschubgeschwindigkeit muss während der ersten Schicht geringer sein als während des restlichen Drucks, da die Wahrscheinlichkeit größer ist, dass die Düse den Druck von der Bauplatte abreißt.
 
-Still, the travel speed during the first layer can be higher than the printing speed, since it does not get underextrusion.
+Dennoch kann die Laufgeschwindigkeit während der ersten Schicht höher sein als die Druckgeschwindigkeit, da es nicht zu einer Unterextrusion kommt.

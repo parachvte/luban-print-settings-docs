@@ -1,14 +1,14 @@
-Fill Gaps Between Walls
+Lücken zwischen Wänden füllen
 ====
-### **Description**
-Many prints contain pieces that are thinner than the desired wall thickness. There is no place to put another complete wall line in such a narrow area, thus leaving a gap between the walls. If this setting is enabled, gaps between the walls will be filled up with a spot of extra material.
+### **Beschreibung**
+Viele Drucke enthalten Teile, die dünner sind als die gewünschte Wandstärke. Es gibt keinen Platz, um eine weitere komplette Wandlinie in einem so engen Bereich zu platzieren, wodurch eine Lücke zwischen den Wänden verbleibt. Wenn diese Einstellung aktiviert ist, werden Lücken zwischen den Wänden mit einem Fleck zusätzlichen Materials aufgefüllt.
 
-![A long, thin gap between opposite walls is shown on the left and right side of the image](../images/fill_perimeter_gaps_disabled.png)
-![The gaps between walls are filled with material](../images/fill_perimeter_gaps_enabled.png)
+![Eine lange, dünne Lücke zwischen gegenüberliegenden Wänden ist auf der linken und rechten Seite des Bildes zu sehen](../images/fill_perimeter_gaps_disabled.png)
+![Die Lücken zwischen den Wänden werden mit Material gefüllt](../images/fill_perimeter_gaps_enabled.png)
 
-### **Usage**
-There are two common cases where filling gaps is useful:
-* Between two opposite walls in prints that are thin (as shown in the images above). Filling these gaps increases strength of the part in those locations, because the two opposite walls are no longer able to move separately from each other.
-* In very sharp corners, there will be a gap within the outer wall where the inner wall is too thick to reach into the corner. Filling these gaps increases strength but also makes the outside wall look more consistent.
+### **Verwendung**
+Es gibt zwei häufige Fälle, in denen das Füllen von Lücken nützlich ist:
+* Zwischen zwei gegenüberliegenden Wänden in dünnen Drucken (wie in den Abbildungen oben gezeigt). Das Füllen dieser Lücken erhöht die Festigkeit des Teils an diesen Stellen, da sich die beiden gegenüberliegenden Wände nicht mehr getrennt voneinander bewegen können.
+* In sehr scharfen Ecken gibt es eine Lücke innerhalb der Außenwand, wo die Innenwand zu dick ist, um in die Ecke zu reichen. Das Füllen dieser Lücken erhöht die Festigkeit, lässt aber auch die Außenwand einheitlicher aussehen.
 
-It's advisable to take good care to look which travel moves are necessary if this is enabled. The gap filling is done after the walls have completed printing.
+Es ist ratsam, genau darauf zu achten, welche Fahrbewegungen erforderlich sind, wenn dies aktiviert ist. Die Lückenfüllung erfolgt, nachdem die Wände fertig bedruckt sind.

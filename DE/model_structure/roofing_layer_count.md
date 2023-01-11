@@ -1,25 +1,25 @@
-Top Surface Skin Layers
+Hautschichten der obersten Oberfläche
 ====
-### **Description**
-Top Surface Skin refers to the topmost layers that constitute the skin at the top surface of the print. Top Surface Skin Layers configures how many layers are printed for the top surface skin of the print.
+### **Beschreibung**
+Obere Oberflächenhaut bezieht sich auf die obersten Schichten, die die Haut an der oberen Oberfläche des Drucks bilden. Top Surface Skin Layers konfiguriert, wie viele Schichten für die obere Oberflächenhaut des Drucks gedruckt werden.
 
-The top surface skin layers are part of the top layers. However, you can configure different settings for the top surface skin layers from the rest of the top layers.
+Die oberen Oberflächenhautschichten sind Teil der oberen Schichten. Sie können jedoch andere Einstellungen für die Hautschichten der obersten Oberfläche als für die übrigen oberen Schichten konfigurieren.
 
-![The highest layer of the top is printed slower (blue) than the rest of the skin (green)](../images/roofing_layer_count.png)
+![Die oberste Schicht der Oberseite wird langsamer gedruckt (blau) als der Rest der Haut (grün)](../images/roofing_layer_count.png)
 
-### **Usage**
-By adjusting settings for all the top layers, you can improve the the quality of the top surface, but that will also cost more material and time. However, if you adjust those settings only for the very top layer or two and print the rest of the top layers faster, you can achieve a similar effect with less material and time.
+### **Verwendung**
+Indem Sie die Einstellungen für alle oberen Schichten anpassen, können Sie die Qualität der oberen Oberfläche verbessern, aber das kostet auch mehr Material und Zeit. Wenn Sie diese Einstellungen jedoch nur für die obersten oder zwei obersten Ebenen anpassen und die restlichen obersten Ebenen schneller drucken, können Sie einen ähnlichen Effekt mit weniger Material und Zeitaufwand erzielen.
 
-Settings that can be adjusted for the top surface skin:
-* [Top Surface Skin Extruder](roofing_extruder_nr.md)
-* [Top Surface Skin Flow](../material/roofing_material_flow.md)
-* [Top Surface Skin Speed](../speed/speed_roofing.md)
-* [Top Surface Skin Acceleration](../speed/acceleration_roofing.md)
-* [Top Surface Skin Jerk](../speed/jerk_roofing.md)
-* [Top Surface Skin Line Width](../experimental/roofing_line_width.md)
-* [Top Surface Skin Pattern](../experimental/roofing_pattern.md)
-* [Top Surface Skin Line Directions](../experimental/roofing_angles.md)
+Anpassbare Einstellungen für die Skin der oberen Oberfläche:
+* [Oberflächenhaut-Extruder] (roofing_extruder_nr.md)
+* [Hautverlauf der oberen Oberfläche](../material/roofing_material_flow.md)
+* [Oberflächenhautgeschwindigkeit](../speed/speed_roofing.md)
+* [Oberflächenhautbeschleunigung](../speed/acceleration_roofing.md)
+* [Hautruck der oberen Oberfläche](../speed/jerk_roofing.md)
+* [Breite der Oberflächenhautlinie](../experimental/roofing_line_width.md)
+* [Oberflächenhautmuster](../experimental/roofing_pattern.md)
+* [Richtungen der Oberflächenhautlinie](../experimental/roofing_angles.md)
 
-To achieve a nicer top surface, try reducing the speed and increasing the jerk.
+Um eine schönere Oberfläche zu erzielen, versuchen Sie, die Geschwindigkeit zu reduzieren und den Ruck zu erhöhen.
 
-When printing the top surface in a different colour (using the [Top Surface Skin Extruder](roofing_extruder_nr.md) setting), it is often necessary to print more than one layer in the other colour. Otherwise the original colour will still bleed through.
+Wenn die obere Oberfläche in einer anderen Farbe gedruckt wird (unter Verwendung der Einstellung [Top Surface Skin Extruder](roofing_extruder_nr.md)Einstellunegn), ist es oft notwendig, mehr als eine Schicht in der anderen Farbe zu drucken. Sonst schlägt die Originalfarbe noch durch.

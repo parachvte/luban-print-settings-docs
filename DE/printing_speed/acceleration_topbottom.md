@@ -1,13 +1,13 @@
-Top/Bottom Acceleration
+Beschleunigung oben/unten
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while printing the top and bottom of the object. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse beim Drucken der Ober- und Unterseite des Objekts in verschiedene Richtungen beschleunigt.
 
-### **Influence**
-Increasing this setting will have the following two effects:
-* Increasing this setting compared to the rest of the print can save some time. Since the top and bottom sides typically consist of long straight lines, the nozzle can reach great speeds during printing. The nozzle must also make sharp corners with the typical lines pattern for the skin, which requires great acceleration. 
+### **Einfluss**
+Das Erhöhen dieser Einstellung hat die folgenden zwei Auswirkungen:
+* Das Erhöhen dieser Einstellung im Vergleich zum Rest des Drucks kann etwas Zeit sparen. Da die Ober- und Unterseite typischerweise aus langen geraden Linien bestehen, kann die Düse beim Drucken große Geschwindigkeiten erreichen. Die Düse muss auch scharfe Ecken mit dem typischen Linienmuster für die Haut machen, was eine große Beschleunigung erfordert.
 
-* However, increasing this setting will cause the printer to shake more as well, but the accuracy of the top and bottom sides is not normally a constraint because they are surrounded by walls.
+* Eine Erhöhung dieser Einstellung führt jedoch auch dazu, dass der Drucker stärker wackelt, aber die Genauigkeit der Ober- und Unterseite ist normalerweise keine Einschränkung, da sie von Wänden umgeben sind.
 
-### **Usage**
-The Top/Bottom Acceleration can be set to a different rate than the rest of the print.
+### **Verwendung**
+Die obere/untere Beschleunigung kann auf eine andere Rate als der Rest des Drucks eingestellt werden.

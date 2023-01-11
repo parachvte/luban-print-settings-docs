@@ -1,12 +1,12 @@
-Print Acceleration
+Druckbeschleunigung
 ====
-### **Description**
-This setting refers to the acceleration rate of toolhead towards the desired velocity when starting, stopping or changing direction. Just like a car, the toolhead needs to accelerate in order to change its speed or direction.
+### **Beschreibung**
+Diese Einstellung bezieht sich auf die Beschleunigungsrate des Werkzeugkopfs in Richtung der gewünschten Geschwindigkeit beim Starten, Stoppen oder Richtungswechsel. Genau wie ein Auto muss der Werkzeugkopf beschleunigen, um seine Geschwindigkeit oder Richtung zu ändern.
 
-![A graph of the speed (V) over time when moving a nozzle back and forth. Acceleration is the slope of the line when it is starting, stopping or changing direction.](../images/velocity_acceleration_jerk.svg)
+![Ein Diagramm der Geschwindigkeit (V) über die Zeit, wenn eine Düse hin und her bewegt wird. Die Beschleunigung ist die Steigung der Linie beim Starten, Stoppen oder Richtungswechsel.](../images/velocity_acceleration_jerk.svg)
 
-### **Influence**
-Increasing this setting has the following two effects:
-* The toolhead will reach the desired speed and direction sooner, which ensures faster print, especially when printing small parts.
+### **Einfluss**
+Das Erhöhen dieser Einstellung hat die folgenden zwei Auswirkungen:
+* Der Werkzeugkopf erreicht früher die gewünschte Geschwindigkeit und Richtung, was einen schnelleren Druck gewährleistet, insbesondere beim Drucken kleiner Teile.
 
-* More vibrations will occur, which will reduce dimensional accuracy and cause ringing.
+* Es treten mehr Vibrationen auf, die die Maßhaltigkeit verringern und Klingeln verursachen.

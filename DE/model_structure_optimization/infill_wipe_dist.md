@@ -1,9 +1,9 @@
-Infill Wipe Distance
+Füllen Sie den Wischabstand ein
 ====
-This setting will make the nozzle travel a little bit further after it finishes printing an infill line. The aim of this small travel move is to wipe off the material onto the adjacent wall. This fuses the infill line to the wall better.
+Durch diese Einstellung bewegt sich die Düse ein wenig weiter, nachdem sie eine Fülllinie fertig gedruckt hat. Ziel dieser kleinen Verfahrbewegung ist es, das Material an der angrenzenden Wand abzustreifen. Dadurch wird die Fülllinie besser mit der Wand verschweißt.
 
-![A visualisation of infill overlap and wipe distance](../images/infill_overlap.svg)
+![Eine Visualisierung der Füllungsüberlappung und des Wischabstands](../images/infill_overlap.svg)
 
-While this travel move makes the object stronger, the main disadvantage is that this travel move will cross the wall and leave a visible mark on the outside of the print. In effect, it makes the infill pattern shine through the shell more.
+Während diese Bewegungsbewegung das Objekt stärker macht, besteht der Hauptnachteil darin, dass diese Bewegungsbewegung die Wand überquert und eine sichtbare Markierung auf der Außenseite des Drucks hinterlässt. Tatsächlich lässt es das Füllmuster mehr durch die Schale scheinen.
 
-This setting only applies to the ends of the infill lines. When using connected infill lines, there will be much fewer ends.
+Diese Einstellung gilt nur für die Enden der Fülllinien. Wenn Sie verbundene Fülllinien verwenden, gibt es viel weniger Enden.

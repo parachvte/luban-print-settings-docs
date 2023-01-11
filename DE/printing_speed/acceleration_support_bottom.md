@@ -1,10 +1,10 @@
-Support Floor Acceleration
+Bodenbeschleunigung unterstützen
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while printing the support floor. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse beim Drucken des Stützbodens in verschiedene Richtungen beschleunigt.
 
-### **Influence**
-Increasing the Support Floor Acceleration too much can incur additional scarring and may compromise the stability of the support that rests on it.
+### **Einfluss**
+Eine zu starke Erhöhung der Stützbodenbeschleunigung kann zu zusätzlicher Narbenbildung führen und die Stabilität der darauf ruhenden Stütze beeinträchtigen.
 
-### **Usage**
-The Support Floor Acceleration can be set to a different rate than the support roof. It is recommended to set the Support Floor Acceleration slightly higher than that of the support roof, to save some printing time. 
+### **Verwendung**
+Die Beschleunigung des Stützbodens kann auf eine andere Rate als die des Stützdachs eingestellt werden. Es wird empfohlen, die Beschleunigung des Stützbodens etwas höher als die des Stützdachs einzustellen, um etwas Druckzeit zu sparen.

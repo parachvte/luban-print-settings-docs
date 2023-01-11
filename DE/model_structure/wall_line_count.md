@@ -1,19 +1,19 @@
-Wall Line Count
+Anzahl der Wandlinien
 ====
-### **Description**
-This setting determines how many contours of wall will be drawn on every layer.
+### **Beschreibung**
+Diese Einstellung bestimmt, wie viele Wandkonturen auf jeder Ebene gezeichnet werden.
 
-![Two walls](../images/wall_thickness_0.8.png)
-![Four walls](../images/wall_thickness_1.6.png)
+![Zwei Wände](../images/wall_thickness_0.8.png)
+![Vier Wände](../images/wall_thickness_1.6.png)
 
-The walls of a print consist of the outer wall and the inner walls. Normally, there is only one outer wall but multiple inner walls. Therefore, ultimately it adjusts the number of inner walls to achieve the desired Wall Line Count.
+Die Wände eines Drucks bestehen aus der Außenwand und den Innenwänden. Normalerweise gibt es nur eine Außenwand, aber mehrere Innenwände. Daher passt es letztendlich die Anzahl der Innenwände an, um die gewünschte Anzahl der Wandlinien zu erreichen.
 
-### **Influence**
-The number of walls is a major factor in how strong the print will be. Since the walls are adjacent, they can reinforce each other leading to a stronger part. For larger prints, this can be a much more effective way to get a strong object than adjusting the infill, depending on the shape.
+### **Einfluss**
+Die Anzahl der Wände ist ein wichtiger Faktor dafür, wie stark der Druck sein wird. Da die Wände benachbart sind, können sie sich gegenseitig verstärken, was zu einem stärkeren Teil führt. Bei größeren Drucken kann dies je nach Form ein viel effektiverer Weg sein, um ein starkes Objekt zu erhalten, als die Füllung anzupassen.
 
-Increasing the number of walls will:
-* Greatly increase the strength of the print.
-* Reduces the shine-through effect where the infill pattern is visible on the outside.
-* Improve overhang stability.
-* Make the model more watertight.
-* Significantly increase the printing time and material consumption of the print.
+Die Erhöhung der Anzahl der Wände wird:
+* Erhöhen Sie die Stärke des Drucks erheblich.
+* Reduziert den Durchscheineffekt, wo das Füllmuster auf der Außenseite sichtbar ist.
+* Verbessern Sie die Stabilität des Überhangs.
+* Machen Sie das Modell wasserdichter.
+* Erhöhen Sie die Druckzeit und den Materialverbrauch des Drucks erheblich.

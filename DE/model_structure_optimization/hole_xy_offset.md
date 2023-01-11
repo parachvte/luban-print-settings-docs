@@ -1,11 +1,11 @@
-Hole Horizontal Expansion
+Horizontale Ausdehnung des Lochs
 ====
-This is a compensation measure for a printing effect where holes tend to end up being printed smaller than intended. With this setting you can expand the size of holes in your print.
+Dies ist eine Kompensationsmaßnahme für einen Druckeffekt, bei dem Löcher dazu neigen, kleiner als beabsichtigt gedruckt zu werden. Mit dieser Einstellung können Sie die Größe der Löcher in Ihrem Druck erweitern.
 
-![The holes have been made larger, but the rest of the shape hasn't changed](../images/hole_xy_offset.png)
+![Die Löcher wurden größer gemacht, aber der Rest der Form hat sich nicht verändert](../images/hole_xy_offset.png)
 
-Due to the viscosity of the material, when printing a curve, the plastic tends to get dragged by the nozzle along the curve. This makes the curve slightly smaller than intended as the string gets pulled into the inside of the curve. Normally this isn't really visible, but when printing items that need to be very precise or when printing items with very small vertical holes, this becomes ruinous to the accuracy of your print. Screws won't fit any more, pieces don't slide into each other neatly any more, and so on.
+Aufgrund der Viskosität des Materials neigt der Kunststoff beim Drucken einer Kurve dazu, von der Düse entlang der Kurve gezogen zu werden. Dadurch wird die Kurve etwas kleiner als beabsichtigt, da die Schnur in die Innenseite der Kurve gezogen wird. Normalerweise ist dies nicht wirklich sichtbar, aber wenn Sie Artikel drucken, die sehr präzise sein müssen, oder wenn Sie Artikel mit sehr kleinen vertikalen Löchern drucken, wird dies die Genauigkeit Ihres Drucks ruinieren. Schrauben passen nicht mehr, Teile gleiten nicht mehr sauber ineinander und so weiter.
 
-This setting compensates for that by making all holes slightly bigger. Unlike [Horizontal Expansion](xy_offset.md), this only affects closed holes. If there is even a tiny opening on one side (horizontally, on the same layer) then that part won't be considered a hole and won't be affected by this setting.
+Diese Einstellung kompensiert dies, indem alle Löcher etwas größer gemacht werden. Im Gegensatz zu [Horizontal Expansion](xy_offset.md) betrifft dies nur geschlossene Löcher. Wenn auf einer Seite (horizontal, auf derselben Ebene) auch nur eine winzige Öffnung vorhanden ist, wird dieser Teil nicht als Loch betrachtet und von dieser Einstellung nicht beeinflusst.
 
-A positive value will make the holes bigger. A negative value will make the holes smaller. When combined with Horizontal Expansion, the holes are expanded first before applying the ordinary horizontal expansion. This could cause thin pieces to disappear entirely before they are expanded by the ordinary horizontal expansion.
+Ein positiver Wert vergrößert die Löcher. Ein negativer Wert macht die Löcher kleiner. In Kombination mit der horizontalen Erweiterung werden die Löcher zuerst erweitert, bevor die normale horizontale Erweiterung angewendet wird. Dies könnte dazu führen, dass dünne Stücke vollständig verschwinden, bevor sie durch die gewöhnliche horizontale Ausdehnung expandiert werden.

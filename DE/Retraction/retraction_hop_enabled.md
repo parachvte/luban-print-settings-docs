@@ -1,13 +1,13 @@
-Z Hop When Retracted
+Z-Sprung beim Einfahren
 ====
-### **Description**
-Whenever a retraction is done, the nozzle is raised (or the build plate lowered) to create clearance between the nozzle and the print. When the nozzle needs to travel from one place to another, the nozzle will be lifted above the print slightly. This way, the nozzle goes over the print instead of hitting the previously printed parts. 
+### **Beschreibung**
+Bei jedem Zurückziehen wird die Düse angehoben (oder die Bauplatte abgesenkt), um einen Abstand zwischen der Düse und dem Druck zu schaffen. Wenn die Düse von einem Ort zum anderen bewegt werden muss, wird die Düse leicht über den Druck gehoben. Auf diese Weise geht die Düse über den Druck, anstatt auf die zuvor gedruckten Teile zu treffen.
 
-![Moving up when Z hops are enabled](../images/retraction_hop_enabled.svg)
+![Nach oben bewegen, wenn Z-Hops aktiviert sind](../images/retraction_hop_enabled.svg)
 
-### **Usage**
-* It prevents the nozzle from hitting the print during travel moves. When the nozzle hits the print it leaves a visible scar, so it should improve the visual quality of the walls of the print.
-* If the material oozes out of the nozzle during travel moves, the ooze gets deposited where the nozzle lands after the travel move, which is often in the infill where it's not visible. This reduces blobs on the surface.
-* Blobs on the surface have a chance to knock over your print, so enabling this setting can improve reliability.
+### **Verwendung**
+* Es verhindert, dass die Düse während der Fahrtbewegungen auf den Druck trifft. Wenn die Düse auf den Druck trifft, hinterlässt sie eine sichtbare Narbe, sodass die visuelle Qualität der Druckwände verbessert werden sollte.
+* Wenn das Material während der Fahrbewegungen aus der Düse sickert, setzt sich der Schlamm dort ab, wo die Düse nach der Fahrbewegung landet, was oft in der Füllung ist, wo er nicht sichtbar ist. Dies reduziert Kleckse auf der Oberfläche.
+* Kleckse auf der Oberfläche können Ihren Druck umwerfen, sodass die Aktivierung dieser Einstellung die Zuverlässigkeit verbessern kann.
 
-However, moving the nozzle up and down all the time takes a bit more time, so your print will take longer to complete. It can also wear down the Z axis of the printer faster, depending on the printer's design.
+Das ständige Auf- und Abbewegen der Düse dauert jedoch etwas länger, sodass der Druck länger dauert. Je nach Konstruktion des Druckers kann es auch die Z-Achse des Druckers schneller abnutzen.

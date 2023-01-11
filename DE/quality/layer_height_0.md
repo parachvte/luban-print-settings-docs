@@ -1,14 +1,14 @@
-Initial Layer Height
+Anfängliche Schichthöhe
 ====
-### **Description**
-This setting defines the thickness of the first layer of your print. 
+### **Beschreibung**
+Diese Einstellung definiert die Dicke der ersten Schicht Ihres Drucks.
 
-![The initial layer is thicker than the rest of the layers](../images/layer_height_0.png)
+![Die erste Schicht ist dicker als die restlichen Schichten](../images/layer_height_0.png)
 
-### **Influence**
-Increasing the initial layer's thickness causes the nozzle to extrude more material over the same distance, which takes extra force, as the material spreads out to the sides to fill the full line width. This extra force causes the material to stick better to the build plate. Additionally, the thicker layer will tackle any irregularities in the flatness of the surface. If the build plate is slightly bent, the variability will be absorbed by the thickness of the first layer, otherwise the nozzle could scrape off the first layer when printing the second layer.
+### **Einfluss**
+Eine Erhöhung der Dicke der Anfangsschicht führt dazu, dass die Düse mehr Material über die gleiche Distanz extrudiert, was zusätzliche Kraft erfordert, da sich das Material zu den Seiten ausbreitet, um die volle Linienbreite auszufüllen. Diese zusätzliche Kraft bewirkt, dass das Material besser an der Bauplatte haftet. Darüber hinaus wird die dickere Schicht alle Unregelmäßigkeiten in der Ebenheit der Oberfläche beseitigen. Wenn die Bauplatte leicht gebogen ist, wird die Variabilität durch die Dicke der ersten Schicht absorbiert, da sonst die Düse beim Drucken der zweiten Schicht die erste Schicht abkratzen könnte.
 
-### **Usage**
-The initial layer is normally printed thicker than the rest in order to create a stronger adhesion with the build plate. With this setting, the initial layer's thickness can be increased without reducing the resolution of the rest of the print.
+### **Verwendung**
+Die Anfangsschicht wird normalerweise dicker gedruckt als der Rest, um eine stärkere Haftung mit der Bauplatte zu erreichen. Mit dieser Einstellung kann die Dicke der Anfangsschicht erhöht werden, ohne die Auflösung des restlichen Drucks zu verringern.
 
-Having too thick of an initial layer causes the first layer to sag more, which causes elephant's feet. The [Initial Layer Horizontal Expansion](../shell/xy_offset_layer_0.md) setting can prevent the elephant's feet by setting a small negative value.
+Eine zu dicke Anfangsschicht führt dazu, dass die erste Schicht stärker durchhängt, was zu Elefantenfüßen führt. Die Einstellung [Anfängliche horizontale Ausdehnung der Ebene](../shell/xy_offset_layer_0.md) kann die Elefantenfüße verhindern, indem ein kleiner negativer Wert eingestellt wird.

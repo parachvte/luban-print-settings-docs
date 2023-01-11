@@ -1,11 +1,11 @@
-Infill Acceleration
+Füllbeschleunigung
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while printing the infill. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse beim Drucken der Füllung in verschiedene Richtungen beschleunigt.
 
-### **Influence**
-Since the infill is on the inside where it is not visible, adjusting this setting tends to have a low impact on the visual quality of the print. Infill lines tend to have long straight lines printed at high speed and joined by sharp corners. 
+### **Einfluss**
+Da sich die Füllung auf der Innenseite befindet, wo sie nicht sichtbar ist, hat eine Anpassung dieser Einstellung tendenziell nur geringe Auswirkungen auf die visuelle Qualität des Drucks. Fülllinien haben in der Regel lange gerade Linien, die mit hoher Geschwindigkeit gedruckt und durch scharfe Ecken verbunden werden.
 
-### **Usage**
-Acceleration has a big impact on printing time for infill lines. Therefore, it is common to set the acceleration rate for infill higher than the acceleration for the rest of the print.
-The Infill Acceleration can be set to a different rate than the rest of the print.
+### **Verwendung**
+Die Beschleunigung hat einen großen Einfluss auf die Druckzeit für Fülllinien. Daher ist es üblich, die Beschleunigungsrate für das Füllen höher einzustellen als die Beschleunigung für den Rest des Drucks.
+Die Füllbeschleunigung kann auf eine andere Rate als der Rest des Drucks eingestellt werden.

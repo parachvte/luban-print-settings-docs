@@ -1,6 +1,6 @@
 Monotonic Ironing Order
 ====
-Normally, Cura orders ironing lines such that the travel distance between them is small. If this setting is enabled, it will order the ironing lines such that adjacent lines are always printed overlapping in the same direction.
+Normally, Luban orders ironing lines such that the travel distance between them is small. If this setting is enabled, it will order the ironing lines such that adjacent lines are always printed overlapping in the same direction.
 
 Ironing lines are by default much thinner than the nozzle they are printed with, so the lines will overlap a lot with the lines next to them. This overlap gives the lines a slight slope, causing them to reflect light differently in different directions. If adjacent lines overlap differently, this reflection changes. You can see this in the final result. It gives different areas of the surface a different shine. Printing in a monotonic order ensures that the overlap is the same on the entire surface, so there is no difference in how it reflects light. This makes the surface look more consistent and smooth.
 

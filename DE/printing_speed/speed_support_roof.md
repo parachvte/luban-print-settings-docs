@@ -1,7 +1,7 @@
-Support Roof Speed
+Unterstützung der Dachgeschwindigkeit
 ====
-This setting configures the speed at which the top side of the support is printed, if [Support Roofs is enabled](../support/support_interface_enable.md).
+Diese Einstellung konfiguriert die Geschwindigkeit, mit der die Oberseite des Supports gedruckt wird, wenn [Support Roofs aktiviert ist](../support_adv/support_interface_enable.md).
 
-![Various structures printed at different speeds](../images/speed_difference.png)
+![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
-A higher Support Roof Speed can save some printing time, but will reduce the quality of overhang. Because the printer will vibrate more, the support roof will be printed less accurately and its surface will be less smooth. As a result, the model printed on top of it will be printed less smoothly, especially if the model is printed very nearby, such as when using soluble support.
+Eine höhere Support Roof Speed kann etwas Druckzeit sparen, verringert jedoch die Qualität des Überhangs. Da der Drucker stärker vibriert, wird das Trägerdach weniger genau bedruckt und seine Oberfläche wird weniger glatt. Infolgedessen wird das darüber gedruckte Modell weniger glatt gedruckt, insbesondere wenn das Modell in unmittelbarer Nähe gedruckt wird, z. B. bei Verwendung eines löslichen Trägers.

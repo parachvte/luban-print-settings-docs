@@ -1,18 +1,17 @@
-Number of Slower Layers
+Anzahl der langsameren Schichten
 ====
-### **Description**
-The initial layer is not the only layer that gets printed slower. This setting configures how many layers get printed slower. Over the course of these layers, the printing speed will gradually increase to the normal printing speed.
+### **Beschreibung**
+Die Anfangsschicht ist nicht die einzige Schicht, die langsamer gedruckt wird. Diese Einstellung konfiguriert, wie viele Ebenen langsamer gedruckt werden. Im Laufe dieser Schichten wird die Druckgeschwindigkeit allmählich auf die normale Druckgeschwindigkeit erhöht.
 
-![The printing speed gradually increases to 50mm/s](../images/speed_slowdown_layers.svg)
+![Die Druckgeschwindigkeit steigt allmählich auf 50 mm/s](../images/speed_slowdown_layers.svg)
 
-### **Influence**
-Starting from the initial layer, the speed linearly increases (or decreases) to the ordinary printing speed. This happens separately for the walls, skin, infill and so on, if they are printed at different speeds.
+### **Einfluss**
+Beginnend mit der Anfangsschicht erhöht (oder verringert) sich die Geschwindigkeit linear auf die normale Druckgeschwindigkeit. Dies geschieht separat für Wände, Haut, Füllung usw., wenn sie mit unterschiedlichen Geschwindigkeiten gedruckt werden.
 
-### **Usage**
-There are two reasons why you could want to transition to the normal printing speed over several layers: 
-(1)	The second and third layers are still quite close to the build plate, and moving fast over them can rip the print loose pretty easily.
-(2)	The difference in flow rate between the initial layer printing speed and the ordinary printing speed may be so great that the large flow rate change may take some time to come into effect. 
+### **Verwendung**
+Es gibt zwei Gründe, warum Sie über mehrere Ebenen hinweg zur normalen Druckgeschwindigkeit übergehen sollten:
+(1) Die zweite und dritte Schicht befinden sich immer noch ziemlich nahe an der Bauplatte, und wenn Sie schnell darüber fahren, kann sich der Druck ziemlich leicht lösen.
+(2) Der Unterschied in der Flussrate zwischen der Druckgeschwindigkeit der Anfangsschicht und der gewöhnlichen Druckgeschwindigkeit kann so groß sein, dass es einige Zeit dauern kann, bis die große Flussratenänderung wirksam wird.
 
-Transitioning slowly prevents underextruding at a great speed change.
-However, transitioning slowly will also increase the total printing time.
-
+Ein langsamer Übergang verhindert ein Unterextrudieren bei einer großen Geschwindigkeitsänderung.
+Ein langsamer Übergang erhöht jedoch auch die Gesamtdruckzeit.

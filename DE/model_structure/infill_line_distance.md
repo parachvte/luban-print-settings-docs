@@ -1,19 +1,19 @@
-Infill Line Distance
+Fülllinienabstand
 ====
-### **Description**
-Besides setting the [Infill Density](infill_sparse_density.md) as a percentage, you can also adjust infill density by setting the distance between adjacent infill lines. A greater distance between infill lines will result in a lower infill density.
+### **Beschreibung**
+Neben der Einstellung der [Fülldichte](infill_sparse_density.md) als Prozentsatz können Sie die Fülldichte auch anpassen, indem Sie den Abstand zwischen benachbarten Fülllinien festlegen. Ein größerer Abstand zwischen den Fülllinien führt zu einer geringeren Fülldichte.
 
-Normally the Infill Line Distance is computed from the desired infill density, depending on the selected infill pattern and line width.
+Normalerweise wird der Fülllinienabstand aus der gewünschten Fülldichte berechnet, abhängig vom ausgewählten Füllmuster und der Linienbreite.
 
-![4mm distance between lines, resulting in 20% density](../images/infill_sparse_density_high.png)
-![8mm distance between lines, resulting in 10% density](../images/infill_sparse_density_low.png)
+![4mm Abstand zwischen den Linien, was zu einer Dichte von 20 % führt](../images/infill_sparse_density_high.png)
+![8mm Abstand zwischen den Linien, was zu einer Dichte von 10 % führt](../images/infill_sparse_density_low.png)
 
-### **Usage**
-Infill Line Distance provides another perspective to look at infill density. On the top of the infill, the top layer lines have to cross from one infill line to the next. Reducing the Infill Line Distance reduces the bridged distance and improves the quality of the top surfaces.
+### **Verwendung**
+Fülllinienabstand bietet eine weitere Perspektive, um die Fülldichte zu betrachten. Auf der Oberseite der Füllung müssen sich die Deckschichtlinien von einer Füllungslinie zur nächsten kreuzen. Das Reduzieren des Fülllinienabstands reduziert den überbrückten Abstand und verbessert die Qualität der Deckflächen.
 
-Increasing the infill density (by reducing the line distance) has a big effect on your print, namely:
-* Your print will be stronger.
-* The top surface will be supported better, becoming smoother and more watertight.
-* The pillowing effect will be reduced because the pockets of heat will be smaller.
-* Your print will require more material and as a result will be heavier.
-* It takes longer time to print.
+Das Erhöhen der Fülldichte (durch Verringern des Linienabstands) hat einen großen Einfluss auf Ihren Druck, nämlich:
+* Ihr Druck wird stärker.
+* Die Oberfläche wird besser gestützt, glatter und wasserdichter.
+* Der Polstereffekt wird reduziert, da die Wärmetaschen kleiner werden.
+* Ihr Druck benötigt mehr Material und wird dadurch schwerer.
+* Das Drucken dauert länger.

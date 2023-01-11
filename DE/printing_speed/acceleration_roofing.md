@@ -1,12 +1,12 @@
-Top Surface Skin Acceleration
+Hautbeschleunigung der oberen Oberfläche
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while printing the top surface. 
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse beim Drucken der oberen Fläche in verschiedene Richtungen beschleunigt.
 
-### **Influence**
-* Reducing this setting can achieve better water tightness while not adding much printing time as when the entire top surface is adjusted.
+### **Einfluss**
+* Das Reduzieren dieser Einstellung kann eine bessere Wasserdichtigkeit erreichen, ohne viel Druckzeit hinzuzufügen, als wenn die gesamte obere Oberfläche angepasst wird.
 
-* Reducing this setting will also reduce vibrations through the printer. Depending on the build structure of your 3D printer, these vibrations may cause the build plate to vibrate as well, making the surface uneven. 
+* Das Reduzieren dieser Einstellung reduziert auch Vibrationen durch den Drucker. Abhängig von der Baustruktur Ihres 3D-Druckers können diese Vibrationen auch dazu führen, dass die Bauplatte vibriert und die Oberfläche uneben wird.
 
-### **Usage**
-The Top Surface Skin Acceleration can be set to a different rate than the rest of the skin.
+### **Verwendung**
+Die Hautbeschleunigung der oberen Oberfläche kann auf eine andere Geschwindigkeit eingestellt werden als der Rest der Haut.

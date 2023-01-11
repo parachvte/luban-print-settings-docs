@@ -1,7 +1,7 @@
-Z Hop Height After Extruder Switch 
+Z-Hop-Höhe nach Extruderwechsel
 ====
-### **Description**
-This setting controls how high the nozzle will move up after the extruder switch. This height can be adjusted separately from the ordinary [Z Hop Height](retraction_hop.md) setting.
+### **Beschreibung**
+Diese Einstellung steuert, wie hoch sich die Düse nach dem Extruderwechsel nach oben bewegt. Diese Höhe kann separat von der normalen Einstellung [Z Hop Height](retraction_hop.md) angepasst werden.
 
-### **Usage**
-This can be useful since the nozzle tends to ooze more while it's been in stand-by while other extruders have been printing. This extra ooze will be bigger and thus requires a greater clearance between the nozzle and the last printed layer. Setting the Z hop height slightly higher after an extruder switch prevents the bigger-than-usual blob underneath the nozzle from hitting the print as well, without incurring additional printing time for most of the Z hops.
+### **Verwendung**
+Dies kann nützlich sein, da die Düse dazu neigt, mehr auszusickern, wenn sie sich im Standby-Modus befindet, während andere Extruder drucken. Dieser zusätzliche Schlamm wird größer und erfordert daher einen größeren Abstand zwischen der Düse und der letzten gedruckten Schicht. Wenn Sie die Z-Hop-Höhe nach einem Extruderwechsel etwas höher einstellen, wird verhindert, dass der Klecks, der größer als üblich ist, unter der Düse ebenfalls auf den Druck trifft, ohne dass zusätzliche Druckzeit für die meisten Z-Hops entsteht.

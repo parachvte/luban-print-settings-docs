@@ -1,11 +1,11 @@
-Infill Speed
+Füllgeschwindigkeit
 ====
-### **Description**
-Infill Speed refers to the speed at which the infill material is printed. This setting can be configured separately from the normal print speed.
+### **Beschreibung**
+Füllgeschwindigkeit bezieht sich auf die Geschwindigkeit, mit der das Füllmaterial gedruckt wird. Diese Einstellung kann getrennt von der normalen Druckgeschwindigkeit konfiguriert werden.
 
-![Various structures printed at different speeds](../images/speed_difference.png)
+![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
-### **Usage**
-The visual quality of infill is not usually important, so the infill can be printed at a fairly high speed to save time. On the other hand, increasing the Infill Speed also makes the infill shine through the walls more, because the nozzle will wobble more into the walls.
+### **Verwendung**
+Die visuelle Qualität der Füllung ist normalerweise nicht wichtig, daher kann die Füllung mit ziemlich hoher Geschwindigkeit gedruckt werden, um Zeit zu sparen. Andererseits lässt eine Erhöhung der Infill-Geschwindigkeit die Füllung auch mehr durch die Wände scheinen, weil die Düse mehr in die Wände wackelt.
 
-Setting the Infill Speed at a high value can induce a significant flow change. Especially when combined with settings like [Infill Layer Thickness](../infill/infill_sparse_thickness.md), the difference in the flow rate required for the infill and the flow rate required for the rest of the print can be very large. There is a large delay when adjusting the flow rate through the nozzle, so if the infill is made too fast compared to the rest, the flow could be inaccurate.
+Die Einstellung der Infill Speed auf einen hohen Wert kann zu einer erheblichen Durchflussänderung führen. Besonders in Kombination mit Einstellungen wie [Infill Layer Thickness](../infill/infill_sparse_thickness.md) kann der Unterschied zwischen der für die Füllung erforderlichen Durchflussrate und der für den Rest des Drucks erforderlichen Durchflussrate sehr groß sein. Beim Einstellen der Durchflussrate durch die Düse tritt eine große Verzögerung auf. Wenn die Füllung im Vergleich zum Rest zu schnell erfolgt, kann der Durchfluss ungenau sein.

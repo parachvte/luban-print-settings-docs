@@ -1,21 +1,21 @@
-Generate Support
+Unterstützung generieren
 ====
-### **Description**
-3D printers with fused-filament fabrication work by placing a string of molten plastic in the specified locations. If this plastic is not supported, it will sag down. Therefore, the overhanging parts of a model usually need to be supported by an additional support structure, which will be removed and discarded after the printing is finished.
+### **Beschreibung**
+3D-Drucker mit Fused-Filament-Fertigung arbeiten, indem sie eine Schnur aus geschmolzenem Kunststoff an den angegebenen Stellen platzieren. Wenn dieser Kunststoff nicht gestützt wird, sackt er nach unten. Daher müssen die überhängenden Teile eines Modells normalerweise durch eine zusätzliche Stützstruktur gestützt werden, die entfernt und entsorgt wird, nachdem der Druckvorgang abgeschlossen ist.
 
-This setting enables creating support structures to support the model while it's being printed.
+Diese Einstellung ermöglicht das Erstellen von Stützstrukturen, um das Modell zu stützen, während es gedruckt wird.
 
-![Marking the model red where support is needed](../images/support_enable_prepare_mode.png)
-![Support structure (in cyan) to support the model during printing](../images/support_enable.png)
+![Markieren Sie das Modell rot, wo Unterstützung benötigt wird](../images/support_enable_prepare_mode.png)
+![Stützstruktur (in Cyan) zur Unterstützung des Modells während des Druckens](../images/support_enable.png)
 
-### **Influence**
-Printing support takes a significant amount of time and material. Besides, the support will need to be broken or cut off from the model when the print is completed. This tends to leave a scar on the model surface.
+### **Einfluss**
+Die Druckunterstützung nimmt viel Zeit und Material in Anspruch. Außerdem muss die Stütze gebrochen oder vom Modell abgeschnitten werden, wenn der Druck abgeschlossen ist. Dies neigt dazu, eine Narbe auf der Modelloberfläche zu hinterlassen.
 
-However, support is still necessary for some situations. For instance, if the model has a piece that points down towards the build plate, this piece would otherwise just hang in mid air without support.
+Dennoch ist in manchen Situationen eine Unterstützung notwendig. Wenn das Modell beispielsweise ein Teil hat, das nach unten zur Bauplatte zeigt, würde dieses Teil sonst ohne Unterstützung in der Luft hängen.
 
-Design for preventing support
+Design zur Verhinderung von Unterstützung
 ----
-Although support is sometimes necessary, printing support should be prevented if possible. There are numerous techniques to prevent having to print support. 
-* Place your model down to the build plate instead of making it float in mid air.
-* Orient your model such that there are no flat surfaces overhanging in mid air.
-* Avoid designing overhangs as much as possible.
+Obwohl manchmal eine Unterstützung erforderlich ist, sollte die Druckunterstützung nach Möglichkeit verhindert werden. Es gibt zahlreiche Techniken, um zu verhindern, dass Support gedruckt werden muss.
+* Platzieren Sie Ihr Modell auf der Bauplatte, anstatt es in der Luft schweben zu lassen.
+* Richten Sie Ihr Modell so aus, dass keine ebenen Flächen in der Luft überstehen.
+* Vermeiden Sie so weit wie möglich die Gestaltung von Überhängen.

@@ -1,5 +1,5 @@
-Ironing Acceleration
+Bügelbeschleunigung
 ====
-The acceleration of ironing can be adjusted separately, to fine-tune the process.
+Die Bügelbeschleunigung kann zur Feinabstimmung des Vorgangs separat eingestellt werden.
 
-The acceleration during ironing is normally significantly slower than the print acceleration, to ensure the layer gets a smooth surface.
+Die Beschleunigung beim Bügeln ist normalerweise deutlich langsamer als die Druckbeschleunigung, um sicherzustellen, dass die Schicht eine glatte Oberfläche erhält.

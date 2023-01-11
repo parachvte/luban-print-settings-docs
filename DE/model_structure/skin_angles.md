@@ -1,16 +1,16 @@
-Top/Bottom Line Directions
+Richtungen der oberen/unteren Zeile
 ====
-### **Description**
-This setting allows you to change the direction in which the lines of the top and bottom are printed. This setting applies to both Lines and Zigzag patterns.
+### **Beschreibung**
+Mit dieser Einstellung können Sie die Richtung ändern, in der die Zeilen oben und unten gedruckt werden. Diese Einstellung gilt sowohl für Linien- als auch für Zickzackmuster.
 
-You can specify a comma-separated list of angles (in degrees), and the lines will alternate directions per layer. For example, you can set **[0,90,180,270]**, and the lines will rotate by 90Â° per layer.
+Sie können eine durch Kommas getrennte Liste von Winkeln (in Grad) angeben, und die Linien wechseln die Richtung pro Ebene. Sie können beispielsweise **[0,90,180,270]** einstellen, und die Linien werden pro Ebene um 90° gedreht.
 
-![Lines pattern with 0Â°, 60Â° and 120Â° angles alternating](../images/skin_angles.gif)
+![Linienmuster mit 0°, 60° und 120° Winkeln im Wechsel](../images/skin_angles.gif)
 
-By default, lines are printed in the two diagonal directions. For Cartesian gantry systems this is the most accurate, because the printer can use both the X and Y motors to accelerate the nozzle when turning around for the next line.
+Standardmäßig werden Linien in den beiden diagonalen Richtungen gedruckt. Für kartesische Portalsysteme ist dies am genauesten, da der Drucker sowohl den X- als auch den Y-Motor verwenden kann, um die Düse zu beschleunigen, wenn er für die nächste Zeile umdreht.
 
-### **Influence**
-There can be several reasons to change these directions:
-* To achieve an optical effect.
-* To optimise strength.
-* To reduce overhang. You can also choose a direction that is perpendicular to the infill. This can minimise overhang over infill and achieve a better top surface quality.
+### **Einfluss**
+Es kann mehrere Gründe geben, diese Richtungen zu ändern:
+* Um einen optischen Effekt zu erzielen.
+* Um die Kraft zu optimieren.
+* Um den Überhang zu reduzieren. Sie können auch eine senkrecht zur Füllung verlaufende Richtung wählen. Dadurch kann der Überhang über die Füllung minimiert und eine bessere Oberflächenqualität erreicht werden.

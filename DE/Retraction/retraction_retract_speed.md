@@ -1,11 +1,9 @@
-Retraction Retract Speed
+Rückzug Rückzugsgeschwindigkeit
 ====
-### **Description**
-Retraction Retract Speed is the speed at which the material is pulled backward from the nozzle chamber during a retraction.
+### **Beschreibung**
+Rückzug Rückzugsgeschwindigkeit ist die Geschwindigkeit, mit der das Material während eines Rückzugs aus der Düsenkammer zurückgezogen wird.
 
-### **Usage**
-It is recommended to set the Retraction Retract Speed as high as possible without grinding the material at the feeder. Moving the filament at greater speed makes the nozzle stand still for a shorter amount of time, which reduces the size of the blob in the location where it retracts and slightly reduces printing time.
+### **Verwendung**
+Es wird empfohlen, die Retraction Retract Speed so hoch wie möglich einzustellen, ohne das Material am Feeder zu schleifen. Wenn Sie das Filament mit höherer Geschwindigkeit bewegen, bleibt die Düse kürzer stehen, wodurch die Größe des Blobs an der Stelle, an der es sich zurückzieht, verringert und die Druckzeit geringfügig verkürzt wird.
 
-If the speed is set too high however, the force exerted by the feeder will be so high that the feeder wheel will start to grind into the filament. This reduces the reliability of the print.
-
-
+Wenn die Geschwindigkeit jedoch zu hoch eingestellt ist, wird die vom Feeder ausgeübte Kraft so groß, dass das Feederrad beginnt, in das Filament zu schleifen. Dies verringert die Zuverlässigkeit des Drucks.

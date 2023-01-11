@@ -1,10 +1,10 @@
-Prime Tower Acceleration
+Prime-Tower-Beschleunigung
 ====
-### **Description**
-This setting controls how fast the nozzle accelerates into different directions while printing the prime tower.
+### **Beschreibung**
+Diese Einstellung steuert, wie schnell die Düse beim Drucken des Prime Tower in verschiedene Richtungen beschleunigt.
 
-### **Influence**
-Increasing this setting allows the extrusion to be more constant, allowing for better priming. A higher acceleration rate for prime tower also reduces printing time. However, the prime tower may topple more easily if the acceleration rate gets very high and the printer vibrates a lot during its printing.
+### **Einfluss**
+Durch Erhöhen dieser Einstellung wird die Extrusion konstanter, was eine bessere Grundierung ermöglicht. Eine höhere Beschleunigungsrate für Prime Tower reduziert auch die Druckzeit. Der Prime Tower kann jedoch leichter umkippen, wenn die Beschleunigungsrate sehr hoch wird und der Drucker während des Druckens stark vibriert.
 
-### **Usage**
-The Prime Tower Acceleration can be set to a different rate than the rest of the print.
+### **Verwendung**
+Die Prime Tower-Beschleunigung kann auf eine andere Rate als der Rest des Drucks eingestellt werden.

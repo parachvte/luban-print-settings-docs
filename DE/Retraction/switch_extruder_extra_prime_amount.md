@@ -1,11 +1,10 @@
-Nozzle Switch Extra Prime Amount
+Nozzle Switch Extra-Prime-Menge
 ====
-### **Description**
-This setting allows you to configure the printer to purge a bit of extra material every time when the extruder is switched back. It is intended to restore the pressure on the nozzle after it has been oozing while other extruders have been printing or during an extruder switch.
+### **Beschreibung**
+Mit dieser Einstellung können Sie den Drucker so konfigurieren, dass jedes Mal, wenn der Extruder zurückgeschaltet wird, etwas zusätzliches Material entfernt wird. Es soll den Druck an der Düse wiederherstellen, nachdem sie ausgetreten ist, während andere Extruder gedruckt haben, oder während eines Extruderwechsels.
 
-### **Influence**
-While other extruders are printing, this extruder will have been waiting on stand-by. During this time though, it will ooze material. That loss of material can be compensated for by pushing through some extra material. This puts the pressure back in the nozzle chamber. The material that was oozed out will still be hanging under nozzle tip though, so unless a [prime tower](prime_tower_enable.md) or [ooze shield](ooze_shield_enabled.md) is used, it will end up on the side of your print. 
+### **Einfluss**
+Während andere Extruder drucken, hat dieser Extruder auf Standby gewartet. Während dieser Zeit wird es jedoch Material sickern. Dieser Materialverlust kann durch etwas zusätzliches Material kompensiert werden. Dadurch wird der Druck in der Düsenkammer wieder hergestellt. Das herausgesickerte Material hängt jedoch immer noch unter der Düsenspitze. Wenn also kein [Prime Tower] (prime_tower_enable.md) oder [Ooze Shield] (ooze_shield_enabled.md) verwendet wird, landet es auf der Seite Ihres Drucks .
 
-### **Usage**
-This setting is configurable per extruder. The configured amount of material is purged before printing with the material.
-
+### **Verwendung**
+Diese Einstellung ist pro Extruder konfigurierbar. Die konfigurierte Materialmenge wird vor dem Bedrucken mit dem Material ausgespült.

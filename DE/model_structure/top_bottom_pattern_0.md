@@ -1,9 +1,9 @@
-Bottom Pattern Initial Layer
+Anfangsschicht des unteren Musters
 ====
-This setting configures which pattern will be used for the bottom side of the model where it rests directly on the build plate or the raft. The pattern for this layer is configured separately from the rest of the bottom layers.
+Diese Einstellung konfiguriert, welches Muster für die Unterseite des Modells verwendet wird, wo es direkt auf der Bauplatte oder dem Floß ruht. Das Muster für diese Schicht wird getrennt von den restlichen unteren Schichten konfiguriert.
 
-![The initial layer is printed with a concentric pattern, but the rest is the lines pattern](../images/top_bottom_pattern_0.gif)
+![Die erste Schicht wird mit einem konzentrischen Muster gedruckt, aber der Rest ist das Linienmuster](../images/top_bottom_pattern_0.gif)
 
-The concentric pattern tends to adhere much better to the build plate than other patterns, because the tension in the lines when they are shrinking is spread out in all directions. This prevents warping and improves the reliability of the print. Other patterns contract all in one direction.
+Das konzentrische Muster haftet in der Regel viel besser an der Bauplatte als andere Muster, da die Spannung in den Linien beim Schrumpfen in alle Richtungen verteilt wird. Dies verhindert ein Verziehen und verbessert die Zuverlässigkeit des Drucks. Andere Muster ziehen sich alle in eine Richtung zusammen.
 
-When printing with a raft, using the lines pattern tends to give a slightly stronger part. The lines are then also oriented such that they bridge the gaps between the raft lines well, creating a smoother bottom side.
+Beim Drucken mit einem Floß ergibt die Verwendung des Linienmusters tendenziell einen etwas stärkeren Teil. Die Linien sind dann auch so ausgerichtet, dass sie die Lücken zwischen den Floßlinien gut überbrücken, wodurch eine glattere Unterseite entsteht.
