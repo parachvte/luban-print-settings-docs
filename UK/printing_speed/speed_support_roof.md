@@ -1,7 +1,7 @@
 Швидкість друку даху опор
 ====
 
-Цей параметр налаштовує швидкість, з якою друкується верхня сторона опори, якщо [увімкнено друк даху опор](../support/support_interface_enable.md).
+Цей параметр налаштовує швидкість, з якою друкується верхня сторона опори, якщо [увімкнено друк даху опор](../support_adv/support_interface_enable.md).
 
 ![Various structures printed at different speeds](../images/speed_difference.png)
 

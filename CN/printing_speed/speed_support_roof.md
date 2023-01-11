@@ -1,6 +1,6 @@
 支撑顶板速度
 ====
-如果[支撑顶板已启用](../support/support_interface_enable.md)，则此设置可决定打印支撑顶部的速度。
+如果[支撑顶板已启用](../support_adv/support_interface_enable.md)，则此设置可决定打印支撑顶部的速度。
 
 ![Various structures printed at different speeds](../images/speed_difference.png)
 

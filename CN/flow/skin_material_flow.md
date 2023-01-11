@@ -10,5 +10,5 @@
 
 如果在顶部打印过程中出现挤出速率异常，建议检查[填充密度](../infill/infill_sparse_density.md)和[图案](../infill/infill_pattern.md)，或者检查[渐变填充](../infill/gradual_infill_steps.md)，以减少顶部需要桥接的距离。
 
-如果在底部打印过程中出现挤出速率异常，请检查支撑的[密度](../support/support_infill_rate.md)、[图案](../support/support_pattern.md)和[渐变填充](../support/gradual_support_infill_steps.md)。打印温度和打印速度对达到充分一致的挤出速率也很重要。
+如果在底部打印过程中出现挤出速率异常，请检查支撑的[密度](../support/support_infill_rate.md)、[图案](../support/support_pattern.md)和[渐变填充](../support_adv/gradual_support_infill_steps.md)。打印温度和打印速度对达到充分一致的挤出速率也很重要。
 
