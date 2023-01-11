@@ -1,17 +1,17 @@
-Support Roof Flow
+Unterstützung des Dachflusses
 ====
-### **Description**
-This setting adjusts the flow rate for the support roof. 
+### **Beschreibung**
+Diese Einstellung passt die Durchflussmenge für das Stützdach an.
 
-### **Usage**
-The flow rate for the support roof can be adjusted separately from the flow rate of the rest of the support.
+### **Verwendung**
+Die Durchflussmenge für das Stützendach kann getrennt von der Durchflussmenge der restlichen Stütze eingestellt werden.
 
-Adjusting the flow rate during the support roof is a stop gap method to fix problems with extrusion rate or adhesion between the model and support. The same effect can be achieved by adjusting the [line width](../resolution/support_roof_line_width.md) or [line spacing](../support/support_roof_line_distance.md) of the support roof, but adjusting the flow rate may be more intuitive.
+Das Anpassen der Durchflussrate während des Stützdachs ist eine Stop-Gap-Methode, um Probleme mit der Extrusionsrate oder der Haftung zwischen Modell und Stütze zu beheben. Der gleiche Effekt kann durch Einstellen des erreicht werden [Linienbreite](../resolution/support_roof_line_width.md) oder [line spacing](../support/support_roof_line_distance.md) des Stützdachs, aber das Einstellen der Durchflussrate kann intuitiver sein.
 
-If there is a problem with extrusion rate, it is better to look at the [printing speeds](../speed/speed_support_roof.md), [temperature](material_print_temperature.md) and [line width](../resolution/support_roof_line_width.md). Perhaps there is too great of a difference between the flow rate of the support roof and the other structures on the layer. Perhaps the line width is too thin to extrude properly. 
+Wenn es ein Problem mit der Extrusionsrate gibt, ist es besser, sich das anzusehen [Druckgeschwindigkeiten](../speed/speed_support_roof.md), [temperatur](material_print_temperature.md) und [Linienbreite](../resolution/support_roof_line_width.md). Möglicherweise besteht ein zu großer Unterschied zwischen der Strömungsgeschwindigkeit des Stützdachs und den anderen Strukturen auf der Schicht. Möglicherweise ist die Linienbreite zu dünn, um richtig zu extrudieren.
 
-If the interface is printed with a [different material](../support/support_interface_extruder_nr.md), a common problem is that the material that the interface is printed with doesn't get enough time to start flowing properly. This can be fixed by using a [prime tower](../dual/prime_tower_enable.md) or increasing the [area of the support roof](../support/support_roof_offset.md).
+Wenn die Schnittstelle mit a bedruckt ist [unterschiedliches Material](../support/support_interface_extruder_nr.md), Ein häufiges Problem ist, dass das Material, mit dem die Schnittstelle bedruckt ist, nicht genug Zeit bekommt, um richtig zu fließen. Dies kann mit A behoben werden [prime tower](../dual/prime_tower_enable.md) oder Erhöhung der [Bereich des Stützdaches](../support/support_roof_offset.md).
 
-If the support sticks too well to the model, adjusting the [line width](../resolution/support_roof_line_width.md) will usually be more effective since it also causes the lines to be closer together to achieve the same support infill density.
+Wenn die Stütze zu gut am Modell haftet, justieren Sie die [Linienbreite](../resolution/support_roof_line_width.md) ist in der Regel effektiver, da es auch dazu führt, dass die Linien näher beieinander liegen, um die gleiche Fülldichte der Stütze zu erreichen.
 
 

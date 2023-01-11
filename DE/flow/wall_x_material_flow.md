@@ -1,14 +1,14 @@
-Inner Wall(s) Flow
+Strömung der Innenwand(en).
 ====
-### **Description**
-This setting adjusts the flow rate for the inner walls.
+### **Beschreibung**
+Diese Einstellung passt die Durchflussrate für die Innenwände an.
 
-### **Usage**
-The flow rate for the inner walls can be adjusted separately from the flow rate of the outer wall. Adjusting the flow rate during the inner walls is a stop gap method to fix problems with extrusion rate or dimensional accuracy.
+### **Verwendung**
+Die Durchflussmenge für die Innenwände kann getrennt von der Durchflussmenge der Außenwand eingestellt werden. Das Anpassen der Durchflussrate während der Innenwände ist eine Notlösungsmethode, um Probleme mit der Extrusionsrate oder der Maßhaltigkeit zu beheben.
 
-If there is a problem with extrusion rate only during the inner walls, it is better to look at the [printing speeds](../speed/speed_wall_x.md) and [printing temperature](material_print_temperature.md). Perhaps the material doesn't get enough momentum out the nozzle and a greater print speed could help. Perhaps the [lines are too thin](../resolution/wall_line_width_x.md) to extrude properly. Perhaps the material is too cool or too hot.
+Wenn es ein Problem mit der Extrusionsrate nur während der Innenwände gibt, ist es besser, sich die anzuschauen [Druckgeschwindigkeiten](../speed/speed_wall_x.md) und [Drucktemperatur](material_print_temperature.md). Vielleicht bekommt das Material nicht genug Schwung aus der Düse und eine höhere Druckgeschwindigkeit könnte helfen. Vielleicht der [Linien sind zu dünn](../resolution/wall_line_width_x.md) richtig zu extrudieren. Vielleicht ist das Material zu kalt oder zu heiß.
 
-If there is a problem with dimensional accuracy, it is better to look at [line widths](../resolution/wall_line_width_x.md), [horizontal expansion](../shell/xy_offset.md) and the [printing order](../shell/outer_inset_first.md).
+Wenn es ein Problem mit der Maßhaltigkeit gibt, ist es besser, es sich anzusehen [Linienbreiten](../resolution/wall_line_width_x.md), [horizontale Ausdehnung](../shell/xy_offset.md) and the [Druckauftrag](../shell/outer_inset_first.md).
 
 
 

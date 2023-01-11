@@ -1,13 +1,12 @@
-Minimum Layer Time
+Minimale Schichtzeit
 ====
-### **Description**
-Minimum Layer Time configures the shortest duration of printing a layer that is allowed. The printer is not allowed to print a layer using any less time than this.
+### **Beschreibung**
+Minimale Schichtzeit konfiguriert die kürzeste zulässige Druckdauer einer Schicht. In kürzerer Zeit darf der Drucker eine Ebene nicht drucken.
 
-This ensures that a small layer has enough time to cool down and solidify before the next layer gets put on top of it, and therefore prevents sagging.
+Dies stellt sicher, dass eine kleine Schicht genug Zeit hat, sich abzukühlen und zu verfestigen, bevor die nächste Schicht darauf gelegt wird, und verhindert so ein Durchhängen.
+![Welche Lüftergeschwindigkeit wird wo verwendet](../images/cool_fan_speed.svg)
 
-![Which fan speed is used where](../images/cool_fan_speed.svg)
+### **Verwendung**
+Wenn eine Schicht so klein ist, dass das Drucken mit normaler Druckgeschwindigkeit weniger als die minimale Schichtzeit dauern würde, wird ihre tatsächliche Druckgeschwindigkeit verringert, sodass die Schicht immer noch die minimale Schichtzeit zum Drucken benötigt. Aber die Druckgeschwindigkeit wird nicht unter die reduziert [Mindestgeschwindigkeit](cool_min_speed.md) setting). Wenn das Drucken der Ebene mit der minimalen Geschwindigkeit weniger als die minimale Ebenenzeit dauern würde, wartet der Werkzeugkopf am Ende der Ebene, bis die minimale Ebenenzeit verstrichen ist.
 
-### **Usage**
-If a layer is so small that it would take less than the Minimum Layer Time to print at regular printing speed, then its actual printing speed will be reduced so that the layer still takes the Minimum Layer Time to print. But the printing speed will not be reduced below the [Minimum Speed](cool_min_speed.md) setting). If printing the layer at the minimum speed would take less than the Minimum Layer Time, the toolhead will wait at the end of the layer until the Minimum Layer Time has passed.
-
-For a layer that is printed with the minimum layer time, the toolhead will use the [Maximum Fan Speed](cool_fan_speed_max.md) so as to cool down the layer faster.
+Für eine Schicht, die mit der Mindestschichtzeit gedruckt wird, verwendet der Werkzeugkopf die[Maximale Lüftergeschwindigkeit](cool_fan_speed_max.md) um die Schicht schneller abzukühlen.

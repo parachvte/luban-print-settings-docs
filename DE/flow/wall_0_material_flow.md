@@ -1,15 +1,15 @@
-Outer Wall Flow
+Außenwandströmung
 ====
-### **Description**
-This setting adjusts the flow rate for the outer wall. 
+### **Beschreibung**
+Diese Einstellung passt die Durchflussrate für die Außenwand an.
 
-### **Usage**
-The flow rate for the outer wall can be adjusted separately from the flow rate of the inner walls.
+### **Verwendung**
+Die Durchflussmenge für die Außenwand kann getrennt von der Durchflussmenge der Innenwände eingestellt werden.
 
-Adjusting the flow rate during the outer wall is a stop gap method to fix problems with extrusion rate or dimensional accuracy. The same effect can also be achieved by adjusting the [Outer Wall Line Width](../resolution/wall_line_width_0.md) and [Outer Wall Inset](../shell/wall_0_inset.md) settings, but this setting could be a more intuitive way to tune initially.
+Das Anpassen der Durchflussrate während der Außenwand ist eine Lückenlösungsmethode, um Probleme mit der Extrusionsrate oder der Maßhaltigkeit zu beheben. Der gleiche Effekt kann auch durch Einstellen des erreicht werden[Linienbreite der Außenwand](../resolution/wall_line_width_0.md) und [Außenwandeinsatz](../shell/wall_0_inset.md) Einstellungen, aber diese Einstellung könnte eine intuitivere Art der anfänglichen Abstimmung sein.
 
-If there is a problem with extrusion rate during the outer wall, it is better to look at the [printing speeds](../speed/speed_wall_0.md) and [printing temperature](material_print_temperature.md). Perhaps the material doesn't get enough momentum out the nozzle and a greater print speed could help. Perhaps the lines are too thin to extrude properly. Perhaps the material is too cool or too hot.
+Wenn es ein Problem mit der Extrusionsrate während der Außenwand gibt, ist es besser, sich das anzusehen [Druckgeschwindigkeiten](../speed/speed_wall_0.md) und [Drucktemperatur](material_print_temperature.md). Vielleicht bekommt das Material nicht genug Schwung aus der Düse und eine höhere Druckgeschwindigkeit könnte helfen. Möglicherweise sind die Linien zu dünn, um richtig extrudiert zu werden. Vielleicht ist das Material zu kalt oder zu heiß.
 
-If there is a problem with dimensional accuracy, it is better to look at [line widths](../resolution/wall_line_width_0.md), [horizontal expansion](../shell/xy_offset.md) and the [printing order](../shell/outer_inset_first.md).
+Wenn es ein Problem mit der Maßhaltigkeit gibt, ist es besser, es sich anzusehen [Linienbreiten](../resolution/wall_line_width_0.md), [horizontale Ausdehnung](../shell/xy_offset.md) und der [Druckauftrag]shell/outer_inset_first.md).
 
 

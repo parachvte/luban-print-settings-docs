@@ -1,17 +1,16 @@
-Regular/Maximum Fan Speed Threshold
+Schwellwert für normale/maximale Lüftergeschwindigkeit
 ====
-### **Description**
-Regular/Maximum Fan Speed Threshold configures a threshold of the layer printing time to determine the fan speed used in the layer. 
+### **Beschreibung**
+Der normale/maximale Schwellenwert für Lüftergeschwindigkeit konfiguriert einen Schwellenwert für die Schichtdruckzeit, um die in der Schicht verwendete Lüftergeschwindigkeit zu bestimmen.
 
-* If the printing time of a layer is equal to or larger than the Regular/Maximum Fan Speed Threshold, then this layer will be printed with the Regular Fan Speed.
+* Wenn die Druckzeit einer Ebene gleich oder größer als der Schwellenwert für die normale/maximale Lüftergeschwindigkeit ist, wird diese Ebene mit der regulären Lüftergeschwindigkeit gedruckt.
 
-* If the printing time of a layer is smaller than the Regular/Maximum Fan Speed Threshold but larger than the Minimum Layer Time, then the fan speed of this layer is calculated as follows:
+* Wenn die Druckzeit einer Ebene kleiner als der reguläre/maximale Lüftergeschwindigkeitsschwellenwert, aber größer als die minimale Ebenenzeit ist, wird die Lüftergeschwindigkeit dieser Ebene wie folgt berechnet:
 
-    Fan Speed of the Layer = Maximum Fan Speed - (Maximum Fan Speed - Regular Fan Speed)/(Regular/Maximum Fan Speed Threshold - Minimum Layer Time) × (Printing Time of the Layer - Minimum Layer Time)
+     Lüftergeschwindigkeit der Ebene = Maximale Lüftergeschwindigkeit - (Maximale Lüftergeschwindigkeit - Normale Lüftergeschwindigkeit)/(Reguläre/Maximale Lüftergeschwindigkeitsschwelle - Minimale Ebenenzeit) × (Druckzeit der Ebene - Minimale Ebenenzeit)
 
-* If a layer is printed with the Minimum Layer Time, then this layer will be printed with the Maximum Fan Speed.
+* Wenn eine Schicht mit der minimalen Schichtzeit gedruckt wird, wird diese Schicht mit der maximalen Lüftergeschwindigkeit gedruckt.
+![Welche Lüftergeschwindigkeit wird wo verwendet](../images/cool_fan_speed.svg)
 
-![Which fan speed is used where](../images/cool_fan_speed.svg)
-
-### **Usage**
-If the printing time of a layer is short, the layer may not be able to cool down properly. That's why we need to increase the fan speed to ensure that the layer is solidified.
+### **Verwendung**
+Wenn die Druckzeit einer Schicht kurz ist, kann die Schicht möglicherweise nicht richtig abkühlen. Deshalb müssen wir die Lüftergeschwindigkeit erhöhen, um sicherzustellen, dass die Schicht verfestigt wird.
