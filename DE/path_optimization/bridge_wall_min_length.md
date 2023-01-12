@@ -1,0 +1,5 @@
+Mindestlänge der Brückenwand
+====
+Mit dieser Einstellung können Sie eine Mindestlänge für überbrückte Wände festlegen. Alle Wände, die kürzer als diese Mindestlänge sind, werden nicht als überbrückende, sondern nur als überhängende Wände betrachtet und mit den normalen Einstellungen zum Drucken dieser Wände gedruckt. Alle Wände, die länger als die minimale Brückenwandlänge nicht unterstützt werden, werden als überbrückend gekennzeichnet.
+
+Das Überbrücken kurzer Leitungsstücke ist oft unwirksam. Diese Leitungen werden sowieso nicht viel durchhängen, da sie nur eine kurze Distanz überbrücken müssen. Wenn jedoch die Überbrückungstechnik verwendet wird, werden auch die [Durchflussrate](bridge_wall_material_flow.md) und die [Geschwindigkeit](bridge_wall_speed.md) angepasst. Dadurch ändert sich die Geschwindigkeit, mit der die Düse aus der Düse fließt, wodurch in einigen Teilen eine Überextrusion und in anderen eine Unterextrusion entsteht. Durch das Herausfiltern von sehr kurzen Wandstücken wird die Durchflussrate für diese nicht unterbrochen, aber die Qualität der Überhänge wird immer noch besser für Stellen, an denen es wichtig ist, die Durchflussrate anzupassen.

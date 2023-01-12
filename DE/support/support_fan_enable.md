@@ -1,0 +1,5 @@
+Übersteuerung der Lüftergeschwindigkeit
+====
+Diese Einstellung bewirkt, dass sich die Lüfter am Werkzeugkopf mit einer anderen Geschwindigkeit drehen, während die Haut gedruckt wird, die auf der Stütze ruht. Die Geschwindigkeit, mit der sich die Lüfter drehen, wird durch die Einstellung [Supported Skin Fan Speed](support_supported_skin_fan_speed.md) bestimmt.
+
+Wenn das Modell Überhänge hat, möchten Sie, dass dies unterstützt wird. Der Teil, der gestützt wird, sollte auf der Stütze aufliegen, aber nicht daran haften bleiben. Wenn das Material zu heiß ist, hängt es stark durch und lehnt sich wirklich in die Stütze. Dadurch haftet es zu sehr an der Stütze und verringert auch die Genauigkeit des Überhangs. Mit dieser Einstellung können Sie die Lüftergeschwindigkeit für Teile erhöhen, bei denen das Modell auf der Unterlage ruht. Dadurch kühlt das Material schneller ab, wodurch das Modell weniger am Untergrund klebt und die Qualität der Überhänge verbessert wird.
