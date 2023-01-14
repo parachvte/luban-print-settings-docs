@@ -1,25 +1,25 @@
-Hautschichten der obersten Oberfläche
+Hautschichten der obersten OberflÃ¤che
 ====
 ### **Beschreibung**
-Obere Oberflächenhaut bezieht sich auf die obersten Schichten, die die Haut an der oberen Oberfläche des Drucks bilden. Top Surface Skin Layers konfiguriert, wie viele Schichten für die obere Oberflächenhaut des Drucks gedruckt werden.
+Obere OberflÃ¤chenhaut bezieht sich auf die obersten Schichten, die die Haut an der oberen OberflÃ¤che des Drucks bilden. Top Surface Skin Layers konfiguriert, wie viele Schichten fÃ¼r die obere OberflÃ¤chenhaut des Drucks gedruckt werden.
 
-Die oberen Oberflächenhautschichten sind Teil der oberen Schichten. Sie können jedoch andere Einstellungen für die Hautschichten der obersten Oberfläche als für die übrigen oberen Schichten konfigurieren.
+Die oberen OberflÃ¤chenhautschichten sind Teil der oberen Schichten. Sie kÃ¶nnen jedoch andere Einstellungen fÃ¼r die Hautschichten der obersten OberflÃ¤che als fÃ¼r die Ã¼brigen oberen Schichten konfigurieren.
 
-![Die oberste Schicht der Oberseite wird langsamer gedruckt (blau) als der Rest der Haut (grün)](../images/roofing_layer_count.png)
+![Die oberste Schicht der Oberseite wird langsamer gedruckt (blau) als der Rest der Haut (grÃ¼n)](../images/roofing_layer_count.png)
 
 ### **Verwendung**
-Indem Sie die Einstellungen für alle oberen Schichten anpassen, können Sie die Qualität der oberen Oberfläche verbessern, aber das kostet auch mehr Material und Zeit. Wenn Sie diese Einstellungen jedoch nur für die obersten oder zwei obersten Ebenen anpassen und die restlichen obersten Ebenen schneller drucken, können Sie einen ähnlichen Effekt mit weniger Material und Zeitaufwand erzielen.
+Indem Sie die Einstellungen fÃ¼r alle oberen Schichten anpassen, kÃ¶nnen Sie die QualitÃ¤t der oberen OberflÃ¤che verbessern, aber das kostet auch mehr Material und Zeit. Wenn Sie diese Einstellungen jedoch nur fÃ¼r die obersten oder zwei obersten Ebenen anpassen und die restlichen obersten Ebenen schneller drucken, kÃ¶nnen Sie einen Ã¤hnlichen Effekt mit weniger Material und Zeitaufwand erzielen.
 
-Anpassbare Einstellungen für die Skin der oberen Oberfläche:
-* [Oberflächenhaut-Extruder] (roofing_extruder_nr.md)
-* [Hautverlauf der oberen Oberfläche](../material/roofing_material_flow.md)
-* [Oberflächenhautgeschwindigkeit](../speed/speed_roofing.md)
-* [Oberflächenhautbeschleunigung](../speed/acceleration_roofing.md)
-* [Hautruck der oberen Oberfläche](../speed/jerk_roofing.md)
-* [Breite der Oberflächenhautlinie](../experimental/roofing_line_width.md)
-* [Oberflächenhautmuster](../experimental/roofing_pattern.md)
-* [Richtungen der Oberflächenhautlinie](../experimental/roofing_angles.md)
+Anpassbare Einstellungen fÃ¼r die Skin der oberen OberflÃ¤che:
+* [OberflÃ¤chenhaut-Extruder] (roofing_extruder_nr.md)
+* [Hautverlauf der oberen OberflÃ¤che](../material/roofing_material_flow.md)
+* [OberflÃ¤chenhautgeschwindigkeit](../speed/speed_roofing.md)
+* [OberflÃ¤chenhautbeschleunigung](../speed/acceleration_roofing.md)
+* [Hautruck der oberen OberflÃ¤che](../speed/jerk_roofing.md)
+* [Breite der OberflÃ¤chenhautlinie](../experimental/roofing_line_width.md)
+* [OberflÃ¤chenhautmuster](../experimental/roofing_pattern.md)
+* [Richtungen der OberflÃ¤chenhautlinie](../experimental/roofing_angles.md)
 
-Um eine schönere Oberfläche zu erzielen, versuchen Sie, die Geschwindigkeit zu reduzieren und den Ruck zu erhöhen.
+Um eine schÃ¶nere OberflÃ¤che zu erzielen, versuchen Sie, die Geschwindigkeit zu reduzieren und den Ruck zu erhÃ¶hen.
 
-Wenn die obere Oberfläche in einer anderen Farbe gedruckt wird (unter Verwendung der Einstellung [Top Surface Skin Extruder](roofing_extruder_nr.md)Einstellunegn), ist es oft notwendig, mehr als eine Schicht in der anderen Farbe zu drucken. Sonst schlägt die Originalfarbe noch durch.
+Wenn die obere OberflÃ¤che in einer anderen Farbe gedruckt wird (unter Verwendung der Einstellung [Top Surface Skin Extruder](roofing_extruder_nr.md)Einstellunegn), ist es oft notwendig, mehr als eine Schicht in der anderen Farbe zu drucken. Sonst schlÃ¤gt die Originalfarbe noch durch.

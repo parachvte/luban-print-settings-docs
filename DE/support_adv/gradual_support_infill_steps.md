@@ -12,4 +12,4 @@ Increasing the number of steps cause the density to be halved more and more, res
 
 Some of the support will be floating in mid-air. However in practice with most support patterns this will repair itself quickly as the layers can build up properly even on weakened lower layers. The intent of the [Gradual Support Infill Step Height](gradual_support_infill_step_height.md) is to allow sufficient time for the layers to repair themselves before the next gradual support step is piled on top.
 
-This setting is best combined with at least one [Support Wall Line](../support/support_wall_count.md). This gives the support lines something to hang on to, rather than being suspended in mid-air.
+This setting is best combined with at least one [Support Wall Line](support_wall_count.md). This gives the support lines something to hang on to, rather than being suspended in mid-air.

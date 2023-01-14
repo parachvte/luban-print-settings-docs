@@ -1,14 +1,14 @@
-Seam Corner Preference
+Nahtecke-Präferenz
 ====
-### **Description**
-With this setting you can control how the seams will be positioned relative to corners in your model.
+### **Beschreibung**
+Mit dieser Einstellung können Sie steuern, wie die Nähte relativ zu den Ecken in Ihrem Modell positioniert werden.
 
-Generally there are two options for where the seam can be placed: hidden in an inside corner, or exposed in an outside corner. Hiding the seam in an inside corner is generally preferable since the seam will hardly be visible there. But it is also possible to put it on an outside corner so that you can cut off the seam with a knife or sand it smooth with some sand paper, if some post-processing can be done on the part.
+Im Allgemeinen gibt es zwei Möglichkeiten, wo die Naht platziert werden kann: versteckt in einer Innenecke oder sichtbar in einer Außenecke. Das Verstecken der Naht in einer Innenecke ist im Allgemeinen vorzuziehen, da die Naht dort kaum sichtbar ist. Es ist aber auch möglich, es an einer Außenecke anzubringen, damit Sie die Naht mit einem Messer abschneiden oder mit etwas Schleifpapier glatt schleifen können, wenn das Teil etwas nachbearbeitet werden kann.
 
-### **Usage**
-The following options are available for this setting:
-* **None:** There is no preference for corners at all. The seam will be chosen to match the requirements for [Z Seam Alignment](z_seam_type.md) best.
-* **Hide Seam:** This will prefer to hide the seam in an inside corner. If Z Seam Alignment is set to "Sharpest Corner", the very innermost corner is always chosen. If Z Seam Alignment is set to "Shortest", it will choose an inside corner near the position at which the nozzle finishes the previous layer.
-* **Expose Seam:** This will prefer to expose the seam on an outside corner. If Z Seam Alignment is set to "Sharpest Corner", the very sharpest outer corner is always chosen. If it's set to "Shortest", it will choose an outside corner near the position at which the nozzle finishes the previous layer.
-* **Hide or Expose Seam:** This will place a seam on a sharp corner, be it an inside corner or outside, as long as it's not on a flat wall.
-* **Smart Hiding:** This will place the seam on a sharp corner just like "Hide or Expose Seam", but inside corners will be more preferable than outside corners if any inside corners are available in the contour. If there are no inside corners, it will choose an outside corner.
+### **Verwendung**
+Für diese Einstellung stehen folgende Optionen zur Verfügung:
+* **Keine:** Ecken werden überhaupt nicht bevorzugt. Die Naht wird so gewählt, dass sie den Anforderungen für [Z-Nahtausrichtung](z_seam_type.md) am besten entspricht.
+* **Naht verbergen:** Dadurch wird die Naht vorzugsweise in einer Innenecke versteckt. Wenn die Z-Naht-Ausrichtung auf "Schärfste Ecke" eingestellt ist, wird immer die innerste Ecke gewählt. Wenn die Z-Naht-Ausrichtung auf „Kürzeste“ eingestellt ist, wird eine Innenecke in der Nähe der Position ausgewählt, an der die Düse die vorherige Ebene beendet.
+* ** Naht freilegen: ** Dadurch wird die Naht vorzugsweise an einer Außenecke freigelegt. Wenn die Z-Naht-Ausrichtung auf "Schärfste Ecke" eingestellt ist, wird immer die allerschärfste äußere Ecke gewählt. Wenn es auf "Kürzeste" eingestellt ist, wird es eine äußere Ecke in der Nähe der Position wählen, an der die Düse die vorherige Ebene beendet.
+* **Naht verbergen oder freilegen:** Dadurch wird eine Naht an einer scharfen Ecke platziert, sei es eine Innenecke oder eine Außenecke, solange sie sich nicht an einer flachen Wand befindet.
+* **Smart Hiding:** Dadurch wird die Naht an einer scharfen Ecke platziert, genau wie bei "Naht verbergen oder freilegen", aber Innenecken sind Außenecken vorzuziehen, wenn Innenecken in der Kontur verfügbar sind. Wenn es keine Innenecken gibt, wird eine Außenecke gewählt.

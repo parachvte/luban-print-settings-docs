@@ -1,26 +1,26 @@
-Schichthöhe
+SchichthÃ¶he
 ====
 ### **Beschreibung**
-Der 3D-Drucker trägt Kunststoff schichtweise auf. Die Schichthöhe ist der wichtigste Faktor sowohl für die visuelle Qualität Ihres endgültigen Drucks als auch für die Druckzeit.
+Der 3D-Drucker trÃ¤gt Kunststoff schichtweise auf. Die SchichthÃ¶he ist der wichtigste Faktor sowohl fÃ¼r die visuelle QualitÃ¤t Ihres endgÃ¼ltigen Drucks als auch fÃ¼r die Druckzeit.
 
-![0.1mm Schichthöhe](../images/layer_height_0.1.png)
-![0.3mm Schichthöhe](../images/layer_height_0.3.png)
+![0.1mm SchichthÃ¶he](../images/layer_height_0.1.png)
+![0.3mm SchichthÃ¶he](../images/layer_height_0.3.png)
 
 ### **Einfluss**
-Das Ändern dieser Einstellung hat die folgenden Auswirkungen:
-* Dünnere Schichten erhöhen die visuelle Qualität des Drucks. Da die Schichten dünner sind, wird der Treppenstufeneffekt an den Schichtgrenzen reduziert. Außerdem liegen die Schichten näher beieinander und die Falten zwischen den Schichten werden kleiner, was zu einem insgesamt glatteren Finish führt.
-* Durch dünnere Schichten kann der Drucker mehr Details auf der Ober- und Unterseite Ihres Drucks erzeugen.
-* Dickere Schichten neigen dazu, den Druck stärker zu machen. Es gibt weniger Grenzen zwischen den Schichten, die tendenziell ein Schwachpunkt sind. Die dickeren Schichten werden nicht so stark scheren.
-* Dickere Schichten reduzieren die Druckzeit, da die Düse weniger horizontale Bewegungen ausführen muss.
+Das Ã„ndern dieser Einstellung hat die folgenden Auswirkungen:
+* DÃ¼nnere Schichten erhÃ¶hen die visuelle QualitÃ¤t des Drucks. Da die Schichten dÃ¼nner sind, wird der Treppenstufeneffekt an den Schichtgrenzen reduziert. AuÃŸerdem liegen die Schichten nÃ¤her beieinander und die Falten zwischen den Schichten werden kleiner, was zu einem insgesamt glatteren Finish fÃ¼hrt.
+* Durch dÃ¼nnere Schichten kann der Drucker mehr Details auf der Ober- und Unterseite Ihres Drucks erzeugen.
+* Dickere Schichten neigen dazu, den Druck stÃ¤rker zu machen. Es gibt weniger Grenzen zwischen den Schichten, die tendenziell ein Schwachpunkt sind. Die dickeren Schichten werden nicht so stark scheren.
+* Dickere Schichten reduzieren die Druckzeit, da die DÃ¼se weniger horizontale Bewegungen ausfÃ¼hren muss.
 
 ### **Verwendung**
 ----
-Viele Einstellungen hängen von der Layerhöhe ab. Da die Schichthöhe die Durchflussrate des Materials durch die Düse erheblich beeinflusst, ändern sich viele Parameter des Druckprozesses. Wenn Sie beispielsweise die Schichthöhe erhöhen, sollten Sie wahrscheinlich die Drucktemperatur leicht erhöhen, um den zusätzlichen Wärmeverlust auszugleichen. Die Temperatur wirkt sich dann auf die Flüssigkeit des Materials aus, was sich darauf auswirkt, wie scharf Ihre Ecken sein werden und welche Kühlung erforderlich ist, und so weiter. Es ist immer ratsam, mit einem vorgefertigten Qualitätsprofil zu beginnen, das Ihrem Drucker zur Verfügung steht und eine Schichthöhe hat, die Ihren Wünschen entspricht.
+Viele Einstellungen hÃ¤ngen von der LayerhÃ¶he ab. Da die SchichthÃ¶he die Durchflussrate des Materials durch die DÃ¼se erheblich beeinflusst, Ã¤ndern sich viele Parameter des Druckprozesses. Wenn Sie beispielsweise die SchichthÃ¶he erhÃ¶hen, sollten Sie wahrscheinlich die Drucktemperatur leicht erhÃ¶hen, um den zusÃ¤tzlichen WÃ¤rmeverlust auszugleichen. Die Temperatur wirkt sich dann auf die FlÃ¼ssigkeit des Materials aus, was sich darauf auswirkt, wie scharf Ihre Ecken sein werden und welche KÃ¼hlung erforderlich ist, und so weiter. Es ist immer ratsam, mit einem vorgefertigten QualitÃ¤tsprofil zu beginnen, das Ihrem Drucker zur VerfÃ¼gung steht und eine SchichthÃ¶he hat, die Ihren WÃ¼nschen entspricht.
 
-Sie können im benutzerdefinierten Modus eine gewünschte Schichthöhe auswählen, aber es sind auch vorgefertigte Profile mit verschiedenen Schichthöhen verfügbar. Sie können im empfohlenen Modus mithilfe eines Schiebereglers oder mithilfe des Dropdown-Widgets im benutzerdefinierten Modus aus Profilen für verschiedene Schichthöhen auswählen. Da diese Profile auch einige Parameter ändern, die von der Layer-Höhe abhängen, erreichen Sie auf diese Weise wahrscheinlich eine bessere Qualität.
+Sie kÃ¶nnen im benutzerdefinierten Modus eine gewÃ¼nschte SchichthÃ¶he auswÃ¤hlen, aber es sind auch vorgefertigte Profile mit verschiedenen SchichthÃ¶hen verfÃ¼gbar. Sie kÃ¶nnen im empfohlenen Modus mithilfe eines Schiebereglers oder mithilfe des Dropdown-Widgets im benutzerdefinierten Modus aus Profilen fÃ¼r verschiedene SchichthÃ¶hen auswÃ¤hlen. Da diese Profile auch einige Parameter Ã¤ndern, die von der Layer-HÃ¶he abhÃ¤ngen, erreichen Sie auf diese Weise wahrscheinlich eine bessere QualitÃ¤t.
 
-Zusätzliche Bemerkungen
+ZusÃ¤tzliche Bemerkungen
 ----
-Bei sehr geringen Schichthöhen könnten Sie an die Auflösungsgrenze Ihrer Z-Achse stoßen. Schlagen Sie die Schrittweite der Z-Achse Ihres Druckers nach und vergewissern Sie sich, dass die Schichthöhe ein Vielfaches der Schrittweite ist. Wenn die Schrittgröße und die Schichthöhe nicht richtig übereinstimmen, sind einige Schichten dicker als andere, was zu Streifenbildung führt.
+Bei sehr geringen SchichthÃ¶hen kÃ¶nnten Sie an die AuflÃ¶sungsgrenze Ihrer Z-Achse stoÃŸen. Schlagen Sie die Schrittweite der Z-Achse Ihres Druckers nach und vergewissern Sie sich, dass die SchichthÃ¶he ein Vielfaches der Schrittweite ist. Wenn die SchrittgrÃ¶ÃŸe und die SchichthÃ¶he nicht richtig Ã¼bereinstimmen, sind einige Schichten dicker als andere, was zu Streifenbildung fÃ¼hrt.
 
-**Beachten Sie, dass die Schichthöheneinstellung nicht für die Anfangsschicht des Drucks oder für die Raft-Schichten gilt, die ihre eigenen Einstellungen haben, um die Schichthöhe separat anzupassen. Bei der Verwendung von adaptiven Ebenen wird diese Einstellung für die Ebenenhöhe als Basislinie verwendet, aber die tatsächliche Ebenenhöhe kann etwas variieren.**
+**Beachten Sie, dass die SchichthÃ¶heneinstellung nicht fÃ¼r die Anfangsschicht des Drucks oder fÃ¼r die Raft-Schichten gilt, die ihre eigenen Einstellungen haben, um die SchichthÃ¶he separat anzupassen. Bei der Verwendung von adaptiven Ebenen wird diese Einstellung fÃ¼r die EbenenhÃ¶he als Basislinie verwendet, aber die tatsÃ¤chliche EbenenhÃ¶he kann etwas variieren.**

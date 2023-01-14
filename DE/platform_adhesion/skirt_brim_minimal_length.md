@@ -1,10 +1,9 @@
-Skirt/Brim Minimum Length
+Mindestlänge Rock/Krempe
 ====
-### **Description**
-The skirt/brim length refers to the total length of extrusion required to prime the nozzle when printing the skirt or brim. This setting makes sure that the nozzle is primed enough before starting a print, by adding more skirt or brim lines than originally requested by the [Skirt Line Count](skirt_line_count.md) or [Brim Line Count](brim_line_count.md) setting. If the minimum length in this setting is not reached by the total circumference of all the skirt or brim lines added together, more contours will be added.
+### **Beschreibung**
+Die Schürzen-/Randlänge bezieht sich auf die Gesamtlänge der Extrusion, die zum Vorbereiten der Düse beim Drucken der Schürze oder des Randes erforderlich ist. Diese Einstellung stellt sicher, dass die Düse ausreichend vorbereitet ist, bevor ein Druck gestartet wird, indem mehr Rock- oder Krempenlinien hinzugefügt werden, als ursprünglich von der Einstellung [Skirt Line Count](skirt_line_count.md) oder [Brim Line Count](brim_line_count.md) angefordert wurde. Wenn die Mindestlänge in dieser Einstellung nicht durch den Gesamtumfang aller Rock- oder Krempenlinien zusammengenommen erreicht wird, werden weitere Konturen hinzugefügt.
 
-The value of this setting should be set such that the volume extruded by this minimal length is just enough to prime the nozzle before a print.
+Der Wert dieser Einstellung sollte so eingestellt werden, dass das durch diese minimale Länge extrudierte Volumen gerade ausreicht, um die Düse vor einem Druck vorzubereiten.
 
-### **Usage**
-Placing tiny objects at the edge of your printer when this setting is large can cause the printer to move outside the working area.**
-
+### **Verwendung**
+Das Platzieren winziger Objekte am Rand Ihres Druckers, wenn diese Einstellung groß ist, kann dazu führen, dass sich der Drucker aus dem Arbeitsbereich bewegt.**

@@ -1,14 +1,14 @@
-Lücken zwischen Wänden füllen
+LÃ¼cken zwischen WÃ¤nden fÃ¼llen
 ====
 ### **Beschreibung**
-Viele Drucke enthalten Teile, die dünner sind als die gewünschte Wandstärke. Es gibt keinen Platz, um eine weitere komplette Wandlinie in einem so engen Bereich zu platzieren, wodurch eine Lücke zwischen den Wänden verbleibt. Wenn diese Einstellung aktiviert ist, werden Lücken zwischen den Wänden mit einem Fleck zusätzlichen Materials aufgefüllt.
+Viele Drucke enthalten Teile, die dÃ¼nner sind als die gewÃ¼nschte WandstÃ¤rke. Es gibt keinen Platz, um eine weitere komplette Wandlinie in einem so engen Bereich zu platzieren, wodurch eine LÃ¼cke zwischen den WÃ¤nden verbleibt. Wenn diese Einstellung aktiviert ist, werden LÃ¼cken zwischen den WÃ¤nden mit einem Fleck zusÃ¤tzlichen Materials aufgefÃ¼llt.
 
-![Eine lange, dünne Lücke zwischen gegenüberliegenden Wänden ist auf der linken und rechten Seite des Bildes zu sehen](../images/fill_perimeter_gaps_disabled.png)
-![Die Lücken zwischen den Wänden werden mit Material gefüllt](../images/fill_perimeter_gaps_enabled.png)
+![Eine lange, dÃ¼nne LÃ¼cke zwischen gegenÃ¼berliegenden WÃ¤nden ist auf der linken und rechten Seite des Bildes zu sehen](../images/fill_perimeter_gaps_disabled.png)
+![Die LÃ¼cken zwischen den WÃ¤nden werden mit Material gefÃ¼llt](../images/fill_perimeter_gaps_enabled.png)
 
 ### **Verwendung**
-Es gibt zwei häufige Fälle, in denen das Füllen von Lücken nützlich ist:
-* Zwischen zwei gegenüberliegenden Wänden in dünnen Drucken (wie in den Abbildungen oben gezeigt). Das Füllen dieser Lücken erhöht die Festigkeit des Teils an diesen Stellen, da sich die beiden gegenüberliegenden Wände nicht mehr getrennt voneinander bewegen können.
-* In sehr scharfen Ecken gibt es eine Lücke innerhalb der Außenwand, wo die Innenwand zu dick ist, um in die Ecke zu reichen. Das Füllen dieser Lücken erhöht die Festigkeit, lässt aber auch die Außenwand einheitlicher aussehen.
+Es gibt zwei hÃ¤ufige FÃ¤lle, in denen das FÃ¼llen von LÃ¼cken nÃ¼tzlich ist:
+* Zwischen zwei gegenÃ¼berliegenden WÃ¤nden in dÃ¼nnen Drucken (wie in den Abbildungen oben gezeigt). Das FÃ¼llen dieser LÃ¼cken erhÃ¶ht die Festigkeit des Teils an diesen Stellen, da sich die beiden gegenÃ¼berliegenden WÃ¤nde nicht mehr getrennt voneinander bewegen kÃ¶nnen.
+* In sehr scharfen Ecken gibt es eine LÃ¼cke innerhalb der AuÃŸenwand, wo die Innenwand zu dick ist, um in die Ecke zu reichen. Das FÃ¼llen dieser LÃ¼cken erhÃ¶ht die Festigkeit, lÃ¤sst aber auch die AuÃŸenwand einheitlicher aussehen.
 
-Es ist ratsam, genau darauf zu achten, welche Fahrbewegungen erforderlich sind, wenn dies aktiviert ist. Die Lückenfüllung erfolgt, nachdem die Wände fertig bedruckt sind.
+Es ist ratsam, genau darauf zu achten, welche Fahrbewegungen erforderlich sind, wenn dies aktiviert ist. Die LÃ¼ckenfÃ¼llung erfolgt, nachdem die WÃ¤nde fertig bedruckt sind.

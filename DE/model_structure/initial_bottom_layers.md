@@ -1,13 +1,13 @@
-Anfängliche untere Schichten
+AnfÃ¤ngliche untere Schichten
 ====
 ### **Beschreibung**
-Anfängliche untere Schichten beziehen sich auf die untersten Schichten des Drucks, die auf der Bauplatte ruhen. Die Einstellung Initial Bottom Layers konfiguriert die Anzahl der anfänglichen unteren Layer.
+AnfÃ¤ngliche untere Schichten beziehen sich auf die untersten Schichten des Drucks, die auf der Bauplatte ruhen. Die Einstellung Initial Bottom Layers konfiguriert die Anzahl der anfÃ¤nglichen unteren Layer.
 
-Die anfänglichen unteren Schichten sind Teil der unteren Schichten. Sie können jedoch andere Einstellungen für die anfänglichen unteren Ebenen als für die restlichen unteren Ebenen konfigurieren.
+Die anfÃ¤nglichen unteren Schichten sind Teil der unteren Schichten. Sie kÃ¶nnen jedoch andere Einstellungen fÃ¼r die anfÃ¤nglichen unteren Ebenen als fÃ¼r die restlichen unteren Ebenen konfigurieren.
 
 ### **Verwendung**
-Indem Sie die Einstellungen für alle unteren Schichten anpassen, können Sie den Druck wasserdicht machen, die Füllung unsichtbar machen und die Modellfestigkeit verbessern. Allerdings kostet das auch mehr Material und Zeit.
+Indem Sie die Einstellungen fÃ¼r alle unteren Schichten anpassen, kÃ¶nnen Sie den Druck wasserdicht machen, die FÃ¼llung unsichtbar machen und die Modellfestigkeit verbessern. Allerdings kostet das auch mehr Material und Zeit.
 
-Wenn Sie diese Einstellungen nur für die unterste Schicht oder zwei anpassen, können Sie immer noch ein wasserdichtes Modell mit wenig Durchscheineffekt der Füllung erhalten. Obwohl die Stärke des Drucks beeinträchtigt wird, kann viel Zeit und Material gespart werden.
+Wenn Sie diese Einstellungen nur fÃ¼r die unterste Schicht oder zwei anpassen, kÃ¶nnen Sie immer noch ein wasserdichtes Modell mit wenig Durchscheineffekt der FÃ¼llung erhalten. Obwohl die StÃ¤rke des Drucks beeintrÃ¤chtigt wird, kann viel Zeit und Material gespart werden.
 
-Wenn Festigkeit kein Problem ist, ist es daher sinnvoll, anfängliche untere Schichten zu konfigurieren, um die Qualität Ihrer Druckunterseite zu verbessern.
+Wenn Festigkeit kein Problem ist, ist es daher sinnvoll, anfÃ¤ngliche untere Schichten zu konfigurieren, um die QualitÃ¤t Ihrer Druckunterseite zu verbessern.

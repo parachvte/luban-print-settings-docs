@@ -1,5 +1,5 @@
-Düsenschalter Einfahrgeschwindigkeit
+DÃ¼senschalter Einfahrgeschwindigkeit
 ====
-Während sich eine Düse im Standby-Modus befindet, wird das Material von der Hitzezone ferngehalten, um es vor Zersetzung zu schützen. Diese Einstellung konfiguriert, wie schnell das Material beim Wechsel zu einem anderen Extruder aus der Düsenkammer zurückgezogen wird.
+WÃ¤hrend sich eine DÃ¼se im Standby-Modus befindet, wird das Material von der Hitzezone ferngehalten, um es vor Zersetzung zu schÃ¼tzen. Diese Einstellung konfiguriert, wie schnell das Material beim Wechsel zu einem anderen Extruder aus der DÃ¼senkammer zurÃ¼ckgezogen wird.
 
-Da der Rückzug für den Extruderschalter länger ist, kann diese Einstellung getrennt von der Geschwindigkeit des normalen Rückzugs konfiguriert werden. Eine Erhöhung der Einstellung kann das Auslaufen reduzieren, birgt jedoch die Möglichkeit, dass das Filament schleift, was dazu führen kann, dass die Zuführung das Filament nicht mehr greift.
+Da der RÃ¼ckzug fÃ¼r den Extruderschalter lÃ¤nger ist, kann diese Einstellung getrennt von der Geschwindigkeit des normalen RÃ¼ckzugs konfiguriert werden. Eine ErhÃ¶hung der Einstellung kann das Auslaufen reduzieren, birgt jedoch die MÃ¶glichkeit, dass das Filament schleift, was dazu fÃ¼hren kann, dass die ZufÃ¼hrung das Filament nicht mehr greift.

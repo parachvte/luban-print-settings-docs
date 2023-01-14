@@ -1,5 +1,5 @@
-Retract at Layer Change
+Bei Layerwechsel zurückziehen
 ====
-If enabled, the filament will be retracted when moving to the height of the next layer.
+Wenn aktiviert, wird das Filament zurückgezogen, wenn es sich auf die Höhe der nächsten Schicht bewegt.
 
-This can be used to reduce the Z seam on the surface. However, it will only be effective if the retraction distance is very low. If the retraction distance is high, the duration of the retraction will allow the material to ooze so much that it counteracts the retraction.
+Dies kann verwendet werden, um die Z-Naht auf der Oberfläche zu reduzieren. Es ist jedoch nur wirksam, wenn der Rückzugsweg sehr gering ist. Wenn der Rückzugsabstand groß ist, wird das Material durch die Dauer des Rückzugs so stark herausquellen, dass es dem Rückzug entgegenwirkt.

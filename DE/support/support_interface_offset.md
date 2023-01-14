@@ -1,11 +1,11 @@
-Support Interface Horizontal Expansion
+Unterstützung der horizontalen Erweiterung der Schnittstelle
 ====
-This setting causes the support interface to be expanded in all directions horizontally into the rest of the support.
+Diese Einstellung bewirkt, dass die Support-Schnittstelle in alle Richtungen horizontal in den Rest des Supports erweitert wird.
 
-![The support interface is expanded into the support](../images/support_interface_offset.png)
+![Das Support-Interface wird zum Support erweitert](../images/support_interface_offset.png)
 
-There are two use cases for this mechanism.
-* If the support interface ends directly at the edge of the overhang that needs to be supported, the build material can sag over the edge. Making the interface expand a bit further will prevent this.
-* Some materials typically used to print support with extrude badly at low flow rates or need some time to get going. Small areas of support interface don't jive well with those materials. This setting can literally make the areas larger so that there is more space to extrude these materials.
+Es gibt zwei Anwendungsfälle für diesen Mechanismus.
+* Wenn die Stützschnittstelle direkt an der Kante des abzustützenden Überhangs endet, kann das Baumaterial über die Kante absacken. Wenn Sie die Schnittstelle etwas weiter erweitern, wird dies verhindert.
+* Einige Materialien, die normalerweise zum Drucken von Stützmaterial mit Extrusion verwendet werden, lassen sich bei niedrigen Durchflussraten schlecht verarbeiten oder brauchen einige Zeit, um in Gang zu kommen. Kleine Bereiche der Unterstützungsschnittstelle passen nicht gut zu diesen Materialien. Diese Einstellung kann die Bereiche buchstäblich vergrößern, sodass mehr Platz zum Extrudieren dieser Materialien vorhanden ist.
 
-Due to technical limitations, the support interface cannot be expanded beyond the support itself.
+Aufgrund technischer Einschränkungen kann die Support-Schnittstelle nicht über den Support hinaus erweitert werden.

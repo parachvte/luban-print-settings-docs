@@ -3,17 +3,17 @@ Anzahl der Wandlinien
 ### **Beschreibung**
 Diese Einstellung bestimmt, wie viele Wandkonturen auf jeder Ebene gezeichnet werden.
 
-![Zwei Wände](../images/wall_thickness_0.8.png)
-![Vier Wände](../images/wall_thickness_1.6.png)
+![Zwei WÃ¤nde](../images/wall_thickness_0.8.png)
+![Vier WÃ¤nde](../images/wall_thickness_1.6.png)
 
-Die Wände eines Drucks bestehen aus der Außenwand und den Innenwänden. Normalerweise gibt es nur eine Außenwand, aber mehrere Innenwände. Daher passt es letztendlich die Anzahl der Innenwände an, um die gewünschte Anzahl der Wandlinien zu erreichen.
+Die WÃ¤nde eines Drucks bestehen aus der AuÃŸenwand und den InnenwÃ¤nden. Normalerweise gibt es nur eine AuÃŸenwand, aber mehrere InnenwÃ¤nde. Daher passt es letztendlich die Anzahl der InnenwÃ¤nde an, um die gewÃ¼nschte Anzahl der Wandlinien zu erreichen.
 
 ### **Einfluss**
-Die Anzahl der Wände ist ein wichtiger Faktor dafür, wie stark der Druck sein wird. Da die Wände benachbart sind, können sie sich gegenseitig verstärken, was zu einem stärkeren Teil führt. Bei größeren Drucken kann dies je nach Form ein viel effektiverer Weg sein, um ein starkes Objekt zu erhalten, als die Füllung anzupassen.
+Die Anzahl der WÃ¤nde ist ein wichtiger Faktor dafÃ¼r, wie stark der Druck sein wird. Da die WÃ¤nde benachbart sind, kÃ¶nnen sie sich gegenseitig verstÃ¤rken, was zu einem stÃ¤rkeren Teil fÃ¼hrt. Bei grÃ¶ÃŸeren Drucken kann dies je nach Form ein viel effektiverer Weg sein, um ein starkes Objekt zu erhalten, als die FÃ¼llung anzupassen.
 
-Die Erhöhung der Anzahl der Wände wird:
-* Erhöhen Sie die Stärke des Drucks erheblich.
-* Reduziert den Durchscheineffekt, wo das Füllmuster auf der Außenseite sichtbar ist.
-* Verbessern Sie die Stabilität des Überhangs.
+Die ErhÃ¶hung der Anzahl der WÃ¤nde wird:
+* ErhÃ¶hen Sie die StÃ¤rke des Drucks erheblich.
+* Reduziert den Durchscheineffekt, wo das FÃ¼llmuster auf der AuÃŸenseite sichtbar ist.
+* Verbessern Sie die StabilitÃ¤t des Ãœberhangs.
 * Machen Sie das Modell wasserdichter.
-* Erhöhen Sie die Druckzeit und den Materialverbrauch des Drucks erheblich.
+* ErhÃ¶hen Sie die Druckzeit und den Materialverbrauch des Drucks erheblich.

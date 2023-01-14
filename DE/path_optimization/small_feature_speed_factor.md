@@ -1,7 +1,7 @@
-Small Feature Speed
+Kleine Feature-Geschwindigkeit
 ====
-Contours that are shorter than the [Small Feature Max Length](small_feature_max_length.md) can be printed at a reduced speed. With this setting, you can indicate the speed at which these contours should be printed, as a factor of their [normal printing speed](../speed/speed_wall.md).
+Konturen, die kürzer als die [Max. Länge kleiner Merkmale](small_feature_max_length.md) sind, können mit reduzierter Geschwindigkeit gedruckt werden. Mit dieser Einstellung können Sie die Geschwindigkeit angeben, mit der diese Konturen gedruckt werden sollen, als Faktor ihrer [normalen Druckgeschwindigkeit] (../speed/speed_wall.md).
 
-During the printing of small holes, the bead tends to get pulled along with the nozzle into the corner. If the corner is very sharp, as with small holes, this has the effect of making the hole smaller. When printing more slowly, this pull is reduced because the material has more time to settle in and because the mechanical pull is simply lower.
+Beim Drucken kleiner Löcher neigt die Raupe dazu, mit der Düse in die Ecke gezogen zu werden. Wenn die Ecke sehr scharf ist, wie bei kleinen Löchern, hat dies den Effekt, dass das Loch kleiner wird. Beim langsameren Drucken verringert sich dieser Zug, weil das Material mehr Zeit zum Einziehen hat und weil der mechanische Zug einfach geringer ist.
 
-Reducing the speed for these small features will make the dimensions more accurate. However it will also increase the printing time slightly. Luckily, since these contours are small by definition, the total added print time is not usually very significant.
+Durch Verringern der Geschwindigkeit für diese kleinen Merkmale werden die Bemaßungen genauer. Allerdings wird dadurch auch die Druckzeit etwas verlängert. Da diese Konturen definitionsgemäß klein sind, ist die insgesamt hinzugefügte Druckzeit glücklicherweise normalerweise nicht sehr bedeutend.

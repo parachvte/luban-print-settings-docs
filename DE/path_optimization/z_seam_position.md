@@ -1,12 +1,12 @@
-Z Seam Position
+Z-Nahtposition
 ====
-If Z Seam Alignment is set to User Specified, the seam will be placed in the relative position specified by this setting.
+Wenn die Z-Naht-Ausrichtung auf Benutzerdefiniert eingestellt ist, wird die Naht an der durch diese Einstellung festgelegten relativen Position platziert.
 
-![The seam is located on the left side](../images/z_seam_x_left.png)
-![The seam is located on the back side](../images/z_seam_y_back.png)
-![The seam is located on the right side](../images/z_seam_x_right.png)
-![The seam is located on the front side](../images/z_seam_y_front.png)
+![Die Naht befindet sich auf der linken Seite](../images/z_seam_x_left.png)
+![Die Naht befindet sich auf der Rückseite](../images/z_seam_y_back.png)
+![Die Naht befindet sich auf der rechten Seite](../images/z_seam_x_right.png)
+![Die Naht befindet sich auf der Vorderseite](../images/z_seam_y_front.png)
 
-Eight options are available for you to adjust the position of the Z seam relative to the model. It is best to choose a location where the seam will be hard to see in the final print. A location that is in an inside corner will be a good choice. But if such a corner is not available, you can also choose a position that allows the seam to be easily cut off or sanded down in post-processing.
+Acht Optionen stehen Ihnen zur Verfügung, um die Position der Z-Naht relativ zum Modell anzupassen. Wählen Sie am besten eine Stelle, an der die Naht im endgültigen Druck schwer zu erkennen ist. Ein Standort in einer Innenecke ist eine gute Wahl. Sollte eine solche Ecke aber nicht vorhanden sein, können Sie auch eine Position wählen, die ein einfaches Abschneiden oder Abschleifen der Naht in der Nachbearbeitung ermöglicht.
 
-The seam is actually placed as close as possible to the position indicated by the [Z Seam X](z_seam_x.md) and [Z Seam Y](z_seam_y.md) settings. This is a convenience setting that sets those coordinates more intuitively.
+Die Naht wird tatsächlich so nah wie möglich an der Position platziert, die durch die Einstellungen [Z-Naht X](z_seam_x.md) und [Z-Naht Y](z_seam_y.md) angegeben ist. Dies ist eine praktische Einstellung, die diese Koordinaten intuitiver einstellt.

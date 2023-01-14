@@ -1,11 +1,11 @@
-Top Surface Skin Jerk
+Hautruck an der oberen Oberfläche
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while printing the top surfaces. 
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse beim Drucken der oberen Flächen durch Ecken fahren kann.
 
-### **Influence**
-* Increasing this setting will prevent the nozzle from coming to a standstill in the corners between adjacent top surface lines, allowing the line width to be more consistent overall. This has a greater effect if the line width is much smaller than the nozzle size, which is a common use case for the top surface. 
-* While increasing this setting too much can cause the build plate to vibrate, creating an uneven surface. It could even cause the motors to lose steps, which would cause a layer shift.
+### **Einfluss**
+* Durch Erhöhen dieser Einstellung wird verhindert, dass die Düse in den Ecken zwischen benachbarten Oberflächenlinien zum Stillstand kommt, wodurch die Linienbreite insgesamt gleichmäßiger wird. Dies hat einen größeren Effekt, wenn die Linienbreite viel kleiner als die Düsengröße ist, was ein häufiger Anwendungsfall für die obere Oberfläche ist.
+* Eine zu starke Erhöhung dieser Einstellung kann dazu führen, dass die Bauplatte vibriert und eine unebene Oberfläche entsteht. Es könnte sogar dazu führen, dass die Motoren Schritte verlieren, was zu einer Schichtverschiebung führen würde.
 
-### **Usage**
-This setting can be configured separately from the rest of the top side.
+### **Verwendung**
+Diese Einstellung kann separat vom Rest der Oberseite konfiguriert werden.

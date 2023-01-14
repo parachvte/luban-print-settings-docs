@@ -1,13 +1,13 @@
-Initial Layer Line Width
+Anfangslinienbreite der Ebene
 ====
-### **Description**
-This makes the lines in the initial layer wider or thinner by a certain ratio.
+### **Beschreibung**
+Dadurch werden die Linien in der Anfangsschicht um ein bestimmtes Verhältnis breiter oder dünner.
 
-![The lines in the initial layer are twice as wide as the rest](../images/initial_layer_line_width_factor.png)
+![Die Linien in der ersten Ebene sind doppelt so breit wie der Rest](../images/initial_layer_line_width_factor.png)
 
-The goal of this setting is to improve adhesion to the build plate. In order to print wider lines, the nozzle has to extrude more material and that material has to flow wider outward. This causes the nozzle to press the material harder on the build plate, which increases adhesion between the filament and the build plate.
+Das Ziel dieser Einstellung ist es, die Haftung auf der Bauplatte zu verbessern. Um breitere Linien zu drucken, muss die Düse mehr Material extrudieren und dieses Material muss breiter nach außen fließen. Dadurch drückt die Düse das Material stärker auf die Bauplatte, was die Haftung zwischen dem Filament und der Bauplatte erhöht.
 
-### **Influence**
-Configuring this setting will have two effects:
-* Not only will the lines be wider or thinner, but they will also be farther apart or closer together by the same factor, so it would not produce overextrusion or underextrusion.
-* This setting affects all line widths, skin, walls, adhesion, support, and the prime tower on the first layer. They will be made wider or thinner by the same ratio. 
+### **Einfluss**
+Das Konfigurieren dieser Einstellung hat zwei Auswirkungen:
+* Die Linien werden nicht nur breiter oder dünner, sondern um den gleichen Faktor auch weiter auseinander oder näher beieinander liegen, so dass es nicht zu einer Über- oder Unterextrusion kommt.
+* Diese Einstellung wirkt sich auf alle Linienbreiten, Haut, Wände, Haftung, Unterstützung und den Prime Tower auf der ersten Schicht aus. Sie werden im gleichen Verhältnis breiter oder dünner gemacht.

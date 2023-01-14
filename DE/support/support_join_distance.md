@@ -1,12 +1,12 @@
-Support Join Distance
+Unterstützungsverbindungsentfernung
 ====
-### **Description**
-Thin pieces of support are generally not desirable. They are prone to topple over, which can ruin the print. When multiple pieces of support are adjacent to one another, they can be joined together, forming one piece of support that is much sturdier.
+### **Beschreibung**
+Dünne Trägerstücke sind im Allgemeinen nicht wünschenswert. Sie neigen dazu, umzufallen, was den Druck ruinieren kann. Wenn mehrere Trägerteile nebeneinander liegen, können sie miteinander verbunden werden, wodurch ein Trägerteil gebildet wird, das viel stabiler ist.
 
-![Two pieces of support are close together](../images/support_join_distance_low.png)
-![With sufficient join distance, they are merged together](../images/support_join_distance_high.png)
+![Zwei Stützen sind nahe beieinander](../images/support_join_distance_low.png)
+![Bei ausreichender Join-Distanz werden sie zusammengeführt](../images/support_join_distance_high.png)
 
-### **Influence**
-Joining support pieces together makes the support more sturdy and reliable. It also tends to reduce printing time, depending on the pattern. Many patterns require an extra wall to be printed around the perimeter, and joining two support pieces together reduces that perimeter.
+### **Einfluss**
+Das Zusammenfügen von Stützteilen macht die Stütze robuster und zuverlässiger. Es neigt auch dazu, die Druckzeit zu verkürzen, je nach Muster. Bei vielen Mustern muss eine zusätzliche Wand um den Umfang herum gedruckt werden, und das Zusammenfügen zweier Stützteile reduziert diesen Umfang.
 
-Increasing this setting too much can cause support pieces that are very far away to be joined together. This can increase printing time and material usage.
+Eine zu starke Erhöhung dieser Einstellung kann dazu führen, dass sehr weit entfernte Stützteile miteinander verbunden werden. Dies kann die Druckzeit und den Materialverbrauch erhöhen.

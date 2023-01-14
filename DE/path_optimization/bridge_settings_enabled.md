@@ -1,12 +1,12 @@
 Bridge-Einstellungen aktivieren
 ====
 ### **Beschreibung**
-Normalerweise verwendet Luban eine ziemlich rudimentäre Bridging-Technik. Für einen überhängenden Bereich auf dem Modell passt Luban die Richtung der Linien an, die die Haut dieses überhängenden Bereichs bilden, um die Überbrückung zu optimieren und die Druckqualität zu verbessern.
+Normalerweise verwendet Luban eine ziemlich rudimentÃ¤re Bridging-Technik. FÃ¼r einen Ã¼berhÃ¤ngenden Bereich auf dem Modell passt Luban die Richtung der Linien an, die die Haut dieses Ã¼berhÃ¤ngenden Bereichs bilden, um die ÃœberbrÃ¼ckung zu optimieren und die DruckqualitÃ¤t zu verbessern.
 
-Wenn diese Einstellung aktiviert ist, können Sie das Bridging genauer nach Ihren Bedürfnissen optimieren.
+Wenn diese Einstellung aktiviert ist, kÃ¶nnen Sie das Bridging genauer nach Ihren BedÃ¼rfnissen optimieren.
 
-![Wenn eine Brücke erkannt wird, werden die Hautlinien so ausgerichtet, dass sie die Lücke so gut wie möglich überbrücken](../images/bridge_settings_enabled_default.png)
-![Bei aktivierten Brückeneinstellungen werden die Brückenlinien mit anderen Einstellungen gedruckt](../images/bridge_settings_enabled_enabled.png)
+![Wenn eine BrÃ¼cke erkannt wird, werden die Hautlinien so ausgerichtet, dass sie die LÃ¼cke so gut wie mÃ¶glich Ã¼berbrÃ¼cken](../images/bridge_settings_enabled_default.png)
+![Bei aktivierten BrÃ¼ckeneinstellungen werden die BrÃ¼ckenlinien mit anderen Einstellungen gedruckt](../images/bridge_settings_enabled_enabled.png)
 
 ### **Verwendung**
-Indem Sie die Brückeneinstellungen aktivieren, erhalten Sie eine bessere Kontrolle darüber, wie Brücken in Ihrem Druck gehandhabt werden. Indem Sie die Überbrückungsparameter sehr gut abstimmen, können Sie die Qualität Ihrer Überhänge erheblich verbessern und die Genauigkeit in vertikaler Richtung verbessern.
+Indem Sie die BrÃ¼ckeneinstellungen aktivieren, erhalten Sie eine bessere Kontrolle darÃ¼ber, wie BrÃ¼cken in Ihrem Druck gehandhabt werden. Indem Sie die ÃœberbrÃ¼ckungsparameter sehr gut abstimmen, kÃ¶nnen Sie die QualitÃ¤t Ihrer ÃœberhÃ¤nge erheblich verbessern und die Genauigkeit in vertikaler Richtung verbessern.

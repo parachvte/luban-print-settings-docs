@@ -1,9 +1,9 @@
-Outer Wall Jerk
+Ruck an der Außenwand
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while printing the outer wall. This can be configured separately from the inner walls.
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse beim Drucken der Außenwand durch Ecken fahren kann. Diese kann separat von den Innenwänden gestaltet werden.
 
-### **Usage**
-During the printing of the outer walls, the printer is very sensitive to vibrations. The vibrations of the toolhead will be visible in the form of ringing in the final print. It's useful to print the outer walls at a lower jerk rate than the inner walls for this reason.
+### **Verwendung**
+Beim Bedrucken der Außenwände ist der Drucker sehr empfindlich gegenüber Vibrationen. Die Vibrationen des Werkzeugkopfes werden im endgültigen Druck in Form von Klingeln sichtbar. Aus diesem Grund ist es sinnvoll, die Außenwände mit einem geringeren Ruck zu drucken als die Innenwände.
 
-However, a lower jerk rate will make the corners less sharp on the outside, because the nozzle will slow down further in the corner and then extrude more material in the corner as well.
+Eine geringere Ruckrate führt jedoch dazu, dass die Ecken außen weniger scharf sind, da die Düse in der Ecke weiter langsamer wird und dann auch mehr Material in der Ecke ausstößt.

@@ -1,11 +1,11 @@
-Support Horizontal Expansion
+Unterstützung der horizontalen Expansion
 ====
-This setting causes the support to become slightly wider, expanding horizontally in every direction.
+Diese Einstellung bewirkt, dass die Stütze etwas breiter wird und sich horizontal in alle Richtungen ausdehnt.
 
-![The support is wider than necessary to support the model](../images/support_offset.png)
+![Die Unterstützung ist breiter als notwendig, um das Modell zu unterstützen](../images/support_offset.png)
 
-This setting has multiple uses, depending on the material used for support and the type of model that needs supporting:
-* Increasing this setting will make support wider and thus sturdier. This is useful for tall models with small areas of overhang, since the overhang would otherwise be supported with a very tall, thin pillar of support. With some horizontal expansion, it becomes a very tall but slightly wider pillar of support.
-* Increasing this setting also functions as a safety measure to make sure that support areas have a certain minimum area. This is necessary for materials that are hard to extrude, such as PVA.
-* Reducing this setting will reduce material usage and printing time for support. Increasing it will increase the required material and printing time, of course. See also the [conical support](../experimental/support_conical_enabled.md) feature, which reduces the width of support without compromising the area that the support supports.
-* Setting it to a negative value can also remove thin pillars of support completely.
+Diese Einstellung hat mehrere Verwendungszwecke, abhängig vom Material, das für die Unterstützung verwendet wird, und der Art des Modells, das unterstützt werden muss:
+* Wenn Sie diese Einstellung erhöhen, wird die Unterstützung breiter und damit stabiler. Dies ist nützlich für große Modelle mit kleinen Überhangbereichen, da der Überhang ansonsten mit einer sehr hohen, dünnen Stützsäule gestützt würde. Mit etwas horizontaler Ausdehnung wird es zu einer sehr hohen, aber etwas breiteren Stützsäule.
+* Das Erhöhen dieser Einstellung dient auch als Sicherheitsmaßnahme, um sicherzustellen, dass Stützbereiche eine bestimmte Mindestfläche haben. Dies ist bei schwer extrudierbaren Materialien wie PVA erforderlich.
+* Das Reduzieren dieser Einstellung reduziert den Materialverbrauch und die Druckzeit für den Support. Eine Erhöhung erhöht natürlich den Materialbedarf und die Druckzeit. Siehe auch die Funktion [conical support](../experimental/support_conical_enabled.md), die die Breite der Unterstützung verringert, ohne den Bereich zu beeinträchtigen, den die Unterstützung unterstützt.
+* Die Einstellung auf einen negativen Wert kann auch dünne Stützpfeiler vollständig entfernen.

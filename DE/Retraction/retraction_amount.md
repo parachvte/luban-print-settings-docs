@@ -1,15 +1,15 @@
-Rückzugsabstand
+RÃ¼ckzugsabstand
 ====
 ### **Beschreibung**
-Der Rückzugsabstand ist der Abstand, um den das Material von der Düsenspitze zurückgezogen wird, wenn ein Rückzug durchgeführt wird.
+Der RÃ¼ckzugsabstand ist der Abstand, um den das Material von der DÃ¼senspitze zurÃ¼ckgezogen wird, wenn ein RÃ¼ckzug durchgefÃ¼hrt wird.
 
 ### **Einfluss**
-Diese Einstellung hat fünf Auswirkungen:
-* Der Rückzug erzeugt einen Unterdruck in der Düsenkammer, der das Material aus der Düsenöffnung zurückzieht. Durch weiteres Zurückziehen des Materials wird dieser Unterdruck erhöht, sodass er für dichtere Materialien funktioniert.
-* Bei langen Verfahrwegen hat das eingezogene Material noch etwas Zeit, um in der Düsenkammer aufzuschmelzen. Ein weiteres Zurückziehen des Materials bietet eine längere Zeit für dieses geschmolzene Material, um herauszutropfen, wodurch eine Fadenbildung verhindert wird.
-* Rückzüge verschleißen das Material dort, wo der Feeder sie erfasst. Längere Rückzüge verschleißen mehr Material. Dies kann dazu führen, dass die Zuführung den Halt verliert, wodurch der Drucker das Extrudieren ganz einstellt.
-* Längere Retraktionen nehmen mehr Zeit in Anspruch als kürzere.
-* Rückzüge, die auf der Oberfläche des Modells vorgenommen werden, verursachen einen größeren Klecks, während das Material zurückgezogen wird, da die Düse für eine längere Zeit pausiert, während das Material zurückgezogen wird.
+Diese Einstellung hat fÃ¼nf Auswirkungen:
+* Der RÃ¼ckzug erzeugt einen Unterdruck in der DÃ¼senkammer, der das Material aus der DÃ¼senÃ¶ffnung zurÃ¼ckzieht. Durch weiteres ZurÃ¼ckziehen des Materials wird dieser Unterdruck erhÃ¶ht, sodass er fÃ¼r dichtere Materialien funktioniert.
+* Bei langen Verfahrwegen hat das eingezogene Material noch etwas Zeit, um in der DÃ¼senkammer aufzuschmelzen. Ein weiteres ZurÃ¼ckziehen des Materials bietet eine lÃ¤ngere Zeit fÃ¼r dieses geschmolzene Material, um herauszutropfen, wodurch eine Fadenbildung verhindert wird.
+* RÃ¼ckzÃ¼ge verschleiÃŸen das Material dort, wo der Feeder sie erfasst. LÃ¤ngere RÃ¼ckzÃ¼ge verschleiÃŸen mehr Material. Dies kann dazu fÃ¼hren, dass die ZufÃ¼hrung den Halt verliert, wodurch der Drucker das Extrudieren ganz einstellt.
+* LÃ¤ngere Retraktionen nehmen mehr Zeit in Anspruch als kÃ¼rzere.
+* RÃ¼ckzÃ¼ge, die auf der OberflÃ¤che des Modells vorgenommen werden, verursachen einen grÃ¶ÃŸeren Klecks, wÃ¤hrend das Material zurÃ¼ckgezogen wird, da die DÃ¼se fÃ¼r eine lÃ¤ngere Zeit pausiert, wÃ¤hrend das Material zurÃ¼ckgezogen wird.
 
 ### **Verwendung**
-Wenn der Speiser sehr weit von der Düse entfernt ist, muss auch der Rückzugsweg sehr groß sein.
+Wenn der Speiser sehr weit von der DÃ¼se entfernt ist, muss auch der RÃ¼ckzugsweg sehr groÃŸ sein.

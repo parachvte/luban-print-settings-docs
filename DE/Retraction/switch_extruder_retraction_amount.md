@@ -1,9 +1,9 @@
-Rückzugsabstand des Düsenschalters
+RÃ¼ckzugsabstand des DÃ¼senschalters
 ====
 ### **Beschreibung**
-Beim Drucken mit mehreren Extrudern werden die Extruder, die derzeit nicht drucken, im Standby-Modus gehalten. Das Material muss im Stand-by vollständig aus der Heizzone herausgezogen werden, da sie sonst viel Zeit zum Aussickern bekommen.
+Beim Drucken mit mehreren Extrudern werden die Extruder, die derzeit nicht drucken, im Standby-Modus gehalten. Das Material muss im Stand-by vollstÃ¤ndig aus der Heizzone herausgezogen werden, da sie sonst viel Zeit zum Aussickern bekommen.
 
-Diese Einstellung bestimmt, wie weit das Material für diesen Extruder zurückgezogen wird, wenn der Extruder während eines Extruderwechsels in den Standby-Modus geht.
+Diese Einstellung bestimmt, wie weit das Material fÃ¼r diesen Extruder zurÃ¼ckgezogen wird, wenn der Extruder wÃ¤hrend eines Extruderwechsels in den Standby-Modus geht.
 
 ### **Verwendung**
-Diese Einstellung kann getrennt vom regulären Rückzugsweg konfiguriert werden. Im Allgemeinen ist der Rückzugsweg für Standby-Extruder viel größer. Dadurch soll sichergestellt werden, dass das Material nicht ständig in die Düsenkammer sickert, während der andere Extruder druckt.
+Diese Einstellung kann getrennt vom regulÃ¤ren RÃ¼ckzugsweg konfiguriert werden. Im Allgemeinen ist der RÃ¼ckzugsweg fÃ¼r Standby-Extruder viel grÃ¶ÃŸer. Dadurch soll sichergestellt werden, dass das Material nicht stÃ¤ndig in die DÃ¼senkammer sickert, wÃ¤hrend der andere Extruder druckt.

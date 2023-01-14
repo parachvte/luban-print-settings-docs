@@ -1,8 +1,8 @@
-Ironing Flow
+Bügelablauf
 ====
-Ironing places additional lines into the surface, technically overextruding. This setting controls how much gets extruded in this extra pass. The flow is necessary to fill gaps in the surface.
+Bügeln setzt zusätzliche Linien in die Fläche, technisch überextrudierend. Diese Einstellung steuert, wie viel in diesem zusätzlichen Durchgang extrudiert wird. Der Fluss ist notwendig, um Lücken in der Oberfläche zu füllen.
 
-![10% flow](../images/ironing_enabled_enabled.png)
-![20% flow](../images/ironing_flow.png)
+![10 % Durchfluss](../images/ironing_enabled_enabled.png)
+![20 % Durchfluss](../images/ironing_flow.png)
 
-You should put this setting high enough to keep the pressure on the nozzle. This pressure needs to fill the gaps on the top surface. If you have a very rough top surface (due to pillowing or printing fast) you may need to increase this setting.
+Sie sollten diese Einstellung hoch genug einstellen, um den Druck auf der Düse zu halten. Dieser Druck muss die Lücken auf der Oberseite füllen. Wenn Sie eine sehr raue Oberfläche haben (aufgrund von Polsterung oder schnellem Drucken), müssen Sie diese Einstellung möglicherweise erhöhen.

@@ -1,13 +1,13 @@
 Reisegeschwindigkeit der ersten Ebene
 ====
 ### **Beschreibung**
-Diese Einstellung passt die Geschwindigkeit der Verfahrbewegungen während des Druckens der ersten Schicht an.
+Diese Einstellung passt die Geschwindigkeit der Verfahrbewegungen wÃ¤hrend des Druckens der ersten Schicht an.
 
 ### **Einfluss**
-Während der ersten Schicht ist der Druck empfindlicher gegenüber Vibrationen der Bauplatte. Eine Erhöhung der Transportgeschwindigkeit der ersten Schicht kann mehr Vibrationen verursachen. Dies verringert die Haftung zwischen dem Druck und der Bauplatte und erhöht am Ende die Wahrscheinlichkeit eines Versagens.
+WÃ¤hrend der ersten Schicht ist der Druck empfindlicher gegenÃ¼ber Vibrationen der Bauplatte. Eine ErhÃ¶hung der Transportgeschwindigkeit der ersten Schicht kann mehr Vibrationen verursachen. Dies verringert die Haftung zwischen dem Druck und der Bauplatte und erhÃ¶ht am Ende die Wahrscheinlichkeit eines Versagens.
 
 
 ### **Verwendung**
-Die Vorschubgeschwindigkeit muss während der ersten Schicht geringer sein als während des restlichen Drucks, da die Wahrscheinlichkeit größer ist, dass die Düse den Druck von der Bauplatte abreißt.
+Die Vorschubgeschwindigkeit muss wÃ¤hrend der ersten Schicht geringer sein als wÃ¤hrend des restlichen Drucks, da die Wahrscheinlichkeit grÃ¶ÃŸer ist, dass die DÃ¼se den Druck von der Bauplatte abreiÃŸt.
 
-Dennoch kann die Laufgeschwindigkeit während der ersten Schicht höher sein als die Druckgeschwindigkeit, da es nicht zu einer Unterextrusion kommt.
+Dennoch kann die Laufgeschwindigkeit wÃ¤hrend der ersten Schicht hÃ¶her sein als die Druckgeschwindigkeit, da es nicht zu einer Unterextrusion kommt.

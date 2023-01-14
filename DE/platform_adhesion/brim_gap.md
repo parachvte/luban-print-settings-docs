@@ -1,14 +1,13 @@
-Brim Distance
+Randabstand
 ====
-### **Description**
-This setting causes a gap between the model and the brim. The brim lines are no longer securely adjacent to the model.
+### **Beschreibung**
+Diese Einstellung verursacht eine Lücke zwischen dem Modell und dem Rand. Die Krempenlinien liegen nicht mehr sicher am Modell an.
 
-![The brim keeps a certain distance away from the model](../images/brim_gap.png)
+![Die Krempe hält einen gewissen Abstand zum Modell](../images/brim_gap.png)
 
-The objective of this gap is to make it easier to remove the brim from the model. 
+Der Zweck dieser Lücke besteht darin, das Entfernen der Krempe vom Modell zu erleichtern.
 
-### **Influence**
-By placing the brim lines slightly apart from the actual model (in the distance of half a line width), the connection between the brim and the model becomes weaker, which makes it easier to tear off the brim by hand. It will also reduce the scar or elephant's foot left by the brim after removal. This is especially effective at greater [initial layer height](../resolution/layer_height_0.md), since the thick brim tends to be harder to remove then.
+### **Einfluss**
+Indem die Krempenlinien leicht vom eigentlichen Modell entfernt platziert werden (im Abstand einer halben Linienbreite), wird die Verbindung zwischen Krempe und Modell schwächer, was das Abreißen der Krempe von Hand erleichtert. Es wird auch die Narbe oder den Elefantenfuß reduzieren, die nach dem Entfernen der Krempe zurückbleibt. Dies ist besonders effektiv bei größerer [anfänglicher Schichthöhe](../resolution/layer_height_0.md), da der dicke Rand dann tendenziell schwerer zu entfernen ist.
 
-On the flip side, this also reduces the effectiveness of the brim to keep the model stuck to the build plate. Through a thinner contact area, the brim will not be able to exert a lot of force on the model to keep it down against the effect of [warping](../troubleshooting/warping.md).
-
+Auf der anderen Seite verringert dies auch die Wirksamkeit des Randes, um das Modell an der Bauplatte festzuhalten. Durch einen dünneren Kontaktbereich kann die Krempe nicht viel Kraft auf das Modell ausüben, um es gegen die Wirkung von [Verziehen] (../troubleshooting/warping.md) unten zu halten.

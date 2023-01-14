@@ -1,10 +1,10 @@
-Prime Tower Jerk
+Prime-Tower-Idiot
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while printing the prime tower.
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse beim Drucken des Prime Towers durch Ecken fahren kann.
 
-### **Influence**
-Reducing this setting reduces the vibrations going through the printer while printing the prime tower, which can prevent the prime tower from toppling over.
+### **Einfluss**
+Das Reduzieren dieser Einstellung reduziert die Vibrationen, die während des Druckens des Prime Towers durch den Drucker gehen, wodurch verhindert werden kann, dass der Prime Tower umkippt.
 
-### **Usage**
-This setting can be configured separately from the rest of the print.
+### **Verwendung**
+Diese Einstellung kann separat vom Rest des Drucks konfiguriert werden.

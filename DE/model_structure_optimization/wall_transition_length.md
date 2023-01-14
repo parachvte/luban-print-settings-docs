@@ -1,14 +1,14 @@
-Wall Transition Length
+Wandübergangslänge
 ====
-In thin parts, not all of the walls fit inside of the shape. If the part is thinner in some places than in others, Cura needs to use different numbers of walls in some places. This setting controls how wide the transitional area will be where it adds or removes one of the walls.
+Bei dünnen Teilen passen nicht alle Wände in die Form. Wenn das Teil an einigen Stellen dünner ist als an anderen, muss Cura an einigen Stellen eine unterschiedliche Anzahl von Wänden verwenden. Diese Einstellung steuert, wie breit der Übergangsbereich sein wird, in dem eine der Wände hinzugefügt oder entfernt wird.
 
-![A very short transition](../images/wall_transition_length_0_2.png)
-![A longer transition](../images/wall_transition_length_1_5.png)
+![Ein sehr kurzer Übergang](../images/wall_transition_length_0_2.png)
+![Ein längerer Übergang](../images/wall_transition_length_1_5.png)
 
-The transition area between different numbers of walls always has some slight problems. This is most visible when a single line in the centre ends and the two surrounding walls need to fill the gap. They don't immediately fill the space, and a gap is left. This results in tiny holes on the top and bottom of the prints. The opposite happens when two walls combine into one, causing them to overlap for a moment until they have come together. The overextrusion can lead to dimensional inaccuracy, especially where this occurs in the outer wall. This can all be prevented by making the transition as short as possible.
+Der Übergangsbereich zwischen unterschiedlich vielen Wänden weist immer wieder kleine Probleme auf. Dies ist am sichtbarsten, wenn eine einzelne Linie in der Mitte endet und die beiden umgebenden Wände die Lücke füllen müssen. Sie füllen den Raum nicht sofort aus, und es bleibt eine Lücke. Dies führt zu winzigen Löchern auf der Ober- und Unterseite der Drucke. Das Gegenteil passiert, wenn sich zwei Wände zu einer verbinden, wodurch sie sich für einen Moment überlappen, bis sie zusammengekommen sind. Die Überextrusion kann zu Maßungenauigkeiten führen, insbesondere dort, wo dies in der Außenwand auftritt. All dies kann verhindert werden, indem der Übergang so kurz wie möglich gestaltet wird.
 
-However, a short transition also causes the nozzle to take some very sharp turns to quickly fill that gap. This results in more ringing, in particular if this occurs for the printing of the outer wall. Making the transition longer reduces accelerations in the nozzle, in particular if this reduces them below the [jerk](../speed/jerk_print.md) limit.
+Ein kurzer Übergang bewirkt jedoch auch, dass die Düse einige sehr scharfe Kurven nimmt, um diese Lücke schnell zu füllen. Dies führt zu mehr Ringing, insbesondere wenn dies für das Bedrucken der Außenwand auftritt. Das Verlängern des Übergangs reduziert Beschleunigungen in der Düse, insbesondere wenn sie dadurch unter die [Ruck](../speed/jerk_print.md)-Grenze reduziert werden.
 
-Setting this length to one or two times the line width is a reasonable place to start. Printers with weaker frames or heavier print heads may need to increase it, while printers that can accelerate quickly without ringing can affort to shorten the transition to improve visual quality.
+Das Einstellen dieser Länge auf das Ein- oder Zweifache der Linienbreite ist ein vernünftiger Ausgangspunkt. Drucker mit schwächeren Rahmen oder schwereren Druckköpfen müssen sie möglicherweise erhöhen, während Drucker, die ohne Klingeln schnell beschleunigen können, sich bemühen müssen, den Übergang zu verkürzen, um die visuelle Qualität zu verbessern.
 
-**This setting doesn't just apply to normal walls, but also to extra skin walls, support walls, infill walls and concentric patterns.**
+**Diese Einstellung gilt nicht nur für normale Wände, sondern auch für Außenhautwände, Stützwände, Füllwände und konzentrische Muster.**

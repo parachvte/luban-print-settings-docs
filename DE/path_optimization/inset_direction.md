@@ -1,13 +1,13 @@
 Wandbestellung
 ====
-Diese Einstellung bestimmt, welche Wände zuerst gedruckt werden, von außen nach innen oder von innen nach außen.
+Diese Einstellung bestimmt, welche WÃ¤nde zuerst gedruckt werden, von auÃŸen nach innen oder von innen nach auÃŸen.
 
 ![Die Innenwand wird zuerst gedruckt](../images/outer_inset_first_disabled.gif)
-![Die Außenwand wird zuerst gedruckt](../images/outer_inset_first_enabled.gif)
+![Die AuÃŸenwand wird zuerst gedruckt](../images/outer_inset_first_enabled.gif)
 
-Diese Einstellung hat einen kleinen Einfluss auf die Qualität sowie die Maßhaltigkeit:
-* Das Drucken von außen nach innen verbessert die Maßhaltigkeit. Benachbarte Wände schieben sich im Allgemeinen ein wenig aneinander, insbesondere wenn die Wandlinienbreite kleiner als die Düsengröße ist. Die Wand, die zuerst gedruckt wird, ist verfestigt und wird dann nicht mehr so stark gedrückt. Wenn Sie also zuerst die Außenwand drucken, befindet sich Ihre Außenwand an einer genaueren Position.
-* Wenn die Füllung vor den Wänden gedruckt wird, verringert das Drucken von außen nach innen, wie stark die Füllung auf der Oberfläche durchscheint. Andernfalls wird zuerst die Füllung gedruckt, dann die Innenwände, die durch die Füllung nach außen gedrückt werden, und dann die Außenwand, die durch die Innenwände nach außen gedrückt wird. Dadurch könnte auf der Außenseite ein Muster sichtbar sein. Wenn die Außenwand zuerst gedruckt wird, kann die Außenwand erstarren, bevor die Innenwand darauf drücken kann.
-* Drucken von innen nach außen ist besser für Überhänge. Die Außenwand ist weiter von der vorherigen Schicht entfernt als die Innenwand. Wenn Sie zuerst die Außenwand drucken, hat die Außenwand noch nichts zum Anfassen. Wenn die Innenwand zuerst bedruckt wird, kann die Außenwand seitlich an der Außenwand anliegen.
+Diese Einstellung hat einen kleinen Einfluss auf die QualitÃ¤t sowie die MaÃŸhaltigkeit:
+* Das Drucken von auÃŸen nach innen verbessert die MaÃŸhaltigkeit. Benachbarte WÃ¤nde schieben sich im Allgemeinen ein wenig aneinander, insbesondere wenn die Wandlinienbreite kleiner als die DÃ¼sengrÃ¶ÃŸe ist. Die Wand, die zuerst gedruckt wird, ist verfestigt und wird dann nicht mehr so stark gedrÃ¼ckt. Wenn Sie also zuerst die AuÃŸenwand drucken, befindet sich Ihre AuÃŸenwand an einer genaueren Position.
+* Wenn die FÃ¼llung vor den WÃ¤nden gedruckt wird, verringert das Drucken von auÃŸen nach innen, wie stark die FÃ¼llung auf der OberflÃ¤che durchscheint. Andernfalls wird zuerst die FÃ¼llung gedruckt, dann die InnenwÃ¤nde, die durch die FÃ¼llung nach auÃŸen gedrÃ¼ckt werden, und dann die AuÃŸenwand, die durch die InnenwÃ¤nde nach auÃŸen gedrÃ¼ckt wird. Dadurch kÃ¶nnte auf der AuÃŸenseite ein Muster sichtbar sein. Wenn die AuÃŸenwand zuerst gedruckt wird, kann die AuÃŸenwand erstarren, bevor die Innenwand darauf drÃ¼cken kann.
+* Drucken von innen nach auÃŸen ist besser fÃ¼r ÃœberhÃ¤nge. Die AuÃŸenwand ist weiter von der vorherigen Schicht entfernt als die Innenwand. Wenn Sie zuerst die AuÃŸenwand drucken, hat die AuÃŸenwand noch nichts zum Anfassen. Wenn die Innenwand zuerst bedruckt wird, kann die AuÃŸenwand seitlich an der AuÃŸenwand anliegen.
 
-Bei einer ungeraden Anzahl von Wänden wird die mittlere Wand immer zuletzt gedruckt.
+Bei einer ungeraden Anzahl von WÃ¤nden wird die mittlere Wand immer zuletzt gedruckt.

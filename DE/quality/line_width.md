@@ -1,36 +1,36 @@
 Linienbreite
 ====
 ### **Beschreibung**
-Dies ist die horizontale Breite der Linien, die der Drucker nach unten platziert. Normalerweise bestimmt der Durchmesser der Düsenöffnung, wie breit Ihre Linien werden, aber durch das Extrudieren von mehr oder weniger Material kann der Drucker ein wenig variieren, wie breit die Linien werden.
+Dies ist die horizontale Breite der Linien, die der Drucker nach unten platziert. Normalerweise bestimmt der Durchmesser der DÃ¼senÃ¶ffnung, wie breit Ihre Linien werden, aber durch das Extrudieren von mehr oder weniger Material kann der Drucker ein wenig variieren, wie breit die Linien werden.
 
-![Sehr dünne Linien](../images/line_width_small.png)
+![Sehr dÃ¼nne Linien](../images/line_width_small.png)
 ![Sehr breite Linien](../images/line_width_large.png)
 
 ### **Einfluss**
-Durch Verringern der Linienbreite kann der Drucker mehr Details drucken. Insbesondere erlaubt diese Einstellung dem Drucker auch dünne Teile zu drucken. Die Linienbreite ist eine der einflussreichsten Einstellungen in Ihrem Druck. Das Anpassen dieser Einstellung hat die folgenden Auswirkungen:
-* Durch das Drucken dünnerer Linien können dünnere Teile gedruckt werden, da sogar eine Linie in die dünnsten Teile passt.
-* Das Einstellen der Linienbreite auf ein gerades Vielfaches der Dicke Ihres Drucks kann das Objekt stärker machen und den Materialfluss verbessern.
-* Eine kleinere Linienbreite lässt Ihre Oberfläche glatter aussehen.
-* Das Drucken von Linien, die etwas kleiner als Ihre Düsengröße sind, verbessert tendenziell die Festigkeit. Es ermöglicht der Düse, benachbarte Linien miteinander zu verschmelzen, wenn sie einen zweiten Durchgang leicht über die vorherige Linie macht.
-* Zu breite Drucklinien führen zu Unterextrusion. Der Drucker versucht, mehr Material zu extrudieren, genug, um die gewünschte Breite der Linie auszufüllen. Dieses Material wird versuchen, in jede beliebige Richtung zu fließen. Irgendwann wird der Gegendruck jedoch zu groß, so dass das Material nicht mehr ganz zur Seite der sehr breiten Linien fließt und Lücken zwischen den Linien entstehen.
-* Auch zu kleine Drucklinien führen zu Unterextrusion. Wenn das Material nicht schnell genug durch die Düse fließt, führt die Oberflächenspannung des Materials dazu, dass es zu kleinen Tröpfchen koaguliert, wodurch die Extrusion ungleichmäßig wird und Lücken zwischen den Tröpfchen entstehen.
-* Das Drucken dünnerer Linien verlängert die Druckzeit erheblich.
+Durch Verringern der Linienbreite kann der Drucker mehr Details drucken. Insbesondere erlaubt diese Einstellung dem Drucker auch dÃ¼nne Teile zu drucken. Die Linienbreite ist eine der einflussreichsten Einstellungen in Ihrem Druck. Das Anpassen dieser Einstellung hat die folgenden Auswirkungen:
+* Durch das Drucken dÃ¼nnerer Linien kÃ¶nnen dÃ¼nnere Teile gedruckt werden, da sogar eine Linie in die dÃ¼nnsten Teile passt.
+* Das Einstellen der Linienbreite auf ein gerades Vielfaches der Dicke Ihres Drucks kann das Objekt stÃ¤rker machen und den Materialfluss verbessern.
+* Eine kleinere Linienbreite lÃ¤sst Ihre OberflÃ¤che glatter aussehen.
+* Das Drucken von Linien, die etwas kleiner als Ihre DÃ¼sengrÃ¶ÃŸe sind, verbessert tendenziell die Festigkeit. Es ermÃ¶glicht der DÃ¼se, benachbarte Linien miteinander zu verschmelzen, wenn sie einen zweiten Durchgang leicht Ã¼ber die vorherige Linie macht.
+* Zu breite Drucklinien fÃ¼hren zu Unterextrusion. Der Drucker versucht, mehr Material zu extrudieren, genug, um die gewÃ¼nschte Breite der Linie auszufÃ¼llen. Dieses Material wird versuchen, in jede beliebige Richtung zu flieÃŸen. Irgendwann wird der Gegendruck jedoch zu groÃŸ, so dass das Material nicht mehr ganz zur Seite der sehr breiten Linien flieÃŸt und LÃ¼cken zwischen den Linien entstehen.
+* Auch zu kleine Drucklinien fÃ¼hren zu Unterextrusion. Wenn das Material nicht schnell genug durch die DÃ¼se flieÃŸt, fÃ¼hrt die OberflÃ¤chenspannung des Materials dazu, dass es zu kleinen TrÃ¶pfchen koaguliert, wodurch die Extrusion ungleichmÃ¤ÃŸig wird und LÃ¼cken zwischen den TrÃ¶pfchen entstehen.
+* Das Drucken dÃ¼nnerer Linien verlÃ¤ngert die Druckzeit erheblich.
 
 ### **Verwendung**
-*Es ist nicht ratsam, die Linienbreite unter 60 % der Düsengröße oder über 150 % zu reduzieren. Beide extrudieren möglicherweise nicht genug Material.*
+*Es ist nicht ratsam, die Linienbreite unter 60 % der DÃ¼sengrÃ¶ÃŸe oder Ã¼ber 150 % zu reduzieren. Beide extrudieren mÃ¶glicherweise nicht genug Material.*
 
-Anpassen der Linienbreiten an genügend Wände
+Anpassen der Linienbreiten an genÃ¼gend WÃ¤nde
 ----
-Wenn Sie mechanische Objekte drucken, die dünn, aber stark sein müssen, werden Sie regelmäßig auf das Problem stoßen, dass Ihr Stück kein sauberes gerades Vielfaches der Linienbreite hat. Wenn es sich nicht um ein gerades Vielfaches handelt, reduziert Luban normalerweise den Fluss einiger Linien aufgrund der Einstellung [Compensate Wall Overlaps](../shell/travel_compensate_overlapping_walls_enabled.md). Dadurch verändert sich die Strömungsgeschwindigkeit durch die Düse, was der visuellen Qualität abträglich ist. Wenn es sich um ein sauberes Vielfaches der Linienbreite, aber nicht um eine gerade Zahl handelt, wird eine der Wände auf 0 reduziert.
+Wenn Sie mechanische Objekte drucken, die dÃ¼nn, aber stark sein mÃ¼ssen, werden Sie regelmÃ¤ÃŸig auf das Problem stoÃŸen, dass Ihr StÃ¼ck kein sauberes gerades Vielfaches der Linienbreite hat. Wenn es sich nicht um ein gerades Vielfaches handelt, reduziert Luban normalerweise den Fluss einiger Linien aufgrund der Einstellung [Compensate Wall Overlaps](../shell/travel_compensate_overlapping_walls_enabled.md). Dadurch verÃ¤ndert sich die StrÃ¶mungsgeschwindigkeit durch die DÃ¼se, was der visuellen QualitÃ¤t abtrÃ¤glich ist. Wenn es sich um ein sauberes Vielfaches der Linienbreite, aber nicht um eine gerade Zahl handelt, wird eine der WÃ¤nde auf 0 reduziert.
 
-Die Erzeugung sauberer Konturen mit gleichmäßigen Linien kann den Druck stärker machen und besser aussehen.
+Die Erzeugung sauberer Konturen mit gleichmÃ¤ÃŸigen Linien kann den Druck stÃ¤rker machen und besser aussehen.
 
 ![Standardlinienbreite, bei der die Konturen nicht passen und einige Linien dicker sind als andere](../images/line_width_fit_bad.png)
-![Durch Reduzieren der Linienbreite passt sie sich gleichmäßig an](../images/line_width_fit_good_small.png)
-![Erhöhen der Linienbreite funktioniert auch](../images/line_width_fit_good_large.png)
+![Durch Reduzieren der Linienbreite passt sie sich gleichmÃ¤ÃŸig an](../images/line_width_fit_good_small.png)
+![ErhÃ¶hen der Linienbreite funktioniert auch](../images/line_width_fit_good_large.png)
 
 Den Durchfluss konstant halten
 ----
-Große Durchflussschwankungen sind für FDM-Drucker mitunter problematisch. Die Düsenkammer hält etwas Material unter Druck, wodurch die tatsächliche Durchflussrate aus der Düse verzögert wird. Es dauert eine Weile, bis die Durchflussrate zu- oder abnimmt. Drucker mit einem Bowden-System zum Zuführen des Filaments haben auch eine Federung in der Bowden-Röhre, was den Effekt deutlich verschlechtert. Als Ergebnis erhalten Sie eine Unterextrusion, wenn Sie zu einer höheren Durchflussrate wechseln, und eine Überextrusion, wenn Sie zu einer niedrigeren Durchflussrate wechseln. Daher ist es eine gute Idee, die Durchflussrate so konstant wie möglich zu halten.
+GroÃŸe Durchflussschwankungen sind fÃ¼r FDM-Drucker mitunter problematisch. Die DÃ¼senkammer hÃ¤lt etwas Material unter Druck, wodurch die tatsÃ¤chliche Durchflussrate aus der DÃ¼se verzÃ¶gert wird. Es dauert eine Weile, bis die Durchflussrate zu- oder abnimmt. Drucker mit einem Bowden-System zum ZufÃ¼hren des Filaments haben auch eine Federung in der Bowden-RÃ¶hre, was den Effekt deutlich verschlechtert. Als Ergebnis erhalten Sie eine Unterextrusion, wenn Sie zu einer hÃ¶heren Durchflussrate wechseln, und eine Ãœberextrusion, wenn Sie zu einer niedrigeren Durchflussrate wechseln. Daher ist es eine gute Idee, die Durchflussrate so konstant wie mÃ¶glich zu halten.
 
-Die Linienbreite beeinflusst die Durchflussrate stark. Es ist ratsam, die Breite der Linien nahe beieinander und nahe an der Größe der Düse zu halten. Wenn Sie die Linienbreite stark angepasst haben, können Sie auch die Druckgeschwindigkeit anpassen, um die Durchflussrate konstanter zu halten. Dadurch wird die Maßhaltigkeit Ihres Drucks verbessert.
+Die Linienbreite beeinflusst die Durchflussrate stark. Es ist ratsam, die Breite der Linien nahe beieinander und nahe an der GrÃ¶ÃŸe der DÃ¼se zu halten. Wenn Sie die Linienbreite stark angepasst haben, kÃ¶nnen Sie auch die Druckgeschwindigkeit anpassen, um die Durchflussrate konstanter zu halten. Dadurch wird die MaÃŸhaltigkeit Ihres Drucks verbessert.

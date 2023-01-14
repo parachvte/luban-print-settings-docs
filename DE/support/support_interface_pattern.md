@@ -1,7 +1,7 @@
-Support Interface Pattern
+Support-Schnittstellenmuster
 ====
-The pattern with which the support interface is drawn can be configured separately from the rest of the support.
+Das Muster, mit dem die Support-Oberfläche gezeichnet wird, kann separat vom Rest des Supports konfiguriert werden.
 
-The support interface is often much denser than the rest of the support. Some patterns don't work all that well at high densities, so it can then be useful to choose a pattern that works better at high densities, such as concentric or zigzag rather than grid or triangles.
+Die Unterstützungsschnittstelle ist oft viel dichter als der Rest der Unterstützung. Einige Muster funktionieren bei hohen Dichten nicht so gut, daher kann es nützlich sein, ein Muster zu wählen, das bei hohen Dichten besser funktioniert, z. B. konzentrisch oder im Zickzack statt Gitter oder Dreiecke.
 
-Since the support interface is the part of support that does the brunt of the work of supporting, it may be useful to choose a pattern that optimises for overhang quality, rather than optimising for other properties of support such as solubility or stability.
+Da die Trägerschnittstelle der Teil des Trägers ist, der die Hauptlast der Trägerarbeit leistet, kann es nützlich sein, ein Muster zu wählen, das für die Überhangqualität optimiert ist, anstatt für andere Eigenschaften des Trägers wie Löslichkeit oder Stabilität zu optimieren.

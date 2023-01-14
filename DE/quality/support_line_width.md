@@ -1,7 +1,7 @@
-Support Line Width
+Breite der Unterstützungslinie
 ====
-Support Line Width refers to the width of the lines with which the support is drawn. This setting can be different from the line width of the rest of the print.
+Support Line Width bezieht sich auf die Breite der Linien, mit denen die Unterstützung gezeichnet wird. Diese Einstellung kann sich von der Strichstärke des restlichen Drucks unterscheiden.
 
-![The lines of support are wider than the rest of the lines](../images/support_line_width.png)
+![Die Unterstützungslinien sind breiter als der Rest der Linien](../images/support_line_width.png)
 
-The support generally doesn't need to be printed accurately, so it can be printed with a greater line width to save some printing time, without compromising the strength of the support. However, to achieve the same density for the support, the lines will be spaced further apart,which reduces the quality of the overhanging surfaces of your print.
+Der Träger muss im Allgemeinen nicht genau gedruckt werden, daher kann er mit einer größeren Linienbreite gedruckt werden, um etwas Druckzeit zu sparen, ohne die Stärke des Trägers zu beeinträchtigen. Um jedoch die gleiche Dichte für den Träger zu erreichen, werden die Linien weiter voneinander entfernt, was die Qualität der überhängenden Oberflächen Ihres Drucks verringert.

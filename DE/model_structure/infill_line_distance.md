@@ -1,19 +1,19 @@
-Fülllinienabstand
+FÃ¼lllinienabstand
 ====
 ### **Beschreibung**
-Neben der Einstellung der [Fülldichte](infill_sparse_density.md) als Prozentsatz können Sie die Fülldichte auch anpassen, indem Sie den Abstand zwischen benachbarten Fülllinien festlegen. Ein größerer Abstand zwischen den Fülllinien führt zu einer geringeren Fülldichte.
+Neben der Einstellung der [FÃ¼lldichte](infill_sparse_density.md) als Prozentsatz kÃ¶nnen Sie die FÃ¼lldichte auch anpassen, indem Sie den Abstand zwischen benachbarten FÃ¼lllinien festlegen. Ein grÃ¶ÃŸerer Abstand zwischen den FÃ¼lllinien fÃ¼hrt zu einer geringeren FÃ¼lldichte.
 
-Normalerweise wird der Fülllinienabstand aus der gewünschten Fülldichte berechnet, abhängig vom ausgewählten Füllmuster und der Linienbreite.
+Normalerweise wird der FÃ¼lllinienabstand aus der gewÃ¼nschten FÃ¼lldichte berechnet, abhÃ¤ngig vom ausgewÃ¤hlten FÃ¼llmuster und der Linienbreite.
 
-![4mm Abstand zwischen den Linien, was zu einer Dichte von 20 % führt](../images/infill_sparse_density_high.png)
-![8mm Abstand zwischen den Linien, was zu einer Dichte von 10 % führt](../images/infill_sparse_density_low.png)
+![4mm Abstand zwischen den Linien, was zu einer Dichte von 20 % fÃ¼hrt](../images/infill_sparse_density_high.png)
+![8mm Abstand zwischen den Linien, was zu einer Dichte von 10 % fÃ¼hrt](../images/infill_sparse_density_low.png)
 
 ### **Verwendung**
-Fülllinienabstand bietet eine weitere Perspektive, um die Fülldichte zu betrachten. Auf der Oberseite der Füllung müssen sich die Deckschichtlinien von einer Füllungslinie zur nächsten kreuzen. Das Reduzieren des Fülllinienabstands reduziert den überbrückten Abstand und verbessert die Qualität der Deckflächen.
+FÃ¼lllinienabstand bietet eine weitere Perspektive, um die FÃ¼lldichte zu betrachten. Auf der Oberseite der FÃ¼llung mÃ¼ssen sich die Deckschichtlinien von einer FÃ¼llungslinie zur nÃ¤chsten kreuzen. Das Reduzieren des FÃ¼lllinienabstands reduziert den Ã¼berbrÃ¼ckten Abstand und verbessert die QualitÃ¤t der DeckflÃ¤chen.
 
-Das Erhöhen der Fülldichte (durch Verringern des Linienabstands) hat einen großen Einfluss auf Ihren Druck, nämlich:
-* Ihr Druck wird stärker.
-* Die Oberfläche wird besser gestützt, glatter und wasserdichter.
-* Der Polstereffekt wird reduziert, da die Wärmetaschen kleiner werden.
-* Ihr Druck benötigt mehr Material und wird dadurch schwerer.
-* Das Drucken dauert länger.
+Das ErhÃ¶hen der FÃ¼lldichte (durch Verringern des Linienabstands) hat einen groÃŸen Einfluss auf Ihren Druck, nÃ¤mlich:
+* Ihr Druck wird stÃ¤rker.
+* Die OberflÃ¤che wird besser gestÃ¼tzt, glatter und wasserdichter.
+* Der Polstereffekt wird reduziert, da die WÃ¤rmetaschen kleiner werden.
+* Ihr Druck benÃ¶tigt mehr Material und wird dadurch schwerer.
+* Das Drucken dauert lÃ¤nger.

@@ -1,12 +1,12 @@
-Support Infill Line Directions
+Unterstützung der Richtung der Fülllinie
 ====
-### **Description**
-The support pattern is normally oriented such that the lines are perpendicular to most things it supports. This way, the distance that the supported material has to bridge is minimised. With this setting, the orientation of the support lines can be customised.
+### **Beschreibung**
+Das Stützmuster ist normalerweise so ausgerichtet, dass die Linien senkrecht zu den meisten Dingen stehen, die es stützt. Auf diese Weise wird der Abstand, den das unterstützte Material überbrücken muss, minimiert. Mit dieser Einstellung kann die Ausrichtung der Hilfslinien angepasst werden.
 
-![An angle of 0°](../images/support_infill_angle_0.png)
-![Alternating between 30° and 60°](../images/support_infill_angles.png)
+![Ein Winkel von 0°](../images/support_infill_angle_0.png)
+![Wechsel zwischen 30° und 60°](../images/support_infill_angles.png)
 
-This setting allows multiple angles to be entered, separated by commas. When multiple angles are entered, Luban will alternate between these angles over the layers.
+Diese Einstellung ermöglicht die Eingabe mehrerer Winkel, getrennt durch Kommas. Wenn mehrere Winkel eingegeben werden, wechselt Luban zwischen diesen Winkeln über die Ebenen.
 
-### **Usage**
-If the [Top/Bottom Line Directions](skin_angles.md) have been adjusted for the model, it is wise to adjust the angle of the support accordingly, so that it is still perpendicular to the lines of the bottom side of the print. This allows these bottom lines to rest properly on the support, rather than falling in between support lines. This is particularly important for lines and zigzag [Support Patterns](support_pattern.md) where there are long straights between the support lines that don't provide any support.
+### **Verwendung**
+Wenn die [Richtungen der oberen/unteren Linie] (skin_angles.md) für das Modell angepasst wurden, ist es ratsam, den Winkel des Trägers entsprechend anzupassen, sodass er immer noch rechtwinklig zu den Linien der Unterseite des Drucks ist. Dadurch können diese unteren Linien richtig auf der Unterstützung ruhen, anstatt zwischen die Unterstützungslinien zu fallen. Dies ist besonders wichtig für Linien und Zickzack-[Unterstützungsmuster](support_pattern.md), wo es lange Geraden zwischen den Unterstützungslinien gibt, die keine Unterstützung bieten.

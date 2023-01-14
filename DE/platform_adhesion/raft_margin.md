@@ -1,13 +1,11 @@
-Raft Extra Margin
+Floß zusätzliche Marge
 ====
-### **Description**
-This setting makes the raft wider than the model. It indicates the width of the extra border around the model.
+### **Beschreibung**
+Diese Einstellung macht das Floß breiter als das Modell. Er gibt die Breite des zusätzlichen Rahmens um das Modell an.
 
-![Dimensions related to the raft](../images/raft_dimensions.svg)
+![Abmessungen bezogen auf das Floß](../images/raft_dimensions.svg)
 
-### **Influence**
-Increasing this setting will greatly improve adhesion between the raft and the build plate. Not only is there a greater area for the raft to stick to the build plate, but the expansions also soften the corners of the raft. With softer corners, warping will have less of an effect on the raft. Secondly, a larger raft allows you to break away the raft from the model more easily, since there is some area to grab the raft with.
+### **Einfluss**
+Durch Erhöhen dieser Einstellung wird die Haftung zwischen Raft und Bauplatte erheblich verbessert. Es gibt nicht nur einen größeren Bereich für das Floß, um an der Bauplatte zu haften, sondern die Erweiterungen machen auch die Ecken des Floßes weicher. Bei weicheren Ecken wirkt sich das Verziehen weniger auf das Floß aus. Zweitens können Sie mit einem größeren Floß das Floß leichter vom Modell lösen, da es einen Bereich gibt, in dem Sie das Floß greifen können.
 
-However, increasing the Raft Extra Margin will also take more space on the build plate. It will take more material and time to print the raft.
-
-
+Eine Erhöhung des Raft Extra Margin nimmt jedoch auch mehr Platz auf der Bauplatte ein. Es wird mehr Material und Zeit brauchen, um das Floß zu drucken.

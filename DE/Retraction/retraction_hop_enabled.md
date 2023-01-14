@@ -1,13 +1,13 @@
 Z-Sprung beim Einfahren
 ====
 ### **Beschreibung**
-Bei jedem Zurückziehen wird die Düse angehoben (oder die Bauplatte abgesenkt), um einen Abstand zwischen der Düse und dem Druck zu schaffen. Wenn die Düse von einem Ort zum anderen bewegt werden muss, wird die Düse leicht über den Druck gehoben. Auf diese Weise geht die Düse über den Druck, anstatt auf die zuvor gedruckten Teile zu treffen.
+Bei jedem ZurÃ¼ckziehen wird die DÃ¼se angehoben (oder die Bauplatte abgesenkt), um einen Abstand zwischen der DÃ¼se und dem Druck zu schaffen. Wenn die DÃ¼se von einem Ort zum anderen bewegt werden muss, wird die DÃ¼se leicht Ã¼ber den Druck gehoben. Auf diese Weise geht die DÃ¼se Ã¼ber den Druck, anstatt auf die zuvor gedruckten Teile zu treffen.
 
 ![Nach oben bewegen, wenn Z-Hops aktiviert sind](../images/retraction_hop_enabled.svg)
 
 ### **Verwendung**
-* Es verhindert, dass die Düse während der Fahrtbewegungen auf den Druck trifft. Wenn die Düse auf den Druck trifft, hinterlässt sie eine sichtbare Narbe, sodass die visuelle Qualität der Druckwände verbessert werden sollte.
-* Wenn das Material während der Fahrbewegungen aus der Düse sickert, setzt sich der Schlamm dort ab, wo die Düse nach der Fahrbewegung landet, was oft in der Füllung ist, wo er nicht sichtbar ist. Dies reduziert Kleckse auf der Oberfläche.
-* Kleckse auf der Oberfläche können Ihren Druck umwerfen, sodass die Aktivierung dieser Einstellung die Zuverlässigkeit verbessern kann.
+* Es verhindert, dass die DÃ¼se wÃ¤hrend der Fahrtbewegungen auf den Druck trifft. Wenn die DÃ¼se auf den Druck trifft, hinterlÃ¤sst sie eine sichtbare Narbe, sodass die visuelle QualitÃ¤t der DruckwÃ¤nde verbessert werden sollte.
+* Wenn das Material wÃ¤hrend der Fahrbewegungen aus der DÃ¼se sickert, setzt sich der Schlamm dort ab, wo die DÃ¼se nach der Fahrbewegung landet, was oft in der FÃ¼llung ist, wo er nicht sichtbar ist. Dies reduziert Kleckse auf der OberflÃ¤che.
+* Kleckse auf der OberflÃ¤che kÃ¶nnen Ihren Druck umwerfen, sodass die Aktivierung dieser Einstellung die ZuverlÃ¤ssigkeit verbessern kann.
 
-Das ständige Auf- und Abbewegen der Düse dauert jedoch etwas länger, sodass der Druck länger dauert. Je nach Konstruktion des Druckers kann es auch die Z-Achse des Druckers schneller abnutzen.
+Das stÃ¤ndige Auf- und Abbewegen der DÃ¼se dauert jedoch etwas lÃ¤nger, sodass der Druck lÃ¤nger dauert. Je nach Konstruktion des Druckers kann es auch die Z-Achse des Druckers schneller abnutzen.

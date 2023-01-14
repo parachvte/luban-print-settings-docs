@@ -1,11 +1,11 @@
-Ziehen Sie lieber zurück
+Ziehen Sie lieber zurÃ¼ck
 ====
 ### **Beschreibung**
-Durch das Kompensieren von Wandüberlappungen wird die Durchflussrate einiger Wandlinien reduziert. Wenn diese Durchflussrate unter den Wert der Einstellung [Mindestwanddurchfluss] (wall_min_flow.md) fällt, wird eine Verfahrbewegung ausgeführt, anstatt die Wandlinie zu drucken.
+Durch das Kompensieren von WandÃ¼berlappungen wird die Durchflussrate einiger Wandlinien reduziert. Wenn diese Durchflussrate unter den Wert der Einstellung [Mindestwanddurchfluss] (wall_min_flow.md) fÃ¤llt, wird eine Verfahrbewegung ausgefÃ¼hrt, anstatt die Wandlinie zu drucken.
 
-Wenn diese Einstellung aktiviert ist, wird das Filament während dieser Verfahrbewegung zurückgezogen.
+Wenn diese Einstellung aktiviert ist, wird das Filament wÃ¤hrend dieser Verfahrbewegung zurÃ¼ckgezogen.
 
 ### **Verwendung**
-Der beabsichtigte Effekt dieser Einstellung ist die Reduzierung von Nässen an den Wänden. Der Zweck der Einstellung „Mindestwandfluss“ besteht darin, den Schleim von extrem dünnen Wänden zu reduzieren, der nicht schön aussieht. Dies kann noch weiter verbessert werden, indem Prefer Retract aktiviert wird.
+Der beabsichtigte Effekt dieser Einstellung ist die Reduzierung von NÃ¤ssen an den WÃ¤nden. Der Zweck der Einstellung â€Mindestwandflussâ€œ besteht darin, den Schleim von extrem dÃ¼nnen WÃ¤nden zu reduzieren, der nicht schÃ¶n aussieht. Dies kann noch weiter verbessert werden, indem Prefer Retract aktiviert wird.
 
-Das Zurückziehen an den Außenwänden führt jedoch dazu, dass die Düse vorübergehend anhält, während das Filament zurückgezogen wird. Dies hinterlässt einen Klecks auf der Oberfläche, wo die Retraktion durchgeführt wurde. Es erhöht auch die Druckzeit und nutzt das Filament schneller ab.
+Das ZurÃ¼ckziehen an den AuÃŸenwÃ¤nden fÃ¼hrt jedoch dazu, dass die DÃ¼se vorÃ¼bergehend anhÃ¤lt, wÃ¤hrend das Filament zurÃ¼ckgezogen wird. Dies hinterlÃ¤sst einen Klecks auf der OberflÃ¤che, wo die Retraktion durchgefÃ¼hrt wurde. Es erhÃ¶ht auch die Druckzeit und nutzt das Filament schneller ab.

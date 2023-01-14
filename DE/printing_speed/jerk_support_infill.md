@@ -1,12 +1,12 @@
-Support Infill Jerk
+Stützen Sie Infill Ruck
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while printing the main part of the support. 
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse Ecken durchfahren kann, während der Hauptteil des Trägers gedruckt wird.
 
-### **Influence**
- Generally, increasing this setting makes the supports stronger as well as easier to remove, since the extrusion rate will be more constant. 
+### **Einfluss**
+  Im Allgemeinen macht eine Erhöhung dieser Einstellung die Stützen stärker und lässt sich leichter entfernen, da die Extrusionsrate konstanter ist.
  
- While increasing the jerk too much increases the chance of a layer shift.
+  Eine zu starke Erhöhung des Rucks erhöht die Wahrscheinlichkeit einer Schichtverschiebung.
 
-### **Usage**
-This setting can be configured separately from the support interface.
+### **Verwendung**
+Diese Einstellung kann separat von der Support-Schnittstelle konfiguriert werden.

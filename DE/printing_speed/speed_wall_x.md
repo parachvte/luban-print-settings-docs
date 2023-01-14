@@ -1,15 +1,15 @@
-Inner Wall Speed
+Geschwindigkeit der Innenwand
 ====
-### **Description**
-Inner Wall Speed refers to the speed at which the inner walls are printed. This setting can be configured separately from the normal print speed and the outer wall.
+### **Beschreibung**
+Innenwandgeschwindigkeit bezieht sich auf die Geschwindigkeit, mit der die Innenwände gedruckt werden. Diese Einstellung kann getrennt von der normalen Druckgeschwindigkeit und der Außenwand konfiguriert werden.
 
-![Various structures printed at different speeds](../images/speed_difference.png)
+![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
-### **Usage**
-The inner walls are less important for visual quality than the outer walls. However they will influence the placement of the outer walls, causing the material for the outer walls to be pushed outside if the [outer wall is printed after the inner walls](../shell/outer_inset_first.md), or directly pushing the outer wall out if the outer wall is printed first. Therefore, it is important to print the inner walls accurately, but they can be printed a bit faster than the outer walls in order to save time.
+### **Verwendung**
+Die Innenwände sind für die optische Qualität weniger wichtig als die Außenwände. Sie beeinflussen jedoch die Platzierung der Außenwände und bewirken, dass das Material für die Außenwände nach außen gedrückt wird, wenn die [Außenwand nach den Innenwänden gedruckt wird](../shell/outer_inset_first.md), oder direkt die Außenwände drücken Wand aus, wenn zuerst die Außenwand gedruckt wird. Daher ist es wichtig, die Innenwände genau zu drucken, aber sie können etwas schneller gedruckt werden als die Außenwände, um Zeit zu sparen.
 
-Reducing the speed of the inner wall will reduce vibrations while printing this structure, which reduces ringing. It also improves overhang, because the fans on the toolhead get more time to cool the material down while it's still being held taut by the nozzle.
+Die Reduzierung der Geschwindigkeit der Innenwand reduziert Vibrationen beim Drucken dieser Struktur, wodurch das Klingeln reduziert wird. Es verbessert auch den Überhang, da die Ventilatoren am Werkzeugkopf mehr Zeit haben, das Material abzukühlen, während es immer noch von der Düse straff gehalten wird.
 
-If the inner wall printing speed is too low however, there is a risk of introducing too great of a flow change. If the nozzle suddenly has to extrude much more slowly, it will extrude a lot of material for a while. During this process, the pressure in the nozzle chamber drops, so at the beginning of the wall the toolhead will overextrude.
+Wenn die Druckgeschwindigkeit der Innenwand jedoch zu niedrig ist, besteht die Gefahr, dass eine zu große Strömungsänderung eingeführt wird. Wenn die Düse plötzlich viel langsamer extrudieren muss, wird sie eine Zeit lang viel Material extrudieren. Während dieses Vorgangs sinkt der Druck in der Düsenkammer, sodass der Werkzeugkopf am Wandanfang überextrudiert.
 
-The inner walls are also a significant part of the printing time, so reducing the speed at which the inner walls are printed will drastically increase the printing time.
+Die Innenwände machen auch einen erheblichen Teil der Druckzeit aus, sodass eine Verringerung der Geschwindigkeit, mit der die Innenwände gedruckt werden, die Druckzeit drastisch verlängert.

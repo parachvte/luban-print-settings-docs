@@ -1,17 +1,17 @@
-Fülldichte
+FÃ¼lldichte
 ====
 ### **Beschreibung**
-Diese Einstellung konfiguriert die Dichte des Volumens innerhalb des Drucks, was ein wichtiger Faktor für die Stärke des endgültigen Drucks sowie für die Oberflächenqualität ist. Je größer die Fülldichte, desto dichter werden die Fülllinien zusammengelegt. Sie können sogar über 100 % Dichte gehen, aber das führt zu einer Überextrusion.
+Diese Einstellung konfiguriert die Dichte des Volumens innerhalb des Drucks, was ein wichtiger Faktor fÃ¼r die StÃ¤rke des endgÃ¼ltigen Drucks sowie fÃ¼r die OberflÃ¤chenqualitÃ¤t ist. Je grÃ¶ÃŸer die FÃ¼lldichte, desto dichter werden die FÃ¼lllinien zusammengelegt. Sie kÃ¶nnen sogar Ã¼ber 100 % Dichte gehen, aber das fÃ¼hrt zu einer Ãœberextrusion.
 
 ![20% Dichte](../images/infill_sparse_density_high.png)
 ![10% Dichte](../images/infill_sparse_density_low.png)
 
 ### **Verwendung**
-Für unterschiedliche Füllmuster müssen Sie möglicherweise unterschiedliche Dichten einstellen. Füllmuster mit vielen Ecken und Kreuzungen funktionieren bei großen Fülldichten nicht gut. Ecken sind ein Problem, da das Filament dazu neigt, mit der Ecke mitzuschleifen, wodurch Lufteinschlüsse an der Außenseite der Ecke entstehen, wo das Material hätte abgelegt werden sollen. Kreuzungen sind ein noch größeres Problem, denn wenn eine Linie eine andere kreuzt, wird der Linienfluss unterbrochen, was direkt nach der Kreuzung zu einer Unterextrusion führt.
+FÃ¼r unterschiedliche FÃ¼llmuster mÃ¼ssen Sie mÃ¶glicherweise unterschiedliche Dichten einstellen. FÃ¼llmuster mit vielen Ecken und Kreuzungen funktionieren bei groÃŸen FÃ¼lldichten nicht gut. Ecken sind ein Problem, da das Filament dazu neigt, mit der Ecke mitzuschleifen, wodurch LufteinschlÃ¼sse an der AuÃŸenseite der Ecke entstehen, wo das Material hÃ¤tte abgelegt werden sollen. Kreuzungen sind ein noch grÃ¶ÃŸeres Problem, denn wenn eine Linie eine andere kreuzt, wird der Linienfluss unterbrochen, was direkt nach der Kreuzung zu einer Unterextrusion fÃ¼hrt.
 
-Das Erhöhen der Fülldichte (durch Verringern des Linienabstands) hat einen großen Einfluss auf Ihren Druck, nämlich:
-* Ihr Druck wird stärker.
-* Die Oberfläche wird besser gestützt, glatter und wasserdichter.
-* Der Polstereffekt wird reduziert, da die Wärmetaschen kleiner werden.
-* Ihr Druck benötigt mehr Material und wird dadurch schwerer.
-* Das Drucken dauert länger.
+Das ErhÃ¶hen der FÃ¼lldichte (durch Verringern des Linienabstands) hat einen groÃŸen Einfluss auf Ihren Druck, nÃ¤mlich:
+* Ihr Druck wird stÃ¤rker.
+* Die OberflÃ¤che wird besser gestÃ¼tzt, glatter und wasserdichter.
+* Der Polstereffekt wird reduziert, da die WÃ¤rmetaschen kleiner werden.
+* Ihr Druck benÃ¶tigt mehr Material und wird dadurch schwerer.
+* Das Drucken dauert lÃ¤nger.

@@ -1,7 +1,7 @@
-Ironing Speed
+Bügelgeschwindigkeit
 ====
-This setting allows you to control how fast the nozzle moves during ironing.
+Mit dieser Einstellung können Sie steuern, wie schnell sich die Düse während des Bügelns bewegt.
 
-The ironing speed is normally significantly slower than skin printing speed. This allows the top surface lines to fuse together. However, setting a slow ironing speed will increase the total printing time quite significantly, especially when the line width of ironing is small.
+Die Bügelgeschwindigkeit ist normalerweise deutlich langsamer als die Hautdruckgeschwindigkeit. Dadurch können die Oberflächenlinien miteinander verschmelzen. Die Einstellung einer langsamen Bügelgeschwindigkeit verlängert jedoch die Gesamtdruckzeit erheblich, insbesondere wenn die Bügellinienbreite gering ist.
 
-Ironing behaves widely different with different materials, so you may need to set different ironing speed for different materials.
+Das Bügeln verhält sich bei verschiedenen Materialien sehr unterschiedlich, daher müssen Sie möglicherweise unterschiedliche Bügelgeschwindigkeiten für verschiedene Materialien einstellen.

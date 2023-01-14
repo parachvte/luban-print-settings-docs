@@ -1,12 +1,12 @@
-Travel Jerk
+Reise Ruck
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while travelling across the build volume. 
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse Ecken passieren kann, während sie über das Bauvolumen fährt.
 
-### **Influence**
-Setting the jerk too high can cause the motors to lose some steps, which can lead to a layer shift.
+### **Einfluss**
+Eine zu hohe Einstellung des Rucks kann dazu führen, dass die Motoren einige Schritte verlieren, was zu einer Schichtverschiebung führen kann.
 
-### **Usage**
-If you've configured Luban to [avoid printed parts when travelling](../travel/travel_avoid_other_parts.md), then keeping a sufficient [distance](../travel/travel_avoid_distance.md) will prevent the nozzle from hitting your print even if it vibrates a bit. It's therefore useful to set the jerk very high during the travel moves to save printing time.
+### **Verwendung**
+Wenn Sie Luban so konfiguriert haben, dass [bedruckte Teile beim Reisen vermeiden](../travel/travel_avoid_other_parts.md), dann wird das Einhalten eines ausreichenden [Abstands](../travel/travel_avoid_distance.md) verhindern, dass die Düse auf Ihren Ausdruck trifft auch wenn es etwas vibriert. Es ist daher sinnvoll, den Ruck während der Verfahrbewegungen sehr hoch einzustellen, um Druckzeit zu sparen.
 
-This setting can be configured separately from when the nozzle is extruding material.
+Diese Einstellung kann separat konfiguriert werden, wenn die Düse Material extrudiert.

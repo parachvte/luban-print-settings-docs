@@ -1,6 +1,6 @@
-Outer Before Inner Walls
+Äußere vor inneren Wänden
 ====
-This setting determines which walls are printed first, the outer or the inner walls.
+Diese Einstellung bestimmt, welche Wände zuerst gedruckt werden, die äußere oder die innere Wand.
 
 <!--screenshot {
 "image_path": "outer_inset_first_disabled.gif",
@@ -28,10 +28,10 @@ This setting determines which walls are printed first, the outer or the inner wa
 "delay": 125,
 "colours": 32
 }-->
-![The inner wall is printed first](../images/outer_inset_first_disabled.gif)
-![The outer wall is printed first](../images/outer_inset_first_enabled.gif)
+![Zuerst wird die Innenwand bedruckt](../images/outer_inset_first_disabled.gif)
+![Zuerst wird die Außenwand bedruckt](../images/outer_inset_first_enabled.gif)
 
-Enabling this setting has a small effect on quality as well as dimensional accuracy:
-* It will improve dimensional accuracy. Adjacent walls generally push each other a bit, especially if the wall line width is smaller than the nozzle size. The wall that gets printed first will have been solidified and then doesn't get pushed as much. Therefore printing the outer wall first will make your outer wall be in a more accurate location.
-* If the infill is printed before the walls, it will reduce how much the infill shows through on the surface. Otherwise the infill is printed first, then the inner walls which get pushed outwards by the infill, and then the outer wall which gets pushed outwards by the inner walls. As a result, a pattern could be visible on the outside. If the outer wall is printed first, the outer wall can solidify before the inner wall is able to push on it.
-* Printing the outer wall first is generally worse for overhang. The outer wall is further removed from the previous layer than the inner wall. When printing the outer wall first, the outer wall has nothing yet to grab on to. When the inner wall is printed first, the outer wall can sideways attach to the outer wall.
+Die Aktivierung dieser Einstellung hat einen kleinen Einfluss auf die Qualität sowie die Maßhaltigkeit:
+* Es verbessert die Maßhaltigkeit. Benachbarte Wände schieben sich im Allgemeinen ein wenig aneinander, insbesondere wenn die Wandlinienbreite kleiner als die Düsengröße ist. Die Wand, die zuerst gedruckt wird, ist verfestigt und wird dann nicht mehr so stark gedrückt. Wenn Sie also zuerst die Außenwand drucken, befindet sich Ihre Außenwand an einer genaueren Position.
+* Wenn die Füllung vor den Wänden gedruckt wird, wird das Durchscheinen der Füllung auf der Oberfläche verringert. Andernfalls wird zuerst die Füllung gedruckt, dann die Innenwände, die durch die Füllung nach außen gedrückt werden, und dann die Außenwand, die durch die Innenwände nach außen gedrückt wird. Dadurch könnte auf der Außenseite ein Muster sichtbar sein. Wenn die Außenwand zuerst gedruckt wird, kann die Außenwand erstarren, bevor die Innenwand darauf drücken kann.
+* Das Drucken der Außenwand zuerst ist im Allgemeinen schlechter für Überhänge. Die Außenwand ist weiter von der vorherigen Schicht entfernt als die Innenwand. Wenn Sie zuerst die Außenwand drucken, hat die Außenwand noch nichts zum Anfassen. Wenn die Innenwand zuerst bedruckt wird, kann die Außenwand seitlich an der Außenwand befestigt werden.

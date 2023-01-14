@@ -1,49 +1,49 @@
-Support Type
+Unterstützungstyp
 ====
-With this setting you can choose which algorithm to use to construct the support structures. These constructions have vastly different properties, so choosing an algorithm will have a big influence in how well your print gets supported. There are three options available.
+Mit dieser Einstellung können Sie auswählen, welcher Algorithmus zur Konstruktion der Stützstrukturen verwendet werden soll. Diese Konstruktionen haben sehr unterschiedliche Eigenschaften, sodass die Wahl eines Algorithmus einen großen Einfluss darauf hat, wie gut Ihr Druck unterstützt wird. Es stehen drei Optionen zur Verfügung.
 
 Normal
 ----
 
-![Normal support construction](../images/support_type_everywhere.png)
+![Normale Stützkonstruktion](../images/support_type_everywhere.png)
 
-This is a traditional support structure, the one that most people are used to. The structure is generated underneath the overhanging areas, and typically filled with a pattern that directly supports the overhanging areas. From there it is dropped straight down until it reaches the build plate or a part of the model that supports it.
+Dies ist eine traditionelle Unterstützungsstruktur, an die die meisten Menschen gewöhnt sind. Die Struktur wird unter den überhängenden Bereichen erzeugt und typischerweise mit einem Muster gefüllt, das die überhängenden Bereiche direkt unterstützt. Von dort wird es direkt nach unten fallen gelassen, bis es die Bauplatte oder einen Teil des Modells erreicht, das es trägt.
 
-The normal support construction has been the default for most of 3D printing processes, and works similarly in all slicers. This is the golden standard, and not without reason:
+Die normale Stützkonstruktion war die Standardeinstellung für die meisten 3D-Druckverfahren und funktioniert in allen Slicern ähnlich. Das ist der goldene Standard, und das nicht ohne Grund:
 
-* Due to its sturdy structure, with big contact areas on the model and build plate, it is very reliable. It is very forgiving with bad settings or a badly tuned printer.
-* Because the shape is simple, it is quick to slice.
-* The straight support structure is easy to customise for a user, since it's immediately clear which borders are going to be supported and which are not.
+* Aufgrund seiner robusten Struktur mit großen Kontaktflächen auf dem Modell und der Bauplatte ist es sehr zuverlässig. Es ist sehr nachsichtig mit schlechten Einstellungen oder einem schlecht abgestimmten Drucker.
+* Da die Form einfach ist, ist es schnell zu schneiden.
+* Die gerade Stützstruktur ist für einen Benutzer einfach anzupassen, da sofort klar ist, welche Grenzen unterstützt werden und welche nicht.
 
-The most important downsides arise from the same properties:
+Die wichtigsten Nachteile ergeben sich aus den gleichen Eigenschaften:
 
-* Due to the large contact areas, the support is often hard to remove and can leave significant scars on the surface where it touched.
-* Although it is stable, it can use a lot of material and take a lot of time to print. This can be counteracted to an extent by using [conical support](../experimental/conical_overhang_enabled.md).
+* Aufgrund der großen Kontaktflächen ist die Bandage oft schwer zu entfernen und kann erhebliche Narben auf der Oberfläche hinterlassen, wo sie berührt wurde.
+* Obwohl es stabil ist, kann es viel Material verbrauchen und viel Zeit zum Drucken benötigen. Durch die Verwendung von [conical support](../experimental/conical_overhang_enabled.md) kann dem teilweise entgegengewirkt werden.
 
-## Tree
+## Baum
 
-![Tree support](../images/support_structure_tree.png)
+![Baumunterstützung](../images/support_structure_tree.png)
 
-With tree support, the support structure will start out small on the build plate, and will grow branches towards the parts of the print that need supporting.
+Bei der Baumunterstützung beginnt die Stützstruktur auf der Bauplatte klein und lässt Äste zu den Teilen des Drucks wachsen, die gestützt werden müssen.
 
-Tree support can avoid obstacles when growing towards the overhang areas, since the support doesn't need to drop straight down. If at all possible, the support will rest only on the build plate, to prevent scarring of the surface that the support rests on. If no path exists from the build plate to the overhang, it will rest on a surface that is as close to the overhang as possible, to minimise material usage. The branches of tree support are limited by the [Tree Support Branch Angle](support_tree_angle.md) so that they don't produce too steep an overhang themselves. This limits their ability to grow around obstacles.
+Baumstützen können Hindernisse vermeiden, wenn sie in Richtung der Überhangbereiche wachsen, da die Stütze nicht gerade nach unten fallen muss. Wenn möglich, ruht die Stütze nur auf der Bauplatte, um ein Verkratzen der Oberfläche, auf der die Stütze ruht, zu vermeiden. Wenn kein Weg von der Bauplatte zum Überhang vorhanden ist, ruht sie auf einer Oberfläche, die so nah wie möglich am Überhang liegt, um den Materialverbrauch zu minimieren. Die Äste der Baumstütze werden durch den [Tree Support Ast Angle](support_tree_angle.md) begrenzt, damit sie selbst keinen zu steilen Überhang erzeugen. Dies schränkt ihre Fähigkeit ein, um Hindernisse herum zu wachsen.
 
-The tree support construction has a number of big advantages over normal support:
+Die Baumstützenkonstruktion hat gegenüber der normalen Stütze eine Reihe großer Vorteile:
 
-* Tree support often uses way less material than ordinary support. Between 25% and 50% of the material usage is common. This saves a lot of time and reduces the cost of the print.
-* Because of its small contact area, overhang tends to look better when using tree support.
-* Also because of the small contact area, the support will be easier to remove.
-* It leaves fewer scars on the surface than normal support, due to being able to reach around the model from the build plate towards the overhang.
+* Baumstütze verbraucht oft viel weniger Material als gewöhnliche Stütze. Zwischen 25 % und 50 % des Materialeinsatzes sind üblich. Das spart viel Zeit und reduziert die Druckkosten.
+* Aufgrund seiner kleinen Kontaktfläche sieht der Überhang bei Verwendung von Baumstützen tendenziell besser aus.
+* Auch aufgrund der kleinen Kontaktfläche lässt sich die Stütze leichter entfernen.
+* Sie hinterlässt weniger Narben auf der Oberfläche als eine normale Stütze, da sie von der Bauplatte bis zum Überhang um das Modell herum reichen kann.
 
-The main disadvantages are however:
+Die Hauptnachteile sind jedoch:
 
-* It takes significantly longer to slice than normal support. Patience will be necessary, especially with tall models.
-* There are lots of interruptions in the flow when the smallest branches are printed, making tree support unsuitable to print using materials that are hard to extrude, such as PVA or flexible materials.
-* Tree support tends to place too few branches to support flat, sloped overhangs.
+* Das Slicen dauert deutlich länger als bei normaler Stütze. Gerade bei großen Models ist Geduld gefragt.
+* Es gibt viele Unterbrechungen im Fluss, wenn die kleinsten Äste gedruckt werden, was Baumstützen ungeeignet macht, um mit Materialien zu drucken, die schwer zu extrudieren sind, wie PVA oder flexible Materialien.
+* Baumstützen neigen dazu, zu wenige Äste zu platzieren, um flache, geneigte Überhänge zu stützen.
 
-Tree support is hollow by default. Due to its jagged shape, the tree support is normally quite sturdy. The [Support Density](support_infill_rate.md) can be used to give the support more structural strength.
+Baumstütze ist standardmäßig hohl. Aufgrund ihrer gezackten Form ist die Baumstütze normalerweise ziemlich stabil. Die [Stützdichte] (support_infill_rate.md) kann verwendet werden, um der Stütze mehr strukturelle Festigkeit zu verleihen.
 
-## No Support
+## Keine Unterstützung
 ----
 
-No support is generated for the model. With this option selected, the overhanging parts of the model may collapse during printing.
+Für das Modell wird keine Unterstützung generiert. Wenn diese Option ausgewählt ist, können die überhängenden Teile des Modells während des Druckens zusammenbrechen.

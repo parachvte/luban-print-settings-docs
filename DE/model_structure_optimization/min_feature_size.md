@@ -1,11 +1,11 @@
-Minimale Feature-Größe
+Minimale Feature-GrÃ¶ÃŸe
 ====
-Diese Einstellung steuert die Mindestbreite der zu druckenden Details des Modells. Alles, was dünner ist, wird nicht gedruckt.
+Diese Einstellung steuert die Mindestbreite der zu druckenden Details des Modells. Alles, was dÃ¼nner ist, wird nicht gedruckt.
 
-Details, die kleiner als die Düsengröße sind, werden wahrscheinlich nicht gut gedruckt. Dies ist eine Einschränkung des Druckers. Cura kann jedoch immer noch versuchen, sie zu drucken, wobei akzeptiert wird, dass es keine schöne Extrusionsrate hat oder dass die Details dicker als modelliert werden.
+Details, die kleiner als die DÃ¼sengrÃ¶ÃŸe sind, werden wahrscheinlich nicht gut gedruckt. Dies ist eine EinschrÃ¤nkung des Druckers. Cura kann jedoch immer noch versuchen, sie zu drucken, wobei akzeptiert wird, dass es keine schÃ¶ne Extrusionsrate hat oder dass die Details dicker als modelliert werden.
 
-Durch das Reduzieren der minimalen Feature-Größe druckt der Drucker kleinere Details des Drucks. Abhängig von
- [Mindestbreite dünner Wandlinien](min_bead_width.md), diese winzigen Details können gedruckt werden, indem sehr wenig extrudiert wird
-(verursacht [Unterextrusion](../troubleshooting/underextrusion.md)), oder indem vernünftigere Linienbreiten extrudiert, aber überdimensioniert gedruckt werden. Wenn Sie diesen Wert auf 0 setzen, geht der Drucker bis ganz in die Spitzen jeder scharfen Ecke.
+Durch das Reduzieren der minimalen Feature-GrÃ¶ÃŸe druckt der Drucker kleinere Details des Drucks. AbhÃ¤ngig von
+ [Mindestbreite dÃ¼nner Wandlinien](min_bead_width.md), diese winzigen Details kÃ¶nnen gedruckt werden, indem sehr wenig extrudiert wird
+(verursacht [Unterextrusion](../troubleshooting/underextrusion.md)), oder indem vernÃ¼nftigere Linienbreiten extrudiert, aber Ã¼berdimensioniert gedruckt werden. Wenn Sie diesen Wert auf 0 setzen, geht der Drucker bis ganz in die Spitzen jeder scharfen Ecke.
 
-Durch Erhöhen der minimalen Feature-Größe kümmert sich der Drucker nicht mehr um kleine Details, die sowieso nicht gut herauskommen würden. Das spart etwas Zeit und könnte den Druck sauberer erscheinen lassen.
+Durch ErhÃ¶hen der minimalen Feature-GrÃ¶ÃŸe kÃ¼mmert sich der Drucker nicht mehr um kleine Details, die sowieso nicht gut herauskommen wÃ¼rden. Das spart etwas Zeit und kÃ¶nnte den Druck sauberer erscheinen lassen.

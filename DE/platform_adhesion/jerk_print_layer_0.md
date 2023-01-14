@@ -1,13 +1,12 @@
-Initial Layer Print Jerk
+Druckruck der Anfangsschicht
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while the initial layer is being extruded. It can be configured separately from the travel moves during the initial layer.
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse Ecken passieren kann, während die Anfangsschicht extrudiert wird. Sie kann während der Initialschicht getrennt von den Verfahrbewegungen konfiguriert werden.
 
-### **Influence**
-Reducing the jerk will make the printer deposit more material in sharp corners because the nozzle slows down while the material flow has some delay when the flow is reduced. These sharp corners are often where the print lets go of the build plate first due to warping. Depositing some extra material in those corners is advantageous then, since it'll make the corners stick better. 
+### **Einfluss**
+Durch Reduzieren des Rucks trägt der Drucker mehr Material in scharfen Ecken auf, da die Düse langsamer wird, während der Materialfluss etwas verzögert wird, wenn der Fluss reduziert wird. Diese scharfen Ecken sind oft dort, wo sich der Druck aufgrund von Verwerfungen zuerst von der Bauplatte löst. Es ist dann vorteilhaft, etwas zusätzliches Material in diese Ecken zu legen, da die Ecken dadurch besser haften.
 
-This effect is not present during the travel moves of the initial layer. For this reason, the jerk during the extrusion of the first layer is normally a bit lower than the jerk during travel moves of the first layer.
+Dieser Effekt ist während der Verfahrbewegungen der Anfangsschicht nicht vorhanden. Aus diesem Grund ist der Ruck beim Extrudieren der ersten Schicht normalerweise etwas geringer als der Ruck beim Verschieben der ersten Schicht.
 
-### **Usage**
-The individual structures of the print could all have different jerk values. There are separate settings for the infill, bottom side, outer and inner walls, support and prime tower. This setting will override all of those. Only the [Skirt/Brim Jerk](jerk_skirt_brim.md) setting will override this jerk, since the skirt and brim can only occur in the first layer.
-
+### **Verwendung**
+Die einzelnen Strukturen des Drucks könnten alle unterschiedliche Ruckwerte haben. Es gibt separate Einstellungen für die Füllung, die Unterseite, die Außen- und Innenwände, die Stütze und den Hauptturm. Diese Einstellung überschreibt alle diese. Nur die Einstellung [Rock/Brim Jerk](jerk_skirt_brim.md) überschreibt diesen Ruck, da Rock und Krempe nur in der ersten Ebene vorkommen können.

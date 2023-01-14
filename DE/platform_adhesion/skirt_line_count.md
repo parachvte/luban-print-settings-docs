@@ -1,12 +1,9 @@
-Skirt Line Count
+Anzahl der Rocklinien
 ====
-### **Description**
-This setting configures the number of contours to draw around the print, for the skirt.
+### **Beschreibung**
+Diese Einstellung konfiguriert die Anzahl der Konturen, die um den Druck herum gezeichnet werden sollen, für den Rock.
 
-### **Usage**
-One of the purposes of the skirt is to prime the nozzle, to get the material flowing properly. With very small models, a single line is not enough, so you can configure this setting to draw multiple lines.
+### **Verwendung**
+Einer der Zwecke der Schürze besteht darin, die Düse vorzubereiten, damit das Material richtig fließt. Bei sehr kleinen Modellen reicht eine einzelne Linie nicht aus, daher können Sie diese Einstellung so konfigurieren, dass mehrere Linien gezeichnet werden.
 
-Using the [Skirt/Brim Minimum Length](skirt_brim_minimal_length.md) setting is more reliable than using this setting to ensure a minimum amount of primed material. This setting is only somewhat easier to understand.
-
-
-
+Die Verwendung der Einstellung [Mindestlänge Rock/Krempe](skirt_brim_minimal_length.md) ist zuverlässiger als die Verwendung dieser Einstellung, um eine Mindestmenge an grundiertem Material sicherzustellen. Diese Einstellung ist nur etwas verständlicher.

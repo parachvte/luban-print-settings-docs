@@ -1,16 +1,16 @@
-Support Overhang Angle
+Überhangwinkel unterstützen
 ====
-### **Description**
-The overhang angle influences how much material is used to support the print. The angle indicates the minimum angle that gets supported. Reducing the value of this setting generates more support.
+### **Beschreibung**
+Der Überhangwinkel beeinflusst, wie viel Material verwendet wird, um den Druck zu unterstützen. Der Winkel gibt den minimalen Winkel an, der unterstützt wird. Durch Verringern des Werts dieser Einstellung wird mehr Unterstützung generiert.
 
-![A low overhang angle generates more support](../images/support_angle_low.png)
-![A high overhang angle generates less support](../images/support_angle_high.png)
-![The supported areas are indicated in red](../images/support_angle_prepare_mode.png)
+![Ein niedriger Überhangwinkel erzeugt mehr Unterstützung](../images/support_angle_low.png)
+![Ein hoher Überhangwinkel erzeugt weniger Unterstützung](../images/support_angle_high.png)
+![Die unterstützten Bereiche sind rot gekennzeichnet](../images/support_angle_prepare_mode.png)
 
-### **Influence**
-Reducing this setting makes more of the printed parts get supported, even surfaces that are steeper and won't sag much during printing. If unnecessary support is generated, it'll increase the printing time and material usage unnecessarily and also create scars where the support touched the print.
+### **Einfluss**
+Wenn Sie diese Einstellung reduzieren, werden mehr gedruckte Teile unterstützt, sogar Oberflächen, die steiler sind und während des Druckens nicht stark durchhängen. Wenn eine unnötige Stütze erzeugt wird, erhöht dies die Druckzeit und den Materialverbrauch unnötig und erzeugt auch Narben, wo die Stütze den Druck berührt.
 
-However reducing the support angle is sometimes necessary to prevent the material from sagging too much. It generally improves the dimensional accuracy of the final part and makes the overhangs look better.
+Allerdings ist es manchmal notwendig, den Auflagewinkel zu reduzieren, um ein zu starkes Durchhängen des Materials zu verhindern. Es verbessert im Allgemeinen die Maßgenauigkeit des fertigen Teils und lässt die Überhänge besser aussehen.
 
-### **Usage**
-Whenever working with support, it's a good idea to preview what the support looks like in the Preview stage. There you can see where it will actually generate support. Adjusting this setting can filter out unnecessary support.
+### **Verwendung**
+Wenn Sie mit dem Support arbeiten, ist es eine gute Idee, in der Vorschauphase eine Vorschau des Supports anzuzeigen. Dort können Sie sehen, wo es tatsächlich Unterstützung generiert. Das Anpassen dieser Einstellung kann unnötige Unterstützung herausfiltern.

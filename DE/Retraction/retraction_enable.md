@@ -1,21 +1,21 @@
 Retraktionen aktivieren
 ====
 ### **Beschreibung**
-Wenn ein 3D-Drucker aufhört, Material zu drücken, hört das Material nicht sofort auf, aus dem Ende der Düse zu fließen. Das Restmaterial in der Düse quillt immer wieder heraus. Um das Fließen des Materials tatsächlich zu stoppen, muss der Drucker das Material von der Düsenöffnung nach hinten zurückziehen. Dies ist notwendig, um saubere Reisebewegungen ohne Besaitung auszuführen.
+Wenn ein 3D-Drucker aufhÃ¶rt, Material zu drÃ¼cken, hÃ¶rt das Material nicht sofort auf, aus dem Ende der DÃ¼se zu flieÃŸen. Das Restmaterial in der DÃ¼se quillt immer wieder heraus. Um das FlieÃŸen des Materials tatsÃ¤chlich zu stoppen, muss der Drucker das Material von der DÃ¼senÃ¶ffnung nach hinten zurÃ¼ckziehen. Dies ist notwendig, um saubere Reisebewegungen ohne Besaitung auszufÃ¼hren.
 
 ![Retraktionen deaktiviert](../images/retraction_enable_disabled.png)
-![Rückzugsbewegungen werden heller blau dargestellt](../images/retraction_enable_enabled.png)
+![RÃ¼ckzugsbewegungen werden heller blau dargestellt](../images/retraction_enable_enabled.png)
 
-Nachdem Sie die Rückzüge aktiviert haben, zieht der Extruder Material zurück, während er Verfahrbewegungen ausführt, die besonders empfindlich auf Fadenziehen reagieren. Bei Fahrbewegungen, die nur durch Füllung oder von Stütze zu Stütze verlaufen, führt der Extruder kein Zurückziehen durch. Es gibt auch eine Grenze dafür, wie oft das Material zurückgezogen werden kann, durch die Einstellungen [Maximum Retraction Count](retraction_count_max.md) und [Minimum Extrusion Distance Window](retraction_extrusion_window.md).
+Nachdem Sie die RÃ¼ckzÃ¼ge aktiviert haben, zieht der Extruder Material zurÃ¼ck, wÃ¤hrend er Verfahrbewegungen ausfÃ¼hrt, die besonders empfindlich auf Fadenziehen reagieren. Bei Fahrbewegungen, die nur durch FÃ¼llung oder von StÃ¼tze zu StÃ¼tze verlaufen, fÃ¼hrt der Extruder kein ZurÃ¼ckziehen durch. Es gibt auch eine Grenze dafÃ¼r, wie oft das Material zurÃ¼ckgezogen werden kann, durch die Einstellungen [Maximum Retraction Count](retraction_count_max.md) und [Minimum Extrusion Distance Window](retraction_extrusion_window.md).
 
-Vorteile des Rückzugs
+Vorteile des RÃ¼ckzugs
 * Es wird das Stringing deutlich reduzieren.
-* Es wird die Menge und Größe von Klecksen auf der Oberfläche, wo die Düse in den Umfang eines Teils eintritt, erheblich reduzieren.
+* Es wird die Menge und GrÃ¶ÃŸe von Klecksen auf der OberflÃ¤che, wo die DÃ¼se in den Umfang eines Teils eintritt, erheblich reduzieren.
 
-Nachteile des Rückzugs
-* Das Zurückziehen dauert etwas.
-* Der Materialfluss wird bei einem Rückzug unterbrochen. Dies hat negative Folgen für die Maßhaltigkeit und kann zu Unterextrusion führen.
-* Das Filament kann sich abnutzen, wenn zu viele Rückzüge erfolgen, wodurch verhindert wird, dass die Zuführung das Material greift.
+Nachteile des RÃ¼ckzugs
+* Das ZurÃ¼ckziehen dauert etwas.
+* Der Materialfluss wird bei einem RÃ¼ckzug unterbrochen. Dies hat negative Folgen fÃ¼r die MaÃŸhaltigkeit und kann zu Unterextrusion fÃ¼hren.
+* Das Filament kann sich abnutzen, wenn zu viele RÃ¼ckzÃ¼ge erfolgen, wodurch verhindert wird, dass die ZufÃ¼hrung das Material greift.
 
 ### **Verwendung**
-Flexible Materialien lassen sich schwerer zurückziehen, da durch Ziehen am Filament das Filament gedehnt wird, anstatt sich von der Düsenspitze nach hinten zurückzuziehen. Es kann sehr zeitaufwändig und relativ ineffektiv sein, das Zurückziehen mit solchen Materialien zu ermöglichen.
+Flexible Materialien lassen sich schwerer zurÃ¼ckziehen, da durch Ziehen am Filament das Filament gedehnt wird, anstatt sich von der DÃ¼senspitze nach hinten zurÃ¼ckzuziehen. Es kann sehr zeitaufwÃ¤ndig und relativ ineffektiv sein, das ZurÃ¼ckziehen mit solchen Materialien zu ermÃ¶glichen.

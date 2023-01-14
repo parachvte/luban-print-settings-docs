@@ -1,12 +1,12 @@
-Beschleunigung der anfänglichen Ebene
+Beschleunigung der anfÃ¤nglichen Ebene
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse beim Drucken der ersten Schicht in verschiedene Richtungen beschleunigt. Die Beschleunigung während der ersten Schicht kann auf eine andere Rate eingestellt werden als der Rest des Drucks.
+Diese Einstellung steuert, wie schnell die DÃ¼se beim Drucken der ersten Schicht in verschiedene Richtungen beschleunigt. Die Beschleunigung wÃ¤hrend der ersten Schicht kann auf eine andere Rate eingestellt werden als der Rest des Drucks.
 
 ### **Einfluss**
-Drucken mit hoher Beschleunigung kann zu Vibrationen des Druckers führen. Insbesondere diese Vibrationen können dazu führen, dass die Bauplatte nach oben und unten rüttelt, was der Haftung des Drucks auf der Bauplatte abträglich ist.
+Drucken mit hoher Beschleunigung kann zu Vibrationen des Druckers fÃ¼hren. Insbesondere diese Vibrationen kÃ¶nnen dazu fÃ¼hren, dass die Bauplatte nach oben und unten rÃ¼ttelt, was der Haftung des Drucks auf der Bauplatte abtrÃ¤glich ist.
 
-Die Reduzierung der Beschleunigung für die erste Schicht kann Vibrationen während dieses kritischen Teils des Druckprozesses reduzieren. Das Drucken dauert jedoch länger, und eine zu starke Reduzierung der Beschleunigungsraten kann zu einer ungleichmäßigen Extrusion in den Ecken führen, was sich auch nachteilig auf die Haftung der Druckplatte auswirkt.
+Die Reduzierung der Beschleunigung fÃ¼r die erste Schicht kann Vibrationen wÃ¤hrend dieses kritischen Teils des Druckprozesses reduzieren. Das Drucken dauert jedoch lÃ¤nger, und eine zu starke Reduzierung der Beschleunigungsraten kann zu einer ungleichmÃ¤ÃŸigen Extrusion in den Ecken fÃ¼hren, was sich auch nachteilig auf die Haftung der Druckplatte auswirkt.
 
 ### **Verwendung**
-Während die Wände, die Plattformhaftung, die Böden, die Stütze und die Füllung alle unterschiedliche Beschleunigungsraten haben können, werden sie während der ersten Schicht gleich gemacht. Die Beschleunigungsrate der anfänglichen Schicht überschreibt die Beschleunigungsraten der einzelnen Strukturen. Die Bewegungsbewegungen können immer noch eine andere Beschleunigungsrate haben als die Extrusionsbewegungen durch die Einstellungen [Initial Layer Travel Acceleration](acceleration_travel_layer_0.md) und [Initial Layer Print Acceleration](acceleration_print_layer_0.md). Die Einstellung [Skirt/Brim Acceleration](acceleration_skirt_brim.md) überschreibt auch die anfängliche Druckbeschleunigung der Ebene.
+WÃ¤hrend die WÃ¤nde, die Plattformhaftung, die BÃ¶den, die StÃ¼tze und die FÃ¼llung alle unterschiedliche Beschleunigungsraten haben kÃ¶nnen, werden sie wÃ¤hrend der ersten Schicht gleich gemacht. Die Beschleunigungsrate der anfÃ¤nglichen Schicht Ã¼berschreibt die Beschleunigungsraten der einzelnen Strukturen. Die Bewegungsbewegungen kÃ¶nnen immer noch eine andere Beschleunigungsrate haben als die Extrusionsbewegungen durch die Einstellungen [Initial Layer Travel Acceleration](acceleration_travel_layer_0.md) und [Initial Layer Print Acceleration](acceleration_print_layer_0.md). Die Einstellung [Skirt/Brim Acceleration](acceleration_skirt_brim.md) Ã¼berschreibt auch die anfÃ¤ngliche Druckbeschleunigung der Ebene.

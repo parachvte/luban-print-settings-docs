@@ -1,5 +1,5 @@
-Bügelbeschleunigung
+BÃ¼gelbeschleunigung
 ====
-Die Bügelbeschleunigung kann zur Feinabstimmung des Vorgangs separat eingestellt werden.
+Die BÃ¼gelbeschleunigung kann zur Feinabstimmung des Vorgangs separat eingestellt werden.
 
-Die Beschleunigung beim Bügeln ist normalerweise deutlich langsamer als die Druckbeschleunigung, um sicherzustellen, dass die Schicht eine glatte Oberfläche erhält.
+Die Beschleunigung beim BÃ¼geln ist normalerweise deutlich langsamer als die Druckbeschleunigung, um sicherzustellen, dass die Schicht eine glatte OberflÃ¤che erhÃ¤lt.

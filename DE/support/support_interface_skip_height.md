@@ -1,5 +1,5 @@
-Support Interface Resolution
+Support-Schnittstellenauflösung
 ====
-Luban needs to determine where the support interface is printed by checking where it comes into contact with the model in the Z-direction. This setting determines the resolution at which it checks.
+Luban muss bestimmen, wo die Support-Schnittstelle gedruckt wird, indem überprüft wird, wo sie mit dem Modell in Z-Richtung in Kontakt kommt. Diese Einstellung bestimmt die Auflösung, mit der geprüft wird.
 
-Increasing this setting causes Luban to sample at a lower resolution, which speeds up slicing. However increasing it too much can cause Luban to skip placing support interface if the model above or below the support is very thin. If the model is very thin, Luban's sampling could skip over the model, not noticing that it should place support interface there.
+Das Erhöhen dieser Einstellung führt dazu, dass Luban mit einer niedrigeren Auflösung abtastet, was das Slicing beschleunigt. Eine zu starke Erhöhung kann jedoch dazu führen, dass Luban die Platzierung der Stützschnittstelle überspringt, wenn das Modell über oder unter der Stütze sehr dünn ist. Wenn das Modell sehr dünn ist, könnte Lubans Sampling das Modell überspringen, ohne zu bemerken, dass es dort eine Unterstützungsschnittstelle platzieren sollte.

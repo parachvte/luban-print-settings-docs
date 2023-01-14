@@ -1,10 +1,10 @@
-Dachbeschleunigung unterstützen
+Dachbeschleunigung unterstÃ¼tzen
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse beim Drucken des Stützdachs in verschiedene Richtungen beschleunigt.
+Diese Einstellung steuert, wie schnell die DÃ¼se beim Drucken des StÃ¼tzdachs in verschiedene Richtungen beschleunigt.
 
 ### **Einfluss**
-Das Stützdach ist empfindlicher gegenüber ungenauem Druck, da es die Überhangqualität direkt beeinflusst. Das Ermöglichen, dass das Stützdach eine niedrigere Beschleunigungsrate hat als der Stützboden, kann eine bessere Überhangqualität für eine ähnliche Druckzeit ergeben.
+Das StÃ¼tzdach ist empfindlicher gegenÃ¼ber ungenauem Druck, da es die ÃœberhangqualitÃ¤t direkt beeinflusst. Das ErmÃ¶glichen, dass das StÃ¼tzdach eine niedrigere Beschleunigungsrate hat als der StÃ¼tzboden, kann eine bessere ÃœberhangqualitÃ¤t fÃ¼r eine Ã¤hnliche Druckzeit ergeben.
 
 ### **Verwendung**
-Die Beschleunigung des Stützdachs kann auf eine andere Rate als die des Stützbodens eingestellt werden.
+Die Beschleunigung des StÃ¼tzdachs kann auf eine andere Rate als die des StÃ¼tzbodens eingestellt werden.

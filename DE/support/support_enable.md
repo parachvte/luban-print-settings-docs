@@ -1,21 +1,21 @@
-Unterstützung generieren
+UnterstÃ¼tzung generieren
 ====
 ### **Beschreibung**
-3D-Drucker mit Fused-Filament-Fertigung arbeiten, indem sie eine Schnur aus geschmolzenem Kunststoff an den angegebenen Stellen platzieren. Wenn dieser Kunststoff nicht gestützt wird, sackt er nach unten. Daher müssen die überhängenden Teile eines Modells normalerweise durch eine zusätzliche Stützstruktur gestützt werden, die entfernt und entsorgt wird, nachdem der Druckvorgang abgeschlossen ist.
+3D-Drucker mit Fused-Filament-Fertigung arbeiten, indem sie eine Schnur aus geschmolzenem Kunststoff an den angegebenen Stellen platzieren. Wenn dieser Kunststoff nicht gestÃ¼tzt wird, sackt er nach unten. Daher mÃ¼ssen die Ã¼berhÃ¤ngenden Teile eines Modells normalerweise durch eine zusÃ¤tzliche StÃ¼tzstruktur gestÃ¼tzt werden, die entfernt und entsorgt wird, nachdem der Druckvorgang abgeschlossen ist.
 
-Diese Einstellung ermöglicht das Erstellen von Stützstrukturen, um das Modell zu stützen, während es gedruckt wird.
+Diese Einstellung ermÃ¶glicht das Erstellen von StÃ¼tzstrukturen, um das Modell zu stÃ¼tzen, wÃ¤hrend es gedruckt wird.
 
-![Markieren Sie das Modell rot, wo Unterstützung benötigt wird](../images/support_enable_prepare_mode.png)
-![Stützstruktur (in Cyan) zur Unterstützung des Modells während des Druckens](../images/support_enable.png)
+![Markieren Sie das Modell rot, wo UnterstÃ¼tzung benÃ¶tigt wird](../images/support_enable_prepare_mode.png)
+![StÃ¼tzstruktur (in Cyan) zur UnterstÃ¼tzung des Modells wÃ¤hrend des Druckens](../images/support_enable.png)
 
 ### **Einfluss**
-Die Druckunterstützung nimmt viel Zeit und Material in Anspruch. Außerdem muss die Stütze gebrochen oder vom Modell abgeschnitten werden, wenn der Druck abgeschlossen ist. Dies neigt dazu, eine Narbe auf der Modelloberfläche zu hinterlassen.
+Die DruckunterstÃ¼tzung nimmt viel Zeit und Material in Anspruch. AuÃŸerdem muss die StÃ¼tze gebrochen oder vom Modell abgeschnitten werden, wenn der Druck abgeschlossen ist. Dies neigt dazu, eine Narbe auf der ModelloberflÃ¤che zu hinterlassen.
 
-Dennoch ist in manchen Situationen eine Unterstützung notwendig. Wenn das Modell beispielsweise ein Teil hat, das nach unten zur Bauplatte zeigt, würde dieses Teil sonst ohne Unterstützung in der Luft hängen.
+Dennoch ist in manchen Situationen eine UnterstÃ¼tzung notwendig. Wenn das Modell beispielsweise ein Teil hat, das nach unten zur Bauplatte zeigt, wÃ¼rde dieses Teil sonst ohne UnterstÃ¼tzung in der Luft hÃ¤ngen.
 
-Design zur Verhinderung von Unterstützung
+Design zur Verhinderung von UnterstÃ¼tzung
 ----
-Obwohl manchmal eine Unterstützung erforderlich ist, sollte die Druckunterstützung nach Möglichkeit verhindert werden. Es gibt zahlreiche Techniken, um zu verhindern, dass Support gedruckt werden muss.
+Obwohl manchmal eine UnterstÃ¼tzung erforderlich ist, sollte die DruckunterstÃ¼tzung nach MÃ¶glichkeit verhindert werden. Es gibt zahlreiche Techniken, um zu verhindern, dass Support gedruckt werden muss.
 * Platzieren Sie Ihr Modell auf der Bauplatte, anstatt es in der Luft schweben zu lassen.
-* Richten Sie Ihr Modell so aus, dass keine ebenen Flächen in der Luft überstehen.
-* Vermeiden Sie so weit wie möglich die Gestaltung von Überhängen.
+* Richten Sie Ihr Modell so aus, dass keine ebenen FlÃ¤chen in der Luft Ã¼berstehen.
+* Vermeiden Sie so weit wie mÃ¶glich die Gestaltung von ÃœberhÃ¤ngen.

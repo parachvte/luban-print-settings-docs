@@ -1,7 +1,7 @@
 Z-Sprung nach Extruderwechsel
 ====
-Wenn diese Einstellung aktiviert ist, bewegt sich die Düse während des Umschaltens der Extruder mit einem Z-Sprung leicht nach oben.
+Wenn diese Einstellung aktiviert ist, bewegt sich die DÃ¼se wÃ¤hrend des Umschaltens der Extruder mit einem Z-Sprung leicht nach oben.
 
-Das Wechseln von Extrudern führt zu einer Düse, die etwas mehr Zeit zum Aussickern hatte, sodass Sie sich entscheiden können, dieser während des Drucks einen etwas höheren Z-Sprung als den normalen Z-Sprung zu geben.
+Das Wechseln von Extrudern fÃ¼hrt zu einer DÃ¼se, die etwas mehr Zeit zum Aussickern hatte, sodass Sie sich entscheiden kÃ¶nnen, dieser wÃ¤hrend des Drucks einen etwas hÃ¶heren Z-Sprung als den normalen Z-Sprung zu geben.
 
-Wenn ein Hauptturm gedruckt wird, erhöht dies nur die Z-Hop-Höhe, wenn man sich vom Druck weg und zum Hauptturm bewegt. Da Blobs auf dem Prime Tower sowieso erwartet werden, ist es nicht effektiv, diese Einstellung zu stark zu erhöhen, wenn ein Prime Tower verwendet wird.
+Wenn ein Hauptturm gedruckt wird, erhÃ¶ht dies nur die Z-Hop-HÃ¶he, wenn man sich vom Druck weg und zum Hauptturm bewegt. Da Blobs auf dem Prime Tower sowieso erwartet werden, ist es nicht effektiv, diese Einstellung zu stark zu erhÃ¶hen, wenn ein Prime Tower verwendet wird.

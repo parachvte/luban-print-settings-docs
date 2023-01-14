@@ -1,5 +1,5 @@
-Max Comb Distance with No Retract
+Max. Kammabstand ohne Rückzug
 ====
-Normally, retractions are unnecessary if the nozzle only travels through the inside of the model. Any stringing that the nozzle leaves in its wake will be on the inside anyway, where they are invisible. However if travel moves are very large, the lost material from the stringing may manifest itself as underextrusion in whatever is printed afterwards.
+Normalerweise sind Rückzüge unnötig, wenn die Düse nur durch das Innere des Modells fährt. Alle Fäden, die die Düse hinterlässt, befinden sich sowieso auf der Innenseite, wo sie unsichtbar sind. Wenn jedoch die Verfahrwege sehr groß sind, kann sich das verlorene Material durch das Besaiten als Unterextrusion in allem, was danach gedruckt wird, manifestieren.
 
-For that reason, this setting allows you to choose a distance of travel moves, beyond which the travel move will be retracted anyway, even if no walls are being crossed. This causes more retractions which can wear down the filament and slow down the print, but it may prevent some underextrusion in places.
+Aus diesem Grund können Sie mit dieser Einstellung eine Distanz von Fahrbewegungen wählen, ab der die Fahrbewegung trotzdem zurückgezogen wird, auch wenn keine Wände überquert werden. Dies führt zu mehr Rückzügen, die das Filament abnutzen und den Druck verlangsamen können, aber es kann stellenweise eine Unterextrusion verhindern.

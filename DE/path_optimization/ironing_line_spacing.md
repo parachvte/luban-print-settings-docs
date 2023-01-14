@@ -1,9 +1,9 @@
-Ironing Line Spacing
+Abstand der Bügellinie
 ====
-This setting changes the space between every line of ironing. Ironing lines are normally much closer together than the normal printing lines, which is a major contributor to its effectiveness.
+Diese Einstellung ändert den Abstand zwischen jeder Bügellinie. Bügellinien sind normalerweise viel näher beieinander als die normalen Drucklinien, was einen wesentlichen Beitrag zu ihrer Effektivität leistet.
 
-![Normal line spacing](../images/ironing_enabled_enabled.png)
-![Line spacing increased to 0.3mm](../images/ironing_line_spacing.png)
+![Normaler Zeilenabstand](../images/ironing_enabled_enabled.png)
+![Zeilenabstand auf 0,3 mm erhöht](../images/ironing_line_spacing.png)
 
-* Increasing the line spacing will reduce printing time.
-* Reducing the line spacing will improve the top surface quality.
+* Eine Erhöhung des Zeilenabstands verkürzt die Druckzeit.
+* Eine Verringerung des Linienabstands verbessert die Oberflächenqualität.

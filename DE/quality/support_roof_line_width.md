@@ -1,11 +1,11 @@
-Support Roof Line Width
+Breite der Dachlinie unterstützen
 ====
-### **Description**
-Support Roof Line Width refers to the width of the lines with which the support roof is drawn. This setting can be configured separately from the widths of the rest of the support lines.
+### **Beschreibung**
+Stützdachlinienbreite bezieht sich auf die Breite der Linien, mit denen das Stützdach gezeichnet wird. Diese Einstellung kann separat von den Breiten der übrigen Hilfslinien konfiguriert werden.
 
-![The support roof lines are wider than the rest of the support lines](../images/support_roof_line_width.png)
+![Die Stützdachlinien sind breiter als die übrigen Stützlinien](../images/support_roof_line_width.png)
 
-### **Usage**
-Printing the support roof with slightly thinner lines is often advantageous for the quality of the overhanging surface that it supports, purely through having a smoother top surface above the support interface. Yet thinner lines of the support roof don't necessarily increase the adhesion between the support interface and the model, so the support will not necessarily be harder to remove.
+### **Verwendung**
+Das Drucken des Stützdachs mit etwas dünneren Linien ist oft vorteilhaft für die Qualität der überhängenden Oberfläche, die es stützt, allein dadurch, dass es eine glattere Oberfläche über der Stützschnittstelle hat. Dünnere Linien des Stützdachs erhöhen jedoch nicht unbedingt die Haftung zwischen der Stützgrenzfläche und dem Modell, sodass die Stütze nicht unbedingt schwerer zu entfernen ist.
 
-However, printing the roof lines too thin will cause uneven extrusion, which reduces the supporting effect of the roof, causing a worse overhang quality. It may also introduce a great change in the flow rate through the nozzle, causing overextrusion when it starts printing the support roof and underextrusion when printing whatever comes after the support roof.
+Ein zu dünner Druck der Dachlinien führt jedoch zu einer ungleichmäßigen Extrusion, was die Stützwirkung des Dachs verringert und eine schlechtere Überhangqualität verursacht. Es kann auch eine große Änderung in der Strömungsgeschwindigkeit durch die Düse einführen, was zu einer Überextrusion führt, wenn es mit dem Drucken des Stützdachs beginnt, und zu einer Unterextrusion, wenn alles gedruckt wird, was nach dem Stützdach kommt.

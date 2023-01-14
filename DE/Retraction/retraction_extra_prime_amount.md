@@ -1,9 +1,9 @@
-Rückzugs-Extra-Prime-Betrag
+RÃ¼ckzugs-Extra-Prime-Betrag
 ====
 ### **Beschreibung**
-Diese Einstellung kompensiert den Materialverlust während des Einziehens, indem das Material etwas weiter hineingeschoben wird, als es eingezogen wurde.
+Diese Einstellung kompensiert den Materialverlust wÃ¤hrend des Einziehens, indem das Material etwas weiter hineingeschoben wird, als es eingezogen wurde.
 
 ### **Einfluss**
-Je größer die zusätzliche Ansaugmenge ist, desto mehr Druck wird in der Düsenkammer nach einem Zurückziehen hinzugefügt, was zum Druckverlust in der Kammer beiträgt.
+Je grÃ¶ÃŸer die zusÃ¤tzliche Ansaugmenge ist, desto mehr Druck wird in der DÃ¼senkammer nach einem ZurÃ¼ckziehen hinzugefÃ¼gt, was zum Druckverlust in der Kammer beitrÃ¤gt.
 
-Eine zu hohe Einstellung führt zu Klecksen an der Stelle, wo die Düse nach einer zurückgezogenen Fahrbewegung aufsetzt.
+Eine zu hohe Einstellung fÃ¼hrt zu Klecksen an der Stelle, wo die DÃ¼se nach einer zurÃ¼ckgezogenen Fahrbewegung aufsetzt.

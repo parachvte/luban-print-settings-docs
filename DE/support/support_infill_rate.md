@@ -1,15 +1,15 @@
-Stützdichte
+StÃ¼tzdichte
 ====
 ### **Beschreibung**
-Diese Einstellung definiert die Geschwindigkeit, mit der die Stützstrukturen mit Material gefüllt werden. Bei großen Füllungsraten werden die Stützlinien sehr dicht beieinander platziert. Bei niedrigen Füllraten werden die Linien weiter auseinander platziert.
+Diese Einstellung definiert die Geschwindigkeit, mit der die StÃ¼tzstrukturen mit Material gefÃ¼llt werden. Bei groÃŸen FÃ¼llungsraten werden die StÃ¼tzlinien sehr dicht beieinander platziert. Bei niedrigen FÃ¼llraten werden die Linien weiter auseinander platziert.
 
-![Niedrige Stützdichte](../images/support_infill_rate_low.png)
-![Hohe Stützdichte](../images/support_infill_rate_high.png)
+![Niedrige StÃ¼tzdichte](../images/support_infill_rate_low.png)
+![Hohe StÃ¼tzdichte](../images/support_infill_rate_high.png)
 
 ### **Einfluss**
-Die Erhöhung der Unterstützungsdichte hat einige positive und negative Auswirkungen. Hier sind einige der Effekte, die abgewogen werden müssen:
-* Da der Abstand zwischen den Stützlinien kleiner ist, wird die auf dieser Stütze aufliegende Fläche weniger durchhängen.
-* Die Unterstützung wird stärker, wodurch die Zuverlässigkeit des Drucks verbessert wird.
-* Aufgrund der vergrößerten Haftfläche ist es schwieriger, die Stütze zu entfernen.
-* Zum Drucken der Stütze wird mehr Material benötigt.
-* Der Druck dauert länger.
+Die ErhÃ¶hung der UnterstÃ¼tzungsdichte hat einige positive und negative Auswirkungen. Hier sind einige der Effekte, die abgewogen werden mÃ¼ssen:
+* Da der Abstand zwischen den StÃ¼tzlinien kleiner ist, wird die auf dieser StÃ¼tze aufliegende FlÃ¤che weniger durchhÃ¤ngen.
+* Die UnterstÃ¼tzung wird stÃ¤rker, wodurch die ZuverlÃ¤ssigkeit des Drucks verbessert wird.
+* Aufgrund der vergrÃ¶ÃŸerten HaftflÃ¤che ist es schwieriger, die StÃ¼tze zu entfernen.
+* Zum Drucken der StÃ¼tze wird mehr Material benÃ¶tigt.
+* Der Druck dauert lÃ¤nger.

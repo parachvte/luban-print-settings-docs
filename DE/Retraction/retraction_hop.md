@@ -1,9 +1,9 @@
-Z-Hop-Höhe
+Z-Hop-HÃ¶he
 ====
 ### **Beschreibung**
-Wenn ein Z-Sprung durchgeführt wird, bestimmt diese Einstellung, wie hoch sich die Düse nach oben bewegt, bevor sie zum Ziel fährt.
+Wenn ein Z-Sprung durchgefÃ¼hrt wird, bestimmt diese Einstellung, wie hoch sich die DÃ¼se nach oben bewegt, bevor sie zum Ziel fÃ¤hrt.
 
-![Ein Z-Hop wird mit einer bestimmten Höhe ausgeführt](../images/retraction_hop_enabled.svg)
+![Ein Z-Hop wird mit einer bestimmten HÃ¶he ausgefÃ¼hrt](../images/retraction_hop_enabled.svg)
 
 ### **Einfluss**
-Sprünge mit höherem Z benötigen mehr Zeit, was die Gesamtdruckzeit erhöht und auch die Menge des Auslaufens leicht erhöht. Wenn Sie jedoch zu tief über die Oberfläche fahren, kann der aus der Düse austretende Schlamm das Modell trotzdem treffen, wodurch der Zweck des Z-Sprungs zunichte gemacht wird.
+SprÃ¼nge mit hÃ¶herem Z benÃ¶tigen mehr Zeit, was die Gesamtdruckzeit erhÃ¶ht und auch die Menge des Auslaufens leicht erhÃ¶ht. Wenn Sie jedoch zu tief Ã¼ber die OberflÃ¤che fahren, kann der aus der DÃ¼se austretende Schlamm das Modell trotzdem treffen, wodurch der Zweck des Z-Sprungs zunichte gemacht wird.

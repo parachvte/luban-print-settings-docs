@@ -1,24 +1,24 @@
-Schwellenwert für geteilte Mittellinie
+Schwellenwert fÃ¼r geteilte Mittellinie
 ====
-Beim Drucken dünner Teile passt Cura die Breite der Wandlinien an die exakte Breite des Modells an. Cura kann sich auch dafür entscheiden, stattdessen weniger Wandlinien zu verwenden. Diese Einstellung ist der Schwellenwert, bei dem Cura eine einzelne Linie in der Mitte in zwei teilt, wenn die Breite des Teils zunimmt. Sie kann getrennt von der [Schwelle, bei der eine neue Mittellinie hinzugefügt wird] (wall_add_middle_threshold.md) angepasst werden.
+Beim Drucken dÃ¼nner Teile passt Cura die Breite der Wandlinien an die exakte Breite des Modells an. Cura kann sich auch dafÃ¼r entscheiden, stattdessen weniger Wandlinien zu verwenden. Diese Einstellung ist der Schwellenwert, bei dem Cura eine einzelne Linie in der Mitte in zwei teilt, wenn die Breite des Teils zunimmt. Sie kann getrennt von der [Schwelle, bei der eine neue Mittellinie hinzugefÃ¼gt wird] (wall_add_middle_threshold.md) angepasst werden.
 
-Diese Einstellung entspricht der [Mindestbreite gerader Wandlinien] (min_even_wall_line_width.md), verwendet jedoch eine andere Einheit. Die Einheit dieser Einstellung ist in Bruchteilen einer Linienbreite, die die Breite eines Teils erhöhen muss, um die Mittellinie in zwei Teile zu teilen. Da der Unterschied in der Breite nach dem Teilen auf die beiden Linien in der Mitte aufgeteilt wird, entspricht eine kleinere Mindestbreite der geraden Wandlinie einem viel kleineren Schwellenwert für die geteilte mittlere Linie als im Fall des Entfernens einer ungeraden Wand.
+Diese Einstellung entspricht der [Mindestbreite gerader Wandlinien] (min_even_wall_line_width.md), verwendet jedoch eine andere Einheit. Die Einheit dieser Einstellung ist in Bruchteilen einer Linienbreite, die die Breite eines Teils erhÃ¶hen muss, um die Mittellinie in zwei Teile zu teilen. Da der Unterschied in der Breite nach dem Teilen auf die beiden Linien in der Mitte aufgeteilt wird, entspricht eine kleinere Mindestbreite der geraden Wandlinie einem viel kleineren Schwellenwert fÃ¼r die geteilte mittlere Linie als im Fall des Entfernens einer ungeraden Wand.
 
 ![Die Mittellinie wird passend breiter gemacht](../images/min_wall_line_width_0_34.png)
 ![Wenn Sie diese Einstellung reduzieren, werden stattdessen zwei Linien verwendet](../images/min_wall_line_width_even_0_1.png)
 
 Gerade vs. ungerade Linien
 ----
-Diese Einstellung ermöglicht die Anpassung des Schwellenwerts für das Hinzufügen von Linien, insbesondere wenn es eine gerade Anzahl von Linien wird. Dies ist der Fall, wenn in der Mitte zwei Linien statt einer einzelnen Linie vorhanden sind. Es bestimmt, wann sich eine Linie in der Mitte in zwei Linien aufteilt.
+Diese Einstellung ermÃ¶glicht die Anpassung des Schwellenwerts fÃ¼r das HinzufÃ¼gen von Linien, insbesondere wenn es eine gerade Anzahl von Linien wird. Dies ist der Fall, wenn in der Mitte zwei Linien statt einer einzelnen Linie vorhanden sind. Es bestimmt, wann sich eine Linie in der Mitte in zwei Linien aufteilt.
 
-Der Schwellenwert zum Teilen einer Mittellinie kann sich aufgrund der Art und Weise, wie sie miteinander verbunden werden, von dem Schwellenwert zum Hinzufügen einer Mittellinie unterscheiden. Sogar Linien verbinden sich an ihren Enden, indem sie die Enden näher zusammenbringen. Dort gibt es eine gewisse Überlappung mit diesen Linien, was zu einer Überextrusion führt. Das ist anders als bei einer ungeraden Anzahl von Wänden: Die Linie in der Mitte hört dann einfach auf und hinterlässt eine Lücke im Druck. Das Verringern des Schwellwertes für die Mittellinie geteilt reduziert die Überextrusion an den Übergängen von geraden zu ungeraden Linien. Durch Verringern des Schwellenwerts „Mittellinie hinzufügen“ wird die Größe der Lücke an den Übergängen von ungeraden zu geraden Linien verringert.
+Der Schwellenwert zum Teilen einer Mittellinie kann sich aufgrund der Art und Weise, wie sie miteinander verbunden werden, von dem Schwellenwert zum HinzufÃ¼gen einer Mittellinie unterscheiden. Sogar Linien verbinden sich an ihren Enden, indem sie die Enden nÃ¤her zusammenbringen. Dort gibt es eine gewisse Ãœberlappung mit diesen Linien, was zu einer Ãœberextrusion fÃ¼hrt. Das ist anders als bei einer ungeraden Anzahl von WÃ¤nden: Die Linie in der Mitte hÃ¶rt dann einfach auf und hinterlÃ¤sst eine LÃ¼cke im Druck. Das Verringern des Schwellwertes fÃ¼r die Mittellinie geteilt reduziert die Ãœberextrusion an den ÃœbergÃ¤ngen von geraden zu ungeraden Linien. Durch Verringern des Schwellenwerts â€Mittellinie hinzufÃ¼genâ€œ wird die GrÃ¶ÃŸe der LÃ¼cke an den ÃœbergÃ¤ngen von ungeraden zu geraden Linien verringert.
 
-Die Lücken, die beim Hinzufügen einer Mittellinie verbleiben, sind im Endergebnis besser sichtbar als ein wenig Überextrusion an einer Verbindung, daher könnte es hilfreich sein, den Schwellenwert „Mittellinie teilen“ etwas höher als den Schwellenwert „Mittellinie hinzufügen“ einzustellen.
+Die LÃ¼cken, die beim HinzufÃ¼gen einer Mittellinie verbleiben, sind im Endergebnis besser sichtbar als ein wenig Ãœberextrusion an einer Verbindung, daher kÃ¶nnte es hilfreich sein, den Schwellenwert â€Mittellinie teilenâ€œ etwas hÃ¶her als den Schwellenwert â€Mittellinie hinzufÃ¼genâ€œ einzustellen.
 
-Das Reduzieren dieser Einstellung führt zu:
-* Reduzierter Überlappungsbereich, wo zwei Linien zusammenkommen, um zu einer Linie zu verschmelzen.
+Das Reduzieren dieser Einstellung fÃ¼hrt zu:
+* Reduzierter Ãœberlappungsbereich, wo zwei Linien zusammenkommen, um zu einer Linie zu verschmelzen.
 * Reduzierte maximale Breite einzelner Mittellinien.
-* Dünnere Linien, die möglicherweise nicht gut extrudiert werden.
-* Mehr Zeilen, deren Druck länger dauert.
+* DÃ¼nnere Linien, die mÃ¶glicherweise nicht gut extrudiert werden.
+* Mehr Zeilen, deren Druck lÃ¤nger dauert.
 
-**Diese Einstellung gilt nicht nur für normale Wände, sondern auch für Außenhautwände, Stützwände, Füllwände und konzentrische Muster.**
+**Diese Einstellung gilt nicht nur fÃ¼r normale WÃ¤nde, sondern auch fÃ¼r AuÃŸenhautwÃ¤nde, StÃ¼tzwÃ¤nde, FÃ¼llwÃ¤nde und konzentrische Muster.**

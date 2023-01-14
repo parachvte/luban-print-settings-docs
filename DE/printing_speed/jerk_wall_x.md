@@ -1,11 +1,11 @@
-Inner Wall Jerk
+Ruck an der Innenwand
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while printing the inner walls. This can be configured separately from the outer wall.
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse beim Drucken der Innenwände durch Ecken fahren kann. Diese kann separat von der Außenwand gestaltet werden.
 
-### **Usage**
-The inner walls are not very visible on the outside, except on flat top and bottom sides where ringing isn't much of an issue. However, when printing the [inner walls before the outer walls](../shell/outer_inset_first.md), the vibrations in the inner walls will push the outer wall aside in certain places, causing the ringing to affect the outside surface even if the outer wall would be printed with perfect accuracy. 
+### **Verwendung**
+Die Innenwände sind von außen nicht sehr sichtbar, außer an den flachen Ober- und Unterseiten, wo das Klingeln kein großes Problem darstellt. Wenn jedoch die [Innenwände vor den Außenwänden](../shell/outer_inset_first.md) gedruckt werden, drücken die Vibrationen in den Innenwänden die Außenwand an bestimmten Stellen zur Seite, wodurch das Klingeln die Außenfläche beeinträchtigt, selbst wenn Die Außenwand würde mit perfekter Genauigkeit gedruckt werden.
 
-If the outer wall is printed first, the ringing effect will be reduced. However, having a vibrating nozzle pass along partially over the outer wall will still cause a faint ringing.
+Wenn die Außenwand zuerst bedruckt wird, wird der Klingeleffekt reduziert. Wenn jedoch eine vibrierende Düse teilweise über die Außenwand geführt wird, wird immer noch ein schwaches Klingeln verursacht.
 
-For this reason, the inner wall jerk is normally greater than the outer wall jerk, but still less than the rest of the print.
+Aus diesem Grund ist der Innenwandruck normalerweise größer als der Außenwandruck, aber immer noch kleiner als der Rest des Drucks.

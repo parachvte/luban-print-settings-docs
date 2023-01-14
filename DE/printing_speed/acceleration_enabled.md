@@ -3,13 +3,13 @@ Beschleunigungskontrolle aktivieren
 ### **Beschreibung**
 Diese Einstellung konfiguriert, wie schnell der Werkzeugkopf beschleunigen soll.
 
-![Ein Diagramm der Geschwindigkeit (V) über die Zeit, wenn eine Düse hin und her bewegt wird. Die Beschleunigung ist die Steigung der Linie beim Starten, Stoppen oder Richtungswechsel.](../images/velocity_acceleration_jerk.svg)
+![Ein Diagramm der Geschwindigkeit (V) Ã¼ber die Zeit, wenn eine DÃ¼se hin und her bewegt wird. Die Beschleunigung ist die Steigung der Linie beim Starten, Stoppen oder Richtungswechsel.](../images/velocity_acceleration_jerk.svg)
 
 ### **Einfluss**
-Das Erhöhen dieser Einstellung hat die folgenden zwei Auswirkungen:
-* Der Werkzeugkopf erreicht früher die gewünschte Geschwindigkeit, was einen schnelleren Druck gewährleistet, insbesondere beim Drucken kleiner Teile.
+Das ErhÃ¶hen dieser Einstellung hat die folgenden zwei Auswirkungen:
+* Der Werkzeugkopf erreicht frÃ¼her die gewÃ¼nschte Geschwindigkeit, was einen schnelleren Druck gewÃ¤hrleistet, insbesondere beim Drucken kleiner Teile.
 
-* Es treten mehr Vibrationen auf, die die Maßhaltigkeit verringern und Klingeln verursachen.
+* Es treten mehr Vibrationen auf, die die MaÃŸhaltigkeit verringern und Klingeln verursachen.
 
 ### **Verwendung**
-Normalerweise entscheidet der Drucker selbst, wie schnell der Werkzeugkopf Richtung und Geschwindigkeit ändern soll, aber wenn diese Einstellung aktiviert ist, kann Luban dies stattdessen entscheiden, wodurch Sie unterschiedliche Beschleunigungsraten für jedes Merkmal eines Drucks einstellen können.
+Normalerweise entscheidet der Drucker selbst, wie schnell der Werkzeugkopf Richtung und Geschwindigkeit Ã¤ndern soll, aber wenn diese Einstellung aktiviert ist, kann Luban dies stattdessen entscheiden, wodurch Sie unterschiedliche Beschleunigungsraten fÃ¼r jedes Merkmal eines Drucks einstellen kÃ¶nnen.
