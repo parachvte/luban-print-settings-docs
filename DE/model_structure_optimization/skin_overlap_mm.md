@@ -1,12 +1,12 @@
-Hautüberlappung
+HautÃ¼berlappung
 ====
 ### **Beschreibung**
-Durch diese Einstellung überlappt sich die Haut ein wenig mit den angrenzenden Strukturen. Dadurch haftet die Haut besser an diesen Strukturen.
+Durch diese Einstellung Ã¼berlappt sich die Haut ein wenig mit den angrenzenden Strukturen. Dadurch haftet die Haut besser an diesen Strukturen.
 
-![Keine Überlappung](../images/skin_overlap_none.png)
-![Einige Überlappungen](../images/skin_overlap_20.png)
+![Keine Ãœberlappung](../images/skin_overlap_none.png)
+![Einige Ãœberlappungen](../images/skin_overlap_20.png)
 
 ### **Einfluss**
-Diese Überlappung erzeugt technisch gesehen eine Überextrusion, aber die Menge an Überextrusion ist klein genug, dass sie nicht sichtbar ist. Es wird jedoch einen erheblichen Einfluss auf die Festigkeit haben, da die Haut besser an den Wänden und der Füllung haften kann. Schließlich tragen diese Strukturen nur dann zur Stärke des Modells bei, wenn sie etwas zum Festhalten haben.
+Diese Ãœberlappung erzeugt technisch gesehen eine Ãœberextrusion, aber die Menge an Ãœberextrusion ist klein genug, dass sie nicht sichtbar ist. Es wird jedoch einen erheblichen Einfluss auf die Festigkeit haben, da die Haut besser an den WÃ¤nden und der FÃ¼llung haften kann. SchlieÃŸlich tragen diese Strukturen nur dann zur StÃ¤rke des Modells bei, wenn sie etwas zum Festhalten haben.
 
-Eine leichte Überlappung kann auch dazu beitragen, das Auftreten von Lücken in der Haut zu reduzieren.
+Eine leichte Ãœberlappung kann auch dazu beitragen, das Auftreten von LÃ¼cken in der Haut zu reduzieren.

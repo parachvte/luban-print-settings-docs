@@ -1,15 +1,15 @@
-Bodengeschwindigkeit unterstützen
+Bodengeschwindigkeit unterstÃ¼tzen
 ====
 ### **Beschreibung**
 Diese Einstellung konfiguriert die Geschwindigkeit, mit der die Unterseite des Supports gedruckt wird, wenn [Support Floor aktiviert ist](../support_adv/support_bottom_enable.md).
 
 ![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
-Eine höhere Support Floor Speed kann etwas Druckzeit sparen.
+Eine hÃ¶here Support Floor Speed kann etwas Druckzeit sparen.
 
 ### **Verwendung**
-Die Wirkung dieser Einstellung hängt stark von den Umständen ab. Bei einigen Materialien, insbesondere Materialien, die schnell abkühlen und einen großen [Support Bottom Distance](../support_adv/support_bottom_distance.md) aufweisen, erhöht eine höhere Geschwindigkeit die Haftung zwischen dem Support und dem Modell. Der Effekt ähnelt dem Überbrücken: Bei höheren Geschwindigkeiten wird das Material weniger sorgfältig aufgehängt und hat keine Zeit, von den Lüftern am Werkzeugkopf gekühlt zu werden. Dies ist etwas, was Sie normalerweise nicht wollen, da es dazu führt, dass der Träger eine größere Spur auf Ihrer Oberfläche hinterlässt.
+Die Wirkung dieser Einstellung hÃ¤ngt stark von den UmstÃ¤nden ab. Bei einigen Materialien, insbesondere Materialien, die schnell abkÃ¼hlen und einen groÃŸen [Support Bottom Distance](../support_adv/support_bottom_distance.md) aufweisen, erhÃ¶ht eine hÃ¶here Geschwindigkeit die Haftung zwischen dem Support und dem Modell. Der Effekt Ã¤hnelt dem ÃœberbrÃ¼cken: Bei hÃ¶heren Geschwindigkeiten wird das Material weniger sorgfÃ¤ltig aufgehÃ¤ngt und hat keine Zeit, von den LÃ¼ftern am Werkzeugkopf gekÃ¼hlt zu werden. Dies ist etwas, was Sie normalerweise nicht wollen, da es dazu fÃ¼hrt, dass der TrÃ¤ger eine grÃ¶ÃŸere Spur auf Ihrer OberflÃ¤che hinterlÃ¤sst.
 
-Bei anderen Materialien verringert eine höhere Geschwindigkeit die Kraft, mit der das Material aufgelegt wird, und lässt es nicht viel herausfließen. Dieser Effekt ähnelt der Betthaftung. Die höhere Drehzahl ist dann nur bis zum Erreichen der Grenzen der am Anfang und am Ende der Stützböden auftretenden Volumenstromänderung vorteilhaft.
+Bei anderen Materialien verringert eine hÃ¶here Geschwindigkeit die Kraft, mit der das Material aufgelegt wird, und lÃ¤sst es nicht viel herausflieÃŸen. Dieser Effekt Ã¤hnelt der Betthaftung. Die hÃ¶here Drehzahl ist dann nur bis zum Erreichen der Grenzen der am Anfang und am Ende der StÃ¼tzbÃ¶den auftretenden VolumenstromÃ¤nderung vorteilhaft.
 
-Wenn sich der Stützboden sehr nahe am Modell befindet, wie z. B. bei PVA oder anderen löslichen Stützmaterialien, kann eine Erhöhung der Geschwindigkeit des Stützbodens auch dazu führen, dass die Düse in das Modell hineinschießt und die Oberfläche leicht beschädigt.
+Wenn sich der StÃ¼tzboden sehr nahe am Modell befindet, wie z. B. bei PVA oder anderen lÃ¶slichen StÃ¼tzmaterialien, kann eine ErhÃ¶hung der Geschwindigkeit des StÃ¼tzbodens auch dazu fÃ¼hren, dass die DÃ¼se in das Modell hineinschieÃŸt und die OberflÃ¤che leicht beschÃ¤digt.

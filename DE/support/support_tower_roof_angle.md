@@ -1,9 +1,9 @@
-Tower Roof Angle
+Turmdachwinkel
 ====
-Support towers get a pointy top, which transitions the wider pillar of the tower towards the narrow area of overhang that actually needs to get supported.
+Stütztürme erhalten eine spitze Spitze, die die breitere Säule des Turms in Richtung des schmalen Bereichs des Überhangs überführt, der tatsächlich gestützt werden muss.
 
-![The angle of the support tower roofs](../images/support_use_towers.svg)
+![Der Winkel der Stützturmdächer](../images/support_use_towers.svg)
 
-A higher value makes the support towers have a very pointy roof. This causes the tower to start reducing its width a bit lower down already, which reduces the stability of the tower but saves on some material and printing time.
+Ein höherer Wert führt dazu, dass die Stütztürme ein sehr spitzes Dach haben. Dies führt dazu, dass der Turm bereits etwas weiter unten anfängt, seine Breite zu verringern, was die Stabilität des Turms verringert, aber etwas Material und Druckzeit spart.
 
-A lower value makes the support towers have a flatter roof.
+Bei einem niedrigeren Wert haben die Stütztürme ein flacheres Dach.

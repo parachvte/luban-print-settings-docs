@@ -1,16 +1,16 @@
-Drucken Sie dünne Wände
+Drucken Sie dÃ¼nne WÃ¤nde
 ====
 ### **Beschreibung**
-Normalerweise verzichtet Luban auf dünnere Wände[Linienbreite der Außenwand](../resolution/wall_line_width_0.md), verwerfen, da sie zu klein zum Drucken sind.
+Normalerweise verzichtet Luban auf dÃ¼nnere WÃ¤nde[Linienbreite der AuÃŸenwand](../resolution/wall_line_width_0.md), verwerfen, da sie zu klein zum Drucken sind.
 
-Wenn diese Einstellung aktiviert ist, versucht Luban trotzdem, diese Teile zu drucken. Der resultierende Druck wird ungenau und unsauber sein, aber er sollte die gewünschte Form einigermaßen zuverlässig erzeugen.
+Wenn diese Einstellung aktiviert ist, versucht Luban trotzdem, diese Teile zu drucken. Der resultierende Druck wird ungenau und unsauber sein, aber er sollte die gewÃ¼nschte Form einigermaÃŸen zuverlÃ¤ssig erzeugen.
 
-![Einige Teile sind zu dünn zum Drucken](../images/fill_outline_gaps_disabled.png)
-![Wenn diese Einstellung aktiviert ist, werden sogar dünne Teile gedruckt](../images/fill_outline_gaps_enabled.png)
+![Einige Teile sind zu dÃ¼nn zum Drucken](../images/fill_outline_gaps_disabled.png)
+![Wenn diese Einstellung aktiviert ist, werden sogar dÃ¼nne Teile gedruckt](../images/fill_outline_gaps_enabled.png)
 
 ### **Einfluss**
-Die winzigen Stücke sind mit hauchdünnen Linien gefüllt. Diese Linien werden dann zusammengefasst, wenn sie kurz und nebeneinander sind. Dies funktioniert in vielen Fällen, aber in einigen Fällen erzeugt es einen winzigen Zickzack, wodurch die Druckzeit erheblich verlängert wird.
+Die winzigen StÃ¼cke sind mit hauchdÃ¼nnen Linien gefÃ¼llt. Diese Linien werden dann zusammengefasst, wenn sie kurz und nebeneinander sind. Dies funktioniert in vielen FÃ¤llen, aber in einigen FÃ¤llen erzeugt es einen winzigen Zickzack, wodurch die Druckzeit erheblich verlÃ¤ngert wird.
 
-Bevor Sie auf diese Einstellung zurückgreifen, sollten Sie versuchen, die Breite der Außenwandlinie leicht anzupassen. Wenn Ihr Teil etwas dünner als eine Linienbreite ist, erhalten Sie möglicherweise ein besseres Ergebnis, wenn Sie die Linienbreite der Außenwand Ihres gesamten Drucks so reduzieren, dass die dünnen Teile normal gedruckt werden. Eine zu starke Verringerung der Linienbreite führt jedoch dazu, dass das Material unzuverlässig fließt, was zu einer Unterextrusion führt.
+Bevor Sie auf diese Einstellung zurÃ¼ckgreifen, sollten Sie versuchen, die Breite der AuÃŸenwandlinie leicht anzupassen. Wenn Ihr Teil etwas dÃ¼nner als eine Linienbreite ist, erhalten Sie mÃ¶glicherweise ein besseres Ergebnis, wenn Sie die Linienbreite der AuÃŸenwand Ihres gesamten Drucks so reduzieren, dass die dÃ¼nnen Teile normal gedruckt werden. Eine zu starke Verringerung der Linienbreite fÃ¼hrt jedoch dazu, dass das Material unzuverlÃ¤ssig flieÃŸt, was zu einer Unterextrusion fÃ¼hrt.
 
-Dadurch wird nur versucht, Teile zu drucken, die in der horizontalen Ebene dünn sind. Für dünne Teile in Z-Richtung siehe die[Slicing-Toleranz](../experimental/slicing_tolerance.md) Ebenenhöhe einstellen oder erhöhen.
+Dadurch wird nur versucht, Teile zu drucken, die in der horizontalen Ebene dÃ¼nn sind. FÃ¼r dÃ¼nne Teile in Z-Richtung siehe die[Slicing-Toleranz](../experimental/slicing_tolerance.md) EbenenhÃ¶he einstellen oder erhÃ¶hen.

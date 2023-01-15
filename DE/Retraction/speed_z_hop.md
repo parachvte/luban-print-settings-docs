@@ -1,13 +1,13 @@
-Z Hop Speed
+Z-Hop-Geschwindigkeit
 ====
-### **Description**
-This setting configures the movement rate at which the vertical movements are made in a Z Hop. The horizontal movements of a Z Hop are unaffected, since those are configured by the [Travel Speed](speed_travel.md).
+### **Beschreibung**
+Diese Einstellung konfiguriert die Bewegungsrate, mit der die vertikalen Bewegungen in einem Z-Hop ausgeführt werden. Die horizontalen Bewegungen eines Z-Hop sind davon nicht betroffen, da diese durch die [Fahrgeschwindigkeit](speed_travel.md) konfiguriert werden.
 
-![The vertical movement is made at the Z Hop Speed](../images/speed_z_hop.svg)
+![Die vertikale Bewegung erfolgt mit der Z-Hop-Geschwindigkeit](../images/speed_z_hop.svg)
 
-### **Influence**
-For most printers, the Z axis is built to be sturdy but slow. Increasing the Z Hop Speed will test the limits of the Z movement, which can cause the Z motor to skip some steps. As a result, the nozzle could end up at a different height after the Z hop. Reducing this speed reduces the chances of that happening.
+### **Einfluss**
+Bei den meisten Druckern ist die Z-Achse robust, aber langsam gebaut. Durch Erhöhen der Z-Sprunggeschwindigkeit werden die Grenzen der Z-Bewegung getestet, was dazu führen kann, dass der Z-Motor einige Schritte überspringt. Infolgedessen könnte die Düse nach dem Z-Sprung auf einer anderen Höhe landen. Eine Verringerung dieser Geschwindigkeit verringert die Wahrscheinlichkeit, dass dies geschieht.
 
-On the other hand, a greater Z Hop Speed will make the nozzle move away from the printed surface more quickly. This can reduce the size of blobs.
+Andererseits bewirkt eine höhere Z-Sprunggeschwindigkeit, dass sich die Düse schneller von der bedruckten Oberfläche wegbewegt. Dies kann die Größe von Blobs reduzieren.
 
-Due to low Z-axis acceleration rates, it is uncommon that the desired Z Hop Speed is reached unless the Z Hop height is very high or the speed very low.
+Aufgrund niedriger Beschleunigungsraten der Z-Achse wird die gewünschte Z-Sprunggeschwindigkeit selten erreicht, es sei denn, die Z-Sprunghöhe ist sehr hoch oder die Geschwindigkeit sehr niedrig.

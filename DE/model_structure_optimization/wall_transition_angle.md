@@ -1,23 +1,23 @@
-Wandübergangsschwellenwinkel
+WandÃ¼bergangsschwellenwinkel
 ====
-Dieser Winkel gibt den Winkel an, bei dem Cura beginnt, Übergänge zu erstellen, um den Raum richtig zu füllen. Alle Ecken, die schärfer als dieser Winkel sind, werden mit Linien variabler Breite gefüllt.
+Dieser Winkel gibt den Winkel an, bei dem Cura beginnt, ÃœbergÃ¤nge zu erstellen, um den Raum richtig zu fÃ¼llen. Alle Ecken, die schÃ¤rfer als dieser Winkel sind, werden mit Linien variabler Breite gefÃ¼llt.
 
-![Bei einer Breite von mehr als 10° werden keine Übergänge mehr erstellt](../images/wall_transition_angle.png)
+![Bei einer Breite von mehr als 10Â° werden keine ÃœbergÃ¤nge mehr erstellt](../images/wall_transition_angle.png)
 
-Effektiv schaltet dies variable Linienbreiten für bestimmte Ecken ein oder aus. Wenn zwei gegenüberliegende Wände fast parallel sind, kleiner als der in dieser Einstellung angegebene Winkel, wird der Bereich zwischen ihnen mit Linien gefüllt, die in ihrer Breite variieren können. Wenn sie in einem größeren Winkel zueinander stehen, wird der Raum zwischen ihnen mit Wänden konstanter Breite ausgefüllt.
+Effektiv schaltet dies variable Linienbreiten fÃ¼r bestimmte Ecken ein oder aus. Wenn zwei gegenÃ¼berliegende WÃ¤nde fast parallel sind, kleiner als der in dieser Einstellung angegebene Winkel, wird der Bereich zwischen ihnen mit Linien gefÃ¼llt, die in ihrer Breite variieren kÃ¶nnen. Wenn sie in einem grÃ¶ÃŸeren Winkel zueinander stehen, wird der Raum zwischen ihnen mit WÃ¤nden konstanter Breite ausgefÃ¼llt.
 
 Wie immer ist dies ein Kompromiss. Die Verwendung einer variablen Breite hat einige Vorteile, wie zum Beispiel:
-* Es hinterlässt keine Lücken zwischen den Zeilen.
-* Es füllt denselben Raum nicht mehrmals.
+* Es hinterlÃ¤sst keine LÃ¼cken zwischen den Zeilen.
+* Es fÃ¼llt denselben Raum nicht mehrmals.
 * Die Abmessungen des Drucks werden dort genauer sein.
 
 Allerdings hat es auch einige Nachteile:
-* Es fügt Ecken in dünne Stücke ein, die als Wellen auf der Oberfläche erscheinen können.
-* Es erzeugt zusätzliche Reisebewegungen.
-* Der Drucker ändert die Linienbreite möglicherweise nicht genau in schneller Folge.
+* Es fÃ¼gt Ecken in dÃ¼nne StÃ¼cke ein, die als Wellen auf der OberflÃ¤che erscheinen kÃ¶nnen.
+* Es erzeugt zusÃ¤tzliche Reisebewegungen.
+* Der Drucker Ã¤ndert die Linienbreite mÃ¶glicherweise nicht genau in schneller Folge.
 
-In der Praxis ist es gut, diesen Winkel groß genug zu machen, um die Größe der Lücken in scharfen Ecken zu reduzieren, wie in der Ebenenansicht zu sehen, aber ansonsten so klein wie möglich. Ein kleinerer Winkel lässt die Oberfläche im Allgemeinen glatter aussehen.
+In der Praxis ist es gut, diesen Winkel groÃŸ genug zu machen, um die GrÃ¶ÃŸe der LÃ¼cken in scharfen Ecken zu reduzieren, wie in der Ebenenansicht zu sehen, aber ansonsten so klein wie mÃ¶glich. Ein kleinerer Winkel lÃ¤sst die OberflÃ¤che im Allgemeinen glatter aussehen.
 
-Es ist nicht möglich, den Winkel auf 0° zu reduzieren, um variable Linienbreiten ganz zu beseitigen. Parallel gegenüberliegende Wände erhalten immer eine Linienbreite, die an den Raum angepasst wird.
+Es ist nicht mÃ¶glich, den Winkel auf 0Â° zu reduzieren, um variable Linienbreiten ganz zu beseitigen. Parallel gegenÃ¼berliegende WÃ¤nde erhalten immer eine Linienbreite, die an den Raum angepasst wird.
 
-**Diese Einstellung gilt nicht nur für normale Wände, sondern auch für Außenhautwände, Stützwände, Füllwände und konzentrische Muster.**
+**Diese Einstellung gilt nicht nur fÃ¼r normale WÃ¤nde, sondern auch fÃ¼r AuÃŸenhautwÃ¤nde, StÃ¼tzwÃ¤nde, FÃ¼llwÃ¤nde und konzentrische Muster.**

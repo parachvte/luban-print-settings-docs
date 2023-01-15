@@ -1,9 +1,9 @@
-Hauptgeschwindigkeit des Rückzugs
+Hauptgeschwindigkeit des RÃ¼ckzugs
 ====
 ### **Beschreibung**
-Retraction Prime Speed ist die Geschwindigkeit, mit der das Material nach dem Zurückziehen in der Düse nach vorne geschoben wird.
+Retraction Prime Speed ist die Geschwindigkeit, mit der das Material nach dem ZurÃ¼ckziehen in der DÃ¼se nach vorne geschoben wird.
 
 ### **Verwendung**
-Es wird empfohlen, die Retraction Prime Speed so hoch wie möglich einzustellen, ohne das Material am Feeder zu schleifen. Wenn Sie das Filament mit höherer Geschwindigkeit bewegen, bleibt die Düse kürzer stehen, wodurch die Größe des Blobs an der Stelle, an der es sich zurückzieht, verringert und die Druckzeit geringfügig verkürzt wird.
+Es wird empfohlen, die Retraction Prime Speed so hoch wie mÃ¶glich einzustellen, ohne das Material am Feeder zu schleifen. Wenn Sie das Filament mit hÃ¶herer Geschwindigkeit bewegen, bleibt die DÃ¼se kÃ¼rzer stehen, wodurch die GrÃ¶ÃŸe des Blobs an der Stelle, an der es sich zurÃ¼ckzieht, verringert und die Druckzeit geringfÃ¼gig verkÃ¼rzt wird.
 
-Wenn die Geschwindigkeit jedoch zu hoch eingestellt ist, wird die vom Feeder ausgeübte Kraft so groß, dass das Feederrad beginnt, in das Filament zu schleifen. Dies verringert die Zuverlässigkeit des Drucks.
+Wenn die Geschwindigkeit jedoch zu hoch eingestellt ist, wird die vom Feeder ausgeÃ¼bte Kraft so groÃŸ, dass das Feederrad beginnt, in das Filament zu schleifen. Dies verringert die ZuverlÃ¤ssigkeit des Drucks.

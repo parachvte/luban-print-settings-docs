@@ -1,8 +1,8 @@
-Support Brim Width
+Krempenbreite unterstützen
 ====
-This setting adjusts the width of the support brim. With a wider support brim, more contours will be drawn inside the support area to give better adhesion.
+Diese Einstellung passt die Breite des Stützrandes an. Bei einem breiteren Stützrand werden mehr Konturen in den Stützbereich gezogen, um eine bessere Haftung zu erzielen.
 
-![2mm width](../images/support_brim_2mm.png)
-![4mm width](../images/support_brim_4mm.png)
+![2mm Breite](../images/support_brim_2mm.png)
+![4mm Breite](../images/support_brim_4mm.png)
 
-A wider brim will increase the adhesion of the support to the build plate and reduce warping of support. As a result, the support will stand more sturdily, which improves reliability of the print.
+Ein breiterer Rand erhöht die Haftung des Trägers an der Bauplatte und verringert das Verziehen des Trägers. Als Ergebnis wird der Träger stabiler stehen, was die Zuverlässigkeit des Drucks verbessert.

@@ -1,9 +1,9 @@
-Rückzug Rückzugsgeschwindigkeit
+RÃ¼ckzug RÃ¼ckzugsgeschwindigkeit
 ====
 ### **Beschreibung**
-Rückzug Rückzugsgeschwindigkeit ist die Geschwindigkeit, mit der das Material während eines Rückzugs aus der Düsenkammer zurückgezogen wird.
+RÃ¼ckzug RÃ¼ckzugsgeschwindigkeit ist die Geschwindigkeit, mit der das Material wÃ¤hrend eines RÃ¼ckzugs aus der DÃ¼senkammer zurÃ¼ckgezogen wird.
 
 ### **Verwendung**
-Es wird empfohlen, die Retraction Retract Speed so hoch wie möglich einzustellen, ohne das Material am Feeder zu schleifen. Wenn Sie das Filament mit höherer Geschwindigkeit bewegen, bleibt die Düse kürzer stehen, wodurch die Größe des Blobs an der Stelle, an der es sich zurückzieht, verringert und die Druckzeit geringfügig verkürzt wird.
+Es wird empfohlen, die Retraction Retract Speed so hoch wie mÃ¶glich einzustellen, ohne das Material am Feeder zu schleifen. Wenn Sie das Filament mit hÃ¶herer Geschwindigkeit bewegen, bleibt die DÃ¼se kÃ¼rzer stehen, wodurch die GrÃ¶ÃŸe des Blobs an der Stelle, an der es sich zurÃ¼ckzieht, verringert und die Druckzeit geringfÃ¼gig verkÃ¼rzt wird.
 
-Wenn die Geschwindigkeit jedoch zu hoch eingestellt ist, wird die vom Feeder ausgeübte Kraft so groß, dass das Feederrad beginnt, in das Filament zu schleifen. Dies verringert die Zuverlässigkeit des Drucks.
+Wenn die Geschwindigkeit jedoch zu hoch eingestellt ist, wird die vom Feeder ausgeÃ¼bte Kraft so groÃŸ, dass das Feederrad beginnt, in das Filament zu schleifen. Dies verringert die ZuverlÃ¤ssigkeit des Drucks.

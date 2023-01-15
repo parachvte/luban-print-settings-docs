@@ -1,9 +1,9 @@
-Retraction Minimum Travel
+Einfahr-Mindestweg
 ====
-This setting prevents the material from retracting for very short travel moves. During those travel moves there is very little time for the material to ooze out of the nozzle anyway, so retracting would do more harm than good.
+Diese Einstellung verhindert, dass sich das Material bei sehr kurzen Verfahrbewegungen zurückzieht. Während dieser Bewegungsbewegungen bleibt dem Material sowieso nur sehr wenig Zeit, um aus der Düse zu sickern, sodass ein Zurückziehen mehr schaden als nützen würde.
 
-![The shortest travel move in the middle is not retracted](../images/retraction_min_travel.png)
+![Der kürzeste Verfahrweg in der Mitte wird nicht eingefahren](../images/retraction_min_travel.png)
 
-Retracting the material is intended to prevent stringing. Very short travel moves don't produce stringing, because the material has not yet had the time to flow out of the nozzle. For extremely short travel moves of one line width or so, there will even be no room for any stringing. On the other hand, retracting causes the nozzle to stand still for a short while, while the material is flowing. This will produce a blob on the position where retraction occurs. For those reasons it tends to be better to not retract when travelling short distances, even if those tracks are on visible parts of the model.
+Durch das Zurückziehen des Materials soll ein Fadenziehen verhindert werden. Bei sehr kurzen Verfahrwegen entsteht kein Fadenzug, da das Material noch nicht die Zeit hatte, aus der Düse zu fließen. Bei extrem kurzen Verfahrwegen von etwa einer Linienbreite ist nicht einmal mehr Platz für eine Besaitung. Beim Einfahren hingegen bleibt die Düse kurzzeitig stehen, während das Material fließt. Dies erzeugt einen Klecks an der Position, an der das Zurückziehen auftritt. Aus diesen Gründen ist es in der Regel besser, bei kurzen Strecken nicht einzufahren, selbst wenn sich diese Spuren auf sichtbaren Teilen des Modells befinden.
 
-Increasing this setting too much will cause stringing in detailed parts of the model or where parts are close together.
+Wenn Sie diese Einstellung zu stark erhöhen, führt dies zu Stringing in detaillierten Teilen des Modells oder dort, wo Teile nahe beieinander liegen.

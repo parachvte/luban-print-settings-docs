@@ -1,8 +1,8 @@
-Support Brim Line Count
+Unterstützung der Randlinienanzahl
 ====
-This setting adjusts the number of contours that will be drawn inside the support area for the support brim. With more lines, the brim will become wider.
+Diese Einstellung passt die Anzahl der Konturen an, die innerhalb des Stützbereichs für den Stützrand gezeichnet werden. Bei mehr Linien wird die Krempe breiter.
 
-![5 brim lines](../images/support_brim_2mm.png)
-![10 brim lines](../images/support_brim_4mm.png)
+![5 Randlinien](../images/support_brim_2mm.png)
+![10 Randlinien](../images/support_brim_4mm.png)
 
-More brim lines will increase the adhesion of the support to the build plate and reduce warping of support. As a result, the support will stand more sturdily, which improves reliability of the print.
+Mehr Randlinien erhöhen die Haftung des Trägers an der Bauplatte und verringern das Verziehen des Trägers. Als Ergebnis wird der Träger stabiler stehen, was die Zuverlässigkeit des Drucks verbessert.

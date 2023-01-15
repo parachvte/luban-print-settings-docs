@@ -1,13 +1,13 @@
-Avoid Supports When Traveling
+Vermeiden Sie Stützen auf Reisen
 ====
-### **Description**
-With this setting enabled, Luban will avoid hitting support structures while travelling.
+### **Beschreibung**
+Wenn diese Einstellung aktiviert ist, vermeidet Luban, während der Fahrt gegen Stützstrukturen zu stoßen.
 
-Support doesn't need to be pretty, so it's not a problem if a blob ends up on support. In fact, this may prevent the blob from appearing on the wall. Also, a scar in the support is not a problem for its function. However, if the material oozes a lot and the blob from that ooze is applied on the same location on the support in every layer, then this blob can build up big, eventually causing the nozzle to knock over the support structure. In that case, avoiding support when travelling may be beneficial.
+Support muss nicht schön sein, also ist es kein Problem, wenn ein Blob auf dem Support landet. Tatsächlich kann dies verhindern, dass der Klecks an der Wand erscheint. Auch eine Narbe in der Stütze ist für die Funktion kein Problem. Wenn jedoch das Material stark sickert und der Klecks von diesem Schlamm in jeder Schicht an der gleichen Stelle auf dem Träger aufgebracht wird, kann sich dieser Klecks groß ansammeln, was schließlich dazu führt, dass die Düse die Trägerstruktur umstößt. In diesem Fall kann es von Vorteil sein, die Unterstützung auf Reisen zu vermeiden.
 
-### **Influence**
-Some advantages and disadvantages of enabling this setting include:
-* Greater reliability because there is a lower chance to knock over support by hitting the same blob repeatedly.
-* Slightly longer travel moves and more oozing as a result.
-* The ooze will not get wiped off on the support, but ends up on the wall of the part that the nozzle travels to.
-* There might not be any path that could avoid support, in which case the printer will resort to a retraction and travelling in a straight line, which incurs extra time and might leave extra scars on the walls.
+### **Einfluss**
+Zu den Vor- und Nachteilen der Aktivierung dieser Einstellung gehören:
+* Größere Zuverlässigkeit, da die Wahrscheinlichkeit geringer ist, die Unterstützung umzustoßen, indem man wiederholt auf denselben Blob trifft.
+* Etwas längere Fahrbewegungen und dadurch mehr Nässen.
+* Der Schlamm wird nicht auf der Halterung abgewischt, sondern landet an der Wand des Teils, zu dem die Düse fährt.
+* Möglicherweise gibt es keinen Pfad, der die Unterstützung vermeiden könnte. In diesem Fall greift der Drucker auf ein Einfahren zurück und bewegt sich in einer geraden Linie, was zusätzliche Zeit in Anspruch nimmt und zusätzliche Narben an den Wänden hinterlassen kann.

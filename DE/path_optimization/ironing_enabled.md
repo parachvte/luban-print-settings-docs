@@ -1,17 +1,17 @@
-Bügeln aktivieren
+BÃ¼geln aktivieren
 ====
 ### **Beschreibung**
-Beim Bügeln führt der Drucker einen weiteren Durchgang über die obere Oberfläche aus, um sie besonders glatt zu machen. Dieser zusätzliche Durchgang druckt sehr kleine Linien extrem langsam.
+Beim BÃ¼geln fÃ¼hrt der Drucker einen weiteren Durchgang Ã¼ber die obere OberflÃ¤che aus, um sie besonders glatt zu machen. Dieser zusÃ¤tzliche Durchgang druckt sehr kleine Linien extrem langsam.
 
 ![Ein normaler Druck, von oben betrachtet](../images/ironing_enabled_disabled.png)
-![Beachten Sie bei aktiviertem Bügeln die dünnen Linien oben.](../images/ironing_enabled_enabled.png)
+![Beachten Sie bei aktiviertem BÃ¼geln die dÃ¼nnen Linien oben.](../images/ironing_enabled_enabled.png)
 
 ### **Einfluss**
-Beim Bügeln wird ein Linienmuster auf die Oberseite Ihres Drucks gedruckt. Dies hat zwei große positive Auswirkungen:
-* Es schmilzt die Oberfläche wieder, indem es mehrmals mit einer heißen Düse darüber fährt. Daher kommt auch der Name „Bügeln“. Da die Bewegungsgeschwindigkeit so niedrig und die Linienbreite so klein ist, erwärmt die Düse die Oberfläche erheblich. Der flache Teil der Düse streicht dann glatt darüber.
-* Es füllt Lücken in der oberen Oberfläche. Die Bügelbewegung erfolgt auf gleicher Höhe wie die Schicht selbst. Es hat weniger Fluss als eine volle Schicht, aber immer noch etwas Fluss. Theoretisch kann dieser Strom nirgendwo hin, aber in der Praxis hält er den Druck in der Düsenkammer. Immer wenn die Düse über eine Unebenheit in der Oberfläche fährt, fließt das Material in der Düse in diesen Spalt.
+Beim BÃ¼geln wird ein Linienmuster auf die Oberseite Ihres Drucks gedruckt. Dies hat zwei groÃŸe positive Auswirkungen:
+* Es schmilzt die OberflÃ¤che wieder, indem es mehrmals mit einer heiÃŸen DÃ¼se darÃ¼ber fÃ¤hrt. Daher kommt auch der Name â€BÃ¼gelnâ€œ. Da die Bewegungsgeschwindigkeit so niedrig und die Linienbreite so klein ist, erwÃ¤rmt die DÃ¼se die OberflÃ¤che erheblich. Der flache Teil der DÃ¼se streicht dann glatt darÃ¼ber.
+* Es fÃ¼llt LÃ¼cken in der oberen OberflÃ¤che. Die BÃ¼gelbewegung erfolgt auf gleicher HÃ¶he wie die Schicht selbst. Es hat weniger Fluss als eine volle Schicht, aber immer noch etwas Fluss. Theoretisch kann dieser Strom nirgendwo hin, aber in der Praxis hÃ¤lt er den Druck in der DÃ¼senkammer. Immer wenn die DÃ¼se Ã¼ber eine Unebenheit in der OberflÃ¤che fÃ¤hrt, flieÃŸt das Material in der DÃ¼se in diesen Spalt.
 
-Allerdings bringt das Bügeln auch einige Nachteile mit sich:
-* Es erhöht die Druckzeit erheblich.
-* Wenn das Bügelmuster Unterbrechungen aufweist (weil es zu verschiedenen Teilen wandern muss), hinterlässt es eine sichtbare Linie zwischen zwei verschiedenen gebügelten Teilen. Dies kann manchmal vermieden werden, indem ein geeignetes [Bügelmuster] (ironing_pattern.md) ausgewählt wird.
-* Schräge Oberflächen oder Oberflächen mit vielen Details können ebenfalls gebügelt werden, was den Topografieeffekt verstärkt. Die Grenzen zwischen den Schichten werden deutlicher. Dies kann verhindert werden, indem [Nur höchste Schicht bügeln] (ironing_only_highest_layer.md) aktiviert wird.
+Allerdings bringt das BÃ¼geln auch einige Nachteile mit sich:
+* Es erhÃ¶ht die Druckzeit erheblich.
+* Wenn das BÃ¼gelmuster Unterbrechungen aufweist (weil es zu verschiedenen Teilen wandern muss), hinterlÃ¤sst es eine sichtbare Linie zwischen zwei verschiedenen gebÃ¼gelten Teilen. Dies kann manchmal vermieden werden, indem ein geeignetes [BÃ¼gelmuster] (ironing_pattern.md) ausgewÃ¤hlt wird.
+* SchrÃ¤ge OberflÃ¤chen oder OberflÃ¤chen mit vielen Details kÃ¶nnen ebenfalls gebÃ¼gelt werden, was den Topografieeffekt verstÃ¤rkt. Die Grenzen zwischen den Schichten werden deutlicher. Dies kann verhindert werden, indem [Nur hÃ¶chste Schicht bÃ¼geln] (ironing_only_highest_layer.md) aktiviert wird.

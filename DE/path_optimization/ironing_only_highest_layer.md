@@ -1,7 +1,7 @@
-Iron Only Highest Layer
+Nur oberste Schicht bügeln
 ====
-If this setting is enabled, ironing will only be applied to the very highest layer of the object. If your model has all sorts of top surfaces but only the highest is visible or only the highest needs to be smooth, then this setting enables you to save a lot of printing time.
+Wenn diese Einstellung aktiviert ist, wird nur die allerhöchste Schicht des Objekts gebügelt. Wenn Ihr Modell alle möglichen Oberflächen hat, aber nur die höchste sichtbar ist oder nur die höchste glatt sein soll, können Sie mit dieser Einstellung viel Druckzeit sparen.
 
-![The semicircle in the lower layer does not get ironed](../images/ironing_only_highest_layer.png)
+![Der Halbkreis in der unteren Schicht wird nicht gebügelt](../images/ironing_only_highest_layer.png)
 
-If there are multiple objects in a print, the highest layer of every object will get ironed. This includes every part of a multi-extrusion print.
+Wenn ein Druck mehrere Objekte enthält, wird die oberste Schicht jedes Objekts gebügelt. Dies umfasst jeden Teil eines Multi-Extrusionsdrucks.

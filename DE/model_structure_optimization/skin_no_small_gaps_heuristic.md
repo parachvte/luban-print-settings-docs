@@ -1,10 +1,10 @@
-Keine Haut in Z-Lücken
+Keine Haut in Z-LÃ¼cken
 ====
-Wenn Ihr Modell einen kleinen Schlitz hat, der kleiner als die Hautdicke oben/unten ist, kümmert sich diese Einstellung nicht darum, die Ober- und Unterseite darüber/darunter vollständig mit Haut zu füllen. Dies spart Schnitt- und Druckzeit, kann aber die Füllung der Luft aussetzen.
+Wenn Ihr Modell einen kleinen Schlitz hat, der kleiner als die Hautdicke oben/unten ist, kÃ¼mmert sich diese Einstellung nicht darum, die Ober- und Unterseite darÃ¼ber/darunter vollstÃ¤ndig mit Haut zu fÃ¼llen. Dies spart Schnitt- und Druckzeit, kann aber die FÃ¼llung der Luft aussetzen.
 
 ![Normalerweise befindet sich Haut um den kleinen horizontalen Schlitz](../images/skin_no_small_gaps_heuristic_disabled.png)
 ![Wenn dies aktiviert ist, wird der Skin nicht richtig geschlossen](../images/skin_no_small_gaps_heuristic_enabled.png)
 
-Der Hauptzweck dieser Einstellung besteht darin, die Slicing-Zeit zu reduzieren. Diese Einstellung reduziert effektiv die Auflösung dort, wo Skin hätte platziert werden sollen. Abhängig von der Form des Modells kann dies zwischen 5 % und 30 % der Slicing-Zeit einsparen. Es spart auch Druckzeit, da anstelle von Haut Füllungen in kleine Lücken gedruckt werden. Wenn das Modell keine Lücken aufweist, die kleiner als die Hautdicke sind, besteht der einzige Effekt darin, die Slicing-Zeit zu verkürzen.
+Der Hauptzweck dieser Einstellung besteht darin, die Slicing-Zeit zu reduzieren. Diese Einstellung reduziert effektiv die AuflÃ¶sung dort, wo Skin hÃ¤tte platziert werden sollen. AbhÃ¤ngig von der Form des Modells kann dies zwischen 5 % und 30 % der Slicing-Zeit einsparen. Es spart auch Druckzeit, da anstelle von Haut FÃ¼llungen in kleine LÃ¼cken gedruckt werden. Wenn das Modell keine LÃ¼cken aufweist, die kleiner als die Hautdicke sind, besteht der einzige Effekt darin, die Slicing-Zeit zu verkÃ¼rzen.
 
-Wenn das Modell solch kleine Lücken hat, kann es sein, dass durch die Lücken Füllmaterial freigelegt wird. Wenn die Lücke jedoch klein genug ist, würde der Überhang die Wände so stark durchhängen lassen, dass sie sowieso nicht sichtbar sind.
+Wenn das Modell solch kleine LÃ¼cken hat, kann es sein, dass durch die LÃ¼cken FÃ¼llmaterial freigelegt wird. Wenn die LÃ¼cke jedoch klein genug ist, wÃ¼rde der Ãœberhang die WÃ¤nde so stark durchhÃ¤ngen lassen, dass sie sowieso nicht sichtbar sind.

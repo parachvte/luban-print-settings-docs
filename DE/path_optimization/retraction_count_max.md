@@ -1,13 +1,13 @@
-Maximum Retraction Count
+Maximale Rückzugszahl
 ====
-### **Description**
-The feeder wheel needs to grip into the filament in order to move it properly. Retracting the material often tends to cause the feeder wheel to wear down the filament to the point where it can no longer grip the filament properly. This setting limits the number of retractions within a certain length of filament in order to prevent this grinding.
+### **Beschreibung**
+Das Zuführungsrad muss in das Filament greifen, um es richtig zu bewegen. Das Zurückziehen des Materials führt häufig dazu, dass das Zuführrad das Filament bis zu dem Punkt abnutzt, an dem es das Filament nicht mehr richtig greifen kann. Diese Einstellung begrenzt die Anzahl der Rückzüge innerhalb einer bestimmten Filamentlänge, um dieses Schleifen zu verhindern.
 
-The setting indicates how often the filament is allowed to be retracted during the length of filament indicated by the [Minimum Extrusion Distance Window](retraction_extrusion_window.md) setting. Any further retractions during this window will not retract, but just travel without retracting.
+Die Einstellung gibt an, wie oft das Filament während der durch die Einstellung [Minimum Extrusion Distance Window](retraction_extrusion_window.md) angegebenen Filamentlänge zurückgezogen werden darf. Alle weiteren Rückzüge während dieses Fensters werden nicht zurückgezogen, sondern fahren einfach ohne Rückzug.
 
-![Visualisation of retractions during a certain length of filament](../images/retraction_count_max.svg)
+![Visualisierung von Rückzügen während einer bestimmten Filamentlänge](../images/retraction_count_max.svg)
 
-The length of filament during which the number of retractions is limited is a sliding window. For instance, with a window length of 3 mm and a maximum retraction count of 10, this means that no more than 10 retractions can be made within the 3 mm of filament.
+Die Filamentlänge, während der die Anzahl der Rückzüge begrenzt ist, ist ein Gleitfenster. Bei einer Fensterlänge von 3 mm und einer maximalen Rückzugszahl von 10 bedeutet dies beispielsweise, dass nicht mehr als 10 Rückzüge innerhalb von 3 mm Filament durchgeführt werden können.
 
-### **Usage**
-Reducing the maximum retraction count will reduce grinding on the filament. This is useful for softer materials, such as PVA. However it will also increase stringing, because it might no longer retract in some necessary positions.
+### **Verwendung**
+Das Reduzieren der maximalen Rückzugszahl reduziert das Schleifen auf dem Filament. Dies ist nützlich für weichere Materialien wie PVA. Allerdings erhöht es auch die Besaitung, da es in manchen notwendigen Positionen eventuell nicht mehr einfährt.

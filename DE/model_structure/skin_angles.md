@@ -1,16 +1,16 @@
 Richtungen der oberen/unteren Zeile
 ====
 ### **Beschreibung**
-Mit dieser Einstellung können Sie die Richtung ändern, in der die Zeilen oben und unten gedruckt werden. Diese Einstellung gilt sowohl für Linien- als auch für Zickzackmuster.
+Mit dieser Einstellung kÃ¶nnen Sie die Richtung Ã¤ndern, in der die Zeilen oben und unten gedruckt werden. Diese Einstellung gilt sowohl fÃ¼r Linien- als auch fÃ¼r Zickzackmuster.
 
-Sie können eine durch Kommas getrennte Liste von Winkeln (in Grad) angeben, und die Linien wechseln die Richtung pro Ebene. Sie können beispielsweise **[0,90,180,270]** einstellen, und die Linien werden pro Ebene um 90° gedreht.
+Sie kÃ¶nnen eine durch Kommas getrennte Liste von Winkeln (in Grad) angeben, und die Linien wechseln die Richtung pro Ebene. Sie kÃ¶nnen beispielsweise **[0,90,180,270]** einstellen, und die Linien werden pro Ebene um 90Â° gedreht.
 
-![Linienmuster mit 0°, 60° und 120° Winkeln im Wechsel](../images/skin_angles.gif)
+![Linienmuster mit 0Â°, 60Â° und 120Â° Winkeln im Wechsel](../images/skin_angles.gif)
 
-Standardmäßig werden Linien in den beiden diagonalen Richtungen gedruckt. Für kartesische Portalsysteme ist dies am genauesten, da der Drucker sowohl den X- als auch den Y-Motor verwenden kann, um die Düse zu beschleunigen, wenn er für die nächste Zeile umdreht.
+StandardmÃ¤ÃŸig werden Linien in den beiden diagonalen Richtungen gedruckt. FÃ¼r kartesische Portalsysteme ist dies am genauesten, da der Drucker sowohl den X- als auch den Y-Motor verwenden kann, um die DÃ¼se zu beschleunigen, wenn er fÃ¼r die nÃ¤chste Zeile umdreht.
 
 ### **Einfluss**
-Es kann mehrere Gründe geben, diese Richtungen zu ändern:
+Es kann mehrere GrÃ¼nde geben, diese Richtungen zu Ã¤ndern:
 * Um einen optischen Effekt zu erzielen.
 * Um die Kraft zu optimieren.
-* Um den Überhang zu reduzieren. Sie können auch eine senkrecht zur Füllung verlaufende Richtung wählen. Dadurch kann der Überhang über die Füllung minimiert und eine bessere Oberflächenqualität erreicht werden.
+* Um den Ãœberhang zu reduzieren. Sie kÃ¶nnen auch eine senkrecht zur FÃ¼llung verlaufende Richtung wÃ¤hlen. Dadurch kann der Ãœberhang Ã¼ber die FÃ¼llung minimiert und eine bessere OberflÃ¤chenqualitÃ¤t erreicht werden.

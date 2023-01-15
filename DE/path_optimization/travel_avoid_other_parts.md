@@ -1,16 +1,16 @@
-Avoid Printed Parts When Traveling
+Vermeiden Sie bedruckte Teile auf Reisen
 ====
-### **Description**
-By enabling this setting, the toolhead will try to avoid hitting other objects when travelling around the build volume. It will take a small detour instead. If a detour is possible that doesn't hit any other objects, no retraction is triggered unless the length of the path exceeds the [Max Comb Distance With No Retract](retraction_combing_max_distance.md) setting.
+### **Beschreibung**
+Durch Aktivieren dieser Einstellung versucht der Werkzeugkopf zu vermeiden, andere Objekte zu treffen, wenn er sich im Bauvolumen bewegt. Stattdessen wird es einen kleinen Umweg geben. Wenn eine Umleitung möglich ist, die keine anderen Objekte trifft, wird kein Rückzug ausgelöst, es sei denn, die Länge des Pfads überschreitet die Einstellung [Max. Kammabstand ohne Rückzug] (retraction_combing_max_distance.md).
 
-![When disabled, travel moves can cross through other parts](../images/travel_avoid_other_parts_disabled.png)
-![When enabled, travel moves will avoid other parts](../images/travel_avoid_other_parts_enabled.png)
+![Wenn deaktiviert, können Reisebewegungen andere Teile durchqueren](../images/travel_avoid_other_parts_disabled.png)
+![Wenn aktiviert, vermeiden Reisebewegungen andere Teile](../images/travel_avoid_other_parts_enabled.png)
 
-Aside from avoiding other parts, the travel moves will also try to stay near the walls as shortly as possible. This means that when exiting or entering a part through a wall, it will exit or enter it perpendicular to the wall.
+Abgesehen davon, dass andere Teile vermieden werden, versuchen die Reisebewegungen auch, so kurz wie möglich in der Nähe der Wände zu bleiben. Dies bedeutet, dass es beim Verlassen oder Betreten eines Teils durch eine Wand senkrecht zur Wand austritt oder eintritt.
 
-### **Usage**
-This setting tends to improve the surface quality of the print, because the nozzle will not cross through the walls as often. Crossing through the walls leaves a scar in the wall, which should be avoided.
+### **Verwendung**
+Diese Einstellung verbessert tendenziell die Oberflächenqualität des Drucks, da die Düse die Wände nicht so oft durchdringt. Das Durchqueren der Wände hinterlässt eine Narbe in der Wand, die vermieden werden sollte.
 
-However, this setting does increase the amount of oozing, since more travel moves will be made without retracting and the travel moves will be longer. With materials that ooze a lot, it may be advisable to disable avoiding other parts.
+Diese Einstellung erhöht jedoch das Auslaufen, da mehr Verfahrbewegungen ohne Einfahren ausgeführt werden und die Verfahrbewegungen länger sind. Bei Materialien, die stark sickern, kann es ratsam sein, die Vermeidung anderer Teile zu deaktivieren.
 
-Printing time could be slightly increased because the travel moves are longer, but usually this is completely offset by the reduction in the number of retractions that this causes.
+Die Druckzeit könnte etwas verlängert werden, weil die Verfahrbewegungen länger sind, aber normalerweise wird dies durch die Verringerung der Anzahl der Rückzüge, die dies verursacht, vollständig ausgeglichen.

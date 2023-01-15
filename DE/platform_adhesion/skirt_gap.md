@@ -1,8 +1,7 @@
-Skirt Distance
+Rockabstand
 ====
-### **Description**
-Skirt Distance is the distance of the closest line of the skirt to the model.
+### **Beschreibung**
+Rockabstand ist der Abstand der engsten Linie des Rocks zum Modell.
 
-### **Usage**
-By keeping enough distance, the skirt won't attach to the model, reducing the elephant's feet effect.
-
+### **Verwendung**
+Wenn Sie genügend Abstand halten, haftet der Rock nicht am Modell, wodurch der Effekt der Elefantenfüße verringert wird.

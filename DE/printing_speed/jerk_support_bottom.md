@@ -1,10 +1,10 @@
-Support Floor Jerk
+Bodenruck unterstützen
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while printing the support floors. 
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse beim Drucken der Stützböden durch Ecken fahren kann.
 
-### **Influence**
-While the support roof is critical both for scarring and for the overhang quality, the support floor only affects scarring. It has no bearing on the overhang quality because the model doesn't rest on it, only the support. This allows you to print the support floor somewhat less carefully than the support roof by adjusting this setting, to save some printing time.
+### **Einfluss**
+Während das Stützdach sowohl für die Narbenbildung als auch für die Überhangqualität entscheidend ist, wirkt sich der Stützboden nur auf die Narbenbildung aus. Es hat keinen Einfluss auf die Überhangqualität, da nicht das Modell darauf ruht, sondern nur die Stütze. Auf diese Weise können Sie den Stützboden etwas weniger sorgfältig drucken als das Stützdach, indem Sie diese Einstellung anpassen, um etwas Druckzeit zu sparen.
 
-### **Usage**
-This setting can be configured separately from the support roofs.
+### **Verwendung**
+Diese Einstellung kann separat von den Stützdächern konfiguriert werden.

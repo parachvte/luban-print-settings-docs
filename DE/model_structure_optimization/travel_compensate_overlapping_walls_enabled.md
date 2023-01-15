@@ -1,15 +1,15 @@
-Compensate Wall Overlaps
+Wandüberlappungen kompensieren
 ====
-### **Description**
-With this setting enabled, the extrusion for walls is reduced when the toolhead has to go over a thin area twice. This way, both walls in the thin part are printed without overlapping. The setting can be enabled for the outer or the inner walls separately.
+### **Beschreibung**
+Wenn diese Einstellung aktiviert ist, wird die Extrusion für Wände reduziert, wenn der Werkzeugkopf zweimal über einen dünnen Bereich fahren muss. Auf diese Weise werden beide Wände im dünnen Teil ohne Überlappung gedruckt. Die Einstellung kann für die Außen- oder Innenwände separat aktiviert werden.
 
-![Where the line width gets reduced](../images/travel_compensate_overlapping_walls_enabled_schematic.svg)
-![All lines are extruded with their full width, creating a part that will be too wide](../images/travel_compensate_overlapping_walls_enabled_disabled.png)
-![Half of the lines have reduced their width, resulting in a more accurate print](../images/travel_compensate_overlapping_walls_enabled_enabled.png)
+![Wo die Linienbreite reduziert wird](../images/travel_compensate_overlapping_walls_enabled_schematic.svg)
+![Alle Linien werden mit ihrer vollen Breite extrudiert, wodurch ein zu breiter Teil entsteht](../images/travel_compensate_overlapping_walls_enabled_disabled.png)
+![Die Hälfte der Linien wurde verkleinert, was zu einem genaueren Druck führt](../images/travel_compensate_overlapping_walls_enabled_enabled.png)
 
-If two walls overlap with each other in a narrow print part, they will cause overextrusion. After you enable Compensate Wall Overlaps, the line width of a wall will be reduced, thus preventing this overextrusion and achieving a better dimensional accuracy.
+Wenn sich zwei Wände in einem schmalen Druckteil überlappen, verursachen sie eine Überextrusion. Nachdem Sie Wandüberlappungen kompensieren aktiviert haben, wird die Linienbreite einer Wand reduziert, wodurch diese Überextrusion verhindert und eine bessere Maßhaltigkeit erreicht wird.
 
-### **Usage**
-As described above, this feature tends to improve dimensional accuracy. However, the disadvantage is that the flow rate becomes less even, which causes underextrusion in some places and overextrusion in others. Also, the flow rate can be reduced below the minimum flow rate of the extruder set-up, leading to inconsistent flow and beading. To reduce this effect, you can set the [Minimum Wall Flow](wall_min_flow.md) which will turn some of the thinnest walls into travel moves at the cost of dimensional accuracy.
+### **Verwendung**
+Wie oben beschrieben, neigt dieses Merkmal dazu, die Dimensionsgenauigkeit zu verbessern. Der Nachteil ist jedoch, dass die Fließgeschwindigkeit ungleichmäßiger wird, was an manchen Stellen zu Unterextrusion und an anderen zu Überextrusion führt. Außerdem kann die Durchflussrate unter die minimale Durchflussrate des Extruderaufbaus reduziert werden, was zu ungleichmäßigem Fluss und Perlenbildung führt. Um diesen Effekt zu reduzieren, können Sie den [Mindestwandfluss] (wall_min_flow.md) einstellen, wodurch einige der dünnsten Wände auf Kosten der Maßgenauigkeit in Bewegungsbewegungen umgewandelt werden.
 
-This setting tends to look messier in layer view. In the actual print, there are no borders between lines. The layer view shows only the paths of the g-code, but in actuality the material gets pushed aside by the other wall that it overlaps with. Also, tiny reductions in flow will not manifest itself in the actual print since the flow rate through the nozzle can't adjust that fast. Therefore, the actual print will come out smoother than layer view predicts.
+Diese Einstellung sieht in der Ebenenansicht tendenziell chaotischer aus. Im eigentlichen Druck gibt es keine Grenzen zwischen den Zeilen. Die Ebenenansicht zeigt nur die Pfade des G-Codes, aber tatsächlich wird das Material von der anderen Wand, mit der es sich überlappt, beiseite geschoben. Außerdem werden sich winzige Durchflussreduzierungen nicht im eigentlichen Druck bemerkbar machen, da sich die Durchflussrate durch die Düse nicht so schnell anpassen kann. Daher wird der tatsächliche Druck glatter erscheinen, als die Ebenenansicht vorhersagt.

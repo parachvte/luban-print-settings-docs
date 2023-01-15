@@ -1,9 +1,9 @@
-Skirt/Brim Speed
+Schürzen-/Randgeschwindigkeit
 ====
-### **Description**
-This setting adjusts the printing speed of the skirt or the brim separately from the rest of the print.
+### **Beschreibung**
+Diese Einstellung passt die Druckgeschwindigkeit des Rocks oder der Krempe separat vom Rest des Drucks an.
 
-### **Usage**
-The skirt or brim is usually printed rather slowly, in order to make it stick better to the build plate, but takes more time to print.
+### **Verwendung**
+Die Schürze oder Krempe wird normalerweise ziemlich langsam gedruckt, damit sie besser auf der Bauplatte haften, benötigt aber mehr Zeit zum Drucken.
 
-Even though the skirt and brim are printed on the first layer, this setting overrides the [Initial Layer Print Speed](speed_print_layer_0.md).
+Obwohl der Rock und die Krempe auf der ersten Ebene gedruckt werden, überschreibt diese Einstellung die [Druckgeschwindigkeit der ersten Ebene] (speed_print_layer_0.md).

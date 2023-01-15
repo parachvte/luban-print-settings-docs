@@ -1,11 +1,11 @@
-Skirt/Brim Line Width
+skirt und brim linien
 ====
-### **Description**
-This setting configures the width of a single skirt or brim line.
+### **Beschreibung**
+Diese Einstellung konfiguriert die Breite einer einzelnen skirt oder brimlinien.
 
-### **Usage**
-When using a brim, a slightly increased line width will improve the adhesion between the brim and the build plate. This is because the nozzle will extrude the material with more force, so that the brim gets pushed harder on to the build plate. The brim does not need to look pretty, so it's useful to have the brim line width as high as can feasibly be printed.
+### **Verwendung**
+Bei Verwendung einer Krempe verbessert eine leicht erhöhte Linienbreite die Haftung zwischen brim und Bauplatte. Dies liegt daran, dass die Düse das Material mit mehr Kraft ausstößt, sodass der Rand stärker auf die Bauplatte gedrückt wird. Die brim muss nicht hübsch aussehen, daher ist es nützlich, die Breite der Krempenlinie so hoch wie möglich zu halten.
 
-For the skirt, increasing the line width causes the nozzle to extrude more material. However, increasing this setting will allow for good priming in a shorter amount of time, so fewer skirt lines are necessary for small objects.
+Bei der Schürze führt eine Erhöhung der Linienbreite dazu, dass die Düse mehr Material extrudiert. Eine Erhöhung dieser Einstellung ermöglicht jedoch eine gute Grundierung in kürzerer Zeit, sodass für kleine Objekte weniger Schürzenlinien erforderlich sind.
 
-**The line width of the skirt and brim is also influenced by the [Initial Layer Line Width](initial_layer_line_width_factor.md) setting.**
+**Die Linienbreite von skirt und brim wird auch von der Einstellung [Anfangslinienbreite der Ebene](initial_layer_line_width_factor.md) beeinflusst.**

@@ -1,14 +1,14 @@
 Minimaler Wandfluss
 ====
 ### **Beschreibung**
-Durch das Kompensieren von Wandüberlappungen wird die Durchflussrate einiger Wandlinien reduziert. Dies kann problematisch sein, da es die Strömungsgeschwindigkeit beliebig weit reduzieren kann, bis auf 1 %, wenn sich die Wände fast vollständig überlappen. Das Drucken mit extrem niedrigen Flussraten funktioniert nicht gut. Es neigt dazu, ein Tropfenmuster zu bilden, anstatt kontinuierlich Linien zu extrudieren.
+Durch das Kompensieren von WandÃ¼berlappungen wird die Durchflussrate einiger Wandlinien reduziert. Dies kann problematisch sein, da es die StrÃ¶mungsgeschwindigkeit beliebig weit reduzieren kann, bis auf 1 %, wenn sich die WÃ¤nde fast vollstÃ¤ndig Ã¼berlappen. Das Drucken mit extrem niedrigen Flussraten funktioniert nicht gut. Es neigt dazu, ein Tropfenmuster zu bilden, anstatt kontinuierlich Linien zu extrudieren.
 
-Diese Einstellung verwandelt diese Linien mit extrem niedriger Flussrate in Bewegungsbewegungen und bringt ihre Flussrate effektiv auf 0%. Das Material quillt immer noch wie bei normalen Fahrbewegungen heraus, bildet aber keine Perlen. Die Düse folgt weiterhin dem Weg der Wand, um an der richtigen Stelle auszusickern.
+Diese Einstellung verwandelt diese Linien mit extrem niedriger Flussrate in Bewegungsbewegungen und bringt ihre Flussrate effektiv auf 0%. Das Material quillt immer noch wie bei normalen Fahrbewegungen heraus, bildet aber keine Perlen. Die DÃ¼se folgt weiterhin dem Weg der Wand, um an der richtigen Stelle auszusickern.
 
-![Überlappungen zwischen Wänden werden normal ausgeglichen](../images/wall_min_flow_0.png)
-![Wände mit weniger als 50 % Extrusion werden in Bewegungsbewegungen umgewandelt](../images/wall_min_flow_50.png)
+![Ãœberlappungen zwischen WÃ¤nden werden normal ausgeglichen](../images/wall_min_flow_0.png)
+![WÃ¤nde mit weniger als 50 % Extrusion werden in Bewegungsbewegungen umgewandelt](../images/wall_min_flow_50.png)
 
 ### **Verwendung**
-Wenn Sie diese Einstellung erhöhen, werden Ihre Wände dünner als gewünscht. Der Drucker lässt die sehr dünnen Linien weg. Technisch gesehen ist dies eine Unterextrusion, die dazu führt, dass Ihr Teil dünner als gewünscht ist. Anstatt eine lange Reihe von Blips oder Perlen über die Wand zu ziehen, wird nichts gedruckt, wodurch die Wand etwas glatter wird.
+Wenn Sie diese Einstellung erhÃ¶hen, werden Ihre WÃ¤nde dÃ¼nner als gewÃ¼nscht. Der Drucker lÃ¤sst die sehr dÃ¼nnen Linien weg. Technisch gesehen ist dies eine Unterextrusion, die dazu fÃ¼hrt, dass Ihr Teil dÃ¼nner als gewÃ¼nscht ist. Anstatt eine lange Reihe von Blips oder Perlen Ã¼ber die Wand zu ziehen, wird nichts gedruckt, wodurch die Wand etwas glatter wird.
 
-Stellen Sie diese Einstellung auf den minimalen Wanddurchfluss ein, den Ihre Düse ohne Tropfenbildung erreichen kann. Typischerweise sind dies etwa 60 %. Wenn die Linienbreite unter 60 % reduziert wird, würden sich diese Tröpfchen bilden. Wenn Sie mit größeren Schichthöhen drucken oder dickere Wandlinien verwenden, können Sie diese Einstellung möglicherweise etwas reduzieren, um eine größere Maßgenauigkeit zu erhalten.
+Stellen Sie diese Einstellung auf den minimalen Wanddurchfluss ein, den Ihre DÃ¼se ohne Tropfenbildung erreichen kann. Typischerweise sind dies etwa 60 %. Wenn die Linienbreite unter 60 % reduziert wird, wÃ¼rden sich diese TrÃ¶pfchen bilden. Wenn Sie mit grÃ¶ÃŸeren SchichthÃ¶hen drucken oder dickere Wandlinien verwenden, kÃ¶nnen Sie diese Einstellung mÃ¶glicherweise etwas reduzieren, um eine grÃ¶ÃŸere MaÃŸgenauigkeit zu erhalten.

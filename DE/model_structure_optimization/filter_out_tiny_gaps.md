@@ -1,5 +1,5 @@
-Filtern Sie winzige Lücken heraus
+Filtern Sie winzige LÃ¼cken heraus
 ====
-Das Füllen von Lücken zwischen Wänden führt zu zusätzlichen Reisebewegungen. Wenn die Lücken extrem klein sind, hat das Material normalerweise nicht genug Zeit, um sehr gut aus der Düse zu fließen. Wenn diese Einstellung aktiviert ist, kann der Drucker einige der kleinsten Lücken überspringen.
+Das FÃ¼llen von LÃ¼cken zwischen WÃ¤nden fÃ¼hrt zu zusÃ¤tzlichen Reisebewegungen. Wenn die LÃ¼cken extrem klein sind, hat das Material normalerweise nicht genug Zeit, um sehr gut aus der DÃ¼se zu flieÃŸen. Wenn diese Einstellung aktiviert ist, kann der Drucker einige der kleinsten LÃ¼cken Ã¼berspringen.
 
-Lücken, die kleiner als 2 quadratische Außenwandlinienbreiten sind, zählen als „kleine Lücken“. Wenn beispielsweise Ihre [Außenwandlinienbreite](../resolution/wall_line_width_0.md) auf 0,4 mm eingestellt ist, werden Lücken mit einer Fläche von nicht mehr als 0,4 mm × 0,4 mm × 2 = 0,32 mm² nicht gefüllt .
+LÃ¼cken, die kleiner als 2 quadratische AuÃŸenwandlinienbreiten sind, zÃ¤hlen als â€kleine LÃ¼ckenâ€œ. Wenn beispielsweise Ihre [AuÃŸenwandlinienbreite](../resolution/wall_line_width_0.md) auf 0,4 mm eingestellt ist, werden LÃ¼cken mit einer FlÃ¤che von nicht mehr als 0,4 mm Ã— 0,4 mm Ã— 2 = 0,32 mmÂ² nicht gefÃ¼llt .

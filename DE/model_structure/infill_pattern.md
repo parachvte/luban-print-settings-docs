@@ -1,120 +1,120 @@
-Füllmuster
+FÃ¼llmuster
 ====
-Das Füllmuster definiert eine Struktur, die verwendet wird, um das Volumen des Objekts zu füllen. Es stehen verschiedene Muster zur Verfügung, von denen jedes seine eigenen Vorteile hat. Einige sind auf ganz bestimmte Anwendungen spezialisiert.
+Das FÃ¼llmuster definiert eine Struktur, die verwendet wird, um das Volumen des Objekts zu fÃ¼llen. Es stehen verschiedene Muster zur VerfÃ¼gung, von denen jedes seine eigenen Vorteile hat. Einige sind auf ganz bestimmte Anwendungen spezialisiert.
 
 Netz
 ----
 ![Netz](../images/infill_pattern_grid.png)
 
-Das Gitterfüllmuster erzeugt zwei senkrechte Liniensätze. Zusammen bildet dies ein Muster aus Quadraten.
-* Stärkstes Muster in vertikaler Richtung.
+Das GitterfÃ¼llmuster erzeugt zwei senkrechte LiniensÃ¤tze. Zusammen bildet dies ein Muster aus Quadraten.
+* StÃ¤rkstes Muster in vertikaler Richtung.
 * Ziemlich stark in den beiden Richtungen der Linien.
 * Nicht so stark in diagonaler Richtung des quadratischen Musters.
-* Sehr gut zur Unterstützung der Oberfläche. Ihre Oberfläche wird sehr glatt aussehen.
+* Sehr gut zur UnterstÃ¼tzung der OberflÃ¤che. Ihre OberflÃ¤che wird sehr glatt aussehen.
 
 Linien
 ----
 ![Linien](../images/infill_pattern_lines.png)
 
-Das Linienmuster erzeugt parallele Linien. Standardmäßig ändert das Linienmuster seine Richtung senkrecht von Schicht zu Schicht, wodurch es auf den ersten Blick wie das Gittermuster aussieht. Dies kann jedoch mit der Einstellung [Fülllinienrichtungen](infill_angles.md) geändert werden.
-* Das beste Muster für eine glatte Oberfläche zusammen mit Zickzack, da der Abstand zwischen den Linien am kleinsten ist.
+Das Linienmuster erzeugt parallele Linien. StandardmÃ¤ÃŸig Ã¤ndert das Linienmuster seine Richtung senkrecht von Schicht zu Schicht, wodurch es auf den ersten Blick wie das Gittermuster aussieht. Dies kann jedoch mit der Einstellung [FÃ¼lllinienrichtungen](infill_angles.md) geÃ¤ndert werden.
+* Das beste Muster fÃ¼r eine glatte OberflÃ¤che zusammen mit Zickzack, da der Abstand zwischen den Linien am kleinsten ist.
 * Neigt dazu, in vertikaler Richtung schwach zu sein, da die Schichten nur kleine Punkte haben, an denen sie sich verbinden.
-* Wird in horizontaler Richtung extrem schwach sein, außer in der einen Richtung, in der die Linien ausgerichtet sind. Aber selbst in dieser Richtung ist es nicht scherfest, so dass es unter Belastung ziemlich schnell versagt.
+* Wird in horizontaler Richtung extrem schwach sein, auÃŸer in der einen Richtung, in der die Linien ausgerichtet sind. Aber selbst in dieser Richtung ist es nicht scherfest, so dass es unter Belastung ziemlich schnell versagt.
 
 Dreiecke
 ----
 ![Dreiecke](../images/infill_pattern_triangles.png)
 
 Das Dreiecksmuster erzeugt drei Reihen von Linien in drei verschiedenen Richtungen. Zusammen bildet dies ein Muster aus Dreiecken.
-* Sehr widerstandsfähig gegen Scherung.
-* Bietet ungefähr die gleiche Stärke in jeder horizontalen Richtung.
-* Deckschichtlinien müssen ziemlich lange überbrücken, was viele Deckschichten erfordert, um eine gleichmäßige Oberfläche zu erhalten.
-* Der Fluss wird an Kreuzungen erheblich unterbrochen, was zu einer relativ geringen Festigkeit bei hoher Fülldichte führt.
+* Sehr widerstandsfÃ¤hig gegen Scherung.
+* Bietet ungefÃ¤hr die gleiche StÃ¤rke in jeder horizontalen Richtung.
+* Deckschichtlinien mÃ¼ssen ziemlich lange Ã¼berbrÃ¼cken, was viele Deckschichten erfordert, um eine gleichmÃ¤ÃŸige OberflÃ¤che zu erhalten.
+* Der Fluss wird an Kreuzungen erheblich unterbrochen, was zu einer relativ geringen Festigkeit bei hoher FÃ¼lldichte fÃ¼hrt.
 
 Tri-Sechseck
 ----
 ![Tri-Sechseck](../images/infill_pattern_trihexagon.png)
 
-Das Drei-Sechseck-Muster erzeugt drei Sätze von Linien in drei verschiedenen Richtungen, genau wie das Dreiecksmuster, aber gegeneinander versetzt, sodass sie sich nicht alle an derselben Position schneiden.
-* Stärkstes Muster in horizontaler Richtung.
-* Bietet ungefähr die gleiche Stärke in jeder horizontalen Richtung.
-* Sehr widerstandsfähig gegen Scherung.
-* Deckschichtlinien müssen sehr lange überbrücken, was viele Deckschichten erfordert, um eine gleichmäßige Oberfläche zu erhalten.
+Das Drei-Sechseck-Muster erzeugt drei SÃ¤tze von Linien in drei verschiedenen Richtungen, genau wie das Dreiecksmuster, aber gegeneinander versetzt, sodass sie sich nicht alle an derselben Position schneiden.
+* StÃ¤rkstes Muster in horizontaler Richtung.
+* Bietet ungefÃ¤hr die gleiche StÃ¤rke in jeder horizontalen Richtung.
+* Sehr widerstandsfÃ¤hig gegen Scherung.
+* Deckschichtlinien mÃ¼ssen sehr lange Ã¼berbrÃ¼cken, was viele Deckschichten erfordert, um eine gleichmÃ¤ÃŸige OberflÃ¤che zu erhalten.
 
 Kubisch
 ----
 ![Kubisch](../images/infill_pattern_cubic.png)
 
-Das kubische Muster erzeugt Würfel, ein dreidimensionales Muster. Die Würfel sind mit einer Ecke nach unten ausgerichtet, wodurch sie bedruckt werden können, ohne dass die Innenflächen überstehen.
-* Bietet ungefähr die gleiche Festigkeit in allen Richtungen, einschließlich der vertikalen Richtung.
+Das kubische Muster erzeugt WÃ¼rfel, ein dreidimensionales Muster. Die WÃ¼rfel sind mit einer Ecke nach unten ausgerichtet, wodurch sie bedruckt werden kÃ¶nnen, ohne dass die InnenflÃ¤chen Ã¼berstehen.
+* Bietet ungefÃ¤hr die gleiche Festigkeit in allen Richtungen, einschlieÃŸlich der vertikalen Richtung.
 * Ziemlich stark in jeder Richtung.
-* Reduzierte Wirkung des Kissens, da es keine langen vertikalen Taschen heißer Luft erzeugt.
+* Reduzierte Wirkung des Kissens, da es keine langen vertikalen Taschen heiÃŸer Luft erzeugt.
 
 Kubische Unterteilung
 ----
 ![Kubische Unterteilung](../images/infill_pattern_cubic_subdivision.png)
 
-Das kubische Unterteilungsmuster erzeugt Würfel, ein dreidimensionales Muster. Die Würfel sind mit einer Ecke nach unten ausgerichtet, wodurch sie bedruckt werden können, ohne dass die Innenflächen überstehen. Dieses Muster erzeugt größere Würfel zum Inneren des Volumens, was Material spart. Es lässt die Fülllinien an Stellen weg, wo sie am wenigsten nützlich sind.
+Das kubische Unterteilungsmuster erzeugt WÃ¼rfel, ein dreidimensionales Muster. Die WÃ¼rfel sind mit einer Ecke nach unten ausgerichtet, wodurch sie bedruckt werden kÃ¶nnen, ohne dass die InnenflÃ¤chen Ã¼berstehen. Dieses Muster erzeugt grÃ¶ÃŸere WÃ¼rfel zum Inneren des Volumens, was Material spart. Es lÃ¤sst die FÃ¼lllinien an Stellen weg, wo sie am wenigsten nÃ¼tzlich sind.
 
-Dieses Muster kann Fülldichten erzeugen, die niedriger als erwünscht sind. Es ist ratsam, die Füllungsdichte drastisch zu erhöhen, wenn Sie dieses Muster verwenden. Die Optimierung funktioniert am besten bei hoher Fülldichte.
+Dieses Muster kann FÃ¼lldichten erzeugen, die niedriger als erwÃ¼nscht sind. Es ist ratsam, die FÃ¼llungsdichte drastisch zu erhÃ¶hen, wenn Sie dieses Muster verwenden. Die Optimierung funktioniert am besten bei hoher FÃ¼lldichte.
 
-Algorithmisch wird dieses Muster erzeugt, indem ein riesiger Würfel um das gesamte Volumen herum erstellt wird und dieser Würfel dann in 8 Unterwürfel unterteilt wird, wenn er auf eine Wand trifft. Dies wird dann rekursiv ausgeführt, sodass die Teilwürfel, die auf irgendwelche Wände treffen, immer wieder unterteilt werden. Dies wiederholt sich, bis der Fülllinienabstand erreicht ist.
-* Stärkstes Muster bei gleichem Gewicht und Druckzeit.
-* Bietet ungefähr die gleiche Festigkeit in allen Richtungen, einschließlich der vertikalen Richtung.
-* Reduzierte Wirkung des Kissens, da es keine langen vertikalen Taschen heißer Luft erzeugt.
-* Wenn die Füllungsdichte erhöht wird, scheint die Füllung nicht viel durch die Wände, wodurch eine bessere Oberflächenqualität bei gleicher Druckzeit erzeugt wird.
-* Führt Einziehungen ein, was bei flexiblen oder flüssigen Materialien nicht gut funktioniert.
-* Das Schneiden dauert länger.
+Algorithmisch wird dieses Muster erzeugt, indem ein riesiger WÃ¼rfel um das gesamte Volumen herum erstellt wird und dieser WÃ¼rfel dann in 8 UnterwÃ¼rfel unterteilt wird, wenn er auf eine Wand trifft. Dies wird dann rekursiv ausgefÃ¼hrt, sodass die TeilwÃ¼rfel, die auf irgendwelche WÃ¤nde treffen, immer wieder unterteilt werden. Dies wiederholt sich, bis der FÃ¼lllinienabstand erreicht ist.
+* StÃ¤rkstes Muster bei gleichem Gewicht und Druckzeit.
+* Bietet ungefÃ¤hr die gleiche Festigkeit in allen Richtungen, einschlieÃŸlich der vertikalen Richtung.
+* Reduzierte Wirkung des Kissens, da es keine langen vertikalen Taschen heiÃŸer Luft erzeugt.
+* Wenn die FÃ¼llungsdichte erhÃ¶ht wird, scheint die FÃ¼llung nicht viel durch die WÃ¤nde, wodurch eine bessere OberflÃ¤chenqualitÃ¤t bei gleicher Druckzeit erzeugt wird.
+* FÃ¼hrt Einziehungen ein, was bei flexiblen oder flÃ¼ssigen Materialien nicht gut funktioniert.
+* Das Schneiden dauert lÃ¤nger.
 
 Oktett
 ----
 ![Oktett](../images/infill_pattern_octet.png)
 
-Das Oktettmuster erzeugt eine Kombination aus regelmäßigen Tetraedern und Würfeln, ein dreidimensionales Muster. Von Zeit zu Zeit werden mehrere Fülllinien nebeneinander platziert.
-* Erzeugt einen starken inneren Rahmen, wo sich mehrere parallele Linien berühren. Die Last wird schnell in Richtung dieses Innenrahmens abgeleitet.
-* Reduzierte Wirkung des Kissens, da es keine langen vertikalen Taschen heißer Luft erzeugt.
-* Führt zu einer sehr langen Überbrückung der Deckschichten, was die Oberflächenqualität reduziert.
+Das Oktettmuster erzeugt eine Kombination aus regelmÃ¤ÃŸigen Tetraedern und WÃ¼rfeln, ein dreidimensionales Muster. Von Zeit zu Zeit werden mehrere FÃ¼lllinien nebeneinander platziert.
+* Erzeugt einen starken inneren Rahmen, wo sich mehrere parallele Linien berÃ¼hren. Die Last wird schnell in Richtung dieses Innenrahmens abgeleitet.
+* Reduzierte Wirkung des Kissens, da es keine langen vertikalen Taschen heiÃŸer Luft erzeugt.
+* FÃ¼hrt zu einer sehr langen ÃœberbrÃ¼ckung der Deckschichten, was die OberflÃ¤chenqualitÃ¤t reduziert.
 
 Viertelkubisch
 ----
 ![Viertelkubisch](../images/infill_pattern_quarter_cubic.png)
 
-Das viertelkubische Muster erzeugt eine dreidimensionale Tesselation, die aus Tetraedern und abgeschnittenen Tetraedern besteht. Von Zeit zu Zeit werden mehrere Fülllinien nebeneinander platziert.
-* Erzeugt zwei disjunkte interne Frames, ähnlich Oktett, wo sich mehrere parallele Linien berühren. Die Last wird schnell in Richtung dieses Innenrahmens abgeleitet. Die Rahmen sind in zwei verschiedene Richtungen ausgerichtet, was sie einzeln schwächer macht, aber den Abstand verringert, um die Last auf diese Rahmen zu verteilen.
-* Reduzierte Wirkung des Kissens, da es keine langen vertikalen Taschen heißer Luft erzeugt.
-* Führt zu einer sehr langen Überbrückung der Deckschichten, was die Oberflächenqualität reduziert.
+Das viertelkubische Muster erzeugt eine dreidimensionale Tesselation, die aus Tetraedern und abgeschnittenen Tetraedern besteht. Von Zeit zu Zeit werden mehrere FÃ¼lllinien nebeneinander platziert.
+* Erzeugt zwei disjunkte interne Frames, Ã¤hnlich Oktett, wo sich mehrere parallele Linien berÃ¼hren. Die Last wird schnell in Richtung dieses Innenrahmens abgeleitet. Die Rahmen sind in zwei verschiedene Richtungen ausgerichtet, was sie einzeln schwÃ¤cher macht, aber den Abstand verringert, um die Last auf diese Rahmen zu verteilen.
+* Reduzierte Wirkung des Kissens, da es keine langen vertikalen Taschen heiÃŸer Luft erzeugt.
+* FÃ¼hrt zu einer sehr langen ÃœberbrÃ¼ckung der Deckschichten, was die OberflÃ¤chenqualitÃ¤t reduziert.
 
 Konzentrisch
 ----
 ![Konzentrisch](../images/infill_pattern_concentric.png)
 
-Das konzentrische Muster erzeugt Ringe parallel zu den Wänden.
-* Das stärkste Füllungsmuster bei Verwendung von 100 % Füllung, da sich nicht nur keine Linien schneiden, sondern die Linien auch so ausgerichtet sind, dass die nicht isotrope Stärke der Linien die Last verteilt.
-* Erzeugt die flexibelsten Drucke mit einer sehr schwachen und gleichmäßigen Stärke in allen horizontalen Richtungen.
-* Stärker in vertikaler Richtung als in horizontaler Richtung.
-* Bei 100 % Schüttdichte könnte das Material in der Mitte verklumpen. Daher passt es nicht zu runden Modellen, da die konzentrischen Kreise schließlich in einem Punkt zusammenkommen.
-* Bei einigen Formen könnten einige der Fülllinien in der Luft hängen, was keine zusätzliche Festigkeit für die Materialkosten und die Druckzeit hinzufügt.
-* Wenn keine 100 % Füllung verwendet wird, ist dies das schwächste Füllungsmuster in horizontaler Richtung. Es fügt überhaupt keine Kraft hinzu.
+Das konzentrische Muster erzeugt Ringe parallel zu den WÃ¤nden.
+* Das stÃ¤rkste FÃ¼llungsmuster bei Verwendung von 100 % FÃ¼llung, da sich nicht nur keine Linien schneiden, sondern die Linien auch so ausgerichtet sind, dass die nicht isotrope StÃ¤rke der Linien die Last verteilt.
+* Erzeugt die flexibelsten Drucke mit einer sehr schwachen und gleichmÃ¤ÃŸigen StÃ¤rke in allen horizontalen Richtungen.
+* StÃ¤rker in vertikaler Richtung als in horizontaler Richtung.
+* Bei 100 % SchÃ¼ttdichte kÃ¶nnte das Material in der Mitte verklumpen. Daher passt es nicht zu runden Modellen, da die konzentrischen Kreise schlieÃŸlich in einem Punkt zusammenkommen.
+* Bei einigen Formen kÃ¶nnten einige der FÃ¼lllinien in der Luft hÃ¤ngen, was keine zusÃ¤tzliche Festigkeit fÃ¼r die Materialkosten und die Druckzeit hinzufÃ¼gt.
+* Wenn keine 100 % FÃ¼llung verwendet wird, ist dies das schwÃ¤chste FÃ¼llungsmuster in horizontaler Richtung. Es fÃ¼gt Ã¼berhaupt keine Kraft hinzu.
 
 Zickzack
 ----
 ![Zickzack](../images/infill_pattern_zigzag.png)
 
-Das Zickzack-Füllmuster bewirkt, dass die Düse Linien in einer Zickzack-Weise zeichnet. Das ist wie bei Leitungen, aber die Leitungen sind verbunden, was Strömungsunterbrechungen verhindert.
-* Das zweitstärkste Füllungsmuster bei Verwendung von 100 % Füllung. Es druckt jedoch zuverlässiger als konzentrische Füllungen mit runden Formen.
-* Das beste Muster für eine glatte Oberfläche zusammen mit Zickzack, da der Abstand zwischen den Linien am kleinsten ist.
+Das Zickzack-FÃ¼llmuster bewirkt, dass die DÃ¼se Linien in einer Zickzack-Weise zeichnet. Das ist wie bei Leitungen, aber die Leitungen sind verbunden, was StrÃ¶mungsunterbrechungen verhindert.
+* Das zweitstÃ¤rkste FÃ¼llungsmuster bei Verwendung von 100 % FÃ¼llung. Es druckt jedoch zuverlÃ¤ssiger als konzentrische FÃ¼llungen mit runden Formen.
+* Das beste Muster fÃ¼r eine glatte OberflÃ¤che zusammen mit Zickzack, da der Abstand zwischen den Linien am kleinsten ist.
 * Neigt dazu, in vertikaler Richtung ziemlich schwach zu sein, da die Schichten nur kleine Punkte haben, an denen sie sich verbinden.
-* Wird in horizontaler Richtung extrem schwach sein, außer in der einen Richtung, in der die Linien ausgerichtet sind. Aber selbst in dieser Richtung ist es nicht scherfest, so dass es unter Belastung ziemlich schnell versagt.
+* Wird in horizontaler Richtung extrem schwach sein, auÃŸer in der einen Richtung, in der die Linien ausgerichtet sind. Aber selbst in dieser Richtung ist es nicht scherfest, so dass es unter Belastung ziemlich schnell versagt.
 
 Cross
 ----
 ![Cross](../images/infill_pattern_cross.png)
 
-Das Kreuzfüllungsmuster erzeugt eine raumfüllende Kurve, die etwas erzeugt, das wie Kreuze entlang der Innenseite des Volumens aussieht.
-* Gleichmäßig matschig in allen horizontalen Richtungen, wodurch dies zum Drucken von weichen und flexiblen Objekten nützlich ist.
-* Erzeugt keine langen geraden Linien in horizontaler Richtung, wodurch diese entlang des gesamten Umfangs gleichmäßig matschig werden. Es gibt keine starken Stellen.
-* Erzeugt überhaupt keine Einziehungen, was das Drucken mit flexiblen Materialien erleichtert.
-* Wird in vertikaler Richtung stärker sein als in horizontaler Richtung.
+Das KreuzfÃ¼llungsmuster erzeugt eine raumfÃ¼llende Kurve, die etwas erzeugt, das wie Kreuze entlang der Innenseite des Volumens aussieht.
+* GleichmÃ¤ÃŸig matschig in allen horizontalen Richtungen, wodurch dies zum Drucken von weichen und flexiblen Objekten nÃ¼tzlich ist.
+* Erzeugt keine langen geraden Linien in horizontaler Richtung, wodurch diese entlang des gesamten Umfangs gleichmÃ¤ÃŸig matschig werden. Es gibt keine starken Stellen.
+* Erzeugt Ã¼berhaupt keine Einziehungen, was das Drucken mit flexiblen Materialien erleichtert.
+* Wird in vertikaler Richtung stÃ¤rker sein als in horizontaler Richtung.
 * Das Schneiden dauert lange.
 * Wird in allen horizontalen Richtungen sehr schwach sein.
 
@@ -122,10 +122,10 @@ Kreuz 3D
 ----
 ![Kreuz 3D](../images/infill_pattern_cross_3d.png)
 
-Das Kreuz-3D-Füllmuster erzeugt eine raumfüllende Kurve, die so etwas wie Kreuze entlang der Innenseite des Volumens erzeugt. Dieses Muster pulsiert entlang der Z-Achse, um es in vertikaler Richtung schwächer zu machen.
-* Ungefähr gleichmäßig matschig in alle Richtungen, horizontal und vertikal, wodurch dies das nützlichste Muster zum Drucken weicher und flexibler Objekte ist.
-* Erzeugt keine langen geraden Linien, wodurch diese entlang der gesamten Oberfläche gleichmäßig matschig werden.
-* Erzeugt überhaupt keine Einziehungen, was das Drucken mit flexiblen Materialien erleichtert.
+Das Kreuz-3D-FÃ¼llmuster erzeugt eine raumfÃ¼llende Kurve, die so etwas wie Kreuze entlang der Innenseite des Volumens erzeugt. Dieses Muster pulsiert entlang der Z-Achse, um es in vertikaler Richtung schwÃ¤cher zu machen.
+* UngefÃ¤hr gleichmÃ¤ÃŸig matschig in alle Richtungen, horizontal und vertikal, wodurch dies das nÃ¼tzlichste Muster zum Drucken weicher und flexibler Objekte ist.
+* Erzeugt keine langen geraden Linien, wodurch diese entlang der gesamten OberflÃ¤che gleichmÃ¤ÃŸig matschig werden.
+* Erzeugt Ã¼berhaupt keine Einziehungen, was das Drucken mit flexiblen Materialien erleichtert.
 * Das Schneiden dauert lange.
 * Wird in allen Richtungen sehr schwach sein.
 
@@ -133,11 +133,11 @@ Gyroid
 ----
 ![Gyroid](../images/infill_pattern_gyroid.png)
 
-Das Gyroid-Füllmuster erzeugt ein Wellenmuster, das die Richtung wechselt.
-* Erzeugt ein Volumen, das vollständig flüssigkeitsdurchlässig ist, was es zu einem nützlichen Muster für auflösbare Materialien macht.
-* In alle Richtungen gleich stark, aber nicht sehr stark. Dies macht es für flexible Materialien nützlich, aber das Ergebnis ist etwas härter und weniger matschig als die Cross (3D)-Füllmuster.
+Das Gyroid-FÃ¼llmuster erzeugt ein Wellenmuster, das die Richtung wechselt.
+* Erzeugt ein Volumen, das vollstÃ¤ndig flÃ¼ssigkeitsdurchlÃ¤ssig ist, was es zu einem nÃ¼tzlichen Muster fÃ¼r auflÃ¶sbare Materialien macht.
+* In alle Richtungen gleich stark, aber nicht sehr stark. Dies macht es fÃ¼r flexible Materialien nÃ¼tzlich, aber das Ergebnis ist etwas hÃ¤rter und weniger matschig als die Cross (3D)-FÃ¼llmuster.
 * Resistent gegen Scheren.
-* Das Slicen dauert lange und erzeugt große G-Code-Dateien. Für einige Drucker kann es schwierig sein, mit den vielen G-Code-Befehlen pro Sekunde Schritt zu halten, und es kann schwierig sein, mit einer seriellen Verbindung mit niedrigen Baudraten Schritt zu halten.
+* Das Slicen dauert lange und erzeugt groÃŸe G-Code-Dateien. FÃ¼r einige Drucker kann es schwierig sein, mit den vielen G-Code-Befehlen pro Sekunde Schritt zu halten, und es kann schwierig sein, mit einer seriellen Verbindung mit niedrigen Baudraten Schritt zu halten.
 
 Blitz
 ----
@@ -145,9 +145,9 @@ Blitz
 ![Blitz](../images/infill_pattern_lightning.png)
 ![Das Blitzmuster baut sich von den Seiten auf](../images/infill_pattern_lightning_side.png)
 
-Das Blitz-Füllmuster ist ein gezacktes minimales Muster, das nur darauf abzielt, die obere Oberfläche zu stützen. Die angegebene Schüttdichte wird nur knapp unterhalb der Oberseite des Schüttvolumens erreicht.
+Das Blitz-FÃ¼llmuster ist ein gezacktes minimales Muster, das nur darauf abzielt, die obere OberflÃ¤che zu stÃ¼tzen. Die angegebene SchÃ¼ttdichte wird nur knapp unterhalb der Oberseite des SchÃ¼ttvolumens erreicht.
 
-* Spart enorm viel Zeit und Material, indem nur die Füllung unter der Oberfläche hergestellt wird.
-* Die Erhöhung der Fülldichte führt zur besten Oberflächenqualität aller Dekore bei gleichzeitig geringem Zeit- und Materialaufwand.
-* Verhindert, dass Füllmaterial an vielen Stellen durch die Wände scheint, indem einfach kein Füllmaterial vorhanden ist.
-* Trägt nicht wesentlich zur Festigkeit des Teils bei.
+* Spart enorm viel Zeit und Material, indem nur die FÃ¼llung unter der OberflÃ¤che hergestellt wird.
+* Die ErhÃ¶hung der FÃ¼lldichte fÃ¼hrt zur besten OberflÃ¤chenqualitÃ¤t aller Dekore bei gleichzeitig geringem Zeit- und Materialaufwand.
+* Verhindert, dass FÃ¼llmaterial an vielen Stellen durch die WÃ¤nde scheint, indem einfach kein FÃ¼llmaterial vorhanden ist.
+* TrÃ¤gt nicht wesentlich zur Festigkeit des Teils bei.

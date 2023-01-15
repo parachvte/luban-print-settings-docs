@@ -1,18 +1,18 @@
-Richtungen der Fülllinie
+Richtungen der FÃ¼lllinie
 ====
 ### **Beschreibung**
-Fülllinien sind normalerweise in einem 45-Grad-Winkel ausgerichtet. Bei diesem Winkel arbeiten sowohl der X- als auch der Y-Motor zusammen, um eine maximale Beschleunigung des Werkzeugkopfes zu erreichen, wenn ein Drucker mit dem üblichen kartesischen Gantry-Mechanismus verwendet wird.
+FÃ¼lllinien sind normalerweise in einem 45-Grad-Winkel ausgerichtet. Bei diesem Winkel arbeiten sowohl der X- als auch der Y-Motor zusammen, um eine maximale Beschleunigung des Werkzeugkopfes zu erreichen, wenn ein Drucker mit dem Ã¼blichen kartesischen Gantry-Mechanismus verwendet wird.
 
-Mit dieser Einstellung können Sie diesen Winkel anpassen. Sie können es spezialisieren, um eine größere Festigkeit für Ihr spezifisches Modell zu erzeugen oder eine größere Beschleunigung für Ihr spezifisches Portalsystem zu erreichen.
+Mit dieser Einstellung kÃ¶nnen Sie diesen Winkel anpassen. Sie kÃ¶nnen es spezialisieren, um eine grÃ¶ÃŸere Festigkeit fÃ¼r Ihr spezifisches Modell zu erzeugen oder eine grÃ¶ÃŸere Beschleunigung fÃ¼r Ihr spezifisches Portalsystem zu erreichen.
 
-![Linienfüllung mit Standardwinkeln von 45 und 135 Grad](../images/infill_angles_45_135.png)
-![Linienfüllung mit benutzerdefinierten Winkeln von 0 und 30 Grad](../images/infill_angles_0_30.png)
+![LinienfÃ¼llung mit Standardwinkeln von 45 und 135 Grad](../images/infill_angles_45_135.png)
+![LinienfÃ¼llung mit benutzerdefinierten Winkeln von 0 und 30 Grad](../images/infill_angles_0_30.png)
 
 ### **Verwendung**
-Der Wert dieser Einstellung muss eine durch Kommas getrennte Liste von Winkeln mit Klammern sein (z. B. [0,60,120]). Ein Winkel von 0 Grad ergibt eine Linie parallel zur Y-Achse. Die Liste der Winkel wird abwechselnd über den Ebenen angezeigt.
-* Der endgültige Druck ist in Richtung der Fülllinien am stärksten. Wenn Sie möchten, dass der Druck eine bestimmte Kraft in horizontaler Richtung trägt, ist es hilfreich, die Fülllinien in dieser Richtung auszurichten.
+Der Wert dieser Einstellung muss eine durch Kommas getrennte Liste von Winkeln mit Klammern sein (z. B. [0,60,120]). Ein Winkel von 0 Grad ergibt eine Linie parallel zur Y-Achse. Die Liste der Winkel wird abwechselnd Ã¼ber den Ebenen angezeigt.
+* Der endgÃ¼ltige Druck ist in Richtung der FÃ¼lllinien am stÃ¤rksten. Wenn Sie mÃ¶chten, dass der Druck eine bestimmte Kraft in horizontaler Richtung trÃ¤gt, ist es hilfreich, die FÃ¼lllinien in dieser Richtung auszurichten.
 * Belassen Sie die Einstellung in einer leeren Liste, um die Standardeinstellung zu verwenden.
-* Die Standardeinstellung hängt vom Füllmuster ab:
-   * Für Cross- und Cross-3D-Füllmuster ist der Standardwert [22]. Dadurch werden möglichst viele Linien nahe an den Diagonalen ausgerichtet.
-   * Für Linien- und Zickzack-Füllmuster ist die Voreinstellung [45,135]. Dadurch wechselt die Orientierung Schicht für Schicht zwischen den beiden Diagonalen.
-   * Alle anderen Muster verwenden einen Standardwert von [45]. Dadurch werden möglichst viele Linien nahe an den Diagonalen ausgerichtet.
+* Die Standardeinstellung hÃ¤ngt vom FÃ¼llmuster ab:
+   * FÃ¼r Cross- und Cross-3D-FÃ¼llmuster ist der Standardwert [22]. Dadurch werden mÃ¶glichst viele Linien nahe an den Diagonalen ausgerichtet.
+   * FÃ¼r Linien- und Zickzack-FÃ¼llmuster ist die Voreinstellung [45,135]. Dadurch wechselt die Orientierung Schicht fÃ¼r Schicht zwischen den beiden Diagonalen.
+   * Alle anderen Muster verwenden einen Standardwert von [45]. Dadurch werden mÃ¶glichst viele Linien nahe an den Diagonalen ausgerichtet.

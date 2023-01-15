@@ -1,15 +1,15 @@
-Support Line Distance
+Abstand der Unterstützungslinie
 ====
-### **Description**
-This setting defines the distance between two adjacent lines in the support pattern. This way of adjusting the density of support may be more intuitive than adjusting Support Density, since it directly adjusts the distance that the supported lines must bridge.
+### **Beschreibung**
+Diese Einstellung definiert den Abstand zwischen zwei benachbarten Linien im Stützmuster. Diese Art der Anpassung der Unterstützungsdichte kann intuitiver sein als die Anpassung der Unterstützungsdichte, da sie direkt den Abstand anpasst, den die unterstützten Linien überbrücken müssen.
 
-![Great line distance](../images/support_infill_rate_low.png)
-![Small line distance](../images/support_infill_rate_high.png)
+![Großer Linienabstand](../images/support_infill_rate_low.png)
+![Kleiner Linienabstand](../images/support_infill_rate_high.png)
 
-### **Influence**
-Reducing the distance between support lines has some positive and negative effects. Here are some of the effects that need to be weighed off:
-* The surface resting on top of this support will sag less, because it has to bridge a smaller distance between two lines of support.
-* The support will be stronger, improving reliability of the print.
-* It's harder to remove the support due to the increased adhesion surface.
-* It will take more material to print the support.
-* The print will take longer to complete.
+### **Einfluss**
+Die Verringerung des Abstands zwischen den Stützlinien hat einige positive und negative Auswirkungen. Hier sind einige der Effekte, die abgewogen werden müssen:
+* Die auf dieser Stütze aufliegende Fläche wird weniger durchhängen, da sie einen geringeren Abstand zwischen zwei Stützlinien überbrücken muss.
+* Die Unterstützung wird stärker, wodurch die Zuverlässigkeit des Drucks verbessert wird.
+* Aufgrund der vergrößerten Haftfläche ist es schwieriger, die Stütze zu entfernen.
+* Zum Drucken der Stütze wird mehr Material benötigt.
+* Der Druck dauert länger.

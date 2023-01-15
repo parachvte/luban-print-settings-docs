@@ -1,12 +1,12 @@
-Brim Only on Outside
+Krempe nur außen
 ====
-### **Description**
-If your model has holes in the initial layer on the build plate, this setting will prevent a brim from being printed along the inside of the hole.
+### **Beschreibung**
+Wenn Ihr Modell Löcher in der ersten Schicht auf der Bauplatte hat, verhindert diese Einstellung, dass ein Rand entlang der Innenseite des Lochs gedruckt wird.
 
-![Brim printed everywhere](../images/brim_outside_only_original.png)
-![Brim only on the outside](../images/brim_outside_only_enabled.png)
+![Rand überall bedruckt](../images/brim_outside_only_original.png)
+![Rand nur außen](../images/brim_outside_only_enabled.png)
 
-### **Usage**
-The brim on the inside typically adds very little extra adhesion strength between the print and the build plate and has no effect on preventing shrinking. Removing the brim on the inside may save you some time after the print is completed, because you won't need to remove the brim from the inside holes.
+### **Verwendung**
+Der Rand auf der Innenseite fügt normalerweise nur sehr wenig zusätzliche Haftfestigkeit zwischen dem Druck und der Bauplatte hinzu und hat keinen Einfluss auf die Verhinderung des Schrumpfens. Durch das Entfernen der Krempe auf der Innenseite können Sie nach Abschluss des Drucks einige Zeit sparen, da Sie die Krempe nicht von den Innenlöchern entfernen müssen.
 
-**If there is another object inside the hole, the brim cannot be removed due to technical limitations.**
+**Wenn sich ein anderes Objekt im Loch befindet, kann der Rand aufgrund technischer Einschränkungen nicht entfernt werden.**

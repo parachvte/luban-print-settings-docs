@@ -1,17 +1,17 @@
-Ironing Pattern
+Bügelmuster
 ====
-Ironing covers the top surface with a path pattern. This setting determines which pattern is used to iron the top surface.
+Das Bügeln bedeckt die Oberseite mit einem Pfadmuster. Diese Einstellung bestimmt, welches Muster zum Bügeln der Oberseite verwendet wird.
 
-The goal of the pattern is to create a smooth, continuous surface. If there is an interruption in the pattern, it will create a visible border on the top surface.
+Das Ziel des Musters ist es, eine glatte, durchgehende Oberfläche zu schaffen. Wenn das Muster unterbrochen ist, entsteht eine sichtbare Grenze auf der Oberseite.
 
-Zigzag
+Zickzack
 ----
-![Zigzag ironing pattern](../images/ironing_enabled_enabled.png)
+![Zickzack-Bügelmuster](../images/ironing_enabled_enabled.png)
 
-This will make the nozzle go back and forth over the surface. It works fine and reliably for most surfaces, but will cause somewhat more borders than necessary.
+Dadurch bewegt sich die Düse über der Oberfläche hin und her. Es funktioniert gut und zuverlässig für die meisten Oberflächen, verursacht aber etwas mehr Ränder als nötig.
 
-Concentric
+Konzentrisch
 ----
-![Concentric ironing pattern](../images/ironing_pattern.png)
+![Konzentrisches Bügelmuster](../images/ironing_pattern.png)
 
-This will cause the nozzle to make circles from inside to outside. This will reduce the borders to a minimum, but if the concentric rings become very small in the centre, the nozzle will be lingering too long around the same spot, and thus leaves a visible spot on the surface. Therefore, this pattern works best for surfaces that are long and thin rather than surfaces that are round or square.
+Dadurch zieht die Düse Kreise von innen nach außen. Dadurch werden die Ränder auf ein Minimum reduziert, aber wenn die konzentrischen Ringe in der Mitte sehr klein werden, verweilt die Düse zu lange um dieselbe Stelle und hinterlässt somit einen sichtbaren Fleck auf der Oberfläche. Daher eignet sich dieses Muster am besten für lange und dünne Oberflächen und nicht für runde oder quadratische Oberflächen.

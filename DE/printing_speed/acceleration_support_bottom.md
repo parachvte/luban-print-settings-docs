@@ -1,10 +1,10 @@
-Bodenbeschleunigung unterstützen
+Bodenbeschleunigung unterstÃ¼tzen
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse beim Drucken des Stützbodens in verschiedene Richtungen beschleunigt.
+Diese Einstellung steuert, wie schnell die DÃ¼se beim Drucken des StÃ¼tzbodens in verschiedene Richtungen beschleunigt.
 
 ### **Einfluss**
-Eine zu starke Erhöhung der Stützbodenbeschleunigung kann zu zusätzlicher Narbenbildung führen und die Stabilität der darauf ruhenden Stütze beeinträchtigen.
+Eine zu starke ErhÃ¶hung der StÃ¼tzbodenbeschleunigung kann zu zusÃ¤tzlicher Narbenbildung fÃ¼hren und die StabilitÃ¤t der darauf ruhenden StÃ¼tze beeintrÃ¤chtigen.
 
 ### **Verwendung**
-Die Beschleunigung des Stützbodens kann auf eine andere Rate als die des Stützdachs eingestellt werden. Es wird empfohlen, die Beschleunigung des Stützbodens etwas höher als die des Stützdachs einzustellen, um etwas Druckzeit zu sparen.
+Die Beschleunigung des StÃ¼tzbodens kann auf eine andere Rate als die des StÃ¼tzdachs eingestellt werden. Es wird empfohlen, die Beschleunigung des StÃ¼tzbodens etwas hÃ¶her als die des StÃ¼tzdachs einzustellen, um etwas Druckzeit zu sparen.

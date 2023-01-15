@@ -1,16 +1,16 @@
-Dicke der Füllschicht
+Dicke der FÃ¼llschicht
 ====
 ### **Beschreibung**
-Diese Einstellung bewirkt, dass mehrere Füllschichten miteinander kombiniert werden. Wenn diese Einstellung aktiviert ist, druckt der Werkzeugkopf dann keine Füllung auf einige der Ebenen, aber in der höchsten der kombinierten Ebenen wird mehr Material extrudiert, um dies auszugleichen.
+Diese Einstellung bewirkt, dass mehrere FÃ¼llschichten miteinander kombiniert werden. Wenn diese Einstellung aktiviert ist, druckt der Werkzeugkopf dann keine FÃ¼llung auf einige der Ebenen, aber in der hÃ¶chsten der kombinierten Ebenen wird mehr Material extrudiert, um dies auszugleichen.
 
-In der Ebenenansicht sieht es so aus, als wären die Fülllinien viel breiter geworden. Wenn sie tatsächlich gedruckt werden, fallen die Fülllinien weiter nach unten, anstatt sich horizontal auszubreiten.
+In der Ebenenansicht sieht es so aus, als wÃ¤ren die FÃ¼lllinien viel breiter geworden. Wenn sie tatsÃ¤chlich gedruckt werden, fallen die FÃ¼lllinien weiter nach unten, anstatt sich horizontal auszubreiten.
 
-![Die Dicke der Füllschicht ist auf das Dreifache der Schichthöhe eingestellt](../images/infill_sparse_thickness.png)
+![Die Dicke der FÃ¼llschicht ist auf das Dreifache der SchichthÃ¶he eingestellt](../images/infill_sparse_thickness.png)
 
 ### **Verwendung**
-Da die Schichthöhe der Füllung für die visuelle Qualität nicht wichtig ist, können Sie dickere Schichten für die Füllung verwenden, um die Druckzeit zu verkürzen.
+Da die SchichthÃ¶he der FÃ¼llung fÃ¼r die visuelle QualitÃ¤t nicht wichtig ist, kÃ¶nnen Sie dickere Schichten fÃ¼r die FÃ¼llung verwenden, um die Druckzeit zu verkÃ¼rzen.
 
-Die Füllschichtdicke muss ein Vielfaches der normalen Schichthöhe sein. Andernfalls wird diese Einstellung auf die nächste Schichthöhe gerundet.
+Die FÃ¼llschichtdicke muss ein Vielfaches der normalen SchichthÃ¶he sein. Andernfalls wird diese Einstellung auf die nÃ¤chste SchichthÃ¶he gerundet.
 
-* Seien Sie vorsichtig, wenn Sie diese Einstellung zu stark erhöhen. Beim Wechseln zum und vom Füllen muss die Durchflussrate durch die Düse erheblich beschleunigt und verlangsamt werden. Beim Beschleunigen und Abbremsen gibt es eine gewisse Verzögerung, sodass die Düse zu Beginn des Füllvorgangs zu wenig und nach dem Ende des Füllvorgangs zu viel ausstößt.
-* In den Zwischenschichten druckt der Werkzeugkopf immer noch Füllung mit einer geringeren Schichtdicke, wo keine Füllung in den Schichten um ihn herum vorhanden ist. Dies kann dazu führen, dass kleine Fülllinien entlang schräger Wände gedruckt werden.
+* Seien Sie vorsichtig, wenn Sie diese Einstellung zu stark erhÃ¶hen. Beim Wechseln zum und vom FÃ¼llen muss die Durchflussrate durch die DÃ¼se erheblich beschleunigt und verlangsamt werden. Beim Beschleunigen und Abbremsen gibt es eine gewisse VerzÃ¶gerung, sodass die DÃ¼se zu Beginn des FÃ¼llvorgangs zu wenig und nach dem Ende des FÃ¼llvorgangs zu viel ausstÃ¶ÃŸt.
+* In den Zwischenschichten druckt der Werkzeugkopf immer noch FÃ¼llung mit einer geringeren Schichtdicke, wo keine FÃ¼llung in den Schichten um ihn herum vorhanden ist. Dies kann dazu fÃ¼hren, dass kleine FÃ¼lllinien entlang schrÃ¤ger WÃ¤nde gedruckt werden.

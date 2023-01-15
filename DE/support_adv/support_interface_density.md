@@ -1,5 +1,5 @@
-Support Interface Density
+Unterstützungsschnittstellendichte
 ====
-This setting specifies how dense the interface between support and the model will be.
+Diese Einstellung gibt an, wie dicht die Schnittstelle zwischen Support und Modell sein wird.
 
-Increasing the density of the support interface allows you to achieve a nice surface finish at the overhangs, just as if the entire support was printed with a great density, without needing all that much extra printing time and material. However it will still be harder to remove the support from the model after printing, because the contact area is still increased.
+Durch Erhöhen der Dichte der Trägerschnittstelle können Sie eine schöne Oberflächenbeschaffenheit an den Überhängen erzielen, als ob der gesamte Träger mit einer großen Dichte gedruckt worden wäre, ohne allzu viel zusätzliche Druckzeit und Material zu benötigen. Es wird jedoch immer noch schwieriger sein, die Stütze nach dem Drucken vom Modell zu entfernen, da die Kontaktfläche immer noch vergrößert wird.

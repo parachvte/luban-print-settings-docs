@@ -1,14 +1,14 @@
-Hautkanten-Stützschichten
+Hautkanten-StÃ¼tzschichten
 ====
-Beim Drucken von konkaven Formen gibt es eine obere Haut, die irgendwo in der Mitte der Füllung endet. Diese Einstellung fügt eine zusätzliche Linie durch die Füllung hinzu, um den Rand der Haut zu stützen, sodass sie etwas weniger durchhängt.
+Beim Drucken von konkaven Formen gibt es eine obere Haut, die irgendwo in der Mitte der FÃ¼llung endet. Diese Einstellung fÃ¼gt eine zusÃ¤tzliche Linie durch die FÃ¼llung hinzu, um den Rand der Haut zu stÃ¼tzen, sodass sie etwas weniger durchhÃ¤ngt.
 
-![Der Rand der Haut wird durch die Füllung nicht gut gestützt](../images/skin_edge_support_thickness_0.png)
-![Ein Umfang wird durch die Füllung unter dem Rand der Haut gezogen](../images/skin_edge_support_thickness.png)
+![Der Rand der Haut wird durch die FÃ¼llung nicht gut gestÃ¼tzt](../images/skin_edge_support_thickness_0.png)
+![Ein Umfang wird durch die FÃ¼llung unter dem Rand der Haut gezogen](../images/skin_edge_support_thickness.png)
 
-Eine einzelne Linie durch die Lücken in der Füllung wird immer noch durchhängen, sodass die Linie in mehreren Schichten unter dem Rand der Haut gezogen werden kann, die gestützt werden muss. Diese Einstellung konfiguriert die Anzahl der Schichten, durch die diese Linie unter dem Hautrand gezogen wird. Alternativ können Sie die [Dicke](skin_edge_support_thickness.md) der Schichten anpassen, durch die die Linie gezogen wird.
+Eine einzelne Linie durch die LÃ¼cken in der FÃ¼llung wird immer noch durchhÃ¤ngen, sodass die Linie in mehreren Schichten unter dem Rand der Haut gezogen werden kann, die gestÃ¼tzt werden muss. Diese Einstellung konfiguriert die Anzahl der Schichten, durch die diese Linie unter dem Hautrand gezogen wird. Alternativ kÃ¶nnen Sie die [Dicke](skin_edge_support_thickness.md) der Schichten anpassen, durch die die Linie gezogen wird.
 
-Eine Erhöhung der Anzahl der Schichten hat im Allgemeinen folgende Auswirkungen auf den Druck:
-* Der Hautrand wird besser unterstützt, was zu einer glatteren Oberseite führt, da die Haut vollständig von einer Seite zur anderen überbrücken kann.
-* Das Drucken dauert etwas länger und verbraucht mehr Material.
+Eine ErhÃ¶hung der Anzahl der Schichten hat im Allgemeinen folgende Auswirkungen auf den Druck:
+* Der Hautrand wird besser unterstÃ¼tzt, was zu einer glatteren Oberseite fÃ¼hrt, da die Haut vollstÃ¤ndig von einer Seite zur anderen Ã¼berbrÃ¼cken kann.
+* Das Drucken dauert etwas lÃ¤nger und verbraucht mehr Material.
 
-Wenn die Füllungsrate hoch ist, hat diese Einstellung kaum Auswirkungen auf die obere Oberfläche und könnte [Überextrusion](../troubleshooting/overextrusion.md) in der Füllung verursachen. Es wird dann am besten bei 0 Schichten belassen.
+Wenn die FÃ¼llungsrate hoch ist, hat diese Einstellung kaum Auswirkungen auf die obere OberflÃ¤che und kÃ¶nnte [Ãœberextrusion](../troubleshooting/overextrusion.md) in der FÃ¼llung verursachen. Es wird dann am besten bei 0 Schichten belassen.

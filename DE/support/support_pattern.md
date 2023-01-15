@@ -1,67 +1,67 @@
-Support Pattern
+Unterstützungsmuster
 ====
-With this setting you can choose the pattern that will be used to fill the volume of the support structure. Different patterns have different strengths and weaknesses.
+Mit dieser Einstellung können Sie das Muster auswählen, das verwendet wird, um das Volumen der Stützstruktur zu füllen. Unterschiedliche Muster haben unterschiedliche Stärken und Schwächen.
 
-Lines
+Linien
 ----
-![Lines](../images/support_pattern_lines.png)
+![Linien](../images/support_pattern_lines.png)
 
-The lines pattern draws straight lines. The lines are oriented such that they are never perpendicular to the skin lines it needs to support (by default).
-* Easiest to remove from the model of all patterns. This is very useful if there is an overhang area that is close to the build plate. A knife can be used to cut away the remnants if necessary.
-* Provides the best overhang quality of all patterns together with Zigzag. The lines are very close together and oriented such that they are not perpendicular to the skin.
-* Tends to be unstable, since the lines are prone to topple over.
+Das Linienmuster zeichnet gerade Linien. Die Linien sind so ausgerichtet, dass sie niemals senkrecht zu den Hautlinien verlaufen, die sie unterstützen müssen (standardmäßig).
+* Von allen Mustern am einfachsten aus dem Modell zu entfernen. Dies ist sehr nützlich, wenn ein Überhangbereich in der Nähe der Bauplatte vorhanden ist. Mit einem Messer können die Reste bei Bedarf weggeschnitten werden.
+* Bietet zusammen mit Zickzack die beste Überhangqualität aller Muster. Die Linien sind sehr dicht beieinander und so ausgerichtet, dass sie nicht senkrecht zur Haut verlaufen.
+* Neigt zu Instabilität, da die Leinen zum Umkippen neigen.
 
-Grid
+Netz
 ----
-![Grid](../images/support_pattern_grid.png)
+![Raster](../images/support_pattern_grid.png)
 
-The grid pattern draws two sets of straight lines perpendicular to each other. They overlap, forming a pattern of squares. By default, one perimeter is drawn around this pattern.
-* Very sturdy and reliably.
-* Provides a mediocre overhang quality, since the lines are fairly far apart.
-* Can be hard to remove, since the support will not flex much.
+Das Gittermuster zeichnet zwei Sätze gerader Linien senkrecht zueinander. Sie überlappen sich und bilden ein Muster aus Quadraten. Standardmäßig wird um dieses Muster herum ein Umfang gezeichnet.
+* Sehr robust und zuverlässig.
+* Bietet eine mittelmäßige Überhangqualität, da die Linien ziemlich weit auseinander liegen.
+* Kann schwer zu entfernen sein, da sich die Stütze nicht stark biegt.
 
-Triangles
+Dreiecke
 ----
-![Triangles](../images/support_pattern_triangles.png)
+![Dreiecke](../images/support_pattern_triangles.png)
 
-The triangles pattern draws three sets of straight lines in 60 degree angles with one another, forming a pattern of equilateral triangles. By default, one perimeter is drawn around this pattern.
-* The sturdiest of all support patterns.
-* Provides bad overhang quality, since the lines are very far apart.
-* Can be hard to remove, since the support will not flex at all in any direction.
+Das Dreiecksmuster zeichnet drei Sätze gerader Linien in 60-Grad-Winkeln zueinander und bildet ein Muster aus gleichseitigen Dreiecken. Standardmäßig wird um dieses Muster herum ein Umfang gezeichnet.
+* Das stabilste aller Stützmuster.
+* Bietet schlechte Überhangqualität, da die Linien sehr weit auseinander liegen.
+* Kann schwer zu entfernen sein, da sich die Stütze überhaupt nicht in irgendeine Richtung biegen lässt.
 
-Concentric
+Konzentrisch
 ----
-![Concentric](../images/support_pattern_concentric.png)
+![Konzentrisch](../images/support_pattern_concentric.png)
 
-The concentric pattern causes the support to consist of concentric rings spaced evenly from the outside inwards.
-* Lines are close together, providing good support of the overhang areas for a smooth surface.
-* Fairly sturdy, since the loops individually have a large width to stand on.
-* Easy to remove, since the support structure will bend inwards easily.
-* Often ends up parallel to the walls it needs to support. This leads to worse overhang quality, since some walls don't get supported at all.
+Das konzentrische Muster bewirkt, dass die Stütze aus konzentrischen Ringen besteht, die gleichmäßig von außen nach innen beabstandet sind.
+* Die Linien liegen eng beieinander und bieten eine gute Unterstützung der Überhangbereiche für eine glatte Oberfläche.
+* Ziemlich robust, da die Schlaufen einzeln eine große Breite zum Stehen haben.
+* Leicht zu entfernen, da sich die Stützstruktur leicht nach innen biegen lässt.
+* Endet oft parallel zu den Wänden, die es stützen muss. Dies führt zu einer schlechteren Überhangqualität, da einige Wände überhaupt nicht unterstützt werden.
 
-Zigzag
+Zickzack
 ----
-![Zigzag](../images/support_pattern_zigzag.png)
+![Zickzack](../images/support_pattern_zigzag.png)
 
-The zigzag pattern is like the lines pattern, but the lines are connected on the ends.
-* Fairly sturdy, greatly increasing reliability.
-* Provides the best overhang quality of all patterns together with Lines. The lines are very close together and oriented such that they are not perpendicular to the skin.
-* Easy to remove. The support structure bends inwards, and when pulling on it, the support will pull off in strips.
-* Almost always draws the support in a single line, minimising the need for retractions or travel moves.
+Das Zickzackmuster ist wie das Linienmuster, aber die Linien sind an den Enden verbunden.
+* Ziemlich robust, stark zunehmende Zuverlässigkeit.
+* Bietet zusammen mit Linien die beste Überhangqualität aller Muster. Die Linien sind sehr dicht beieinander und so ausgerichtet, dass sie nicht senkrecht zur Haut verlaufen.
+* Leicht zu entfernen. Die Stützstruktur biegt sich nach innen, und wenn daran gezogen wird, wird die Stütze in Streifen abgezogen.
+* Zeichnet die Stütze fast immer in einer einzigen Linie, wodurch die Notwendigkeit von Rückzügen oder Reisebewegungen minimiert wird.
 
-Cross
+Kreuzen
 ----
-![Cross](../images/support_pattern_cross.png)
+![Kreuz](../images/support_pattern_cross.png)
 
-The cross pattern draws a fractional pattern throughout the volume with cross-like shapes in it.
-* Easiest to bend of all patterns, since there are no long straight lines in this pattern.
-* Almost always draws the support in a single line, minimising the need for retractions or travel moves.
+Das Kreuzmuster zeichnet ein gebrochenes Muster durch das Volumen mit kreuzartigen Formen darin.
+* Von allen Mustern am einfachsten zu biegen, da es in diesem Muster keine langen geraden Linien gibt.
+* Zeichnet die Stütze fast immer in einer einzigen Linie, wodurch die Notwendigkeit von Rückzügen oder Reisebewegungen minimiert wird.
 
 Gyroid
 ----
 ![Gyroid](../images/support_pattern_gyroid.png)
 
-The gyroid pattern is a wavy one, with a curve wiggling back and forth. The curve varies across the layers.
-* Fairly sturdy pattern, increasing reliability.
-* When printing with soluble support materials, this allows the solvent (water, ethanol or otherwise) to protrude to all the innards of the support structure, even if there is a brim underneath. This allows it to dissolve the support faster.
-* Supports all lines in the overhang evenly, regardless of their directions.
+Das Kreiselmuster ist wellenförmig, wobei sich eine Kurve hin und her windet. Die Kurve variiert über die Schichten.
+* Ziemlich robustes Muster, das die Zuverlässigkeit erhöht.
+* Beim Drucken mit löslichen Trägermaterialien ermöglicht dies, dass das Lösungsmittel (Wasser, Ethanol oder andere) bis ins Innere der Trägerstruktur herausragt, selbst wenn sich darunter ein Rand befindet. Dadurch kann es den Träger schneller auflösen.
+* Unterstützt alle Linien im Überhang gleichmäßig, unabhängig von ihrer Richtung.

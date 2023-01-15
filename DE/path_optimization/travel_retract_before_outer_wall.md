@@ -1,7 +1,7 @@
-Retract Before Outer Wall
+Einfahren vor der Außenwand
 ====
-When moving to an outer wall, this setting orders the printer to always retract, in order to reduce blobs on that outer wall.
+Beim Bewegen zu einer Außenwand weist diese Einstellung den Drucker an, sich immer zurückzuziehen, um Kleckse an dieser Außenwand zu reduzieren.
 
-When the nozzle needs to travel, the material can ooze out of the nozzle a little bit. This oozed material tends to end up on the wall where it enters. For the outer wall this is particularly annoying since the blob will be visible on the outside. This setting is intended to prevent this from happening, because when the material is retracted during the travel move, the material will ooze less.
+Wenn die Düse fahren muss, kann das Material etwas aus der Düse quellen. Dieses ausgesickerte Material neigt dazu, an der Wand zu landen, wo es eintritt. Für die Außenwand ist dies besonders ärgerlich, da der Klecks außen sichtbar wird. Diese Einstellung soll dies verhindern, da beim Zurückziehen des Materials während der Fahrt weniger Material durchsickert.
 
-On the flip side however, this does require the material to be unretracted when the desired position on the outer wall is reached. During this unretraction the nozzle stands still for a split second, which leads to a blob as well because the material does ooze and the material of the outer wall can melt.
+Auf der anderen Seite erfordert dies jedoch, dass das Material nicht zurückgezogen wird, wenn die gewünschte Position an der Außenwand erreicht ist. Während dieses Zurückziehens steht die Düse für Sekundenbruchteile still, was ebenfalls zu einem Klecks führt, da das Material austritt und das Material der Außenwand schmelzen kann.

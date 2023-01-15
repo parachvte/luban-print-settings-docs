@@ -1,12 +1,12 @@
-Beschleunigung der Außenwand
+Beschleunigung der AuÃŸenwand
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse beim Drucken der Außenwände in verschiedene Richtungen beschleunigt.
+Diese Einstellung steuert, wie schnell die DÃ¼se beim Drucken der AuÃŸenwÃ¤nde in verschiedene Richtungen beschleunigt.
 
 ### **Einfluss**
-Die Anpassung dieser Einstellung wirkt sich stark auf die Maßhaltigkeit des Drucks aus. Hohe Beschleunigungsraten verursachen Stoßwellen im gesamten Drucker. Diese Stoßwellen sind im Druck zu sehen, wenn die Düse oder die Bauplatte vibrieren.
+Die Anpassung dieser Einstellung wirkt sich stark auf die MaÃŸhaltigkeit des Drucks aus. Hohe Beschleunigungsraten verursachen StoÃŸwellen im gesamten Drucker. Diese StoÃŸwellen sind im Druck zu sehen, wenn die DÃ¼se oder die Bauplatte vibrieren.
 
 ### **Verwendung**
-Da die Außenwände von außen sehr gut sichtbar sind, ist es üblich, die Außenwände mit einer geringeren Beschleunigung zu drucken als die Innenwände, was jedoch die Druckzeit verlängert.
+Da die AuÃŸenwÃ¤nde von auÃŸen sehr gut sichtbar sind, ist es Ã¼blich, die AuÃŸenwÃ¤nde mit einer geringeren Beschleunigung zu drucken als die InnenwÃ¤nde, was jedoch die Druckzeit verlÃ¤ngert.
 
-Die Beschleunigung an den Außenwänden kann anders eingestellt werden als an den Innenwänden.
+Die Beschleunigung an den AuÃŸenwÃ¤nden kann anders eingestellt werden als an den InnenwÃ¤nden.

@@ -1,8 +1,8 @@
-Z Seam Relative
+Relative Z-Naht
 ====
-If Z Seam Alignment is set to User Specified, you can enter coordinates for where the seam must be located. Normally those coordinates specify the absolute position of Z seam on the build plate. If this setting is enabled, those coordinates will be taken relative to the position of the model.
+Wenn die Z-Naht-Ausrichtung auf Benutzerdefiniert eingestellt ist, können Sie Koordinaten eingeben, wo sich die Naht befinden muss. Normalerweise geben diese Koordinaten die absolute Position der Z-Naht auf der Bauplatte an. Wenn diese Einstellung aktiviert ist, werden diese Koordinaten relativ zur Position des Modells genommen.
 
-![Disabled: The coordinates point to an absolute position in the centre of the build plate, so all the blue striped point towards the middle](../images/z_seam_relative_disabled.png)
-![Enabled: The coordinates are relative to the model so every model will have the blue stripes in the same corner](../images/z_seam_relative_enabled.png)
+![Deaktiviert: Die Koordinaten zeigen auf eine absolute Position in der Mitte der Bauplatte, sodass alle blau gestreiften Punkte zur Mitte zeigen](../images/z_seam_relative_disabled.png)
+![Aktiviert: Die Koordinaten sind relativ zum Modell, sodass jedes Modell die blauen Streifen in derselben Ecke hat](../images/z_seam_relative_enabled.png)
 
-When a model is duplicated on the build plate, this setting causes the Z seam to be positioned in exactly the same location for each of the duplicates, rather than having them point toward the same point on the build plate. This allows you to print every copy in exactly the same way regardless of their positions on the build plate.
+Wenn ein Modell auf der Bauplatte dupliziert wird, bewirkt diese Einstellung, dass die Z-Naht für alle Duplikate an genau derselben Stelle positioniert wird, anstatt dass sie auf denselben Punkt auf der Bauplatte zeigen. Auf diese Weise können Sie jede Kopie unabhängig von ihrer Position auf der Bauplatte auf genau die gleiche Weise drucken.

@@ -1,10 +1,10 @@
-Support Interface Line Directions
+Anweisungen für die Support-Schnittstellenleitung
 ====
-The support interface is normally oriented to be as perpendicular as possible to the model and the support body that surrounds it. If the orientation of the top/bottom lines or the support lines has been customised, it is a good idea to customise the orientation of the support interface lines as well. This setting allows you to customise the orientation of the support interface lines.
+Die Auflagerschnittstelle ist normalerweise so orientiert, dass sie möglichst senkrecht zum Modell und dem es umgebenden Auflagerkörper steht. Wenn die Ausrichtung der oberen/unteren Linien oder der Unterstützungslinien angepasst wurde, ist es eine gute Idee, die Ausrichtung der Unterstützungsschnittstellenlinien ebenfalls anzupassen. Mit dieser Einstellung können Sie die Ausrichtung der Support-Schnittstellenlinien anpassen.
 
-![Angled at 0° and 90°](../images/support_interface_angles_0.png)
-![Angled at 45° and 135°](../images/support_interface_angles_45.png)
+![Gewinkelt bei 0° und 90°](../images/support_interface_angles_0.png)
+![Winkel bei 45° und 135°](../images/support_interface_angles_45.png)
 
-Multiple angles can be filled in for this setting, separated by commas. Luban will alternate these angles across the layers.
+Für diese Einstellung können mehrere Winkel eingetragen werden, getrennt durch Kommas. Luban wechselt diese Winkel über die Schichten hinweg.
 
-The support interface lines will ideally be oriented to be perpendicular to the lines that they rest on as well as to the lines that rest on them. Orienting them perpendicularly reduces the distance that these lines have to bridge and thus reduces sagging and improves the quality of overhangs. This is especially important when working with support that isn't completely dense.
+Die Unterstützungsschnittstellenlinien sind idealerweise so ausgerichtet, dass sie senkrecht zu den Linien sind, auf denen sie ruhen, sowie zu den Linien, die auf ihnen ruhen. Eine senkrechte Ausrichtung verringert die Distanz, die diese Leitungen überbrücken müssen, verringert somit das Durchhängen und verbessert die Qualität von Überhängen. Dies ist besonders wichtig, wenn Sie mit einer Unterstützung arbeiten, die nicht vollständig dicht ist.

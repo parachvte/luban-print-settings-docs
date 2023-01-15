@@ -1,7 +1,7 @@
-Alternative zusätzliche Wand
+Alternative zusÃ¤tzliche Wand
 ====
-Diese Einstellung fügt jeder zweiten Ebene eine zusätzliche Wand hinzu. Auf diese Weise wird die Füllung vertikal in die Wände eingekeilt, was zu stärkeren Drucken führt.
+Diese Einstellung fÃ¼gt jeder zweiten Ebene eine zusÃ¤tzliche Wand hinzu. Auf diese Weise wird die FÃ¼llung vertikal in die WÃ¤nde eingekeilt, was zu stÃ¤rkeren Drucken fÃ¼hrt.
 
-Wenn Sie beispielsweise die Anzahl der Wandlinien auf zwei Wände einstellen und alternative zusätzliche Wände aktivieren, werden zwei Wände auf Ebenen mit gerader Nummer und drei Wände auf Ebenen mit ungerader Nummer gedruckt.
+Wenn Sie beispielsweise die Anzahl der Wandlinien auf zwei WÃ¤nde einstellen und alternative zusÃ¤tzliche WÃ¤nde aktivieren, werden zwei WÃ¤nde auf Ebenen mit gerader Nummer und drei WÃ¤nde auf Ebenen mit ungerader Nummer gedruckt.
 
-![Dieses Bild zeigt die betroffenen Wände, wenn diese Einstellung geändert wird.](../images/alternate_extra_perimeter.gif)
+![Dieses Bild zeigt die betroffenen WÃ¤nde, wenn diese Einstellung geÃ¤ndert wird.](../images/alternate_extra_perimeter.gif)

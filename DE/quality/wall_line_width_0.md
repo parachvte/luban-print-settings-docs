@@ -1,23 +1,23 @@
-Wall Line Width
+Wandlinienbreite
 ====
-### **Description**
-This setting indicates how wide the individual wall lines will be. The line width for the walls can be adjusted separately from the rest of the print. 
+### **Beschreibung**
+Diese Einstellung gibt an, wie breit die einzelnen Wandlinien sein werden. Die Linienstärke für die Wände kann separat vom Rest des Drucks eingestellt werden.
 
-![The lines for the walls are much wider than the rest](../images/wall_line_width.png)
+![Die Linien für die Wände sind viel breiter als der Rest](../images/wall_line_width.png)
 
-### **Influence**
-Reducing the walls to a line width slightly below the nozzle size is beneficial for the strength. The nozzle will extrude slightly less material but its opening will overlap with the adjacent wall lines, which causes the material to be pushed aside by the previously-placed wall into its proper location. But that will also cause the plastic to fuse better to the adjacent walls, which allows the walls to fuse better together so that they can combine their strength, greatly improving the strength of the walls.
+### **Einfluss**
+Das Reduzieren der Wände auf eine Linienbreite etwas unterhalb der Düsengröße ist vorteilhaft für die Festigkeit. Die Düse wird etwas weniger Material ausstoßen, aber ihre Öffnung wird sich mit den angrenzenden Wandlinien überlappen, was bewirkt, dass das Material von der zuvor platzierten Wand zur Seite an seine richtige Stelle gedrückt wird. Aber das bewirkt auch, dass der Kunststoff besser mit den angrenzenden Wänden verschmilzt, wodurch die Wände besser miteinander verschmelzen können, so dass sie ihre Stärke kombinieren können, wodurch die Stärke der Wände stark verbessert wird.
 
-Reducing the Wall Line Width also allows the nozzle to print finer details. Especially the [Outer Wall Line Width](wall_line_width_0.md) is important for this property.
+Das Reduzieren der Wandlinienbreite ermöglicht es der Düse auch, feinere Details zu drucken. Besonders die [Außenwandlinienbreite](wall_line_width_0.md) ist für diese Eigenschaft wichtig.
 
-Increasing the Wall Line Width can reduce printing time. 
+Das Erhöhen der Wandlinienbreite kann die Druckzeit verkürzen.
 
-Making lines fit
+Linien passend machen
 ----
-When printing thin parts, adjusting the Wall Line Width is an important tool to get accurate and strong parts. Luban will only ever draw complete contours, so if a contour doesn't fit a gap, it will fall into the walls, which greatly compromises the strength and accuracy of the part.
+Beim Drucken dünner Teile ist das Anpassen der Wandlinienbreite ein wichtiges Werkzeug, um genaue und starke Teile zu erhalten. Luban zeichnet immer nur vollständige Konturen. Wenn also eine Kontur nicht in eine Lücke passt, fällt sie in die Wände, was die Festigkeit und Genauigkeit des Teils stark beeinträchtigt.
 
-Luban will attempt to fill such gaps between walls if [Fill Gaps Between Walls](../shell/fill_perimeter_gaps.md) is enabled, but that technique is less than ideal for arbitrary shapes and often takes a lot of printing time. When two walls overlap, the [Compensate Wall Overlaps](../shell/travel_compensate_overlapping_walls_enabled.md) feature will reduce the Wall Line Width to make sure that the part is dimensionally accurate, but this incurs flow changes which reduce the quality and strength of the print as well.
+Luban wird versuchen, solche Lücken zwischen Wänden zu füllen, wenn [Lücken zwischen Wänden füllen](../shell/fill_perimeter_gaps.md) aktiviert ist, aber diese Technik ist für beliebige Formen nicht ideal und nimmt oft viel Druckzeit in Anspruch. Wenn sich zwei Wände überlappen, reduziert die Funktion [Wandüberlappungen kompensieren](../shell/travel_compensate_overlapping_walls_enabled.md) die Wandlinienbreite, um sicherzustellen, dass das Teil maßgenau ist, aber dies führt zu Flussänderungen, die die Qualität und Festigkeit von reduzieren auch der Aufdruck.
 
-For an ideal fit, you can set the part to be an exact multiple of the Wall Line Width so that the walls fit precisely within the part. If you know how wide your part is, this can easily be done by adjusting the width of the walls. First you see how many contours you want to fit such that the lines still have a reasonable width. Then you can see how much you need to adjust the wall line width to make the lines fit properly. Keep in mind that you can adjust the [Outer Wall Line Width](wall_line_width_0.md) and [Inner Wall Line Width](wall_line_width_x.md) separately. Count carefully how many times each type of wall will be drawn to predict the effect of changing the Wall Line Width.
+Für eine ideale Passform können Sie das Teil auf ein exaktes Vielfaches der Wandlinienbreite einstellen, sodass die Wände genau in das Teil passen. Wenn Sie wissen, wie breit Ihr Teil ist, können Sie dies leicht tun, indem Sie die Breite der Wände anpassen. Zuerst sehen Sie, wie viele Konturen Sie anpassen möchten, damit die Linien noch eine vernünftige Breite haben. Dann können Sie sehen, wie stark Sie die Wandlinienbreite anpassen müssen, damit die Linien richtig passen. Denken Sie daran, dass Sie die [Breite der äußeren Wandlinie](wall_line_width_0.md) und die [Breite der inneren Wandlinie](wall_line_width_x.md) separat anpassen können. Zählen Sie sorgfältig, wie oft jeder Wandtyp gezeichnet wird, um die Auswirkungen einer Änderung der Wandlinienbreite vorherzusagen.
 
-Fitting wall lines is an important skill for 3D printing that distinguishes expert 3D printer operators from the rest. Some practice is required.
+Das Anpassen von Wandlinien ist eine wichtige Fähigkeit für den 3D-Druck, die erfahrene 3D-Drucker-Bediener von den anderen unterscheidet. Etwas Übung ist erforderlich.

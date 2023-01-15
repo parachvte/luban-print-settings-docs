@@ -1,14 +1,14 @@
 Beschleunigung der Innenwand
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse beim Drucken der Innenwände in verschiedene Richtungen beschleunigt.
+Diese Einstellung steuert, wie schnell die DÃ¼se beim Drucken der InnenwÃ¤nde in verschiedene Richtungen beschleunigt.
 
 ### **Einfluss**
-Das Anpassen dieser Einstellung wirkt sich auf die Maßgenauigkeit und die allgemeine Glätte des Drucks aus. Hohe Beschleunigungsraten verursachen Stoßwellen im gesamten Drucker. Diese Stoßwellen sind im Druck zu sehen, wenn die Düse oder die Bauplatte vibriert.
+Das Anpassen dieser Einstellung wirkt sich auf die MaÃŸgenauigkeit und die allgemeine GlÃ¤tte des Drucks aus. Hohe Beschleunigungsraten verursachen StoÃŸwellen im gesamten Drucker. Diese StoÃŸwellen sind im Druck zu sehen, wenn die DÃ¼se oder die Bauplatte vibriert.
 
-Die Innenwände sind von außen außer auf der Ober- und Unterseite nicht sichtbar, aber wenn sie vor den Außenwänden gedruckt werden, werden die Außenwände mehr nach außen gedrückt, wo die Innenwände ungenau gedruckt wurden. Wenn die Außenwände zuerst gedruckt wurden, ist der Effekt der Innenwandbeschleunigung weniger sichtbar, aber immer noch vorhanden, da die Außenwand beim Überfahren der Düse wieder aufgeschmolzen wird.
+Die InnenwÃ¤nde sind von auÃŸen auÃŸer auf der Ober- und Unterseite nicht sichtbar, aber wenn sie vor den AuÃŸenwÃ¤nden gedruckt werden, werden die AuÃŸenwÃ¤nde mehr nach auÃŸen gedrÃ¼ckt, wo die InnenwÃ¤nde ungenau gedruckt wurden. Wenn die AuÃŸenwÃ¤nde zuerst gedruckt wurden, ist der Effekt der Innenwandbeschleunigung weniger sichtbar, aber immer noch vorhanden, da die AuÃŸenwand beim Ãœberfahren der DÃ¼se wieder aufgeschmolzen wird.
 
 ### **Verwendung**
-Es ist üblich, die Innenwände mit einer höheren Beschleunigungsrate als die Außenwände zu drucken, um Druckzeit zu sparen, aber eine niedrigere Beschleunigungsrate als der Rest des Drucks.
+Es ist Ã¼blich, die InnenwÃ¤nde mit einer hÃ¶heren Beschleunigungsrate als die AuÃŸenwÃ¤nde zu drucken, um Druckzeit zu sparen, aber eine niedrigere Beschleunigungsrate als der Rest des Drucks.
 
-Die Beschleunigungsrate für die Innenwände kann auf eine andere Rate eingestellt werden als für die Außenwände.
+Die Beschleunigungsrate fÃ¼r die InnenwÃ¤nde kann auf eine andere Rate eingestellt werden als fÃ¼r die AuÃŸenwÃ¤nde.

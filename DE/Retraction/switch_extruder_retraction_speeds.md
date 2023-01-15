@@ -1,9 +1,9 @@
-Rückzugsgeschwindigkeit des Düsenschalters
+RÃ¼ckzugsgeschwindigkeit des DÃ¼senschalters
 ====
 ### **Beschreibung**
-Während sich eine Düse in Bereitschaft befindet, wird das Material aus der Hitzezone herausgehalten, um es vor dem Austreten zu schützen. Diese Einstellung konfiguriert, wie schnell das Material aus der Düsenkammer zurückgezogen wird, wenn auf einen anderen Extruder umgeschaltet wird, und wie schnell es zurückgeschoben wird, wenn auf diesen Extruder umgeschaltet wird.
+WÃ¤hrend sich eine DÃ¼se in Bereitschaft befindet, wird das Material aus der Hitzezone herausgehalten, um es vor dem Austreten zu schÃ¼tzen. Diese Einstellung konfiguriert, wie schnell das Material aus der DÃ¼senkammer zurÃ¼ckgezogen wird, wenn auf einen anderen Extruder umgeschaltet wird, und wie schnell es zurÃ¼ckgeschoben wird, wenn auf diesen Extruder umgeschaltet wird.
 
 ### **Verwendung**
-Eine Erhöhung der Einstellung kann das Auslaufen reduzieren, birgt jedoch die Möglichkeit, dass das Filament schleift, was dazu führen kann, dass die Zuführung das Filament nicht mehr greift.
+Eine ErhÃ¶hung der Einstellung kann das Auslaufen reduzieren, birgt jedoch die MÃ¶glichkeit, dass das Filament schleift, was dazu fÃ¼hren kann, dass die ZufÃ¼hrung das Filament nicht mehr greift.
 
-Da der Rückzug für den Extruderschalter länger ist, kann diese Einstellung getrennt von der Geschwindigkeit des normalen Rückzugs konfiguriert werden.
+Da der RÃ¼ckzug fÃ¼r den Extruderschalter lÃ¤nger ist, kann diese Einstellung getrennt von der Geschwindigkeit des normalen RÃ¼ckzugs konfiguriert werden.

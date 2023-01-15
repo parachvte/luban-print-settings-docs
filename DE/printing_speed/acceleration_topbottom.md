@@ -1,13 +1,13 @@
 Beschleunigung oben/unten
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse beim Drucken der Ober- und Unterseite des Objekts in verschiedene Richtungen beschleunigt.
+Diese Einstellung steuert, wie schnell die DÃ¼se beim Drucken der Ober- und Unterseite des Objekts in verschiedene Richtungen beschleunigt.
 
 ### **Einfluss**
-Das Erhöhen dieser Einstellung hat die folgenden zwei Auswirkungen:
-* Das Erhöhen dieser Einstellung im Vergleich zum Rest des Drucks kann etwas Zeit sparen. Da die Ober- und Unterseite typischerweise aus langen geraden Linien bestehen, kann die Düse beim Drucken große Geschwindigkeiten erreichen. Die Düse muss auch scharfe Ecken mit dem typischen Linienmuster für die Haut machen, was eine große Beschleunigung erfordert.
+Das ErhÃ¶hen dieser Einstellung hat die folgenden zwei Auswirkungen:
+* Das ErhÃ¶hen dieser Einstellung im Vergleich zum Rest des Drucks kann etwas Zeit sparen. Da die Ober- und Unterseite typischerweise aus langen geraden Linien bestehen, kann die DÃ¼se beim Drucken groÃŸe Geschwindigkeiten erreichen. Die DÃ¼se muss auch scharfe Ecken mit dem typischen Linienmuster fÃ¼r die Haut machen, was eine groÃŸe Beschleunigung erfordert.
 
-* Eine Erhöhung dieser Einstellung führt jedoch auch dazu, dass der Drucker stärker wackelt, aber die Genauigkeit der Ober- und Unterseite ist normalerweise keine Einschränkung, da sie von Wänden umgeben sind.
+* Eine ErhÃ¶hung dieser Einstellung fÃ¼hrt jedoch auch dazu, dass der Drucker stÃ¤rker wackelt, aber die Genauigkeit der Ober- und Unterseite ist normalerweise keine EinschrÃ¤nkung, da sie von WÃ¤nden umgeben sind.
 
 ### **Verwendung**
 Die obere/untere Beschleunigung kann auf eine andere Rate als der Rest des Drucks eingestellt werden.

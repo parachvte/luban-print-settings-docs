@@ -1,10 +1,10 @@
-Unterstützung der Füllbeschleunigung
+UnterstÃ¼tzung der FÃ¼llbeschleunigung
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse in verschiedene Richtungen beschleunigt, während der Hauptteil des Trägers gedruckt wird.
+Diese Einstellung steuert, wie schnell die DÃ¼se in verschiedene Richtungen beschleunigt, wÃ¤hrend der Hauptteil des TrÃ¤gers gedruckt wird.
 
 ### **Einfluss**
-Durch Erhöhen dieser Einstellung kann der Drucker den Träger schneller, aber weniger sorgfältig drucken. Eine höhere Beschleunigungsrate für das Füllen des Trägers verkürzt die Druckzeit, erhöht jedoch auch die Wahrscheinlichkeit, dass der Drucker den Träger umstößt, und macht die Trägerstruktur schwächer.
+Durch ErhÃ¶hen dieser Einstellung kann der Drucker den TrÃ¤ger schneller, aber weniger sorgfÃ¤ltig drucken. Eine hÃ¶here Beschleunigungsrate fÃ¼r das FÃ¼llen des TrÃ¤gers verkÃ¼rzt die Druckzeit, erhÃ¶ht jedoch auch die Wahrscheinlichkeit, dass der Drucker den TrÃ¤ger umstÃ¶ÃŸt, und macht die TrÃ¤gerstruktur schwÃ¤cher.
 
 ### **Verwendung**
-Typischerweise wird der Träger im Vergleich zum Rest des Drucks mit erhöhter Beschleunigung gedruckt. Die Support-Infill-Beschleunigung kann auf eine andere Rate als die Support-Schnittstelle eingestellt werden.
+Typischerweise wird der TrÃ¤ger im Vergleich zum Rest des Drucks mit erhÃ¶hter Beschleunigung gedruckt. Die Support-Infill-Beschleunigung kann auf eine andere Rate als die Support-Schnittstelle eingestellt werden.

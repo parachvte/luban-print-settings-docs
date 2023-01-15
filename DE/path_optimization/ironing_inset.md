@@ -1,10 +1,10 @@
-Ironing Inset
+Bügeleinsatz
 ====
-Ironing normally doesn't smooth all the way to the outer edge. If it did, the continuous pressure in the nozzle chamber would cause the material to flow over the edge, which causes a sort of ripple effect. This setting determines how far away from the edge the ironing will keep.
+Das Bügeln glättet normalerweise nicht bis zum äußeren Rand. Andernfalls würde der kontinuierliche Druck in der Düsenkammer dazu führen, dass das Material über die Kante fließt, was eine Art Welleneffekt verursacht. Diese Einstellung bestimmt, wie weit das Bügeln von der Kante entfernt bleibt.
 
-![Default inset of half a line width](../images/ironing_enabled_enabled.png)
-![A larger inset of 1.2mm](../images/ironing_inset.png)
+![Standardeinschub von einer halben Linienbreite](../images/ironing_enabled_enabled.png)
+![Ein größerer Einsatz von 1,2 mm](../images/ironing_inset.png)
 
-There are two main use cases for this setting:
-* To make sure that the material does not get deposited over the edge.
-* As a way to filter out thin strips that would normally get ironed. If you have a shallow slope then you might not want every layer-step in that slope to get ironed. Increasing this setting can filter out the thinnest strips, but will also cause the bigger parts to not get ironed all the way to the edge.
+Es gibt zwei Hauptanwendungsfälle für diese Einstellung:
+* Um sicherzustellen, dass sich das Material nicht über die Kante legt.
+* Um dünne Streifen herauszufiltern, die normalerweise gebügelt werden würden. Wenn Sie eine flache Neigung haben, möchten Sie möglicherweise nicht, dass jede Schichtstufe in dieser Neigung gebügelt wird. Das Erhöhen dieser Einstellung kann die dünnsten Streifen herausfiltern, führt aber auch dazu, dass die größeren Teile nicht ganz bis zum Rand gebügelt werden.

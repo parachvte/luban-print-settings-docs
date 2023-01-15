@@ -1,13 +1,13 @@
-Minimum Extrusion Distance Window
+Fenster „Minimaler Extrusionsabstand“.
 ====
-### **Description**
-The feeder wheel needs to grip into the filament in order to move it properly. Retracting the material often tends to cause the feeder wheel to wear down the filament to the point where it can no longer grip the filament properly. This setting limits the number of retractions within a certain length of filament in order to prevent this grinding.
+### **Beschreibung**
+Das Zuführungsrad muss in das Filament greifen, um es richtig zu bewegen. Das Zurückziehen des Materials führt häufig dazu, dass das Zuführrad das Filament bis zu dem Punkt abnutzt, an dem es das Filament nicht mehr richtig greifen kann. Diese Einstellung begrenzt die Anzahl der Rückzüge innerhalb einer bestimmten Filamentlänge, um dieses Schleifen zu verhindern.
 
-The retractions are limited by the combination of [Maximum Retraction Count](retraction_count_max.md) and this setting. The material is not allowed to be retracted more than the value of the Maximum Retraction Count within a length of filament indicated by this Minimum Extrusion Distance Window setting.
+Die Rückzüge werden durch die Kombination aus [Maximum Retraction Count](retraction_count_max.md) und dieser Einstellung begrenzt. Das Material darf nicht um mehr als den Wert der maximalen Rückzugszahl innerhalb einer Filamentlänge zurückgezogen werden, die durch diese Einstellung des Fensters für die minimale Extrusionsdistanz angegeben wird.
 
-![A certain length of filament along which the number of retractions is limited](../images/retraction_count_max.svg)
+![Eine bestimmte Filamentlänge, entlang der die Anzahl der Rückzüge begrenzt ist](../images/retraction_count_max.svg)
 
-The length of filament during which the number of retractions is limited is a sliding window. For instance, with a window length of 3 mm and a maximum retraction count of 10, this means that no more than 10 retractions can be made within the 3 mm of filament.
+Die Filamentlänge, während der die Anzahl der Rückzüge begrenzt ist, ist ein Gleitfenster. Bei einer Fensterlänge von 3 mm und einer maximalen Rückzugszahl von 10 bedeutet dies beispielsweise, dass nicht mehr als 10 Rückzüge innerhalb von 3 mm Filament durchgeführt werden können.
 
-### **Usage**
-Increasing the length of the extrusion window will reduce grinding on the filament. This makes the print more reliable, but increases the amount of stringing and blobs on the surface. This is especially useful for softer materials that are more sensitive to grinding.
+### **Verwendung**
+Das Erhöhen der Länge des Extrusionsfensters verringert das Schleifen auf dem Filament. Dies macht den Druck zuverlässiger, erhöht jedoch die Menge an Fäden und Klecksen auf der Oberfläche. Dies ist besonders nützlich für weichere Materialien, die empfindlicher auf Schleifen reagieren.

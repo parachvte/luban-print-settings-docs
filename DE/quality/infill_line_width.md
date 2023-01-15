@@ -1,14 +1,14 @@
-Fülllinienbreite
+FÃ¼lllinienbreite
 ====
 ### **Beschreibung**
-Die Fülllinienbreite bezieht sich auf die Breite jeder gezeichneten Fülllinie.
+Die FÃ¼lllinienbreite bezieht sich auf die Breite jeder gezeichneten FÃ¼lllinie.
 
-![Die Fülllinien sind deutlich breiter als der Rest](../images/infill_line_width.png)
+![Die FÃ¼lllinien sind deutlich breiter als der Rest](../images/infill_line_width.png)
 
 ### **Einfluss**
-Die Breite einer Linie kann sich von der Düsengröße unterscheiden, indem einfach mehr oder weniger Material als benötigt extrudiert wird. Wenn mehr Material extrudiert wird, fließt der Kunststoff zu den Seiten, wodurch die Linie dicker wird. Wenn weniger Material extrudiert wird, neigt die Oberflächenspannung des Materials dazu, das Material in Richtung der Mittellinie des Düsenwegs zu ziehen.
+Die Breite einer Linie kann sich von der DÃ¼sengrÃ¶ÃŸe unterscheiden, indem einfach mehr oder weniger Material als benÃ¶tigt extrudiert wird. Wenn mehr Material extrudiert wird, flieÃŸt der Kunststoff zu den Seiten, wodurch die Linie dicker wird. Wenn weniger Material extrudiert wird, neigt die OberflÃ¤chenspannung des Materials dazu, das Material in Richtung der Mittellinie des DÃ¼senwegs zu ziehen.
 
 ### **Verwendung**
-Breitere Fülllinien können Ihren Druck stärker machen und auch die Druckzeit verkürzen. Eine zu starke Erhöhung dieser Einstellung kann jedoch zu starken Extrusionsschwankungen führen. Dies führt zu einer Unterextrusion beim Drucken der Füllung und zu einer Überextrusion beim Drucken dessen, was nach der Füllung kommt, da der Fluss durch die Düse nicht schnell genug angepasst werden kann.
+Breitere FÃ¼lllinien kÃ¶nnen Ihren Druck stÃ¤rker machen und auch die Druckzeit verkÃ¼rzen. Eine zu starke ErhÃ¶hung dieser Einstellung kann jedoch zu starken Extrusionsschwankungen fÃ¼hren. Dies fÃ¼hrt zu einer Unterextrusion beim Drucken der FÃ¼llung und zu einer Ãœberextrusion beim Drucken dessen, was nach der FÃ¼llung kommt, da der Fluss durch die DÃ¼se nicht schnell genug angepasst werden kann.
 
-**Die tatsächlichen Fülllinien können breiter erscheinen als in dieser Einstellung angegeben, wenn Sie die Einstellung [Dicke der Füllschicht](../infill/infill_sparse_thickness.md) angepasst haben.**
+**Die tatsÃ¤chlichen FÃ¼lllinien kÃ¶nnen breiter erscheinen als in dieser Einstellung angegeben, wenn Sie die Einstellung [Dicke der FÃ¼llschicht](../infill/infill_sparse_thickness.md) angepasst haben.**

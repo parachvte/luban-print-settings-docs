@@ -1,15 +1,12 @@
-Bodenfluss unterstützen
+Unterstützungsfluss
 ====
 ### **Beschreibung**
-Diese Einstellung passt die Durchflussrate für den Stützboden an.
+Diese Einstellung passt die Durchflussrate für die Stütze an.
 
 ### **Verwendung**
-Die Durchflussmenge für den Stützboden kann getrennt von der Durchflussmenge der restlichen Stütze eingestellt werden.
+Die Flussrate für den Support kann separat von der Flussrate des restlichen Drucks eingestellt werden.
 
-Das Anpassen der Durchflussrate während des Support-Bodens ist eine Stop-Gap-Methode, um Probleme mit der Extrusionsrate oder der Haftung zwischen dem Modell und dem Support zu beheben. Derselbe Effekt kann durch Anpassen der [Linienbreite](../resolution/support_bottom_line_width.md) oder des [Linienabstands](../support/support_bottom_line_distance.md) des Stützbodens erzielt werden, aber möglicherweise durch Anpassen der Durchflussrate intuitiver.
+Das Anpassen der Durchflussrate während des Trägers ist eine Notlösung, um Probleme mit der Extrusionsrate oder der Haftung zwischen dem Träger und dem Druck zu beheben. Der gleiche Effekt kann durch Einstellen des erreicht werden [linienbreite](../resolution/support_line_width.md) oder [line spacing](../support/support_line_distance.md) der Unterstützung, aber das Anpassen des Flusses kann intuitiver sein.
 
-Wenn es ein Problem mit der Extrusionsrate gibt, ist es besser, sich das anzusehen [Druckgeschwindigkeiten](../speed/speed_support_bottom.md), [Temperatur](material_print_temperature.md) und [linienbreite](../resolution/support_bottom_line_width.md). Möglicherweise besteht ein zu großer Unterschied zwischen der Strömungsgeschwindigkeit des Stützbodens und den anderen Strukturen auf der Schicht. Möglicherweise ist die Linienbreite zu dünn, um richtig zu extrudieren. 
-
-Wenn die Schnittstelle mit a bedruckt ist [unterschiedliches Material](../support/support_interface_extruder_nr.md), Ein häufiges Problem ist, dass das Material, mit dem die Schnittstelle bedruckt ist, nicht genug Zeit bekommt, um richtig zu fließen. Dies kann mit a behoben werden [prime tower](../dual/prime_tower_enable.md) oder Erhöhung der [Bereich des Stützbodens](../support/support_bottom_offset.md).
-
+Wenn es während der Unterstützung ein Problem mit der Extrusionsgeschwindigkeit oder stärke gibt, ist es besser, sich das anzusehen [Druckgeschwindigkeiten](../speed/speed_support.md) und [Temperatur](material_print_temperature.md). Möglicherweise ist der Strömungsunterschied zwischen der Stütze und den anderen Strukturen zu groß, um richtig extrudiert zu werden. Ein weiteres häufiges Problem mit der Durchflussrate der Unterstützung ist, dass es zu viele Kreuzungen in der gibt [Stütz Müster](../support/support_pattern.md). Es könnte hilfreich sein, ein Muster zu wählen, das sich nicht selbst kreuzt, wie z. B. Gyroid oder Zigzag.
 

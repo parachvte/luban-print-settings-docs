@@ -1,33 +1,33 @@
-Z Seam Alignment
+Z-Naht-Ausrichtung
 ====
-This setting allows you to choose where the seam of each contour is placed. Several options are available that give great control over where the seam gets placed to minimise its impact or to allow you to remove the seam more easily in post-processing.
+Mit dieser Einstellung können Sie auswählen, wo die Naht jeder Kontur platziert wird. Es stehen mehrere Optionen zur Verfügung, die eine große Kontrolle darüber geben, wo die Naht platziert wird, um ihre Auswirkungen zu minimieren oder es Ihnen zu ermöglichen, die Naht in der Nachbearbeitung leichter zu entfernen.
 
-The seam is where the contour starts and ends printing in a layer. With this setting the visibility of the seam can be minimised by hiding it somewhere or spreading it around.
+An der Naht beginnt und endet der Konturdruck in einer Schicht. Mit dieser Einstellung kann die Sichtbarkeit der Naht minimiert werden, indem sie irgendwo versteckt oder verteilt wird.
 
-User specified
+Benutzer angegeben
 ----
-![User specified](../images/z_seam_type_user.png)
+![Benutzer angegeben](../images/z_seam_type_user.png)
 
-This option allows you to choose a location manually. The seam will be placed in the corner that is closest to the chosen location. This will usually line up the seams very closely together, which allows you to cut them away easily. It also allows fine-grained control over where the seam should be.
+Mit dieser Option können Sie einen Standort manuell auswählen. Die Naht wird in der Ecke platziert, die der gewählten Stelle am nächsten liegt. Dadurch werden die Nähte normalerweise sehr eng aneinander ausgerichtet, sodass Sie sie leicht abschneiden können. Es ermöglicht auch eine feinkörnige Kontrolle darüber, wo die Naht sein sollte.
 
-By default, a location in the back of the printer is chosen.
+Standardmäßig wird eine Position auf der Rückseite des Druckers ausgewählt.
 
-Shortest
+Kürzeste
 ----
-![Shortest](../images/z_seam_type_shortest.png)
+![Kürzeste](../images/z_seam_type_shortest.png)
 
-This option minimizes the length of travel moves by placing the starting point closest to the position where the nozzle finishes the previous layer. Because the travel path is shorter, you'll save a small measure of time on travel moves. The seam will also be slightly smaller, because less ooze will be placed in the location where the nozzle lands on the contour.
+Diese Option minimiert die Länge der Bewegungsbewegungen, indem der Startpunkt am nächsten an der Position platziert wird, an der die Düse die vorherige Schicht beendet. Da der Fahrweg kürzer ist, sparen Sie ein wenig Zeit bei Fahrbewegungen. Die Naht wird auch etwas kleiner, da weniger Schlamm an der Stelle platziert wird, an der die Düse auf der Kontur landet.
 
-The desired corner preference is still held by picking a corner close to where the nozzle is. Not the very closest corner is chosen, but a weighted preference is used to minimise travel moves somewhat but also use an appropriate corner for the [Seam Corner Preference](z_seam_corner.md) setting.
+Die gewünschte Eckenpräferenz wird immer noch beibehalten, indem eine Ecke in der Nähe der Düse ausgewählt wird. Es wird nicht die allernächste Ecke gewählt, aber es wird eine gewichtete Präferenz verwendet, um Bewegungsbewegungen etwas zu minimieren, aber auch eine geeignete Ecke für die Einstellung [Nahteckenpräferenz] (z_seam_corner.md) zu verwenden.
 
-Random
+Willkürlich
 ----
-![Random](../images/z_seam_type_random.png)
+![Zufall](../images/z_seam_type_random.png)
 
-A random location around the perimeter is chosen for the seam. This random location is changed in every layer, so the seam will get spread out pretty much evenly around the model. Because the seams of different layers don't line up, the seam will hardly be visible. However, the surface will look altogether slightly messier.
+Für die Naht wird eine zufällige Stelle um den Umfang herum gewählt. Diese zufällige Position wird in jeder Schicht geändert, sodass die Naht ziemlich gleichmäßig um das Modell herum verteilt wird. Da die Nähte verschiedener Lagen nicht aneinander liegen, ist die Naht kaum sichtbar. Die Oberfläche wird jedoch insgesamt etwas unordentlicher aussehen.
 
-Sharpest corner
+Schärfste Ecke
 ----
-![Sharpest corner](../images/z_seam_type_sharpest.png)
+![Schärfste Ecke](../images/z_seam_type_sharpest.png)
 
-The seam will be placed in the very sharpest corner of the whole contour, according to the corner preference chosen in the [Seam Corner Preference](z_seam_corner.md) setting. This may incur longer travel moves, but ensures that the seam is hidden or exposed maximally according to the preference set for the corners.
+Die Naht wird in der schärfsten Ecke der gesamten Kontur platziert, entsprechend der Eckenpräferenz, die in der Einstellung [Nahteckenpräferenz] (z_seam_corner.md) ausgewählt wurde. Dies kann längere Fahrbewegungen erfordern, stellt jedoch sicher, dass die Naht entsprechend der für die Ecken eingestellten Voreinstellung maximal verdeckt oder freigelegt wird.

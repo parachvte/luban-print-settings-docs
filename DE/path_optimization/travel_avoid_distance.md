@@ -1,11 +1,11 @@
-Travel Avoid Distance
+Reisen Vermeiden Sie Entfernungen
 ====
-### **Description**
-When [avoiding collisions with other objects](travel_avoid_other_parts.md), this setting defines how much clearance the nozzle keeps to the other objects that it needs to avoid.
+### **Beschreibung**
+Beim [Vermeiden von Kollisionen mit anderen Objekten](travel_avoid_other_parts.md) definiert diese Einstellung, wie viel Abstand die Düse zu den anderen Objekten einhält, die sie vermeiden muss.
 
-Keep in mind that this defines the distance between the other objects and the centreline of the travel move. The travel move has no thickness. It's advisable to give a value to this setting that is at least big enough so that the nozzle tip doesn't hit the other parts.
+Denken Sie daran, dass dies den Abstand zwischen den anderen Objekten und der Mittellinie der Verfahrbewegung definiert. Die Reisebewegung hat keine Dicke. Es ist ratsam, dieser Einstellung einen Wert zu geben, der mindestens so groß ist, dass die Düsenspitze nicht auf die anderen Teile trifft.
 
-### **Influence**
-Increasing the value of this setting reduces the chance that the nozzle hits previously printed objects when travelling around them. 
+### **Einfluss**
+Durch Erhöhen des Werts dieser Einstellung wird die Wahrscheinlichkeit verringert, dass die Düse beim Umfahren auf zuvor gedruckte Objekte trifft.
 
-However, increasing the value of this setting will also slightly increase the length of travel moves, since the nozzle must take a greater detour. This increases printing time and the amount of oozing slightly. More pressing perhaps is that this reduces the chance of a valid path being found that doesn't come too close to any previously printed parts. If no valid path is found, the nozzle will (perhaps) retract and travel in a straight line instead, resigning that the other parts will be hit anyway. So increasing this setting too much can also be detrimental to the surface quality.
+Eine Erhöhung des Werts dieser Einstellung führt jedoch auch zu einer geringfügigen Verlängerung der Verfahrwege, da die Düse einen größeren Umweg nehmen muss. Dies erhöht die Druckzeit und die Menge des Auslaufens leicht. Noch dringender ist vielleicht, dass dies die Wahrscheinlichkeit verringert, dass ein gültiger Pfad gefunden wird, der nicht zu nahe an zuvor gedruckte Teile herankommt. Wenn kein gültiger Pfad gefunden wird, zieht sich die Düse (vielleicht) zurück und bewegt sich stattdessen in einer geraden Linie, wobei sie darauf verzichtet, dass die anderen Teile trotzdem getroffen werden. Eine zu starke Erhöhung dieser Einstellung kann sich daher auch nachteilig auf die Oberflächenqualität auswirken.

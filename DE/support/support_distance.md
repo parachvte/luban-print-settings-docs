@@ -1,12 +1,12 @@
-# Support Preference
+# Support-Präferenz
 
-## Removable
+## Entfernbar
 
-Generates supports that are easy to remove without scarring the model.
+Erzeugt Stützstrukturen, die leicht zu entfernen sind, ohne das Modell zu vernarben.
 
-## Reliable
+## Zuverlässig
 
-Generates supports that are reliable to ensure a successful print. However, the adhesion between model and supports is increased, making the the supports hard to remove. Thus, it applies best to easily breaking or soluble materials.
+Erzeugt Stützen, die zuverlässig sind, um einen erfolgreichen Druck zu gewährleisten. Allerdings wird die Haftung zwischen Modell und Stützen erhöht, wodurch die Stützen schwer zu entfernen sind. Daher eignet es sich am besten für leicht brechende oder lösliche Materialien.
 
-## 0 Gap
-There is no gap between the support and the model.This can improve print success rates, but may result in some loss of underside print quality(For breakaway and soluble materials).
+## 0 Lücke
+Es gibt keine Lücke zwischen dem Träger und dem Modell. Dies kann die Druckerfolgsraten verbessern, kann jedoch zu einem gewissen Verlust der Druckqualität auf der Unterseite führen (für abbrechbare und lösliche Materialien).

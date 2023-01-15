@@ -1,11 +1,11 @@
-Enable Support Interface
+Support-Schnittstelle aktivieren
 ====
-### **Description**
-A "support interface" is an intermediary structure in between the normal support and the model. This structure can adjust the properties of how support interfaces with the model without affecting the majority of the support much.
+### **Beschreibung**
+Eine "Unterstützungsschnittstelle" ist eine Zwischenstruktur zwischen der normalen Unterstützung und dem Modell. Diese Struktur kann die Eigenschaften anpassen, wie die Stütze mit dem Modell interagiert, ohne den Großteil der Stütze stark zu beeinflussen.
 
-![Support interface is shown in a darker shade of blue](../images/support_interface_enable.png)
+![Support-Schnittstelle wird in einem dunkleren Blau angezeigt](../images/support_interface_enable.png)
 
-### **Usage**
-By default the interface layers are denser than the normal support. This achieves a better overhang surface without needing all that much extra material and printing time. However, it will be harder to remove the support.
+### **Verwendung**
+Standardmäßig sind die Schnittstellenschichten dichter als die normale Stütze. Dadurch wird eine bessere Überhangsoberfläche erreicht, ohne allzu viel zusätzliches Material und Druckzeit zu benötigen. Es wird jedoch schwieriger sein, die Stütze zu entfernen.
 
-The support interface can also be printed with a different extruder than the rest of the support. Some materials aimed at printing support can be very expensive and slow to print. This way, most of the support is still printed with the cheaper or faster material, but the interface where the use of the support material comes to fruition is printed with the fancier material.
+Die Trägerschnittstelle kann auch mit einem anderen Extruder gedruckt werden als der Rest des Trägers. Einige Materialien, die auf Druckunterstützung abzielen, können sehr teuer und langsam zu drucken sein. Auf diese Weise wird der größte Teil des Trägers immer noch mit dem billigeren oder schnelleren Material gedruckt, aber die Schnittstelle, an der die Verwendung des Trägermaterials zum Tragen kommt, wird mit dem schickeren Material gedruckt.

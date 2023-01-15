@@ -1,9 +1,9 @@
-Maximum Tower-Supported Diameter
+Maximaler Turm-unterstützter Durchmesser
 ====
-This setting is a threshold for the diameter of a piece of overhang to choose between normal support and support towers. If the piece is thinner than this threshold, it'll get supported by a [support tower](support_use_towers.md). If it is wider than this threshold, it'll get supported by the ordinary support structures.
+Diese Einstellung ist eine Schwelle für den Durchmesser eines Überhangstücks, um zwischen normaler Stütze und Stütztürmen zu wählen. Wenn das Stück dünner als dieser Schwellenwert ist, wird es von einem [Stützturm] (support_use_towers.md) gestützt. Wenn es breiter als diese Schwelle ist, wird es von den gewöhnlichen Stützstrukturen gestützt.
 
-![The sword has an overhang area smaller than the minimum diameter](../images/support_use_towers.svg)
+![Das Schwert hat einen Überhangbereich, der kleiner als der Mindestdurchmesser ist](../images/support_use_towers.svg)
 
-If a very thin strip of overhang needs support, normal support would topple over. Instead, a more sturdy tower is generated.
+Wenn ein sehr dünner Überhangstreifen Unterstützung benötigt, würde die normale Unterstützung umkippen. Stattdessen wird ein robusterer Turm erzeugt.
 
-Increasing this setting will cause towers to be generated more frequently. This increases the reliability of the support, but also requires slightly more material and printing time.
+Wenn Sie diese Einstellung erhöhen, werden Türme häufiger generiert. Das erhöht die Zuverlässigkeit des Trägers, erfordert aber auch etwas mehr Material und Druckzeit.

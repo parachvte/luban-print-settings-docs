@@ -1,5 +1,5 @@
-Ironing Jerk
+Bügeln Idiot
 ====
-This setting adjusts the jerk only on the parts where the printer is ironing.
+Diese Einstellung passt den Ruck nur an den Stellen an, an denen der Drucker bügelt.
 
-Similar to the [Top/Bottom Jerk](../speed/jerk_topbottom.md) setting, you can reduce the jerk for ironing in order to achieve a better top surface quality. If the jerk is too high, vibrations in the printer's frame may cause the build plate to move up and down (depending on the printer's design) which causes ringing.
+Ähnlich wie bei der Einstellung [Top/Bottom Jerk](../speed/jerk_topbottom.md) können Sie den Ruck beim Bügeln reduzieren, um eine bessere Oberflächenqualität zu erreichen. Wenn der Ruck zu hoch ist, können Vibrationen im Druckerrahmen dazu führen, dass sich die Bauplatte auf und ab bewegt (je nach Druckerdesign), was ein Klingeln verursacht.

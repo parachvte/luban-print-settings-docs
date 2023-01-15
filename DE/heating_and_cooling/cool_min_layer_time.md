@@ -1,12 +1,12 @@
 Minimale Schichtzeit
 ====
 ### **Beschreibung**
-Minimale Schichtzeit konfiguriert die kürzeste zulässige Druckdauer einer Schicht. In kürzerer Zeit darf der Drucker eine Ebene nicht drucken.
+Minimale Schichtzeit konfiguriert die kÃ¼rzeste zulÃ¤ssige Druckdauer einer Schicht. In kÃ¼rzerer Zeit darf der Drucker eine Ebene nicht drucken.
 
-Dies stellt sicher, dass eine kleine Schicht genug Zeit hat, sich abzukühlen und zu verfestigen, bevor die nächste Schicht darauf gelegt wird, und verhindert so ein Durchhängen.
-![Welche Lüftergeschwindigkeit wird wo verwendet](../images/cool_fan_speed.svg)
+Dies stellt sicher, dass eine kleine Schicht genug Zeit hat, sich abzukÃ¼hlen und zu verfestigen, bevor die nÃ¤chste Schicht darauf gelegt wird, und verhindert so ein DurchhÃ¤ngen.
+![Welche LÃ¼ftergeschwindigkeit wird wo verwendet](../images/cool_fan_speed.svg)
 
 ### **Verwendung**
-Wenn eine Schicht so klein ist, dass das Drucken mit normaler Druckgeschwindigkeit weniger als die minimale Schichtzeit dauern würde, wird ihre tatsächliche Druckgeschwindigkeit verringert, sodass die Schicht immer noch die minimale Schichtzeit zum Drucken benötigt. Aber die Druckgeschwindigkeit wird nicht unter die reduziert [Mindestgeschwindigkeit](cool_min_speed.md) setting). Wenn das Drucken der Ebene mit der minimalen Geschwindigkeit weniger als die minimale Ebenenzeit dauern würde, wartet der Werkzeugkopf am Ende der Ebene, bis die minimale Ebenenzeit verstrichen ist.
+Wenn eine Schicht so klein ist, dass das Drucken mit normaler Druckgeschwindigkeit weniger als die minimale Schichtzeit dauern wÃ¼rde, wird ihre tatsÃ¤chliche Druckgeschwindigkeit verringert, sodass die Schicht immer noch die minimale Schichtzeit zum Drucken benÃ¶tigt. Aber die Druckgeschwindigkeit wird nicht unter die reduziert [Mindestgeschwindigkeit](cool_min_speed.md) setting). Wenn das Drucken der Ebene mit der minimalen Geschwindigkeit weniger als die minimale Ebenenzeit dauern wÃ¼rde, wartet der Werkzeugkopf am Ende der Ebene, bis die minimale Ebenenzeit verstrichen ist.
 
-Für eine Schicht, die mit der Mindestschichtzeit gedruckt wird, verwendet der Werkzeugkopf die[Maximale Lüftergeschwindigkeit](cool_fan_speed_max.md) um die Schicht schneller abzukühlen.
+FÃ¼r eine Schicht, die mit der Mindestschichtzeit gedruckt wird, verwendet der Werkzeugkopf die[Maximale LÃ¼ftergeschwindigkeit](cool_fan_speed_max.md) um die Schicht schneller abzukÃ¼hlen.

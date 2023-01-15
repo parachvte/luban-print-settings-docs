@@ -1,12 +1,12 @@
 Reisebeschleunigung
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse in verschiedene Richtungen beschleunigt, während sie sich über das Bauvolumen bewegt.
+Diese Einstellung steuert, wie schnell die DÃ¼se in verschiedene Richtungen beschleunigt, wÃ¤hrend sie sich Ã¼ber das Bauvolumen bewegt.
 
 ### **Einfluss**
-Eine zu hohe Einstellung der Fahrbeschleunigungsrate kann dazu führen, dass die Motoren einige Schritte verlieren, was zu Schichtverschiebungen führt.
+Eine zu hohe Einstellung der Fahrbeschleunigungsrate kann dazu fÃ¼hren, dass die Motoren einige Schritte verlieren, was zu Schichtverschiebungen fÃ¼hrt.
 
 ### **Verwendung**
-Da der Drucker während der schnellen Verfahrbewegungen kein Material extrudiert, wirken sich eventuelle Vibrationen des Druckers nicht wirklich auf den Druck aus. Daher sollte die Reisebeschleunigung ziemlich hoch eingestellt werden, um Druckzeit zu sparen.
+Da der Drucker wÃ¤hrend der schnellen Verfahrbewegungen kein Material extrudiert, wirken sich eventuelle Vibrationen des Druckers nicht wirklich auf den Druck aus. Daher sollte die Reisebeschleunigung ziemlich hoch eingestellt werden, um Druckzeit zu sparen.
 
-Die Bewegungsbeschleunigung kann auf eine andere Rate als der Rest des Drucks eingestellt werden, während Material extrudiert wird.
+Die Bewegungsbeschleunigung kann auf eine andere Rate als der Rest des Drucks eingestellt werden, wÃ¤hrend Material extrudiert wird.

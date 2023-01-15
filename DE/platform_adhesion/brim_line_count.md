@@ -1,11 +1,9 @@
-Brim Line Count
+Anzahl der Randlinien
 ====
-### **Description**
-This setting controls how many perimeters are being drawn around the base of your print, for the brim.
+### **Beschreibung**
+Diese Einstellung steuert, wie viele Perimeter um die Basis Ihres Drucks für den Rand gezeichnet werden.
 
-![This brim has 8 lines.](../images/brim_width.svg)
+![Diese Krempe hat 8 Linien.](../images/brim_width.svg)
 
-### **Influence**
-More brim lines will improve adhesion to the build plate, by increasing the surface area of your print. However, it will reduce the effective print area.
-
-
+### **Einfluss**
+Mehr Randlinien verbessern die Haftung auf der Bauplatte, indem sie die Oberfläche Ihres Drucks vergrößern. Dadurch wird jedoch der effektive Druckbereich verringert.

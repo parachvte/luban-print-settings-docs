@@ -1,13 +1,12 @@
-Initial Layer Jerk
+Ruck der ersten Schicht
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while the initial layer is being printed. It can be configured separately from the rest of the layers.
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse Ecken durchfahren kann, während die Anfangsschicht gedruckt wird. Sie kann separat von den übrigen Schichten konfiguriert werden.
 
-### **Influence**
-Going through sharp corners at great speeds not only causes the toolhead to vibrate horizontally. It can also cause the build plate to vibrate vertically. This affects bed adhesion negatively. Going through corners a bit more carefully during the first layer allows for more consistent bed adhesion, but will take longer to print.
+### **Einfluss**
+Das Durchfahren scharfer Kurven mit hoher Geschwindigkeit lässt den Werkzeugkopf nicht nur horizontal vibrieren. Es kann auch dazu führen, dass die Bauplatte vertikal vibriert. Dies wirkt sich negativ auf die Betthaftung aus. Etwas vorsichtiger durch die Ecken zu gehen während der ersten Schicht ermöglicht eine gleichmäßigere Betthaftung, dauert aber länger zum Drucken.
 
-Additionally, reducing the jerk will normally make the printer deposit more material in sharp corners because the nozzle slows down while the material flow has some delay in when the flow is reduced. These sharp corners are often where the print lets go of the build plate first due to warping. Depositing some extra material in those corners is advantageous then, since it'll make the corners stick better.
+Darüber hinaus führt die Reduzierung des Rucks normalerweise dazu, dass der Drucker mehr Material in scharfen Ecken aufträgt, da die Düse langsamer wird, während der Materialfluss eine gewisse Verzögerung aufweist, wenn der Fluss reduziert wird. Diese scharfen Ecken sind oft dort, wo sich der Druck aufgrund von Verwerfungen zuerst von der Bauplatte löst. Es ist dann vorteilhaft, etwas zusätzliches Material in diese Ecken zu legen, da die Ecken dadurch besser haften.
 
-### **Usage**
-The individual structures of the print could all have different jerk values. There are separate settings for the infill, bottom side, outer and inner walls, support and prime tower. This setting will override all of those. Only the [Skirt/Brim Jerk](jerk_skirt_brim.md) setting will override this jerk, since the skirt and brim can only occur in the first layer.
-
+### **Verwendung**
+Die einzelnen Strukturen des Drucks könnten alle unterschiedliche Ruckwerte haben. Es gibt separate Einstellungen für die Füllung, die Unterseite, die Außen- und Innenwände, die Stütze und den Hauptturm. Diese Einstellung überschreibt alle diese. Nur die Einstellung [Rock/Brim Jerk](jerk_skirt_brim.md) überschreibt diesen Ruck, da Rock und Krempe nur in der ersten Ebene vorkommen können.

@@ -1,12 +1,12 @@
-Infill Jerk
+Ruck füllen
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while printing infill. 
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse beim Drucken von Füllungen durch Ecken fahren kann.
 
-### **Influence**
-The infill is normally not visible from the outside, so increasing this setting can save some printing time. Increasing the Infill Jerk will also cause the printer to vibrate more, but the vibrations are hardly visible. 
+### **Einfluss**
+Die Füllung ist normalerweise von außen nicht sichtbar, daher kann eine Erhöhung dieser Einstellung etwas Druckzeit sparen. Eine Erhöhung des Infill Jerk bewirkt auch, dass der Drucker stärker vibriert, aber die Vibrationen sind kaum sichtbar.
 
-On the contrary, reducing this setting adds more printing time while making your print stronger. 
+Im Gegenteil, wenn Sie diese Einstellung reduzieren, verlängert sich die Druckzeit, während Ihr Druck stärker wird.
 
-### **Usage**
-This setting can be configured separately from the rest of the print.
+### **Verwendung**
+Diese Einstellung kann separat vom Rest des Drucks konfiguriert werden.

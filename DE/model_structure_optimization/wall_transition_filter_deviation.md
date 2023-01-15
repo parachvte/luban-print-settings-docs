@@ -1,16 +1,16 @@
-Wall Transitioning Filter Margin
+Wandübergangsfilterrand
 ====
-Some models have thin pieces hovering around the threshold where different numbers of walls get used. This could make the number of walls alternate back and forth even though the actual width of the piece doesn't vary much. The alternation ruins the print quality, requiring lots of flow changes and adding more travel moves. Using this feature, transitions are removed if it would have transitioned back and forth.
+Einige Modelle haben dünne Stücke, die um die Schwelle herum schweben, wo eine unterschiedliche Anzahl von Wänden verwendet wird. Dies könnte dazu führen, dass die Anzahl der Wände hin und her wechselt, obwohl die tatsächliche Breite des Stücks nicht sehr unterschiedlich ist. Der Wechsel ruiniert die Druckqualität, erfordert viele Flussänderungen und fügt mehr Bewegungsbewegungen hinzu. Mit dieser Funktion werden Übergänge entfernt, wenn sie hin und her übergegangen wären.
 
-When a transition gets removed, then temporarily some of the lines can get too wide or too thin. This setting puts a limit on which transitions are filtered out by limiting how much wider or thinner the line is allowed to be.
+Wenn ein Übergang entfernt wird, können einige Linien vorübergehend zu breit oder zu dünn werden. Diese Einstellung begrenzt, welche Übergänge herausgefiltert werden, indem sie begrenzt, wie viel breiter oder dünner die Linie sein darf.
 
-![With a low margin, it alternates between 2 and 3 walls](../images/wall_transition_filter_off.png)
-![With a higher margin, it no longer alternates](../images/wall_transition_filter_on.png)
+![Bei geringem Rand wechselt es zwischen 2 und 3 Wänden](../images/wall_transition_filter_off.png)
+![Bei einem höheren Rand alterniert es nicht mehr](../images/wall_transition_filter_on.png)
 
-To be precise, the lines are allowed to become thinner than the [Minimum Wall Line Width](min_wall_line_width.md) by this margin if that prevents going back and forth between different numbers of walls. Similarly, lines are also allowed to become slightly wider by this margin, even if an extra wall of the Minimum Wall Line Width could have fit in too.
+Um genau zu sein, dürfen die Linien um diesen Rand dünner als die [Minimale Wandlinienbreite](min_wall_line_width.md) werden, wenn dies ein Hin- und Hergehen zwischen verschiedenen Wandzahlen verhindert. Ebenso dürfen Linien um diesen Rand etwas breiter werden, auch wenn eine zusätzliche Wand mit der minimalen Wandlinienbreite hätte passen können.
 
-This filter aims to solve a common problem with thin parts using low resolution 3D meshes. The 3D model, consisting of flat triangles, can't represent a curve exactly but only approximates it. The curve will have edges, with flat surfaces between them. When modelling a curved part with a constant width, it's important that the edges on the outside line up with the edges on the inside. If they don't, the width of the ring varies slightly, which can cause the effect shown above. If it does, the transitioning filter should prevent it from having too much of an effect.
+Dieser Filter zielt darauf ab, ein häufiges Problem mit dünnen Teilen unter Verwendung von 3D-Netzen mit niedriger Auflösung zu lösen. Das 3D-Modell, bestehend aus flachen Dreiecken, kann eine Kurve nicht exakt darstellen, sondern nur annähern. Die Kurve hat Kanten mit ebenen Flächen dazwischen. Beim Modellieren eines gekrümmten Teils mit konstanter Breite ist es wichtig, dass die Kanten auf der Außenseite mit den Kanten auf der Innenseite ausgerichtet sind. Wenn dies nicht der Fall ist, variiert die Breite des Rings geringfügig, was den oben gezeigten Effekt verursachen kann. Wenn dies der Fall ist, sollte der Übergangsfilter verhindern, dass er zu stark wirkt.
 
-Increasing the margin prevents creating small line segments in some cases. This is quicker to print and can make the surface look smoother. However it also allows for more extreme line widths, which may not extrude well out of your nozzle. When printing low-resolution models with thin pieces, increasing the margin may help to improve quality. With difficult materials, it's better to stay on the safe side.
+Das Erhöhen des Rands verhindert in einigen Fällen das Erstellen kleiner Liniensegmente. Dies ist schneller zu drucken und kann die Oberfläche glatter aussehen lassen. Es ermöglicht jedoch auch extremere Linienbreiten, die möglicherweise nicht gut aus Ihrer Düse herausragen. Beim Drucken von Modellen mit niedriger Auflösung und dünnen Stücken kann eine Erhöhung des Rands zur Verbesserung der Qualität beitragen. Bei schwierigen Materialien ist man lieber auf der sicheren Seite.
 
-**This setting doesn't just apply to normal walls, but also to extra skin walls, support walls, infill walls and concentric patterns.**
+**Diese Einstellung gilt nicht nur für normale Wände, sondern auch für Außenhautwände, Stützwände, Füllwände und konzentrische Muster.**

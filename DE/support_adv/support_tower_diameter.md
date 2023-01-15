@@ -1,9 +1,9 @@
-Tower Diameter
+Turmdurchmesser
 ====
-Some overhanging parts of the model are very small. The support that would be generated would topple over easily. Instead, Luban generates towers for these pieces that are wider, so they won't topple over.
+Einige überhängende Teile des Modells sind sehr klein. Die entstehende Stütze würde leicht umkippen. Stattdessen erzeugt Luban Türme für diese Teile, die breiter sind, damit sie nicht umfallen.
 
-This setting configures how wide those towers are.
+Diese Einstellung konfiguriert, wie breit diese Türme sind.
 
-![The width of the support tower](../images/support_use_towers.svg)
+![Die Breite des Stützturms](../images/support_use_towers.svg)
 
-Wider towers take slightly longer to print and consume more material, but they also make the support more sturdy which ultimately improves the reliability of the print.
+Breitere Türme brauchen etwas länger zum Drucken und verbrauchen mehr Material, aber sie machen auch den Träger stabiler, was letztendlich die Zuverlässigkeit des Drucks verbessert.

@@ -1,6 +1,6 @@
 Minimale gerade Wandlinienbreite
 ====
-Beim Drucken dünner Teile passt Cura die Breite der Wandlinien an die exakte Breite des Modells an. Cura kann sich auch dafür entscheiden, stattdessen weniger Wandlinien zu verwenden. Diese Einstellung ist der Schwellenwert, bei dem Cura zwei Linien zu einer kombiniert. Es kann getrennt von der eingestellt werden
+Beim Drucken dÃ¼nner Teile passt Cura die Breite der Wandlinien an die exakte Breite des Modells an. Cura kann sich auch dafÃ¼r entscheiden, stattdessen weniger Wandlinien zu verwenden. Diese Einstellung ist der Schwellenwert, bei dem Cura zwei Linien zu einer kombiniert. Es kann getrennt von der eingestellt werden
 [Schwelle, bei der die mittlere Linie entfernt wird](min_odd_wall_line_width.md).
 
 <!--screenshot {
@@ -33,16 +33,16 @@ Beim Drucken dünner Teile passt Cura die Breite der Wandlinien an die exakte Bre
 
 Gerade vs. ungerade Linien
 ----
-Mit dieser Einstellung können Sie den Schwellenwert für das Entfernen von Linien speziell bei einer geraden Anzahl von Linien anpassen. Dies ist der Fall, wenn in der Mitte zwei Linien statt einer einzelnen Linie vorhanden sind. Es bestimmt, wann diese beiden Linien in der Mitte zu einer einzigen Linie kombiniert werden.
+Mit dieser Einstellung kÃ¶nnen Sie den Schwellenwert fÃ¼r das Entfernen von Linien speziell bei einer geraden Anzahl von Linien anpassen. Dies ist der Fall, wenn in der Mitte zwei Linien statt einer einzelnen Linie vorhanden sind. Es bestimmt, wann diese beiden Linien in der Mitte zu einer einzigen Linie kombiniert werden.
 
-Die Mindestbreite der geraden Wandlinie kann aufgrund der Art und Weise, wie sie miteinander verbunden sind, von der Mindestbreite der ungeraden Wandlinie abweichen. Sogar Linien verbinden sich an ihren Enden, indem sie die Enden näher zusammenbringen. Dort gibt es eine gewisse Überlappung mit diesen Linien, was zu einer Überextrusion führt. Das ist anders als bei einer ungeraden Anzahl von Wänden: Die Linie in der Mitte hört dann einfach auf und hinterlässt eine Lücke im Druck. Das Reduzieren der minimalen Breite der geraden Wandlinie reduziert die Überextrusion an den Übergängen von geraden zu ungeraden Linien. Das Reduzieren der minimalen Breite der ungeraden Wandlinien reduziert die Grße der Lücke an den Übergängen von ungeraden zu geraden Linien.
+Die Mindestbreite der geraden Wandlinie kann aufgrund der Art und Weise, wie sie miteinander verbunden sind, von der Mindestbreite der ungeraden Wandlinie abweichen. Sogar Linien verbinden sich an ihren Enden, indem sie die Enden nÃ¤her zusammenbringen. Dort gibt es eine gewisse Ãœberlappung mit diesen Linien, was zu einer Ãœberextrusion fÃ¼hrt. Das ist anders als bei einer ungeraden Anzahl von WÃ¤nden: Die Linie in der Mitte hÃ¶rt dann einfach auf und hinterlÃ¤sst eine LÃ¼cke im Druck. Das Reduzieren der minimalen Breite der geraden Wandlinie reduziert die Ãœberextrusion an den ÃœbergÃ¤ngen von geraden zu ungeraden Linien. Das Reduzieren der minimalen Breite der ungeraden Wandlinien reduziert die GrÃŸe der LÃ¼cke an den ÃœbergÃ¤ngen von ungeraden zu geraden Linien.
 
-Die Lücken, die hinterlassen werden, wenn eine ungerade Linie endet, sind im Endergebnis besser sichtbar als ein bisschen Überextrusion an einer Verbindung, daher könnte es hilfreich sein, die minimale gerade Wandlinienbreite etwas höher als die minimale ungerade Wandlinienbreite einzustellen.
+Die LÃ¼cken, die hinterlassen werden, wenn eine ungerade Linie endet, sind im Endergebnis besser sichtbar als ein bisschen Ãœberextrusion an einer Verbindung, daher kÃ¶nnte es hilfreich sein, die minimale gerade Wandlinienbreite etwas hÃ¶her als die minimale ungerade Wandlinienbreite einzustellen.
 
-Das Reduzieren dieser Einstellung führt zu:
-* Reduzierter Überlappungsbereich, wo zwei Linien zusammenkommen, um zu einer Linie zu verschmelzen.
+Das Reduzieren dieser Einstellung fÃ¼hrt zu:
+* Reduzierter Ãœberlappungsbereich, wo zwei Linien zusammenkommen, um zu einer Linie zu verschmelzen.
 * Reduzierte maximale Breite einzelner Mittellinien.
-* Dünnere Linien, die möglicherweise nicht gut extrudiert werden.
-* Mehr Zeilen, deren Druck länger dauert.
+* DÃ¼nnere Linien, die mÃ¶glicherweise nicht gut extrudiert werden.
+* Mehr Zeilen, deren Druck lÃ¤nger dauert.
 
-**Diese Einstellung gilt nicht nur für normale Wände, sondern auch für Außenhautwände, Stützwände, Füllwände und konzentrische Muster.**
+**Diese Einstellung gilt nicht nur fÃ¼r normale WÃ¤nde, sondern auch fÃ¼r AuÃŸenhautwÃ¤nde, StÃ¼tzwÃ¤nde, FÃ¼llwÃ¤nde und konzentrische Muster.**

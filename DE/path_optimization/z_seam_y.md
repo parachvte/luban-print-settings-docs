@@ -1,10 +1,10 @@
-Z Seam Y
+Z Naht Y
 ====
-If Z Seam Alignment is set to User Specified, the seam will be placed close to the position specified by the [Z Seam X](z_seam_x.md) and Z Seam Y settings.
+Wenn die Z-Naht-Ausrichtung auf Benutzerdefiniert eingestellt ist, wird die Naht nahe der Position platziert, die durch die Einstellungen [Z-Naht X](z_seam_x.md) und Z-Naht Y festgelegt wurde.
 
-![The seam is located on the front side](../images/z_seam_y_front.png)
-![The seam is located on the back side](../images/z_seam_y_back.png)
+![Die Naht befindet sich auf der Vorderseite](../images/z_seam_y_front.png)
+![Die Naht befindet sich auf der Rückseite](../images/z_seam_y_back.png)
 
-This setting indicates an absolute position on the build plate if [Z Seam Relative](z_seam_relative.md) is disabled, or a position relative to the centre of the model if Z Seam Relative is enabled.
+Diese Einstellung gibt eine absolute Position auf der Bauplatte an, wenn [Z Seam Relative](z_seam_relative.md) deaktiviert ist, oder eine Position relativ zur Mitte des Modells, wenn Z Seam Relative aktiviert ist.
 
-It is best to choose a location where the seam will be hard to see in the final print. A location that is in an inside corner will be a good choice. But if such a corner is not available, you can also choose a position that allows the seam to be easily cut off or sanded down in post-processing.
+Wählen Sie am besten eine Stelle, an der die Naht im endgültigen Druck schwer zu erkennen ist. Ein Standort in einer Innenecke ist eine gute Wahl. Sollte eine solche Ecke aber nicht vorhanden sein, können Sie auch eine Position wählen, die ein einfaches Abschneiden oder Abschleifen der Naht in der Nachbearbeitung ermöglicht.

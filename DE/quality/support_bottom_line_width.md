@@ -1,7 +1,7 @@
-Support Floor Line Width
+Stützbodenlinienbreite
 ====
-This setting adjusts the width of the lines of the bottom side of the support.
+Diese Einstellung passt die Breite der Linien auf der Unterseite der Stütze an.
 
-![The support floor (darker blue) is printed with wider lines than the rest of the support](../images/support_bottom_line_width.png)
+![Der Stützboden (dunkleres Blau) ist mit breiteren Linien gedruckt als der Rest der Stütze](../images/support_bottom_line_width.png)
 
-Printing thinner lines tends to reduce the adhesion where the support rests on the model. However, thinner lines also make the adhesion more constant and reliable. In general, thinner lines make the support easier to remove and leave less of a scar on the object, while printing thinner lines takes more printing time.
+Das Drucken dünnerer Linien neigt dazu, die Haftung dort zu verringern, wo der Träger auf dem Modell ruht. Dünnere Linien machen die Haftung jedoch auch konstanter und zuverlässiger. Im Allgemeinen erleichtern dünnere Linien das Entfernen des Trägers und hinterlassen weniger Narben auf dem Objekt, während das Drucken dünnerer Linien mehr Druckzeit in Anspruch nimmt.

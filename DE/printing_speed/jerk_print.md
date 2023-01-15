@@ -1,17 +1,17 @@
-Print Jerk
+Ruck drucken
 ====
-### **Description**
-Jerk determines the speed at which the nozzle can go through corners. 
+### **Beschreibung**
+Der Ruck bestimmt die Geschwindigkeit, mit der die Düse durch Ecken fahren kann.
 
-**Jerk in 3D printing is not the same as jerk in physics.** The term "jerk" was introduced by Marlin. It was designed there as a workaround for the inherent problem in trying to perfectly follow a path. Since the nozzle is not allowed to deviate from the path (in theory), the nozzle would need to decelerate to 0mm/s in every corner. This would ruin your print, because decelerating to 0mm/s would cause a blob in every corner. It is not allowed to make curves to shortcut the corner, nor can it overshoot. Instead, Marlin allows for an instantaneous change in the velocity vector in every corner. The magnitude of this change in the velocity vector is coined "jerk". So jerk is the maximum instantaneous change in velocity, applied at every corner of the motion.
+**Ruck im 3D-Druck ist nicht gleich Ruck in der Physik.** Der Begriff „Ruck“ wurde von Marlin eingeführt. Es wurde dort als Workaround für das inhärente Problem entwickelt, einem Pfad perfekt zu folgen. Da die Düse (theoretisch) nicht vom Pfad abweichen darf, müsste die Düse in jeder Ecke auf 0 mm/s abbremsen. Dies würde Ihren Druck ruinieren, da eine Verzögerung auf 0 mm/s einen Klecks in jeder Ecke verursachen würde. Es ist nicht erlaubt, Kurven zu machen, um die Ecke abzukürzen, noch darf es überschießen. Stattdessen ermöglicht Marlin eine sofortige Änderung des Geschwindigkeitsvektors in jeder Kurve. Die Größe dieser Änderung des Geschwindigkeitsvektors wird als "Ruck" bezeichnet. Ruck ist also die maximale momentane Geschwindigkeitsänderung, die an jeder Ecke der Bewegung angewendet wird.
 
-### **Influence**
-With high jerk values, the nozzle won't slow down as much when approaching a corner, resulting in a more constant velocity but also in greater vibrations.
+### **Einfluss**
+Bei hohen Ruckwerten wird die Düse bei Annäherung an eine Ecke nicht so stark abgebremst, was zu einer konstanteren Geschwindigkeit, aber auch zu stärkeren Vibrationen führt.
 
-Increasing the jerk will have two positive effects on your print:
-* The printing time will be shortened, because the nozzle slows down less in the corners.
-* Because the nozzle doesn't slow down to a crawl, you'll get less of a blob in the corners. The nozzle moves at a more constant pace, so it doesn't linger in the corner while material keeps flowing out the opening.
+Das Erhöhen des Rucks hat zwei positive Auswirkungen auf Ihren Druck:
+* Die Druckzeit wird verkürzt, da die Düse in den Ecken weniger langsam wird.
+* Da die Düse nicht zu einem Schleichen verlangsamt wird, werden Sie weniger Kleckse in den Ecken bekommen. Die Düse bewegt sich mit konstanterer Geschwindigkeit, sodass sie nicht in der Ecke verweilt, während das Material weiter aus der Öffnung fließt.
 
-Increasing the jerk also has two negative effects:
-* The printer will generally vibrate more for every corner, because the toolhead is instructed to make instantaneous changes in directions at certain acceleration. Those vibrations tend to create ripples in your print, resulting in ringing and reduced dimensional accuracy.
-* At extreme values, your motors are likely to lose some steps in the corners, which can cause a layer shift.
+Die Erhöhung des Rucks hat auch zwei negative Auswirkungen:
+* Der Drucker vibriert im Allgemeinen für jede Ecke stärker, da der Werkzeugkopf angewiesen wird, bei einer bestimmten Beschleunigung sofortige Richtungsänderungen vorzunehmen. Diese Vibrationen neigen dazu, Wellen in Ihrem Druck zu erzeugen, was zu Klingeln und verringerter Maßhaltigkeit führt.
+* Bei extremen Werten verlieren Ihre Motoren wahrscheinlich einige Schritte in den Kurven, was zu einer Schichtverschiebung führen kann.

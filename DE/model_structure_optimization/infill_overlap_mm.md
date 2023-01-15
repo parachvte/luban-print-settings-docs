@@ -1,10 +1,10 @@
-Füllüberlappung
+FÃ¼llÃ¼berlappung
 ====
 ### **Beschreibung**
-Wenn die Füllung ein wenig mit den Wänden überlappt, haftet sie besser an den Wänden, wodurch das Teil viel stärker wird. Diese Einstellung steuert, wie stark die Füllung die Wände überlappt.
+Wenn die FÃ¼llung ein wenig mit den WÃ¤nden Ã¼berlappt, haftet sie besser an den WÃ¤nden, wodurch das Teil viel stÃ¤rker wird. Diese Einstellung steuert, wie stark die FÃ¼llung die WÃ¤nde Ã¼berlappt.
 
-![Eine Visualisierung der Füllungsüberlappung und des Wischabstands](../images/infill_overlap.svg)
+![Eine Visualisierung der FÃ¼llungsÃ¼berlappung und des Wischabstands](../images/infill_overlap.svg)
 
 ### **Einfluss**
-* Die Erhöhung der Überlappung bewirkt, dass sich die Füllung besser mit den Wänden verbindet, was zu einem stärkeren Teil führt.
-* Es wird jedoch auch dazu führen, dass die Füllung durch die Wände scheint, was zu einem Muster auf der Oberfläche des Drucks führt. Dadurch wird die optische Oberflächenqualität reduziert.
+* Die ErhÃ¶hung der Ãœberlappung bewirkt, dass sich die FÃ¼llung besser mit den WÃ¤nden verbindet, was zu einem stÃ¤rkeren Teil fÃ¼hrt.
+* Es wird jedoch auch dazu fÃ¼hren, dass die FÃ¼llung durch die WÃ¤nde scheint, was zu einem Muster auf der OberflÃ¤che des Drucks fÃ¼hrt. Dadurch wird die optische OberflÃ¤chenqualitÃ¤t reduziert.

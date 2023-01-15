@@ -1,9 +1,9 @@
-Mindestbreite dünner Wandlinien
+Mindestbreite dÃ¼nner Wandlinien
 ====
-Diese Einstellung ermöglicht es, sehr kleine Details mit einer eigentlich zu großen Linienbreite zu drucken. Anstatt sehr dünne Linien zu drucken, druckt es mit einer vernünftigeren Linienbreite.
+Diese Einstellung ermÃ¶glicht es, sehr kleine Details mit einer eigentlich zu groÃŸen Linienbreite zu drucken. Anstatt sehr dÃ¼nne Linien zu drucken, druckt es mit einer vernÃ¼nftigeren Linienbreite.
 
-Wenn die [Minimale Feature-Größe] (min_feature_size.md) sehr niedrig ist, könnten einige sehr dünne Teile gedruckt werden. Das funktioniert nicht gut. Es ist möglich, Linien zu drucken, die kleiner als die Düsengröße sind, aber nicht viel. Das Drucken zu dünner Linien führt zu einer inkonsistenten Extrusion.
+Wenn die [Minimale Feature-GrÃ¶ÃŸe] (min_feature_size.md) sehr niedrig ist, kÃ¶nnten einige sehr dÃ¼nne Teile gedruckt werden. Das funktioniert nicht gut. Es ist mÃ¶glich, Linien zu drucken, die kleiner als die DÃ¼sengrÃ¶ÃŸe sind, aber nicht viel. Das Drucken zu dÃ¼nner Linien fÃ¼hrt zu einer inkonsistenten Extrusion.
 
-Stattdessen werden diese sehr dünnen Linien breiter gemacht, damit sie gleichmäßiger extrudiert werden. Jeder Teil des Modells, der dünner als die minimale Linienbreite für dünne Wände ist, wird mit einer einzelnen Linie der minimalen Linienbreite für dünne Wände gedruckt. Die Linien werden dann breiter als die ursprüngliche Breite des Modells. Dies verringert die Maßhaltigkeit, druckt aber zumindest zuverlässig.
+Stattdessen werden diese sehr dÃ¼nnen Linien breiter gemacht, damit sie gleichmÃ¤ÃŸiger extrudiert werden. Jeder Teil des Modells, der dÃ¼nner als die minimale Linienbreite fÃ¼r dÃ¼nne WÃ¤nde ist, wird mit einer einzelnen Linie der minimalen Linienbreite fÃ¼r dÃ¼nne WÃ¤nde gedruckt. Die Linien werden dann breiter als die ursprÃ¼ngliche Breite des Modells. Dies verringert die MaÃŸhaltigkeit, druckt aber zumindest zuverlÃ¤ssig.
 
-Der Wert dieser Einstellung sollte die dünnste Linienbreite sein, die der Drucker zuverlässig erreichen kann, bevor er anfängt, raue Oberflächen und ungleichmäßige Extrusion zu erzeugen. Diese liegt normalerweise irgendwo zwischen der Düsengröße und der halben Düsengröße. Eine Erhöhung führt dazu, dass dünne Teile zu fett gedruckt werden, verringert jedoch die Wahrscheinlichkeit einer Unterextrusion aufgrund des Versuchs, zu dünne Linien zu drucken.
+Der Wert dieser Einstellung sollte die dÃ¼nnste Linienbreite sein, die der Drucker zuverlÃ¤ssig erreichen kann, bevor er anfÃ¤ngt, raue OberflÃ¤chen und ungleichmÃ¤ÃŸige Extrusion zu erzeugen. Diese liegt normalerweise irgendwo zwischen der DÃ¼sengrÃ¶ÃŸe und der halben DÃ¼sengrÃ¶ÃŸe. Eine ErhÃ¶hung fÃ¼hrt dazu, dass dÃ¼nne Teile zu fett gedruckt werden, verringert jedoch die Wahrscheinlichkeit einer Unterextrusion aufgrund des Versuchs, zu dÃ¼nne Linien zu drucken.

@@ -1,21 +1,21 @@
-Wandstärke
+WandstÃ¤rke
 ====
 ### **Beschreibung**
-Die Wandstärke bestimmt, wie dick die Wand des Drucks sein wird.
+Die WandstÃ¤rke bestimmt, wie dick die Wand des Drucks sein wird.
 
-Die Wände eines Drucks bestehen aus der Außenwand und den Innenwänden. Normalerweise gibt es nur eine Außenwand, aber mehrere Innenwände. Daher passt es letztendlich die Anzahl der Innenwände an, um die gewünschte Wandstärke zu erreichen.
+Die WÃ¤nde eines Drucks bestehen aus der AuÃŸenwand und den InnenwÃ¤nden. Normalerweise gibt es nur eine AuÃŸenwand, aber mehrere InnenwÃ¤nde. Daher passt es letztendlich die Anzahl der InnenwÃ¤nde an, um die gewÃ¼nschte WandstÃ¤rke zu erreichen.
 
-![0,8 mm dicke Wände](../images/wall_thickness_0.8.png)
-![1,6 mm dicke Wände](../images/wall_thickness_1.6.png)
+![0,8 mm dicke WÃ¤nde](../images/wall_thickness_0.8.png)
+![1,6 mm dicke WÃ¤nde](../images/wall_thickness_1.6.png)
 
-Die Wandstärke muss ein Vielfaches der Wandlinienbreite sein. Ist dies nicht der Fall, wird auf ein genaues Vielfaches gerundet.
+Die WandstÃ¤rke muss ein Vielfaches der Wandlinienbreite sein. Ist dies nicht der Fall, wird auf ein genaues Vielfaches gerundet.
 
 ### **Einfluss**
-Die Wandstärke ist ein wichtiger Faktor dafür, wie stark der Druck sein wird. Da die Wände benachbart sind, können sie sich gegenseitig verstärken, was zu einem stärkeren Teil führt. Bei größeren Drucken kann dies je nach Form ein viel effektiverer Weg sein, um ein starkes Objekt zu erhalten, als die Füllung anzupassen.
+Die WandstÃ¤rke ist ein wichtiger Faktor dafÃ¼r, wie stark der Druck sein wird. Da die WÃ¤nde benachbart sind, kÃ¶nnen sie sich gegenseitig verstÃ¤rken, was zu einem stÃ¤rkeren Teil fÃ¼hrt. Bei grÃ¶ÃŸeren Drucken kann dies je nach Form ein viel effektiverer Weg sein, um ein starkes Objekt zu erhalten, als die FÃ¼llung anzupassen.
 
-Eine Erhöhung der Wandstärke bewirkt:
-* Erhöhen Sie die Stärke des Drucks erheblich.
-* Reduziert den Durchscheineffekt, wo das Füllmuster auf der Außenseite sichtbar ist.
-* Verbessern Sie die Stabilität des Überhangs.
+Eine ErhÃ¶hung der WandstÃ¤rke bewirkt:
+* ErhÃ¶hen Sie die StÃ¤rke des Drucks erheblich.
+* Reduziert den Durchscheineffekt, wo das FÃ¼llmuster auf der AuÃŸenseite sichtbar ist.
+* Verbessern Sie die StabilitÃ¤t des Ãœberhangs.
 * Machen Sie das Modell wasserdichter.
-* Erhöhen Sie die Druckzeit und den Materialverbrauch des Drucks erheblich.
+* ErhÃ¶hen Sie die Druckzeit und den Materialverbrauch des Drucks erheblich.

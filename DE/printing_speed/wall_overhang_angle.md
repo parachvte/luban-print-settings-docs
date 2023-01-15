@@ -1,10 +1,10 @@
-Overhanging Wall Angle
+Überhängender Wandwinkel
 ====
-### **Description**
-This setting indicates the threshold angle after which a wall will be marked as an "overhanging wall". These overhanging walls can be printed at a different speed using the [Overhanging Wall Speed](wall_overhang_speed_factor.md) setting.
+### **Beschreibung**
+Diese Einstellung gibt den Schwellenwinkel an, ab dem eine Wand als „überhängende Wand“ markiert wird. Diese überhängenden Wände können mit der Einstellung [Overhanging Wall Speed](wall_overhang_speed_factor.md) mit einer anderen Geschwindigkeit gedruckt werden.
 
-If this setting is set to 0°, all walls will be treated as overhanging walls. If this setting is set to 90°, no walls will be treated as overhanging walls. Walls that rest on support are not treated as overhanging walls either.
+Wenn diese Einstellung auf 0° eingestellt ist, werden alle Wände als überhängende Wände behandelt. Wenn diese Einstellung auf 90° eingestellt ist, werden keine Wände als überhängende Wände behandelt. Auch Wände, die auf Stützen aufliegen, werden nicht als überhängende Wände behandelt.
 
-The aim of this feature is to provide better overhang qualities for areas that would almost need to be supported by [support](../support/support_enable.md), but not quite. Instead of spending extra time and material on support and scarring the surface when removing that support, you can choose to print these overhanging walls a bit slower and set the [Support Overhang Angle](../support/support_angle.md) somewhat higher. This achieves a more staged approach to printing increasing overhang angles better.
+Das Ziel dieser Funktion ist es, bessere Überhangqualitäten für Bereiche bereitzustellen, die fast von [support](../support/support_enable.md) unterstützt werden müssten, aber nicht ganz. Anstatt zusätzliche Zeit und Material für die Stütze aufzuwenden und die Oberfläche beim Entfernen dieser Stütze zu verkratzen, können Sie diese überhängenden Wände etwas langsamer drucken und den [Stützüberhangwinkel](../support/support_angle.md) etwas höher einstellen. Dadurch wird ein abgestufter Ansatz erreicht, um zunehmende Überhangwinkel besser zu drucken.
 
-Setting this setting higher than the Support Overhang Angle reduces the effect of this feature greatly since walls on top of support are not marked as overhanging walls, and so any walls that are printed at an overhang angle that would be considered an overhanging wall would also be supported and not printed at different speeds. However this feature still has an effect then if support is disabled or for parts of overhang that are not supported for other reasons, such as [Minimum Support Area](../support_adv/minimum_support_area.md).
+Wenn Sie diese Einstellung höher als den Stützwinkel einstellen, wird die Wirkung dieser Funktion erheblich reduziert, da Wände auf der Stütze nicht als überhängende Wände markiert werden und alle Wände, die in einem Überhangwinkel gedruckt werden, der als überhängende Wand angesehen würde, ebenfalls markiert würden unterstützt und nicht mit unterschiedlichen Geschwindigkeiten gedruckt. Diese Funktion wirkt sich jedoch auch dann aus, wenn die Unterstützung deaktiviert ist oder für Teile des Überhangs, die aus anderen Gründen nicht unterstützt werden, wie z. B. [Mindestunterstützungsbereich](../support_adv/minimum_support_area.md).

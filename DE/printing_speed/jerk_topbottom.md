@@ -1,12 +1,12 @@
-Top/Bottom Jerk
+Ruck oben/unten
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while printing the top and bottom sides of the print.
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse Ecken durchfahren kann, während die Ober- und Unterseite des Drucks gedruckt werden.
 
-### **Influence**
-Increasing this setting will have the following effects:
-* Increasing the Top/Bottom Jerk will prevent the nozzle from coming to a standstill in the corners between adjacent skin lines. This will allow the line width to be more consistent overall. 
-* While increasing the jerk too much can cause the build plate to vibrate, creating an uneven surface. It could even cause the motors to lose steps, which would lead to a layer shift.
+### **Einfluss**
+Das Erhöhen dieser Einstellung hat die folgenden Auswirkungen:
+* Durch Erhöhen des oberen/unteren Rucks wird verhindert, dass die Düse in den Ecken zwischen benachbarten Hautlinien zum Stillstand kommt. Dadurch wird die Linienbreite insgesamt konsistenter.
+* Eine zu starke Erhöhung des Rucks kann dazu führen, dass die Bauplatte vibriert und eine unebene Oberfläche entsteht. Es könnte sogar dazu führen, dass die Motoren Schritte verlieren, was zu einer Schichtverschiebung führen würde.
 
-### **Usage**
-This setting can be configured separately from the rest of the print.
+### **Verwendung**
+Diese Einstellung kann separat vom Rest des Drucks konfiguriert werden.

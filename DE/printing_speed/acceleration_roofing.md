@@ -1,12 +1,12 @@
-Hautbeschleunigung der oberen Oberfläche
+Hautbeschleunigung der oberen OberflÃ¤che
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse beim Drucken der oberen Fläche in verschiedene Richtungen beschleunigt.
+Diese Einstellung steuert, wie schnell die DÃ¼se beim Drucken der oberen FlÃ¤che in verschiedene Richtungen beschleunigt.
 
 ### **Einfluss**
-* Das Reduzieren dieser Einstellung kann eine bessere Wasserdichtigkeit erreichen, ohne viel Druckzeit hinzuzufügen, als wenn die gesamte obere Oberfläche angepasst wird.
+* Das Reduzieren dieser Einstellung kann eine bessere Wasserdichtigkeit erreichen, ohne viel Druckzeit hinzuzufÃ¼gen, als wenn die gesamte obere OberflÃ¤che angepasst wird.
 
-* Das Reduzieren dieser Einstellung reduziert auch Vibrationen durch den Drucker. Abhängig von der Baustruktur Ihres 3D-Druckers können diese Vibrationen auch dazu führen, dass die Bauplatte vibriert und die Oberfläche uneben wird.
+* Das Reduzieren dieser Einstellung reduziert auch Vibrationen durch den Drucker. AbhÃ¤ngig von der Baustruktur Ihres 3D-Druckers kÃ¶nnen diese Vibrationen auch dazu fÃ¼hren, dass die Bauplatte vibriert und die OberflÃ¤che uneben wird.
 
 ### **Verwendung**
-Die Hautbeschleunigung der oberen Oberfläche kann auf eine andere Geschwindigkeit eingestellt werden als der Rest der Haut.
+Die Hautbeschleunigung der oberen OberflÃ¤che kann auf eine andere Geschwindigkeit eingestellt werden als der Rest der Haut.

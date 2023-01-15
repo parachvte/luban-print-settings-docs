@@ -3,15 +3,15 @@ Obere Dicke
 ### **Beschreibung**
 Diese Einstellung konfiguriert, wie dick die oberen Schichten des Drucks sein werden.
 
-Im Gegensatz zu den normalen Schichten, die aus Wänden und Füllungen bestehen, sind die Deckschichten Massivschichten. Sie werden vollständig gedruckt, um den Druck zu schließen.
+Im Gegensatz zu den normalen Schichten, die aus WÃ¤nden und FÃ¼llungen bestehen, sind die Deckschichten Massivschichten. Sie werden vollstÃ¤ndig gedruckt, um den Druck zu schlieÃŸen.
 
 ![Normale obere Dicke](../images/top_bottom_thickness_0.8.png)
-![Stark erhöhte Dicke](../images/top_thickness.png)
+![Stark erhÃ¶hte Dicke](../images/top_thickness.png)
 
 ### **Einfluss**
-Durch Erhöhen der Dicke der Deckschichten können Sie folgende Effekte erzielen:
-* Ihr Druck wird mit einer dicken und festen Oberseite stärker.
-* Die Oberfläche wird glatter. Jegliches Aufpolstern und Durchhängen im oberen Teil wird durch die darüber gelegten Schichten ausgeglichen.
-* Ihr Modell wird wasserdichter. Eine dickere Oberseite ist besser in der Lage, das Eindringen von Wasser oder anderen Flüssigkeiten zu verhindern.
-* Ihr Druck wird mehr Material verbrauchen, da die obersten Schichten mehr Material verbrauchen als die normalen Schichten, die spärliche Füllung enthalten.
-* Ihr Druck dauert länger, da mehr Material abgelegt werden muss.
+Durch ErhÃ¶hen der Dicke der Deckschichten kÃ¶nnen Sie folgende Effekte erzielen:
+* Ihr Druck wird mit einer dicken und festen Oberseite stÃ¤rker.
+* Die OberflÃ¤che wird glatter. Jegliches Aufpolstern und DurchhÃ¤ngen im oberen Teil wird durch die darÃ¼ber gelegten Schichten ausgeglichen.
+* Ihr Modell wird wasserdichter. Eine dickere Oberseite ist besser in der Lage, das Eindringen von Wasser oder anderen FlÃ¼ssigkeiten zu verhindern.
+* Ihr Druck wird mehr Material verbrauchen, da die obersten Schichten mehr Material verbrauchen als die normalen Schichten, die spÃ¤rliche FÃ¼llung enthalten.
+* Ihr Druck dauert lÃ¤nger, da mehr Material abgelegt werden muss.

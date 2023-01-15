@@ -1,12 +1,12 @@
-Unterstützung der Füllgeschwindigkeit
+UnterstÃ¼tzung der FÃ¼llgeschwindigkeit
 ====
 ### **Beschreibung**
-Diese Einstellung konfiguriert die Geschwindigkeit, mit der die Hauptstützstrukturen gedruckt werden. Es ist zu beachten, dass die Hauptstützstrukturen nicht das Dach und den Boden umfassen.
+Diese Einstellung konfiguriert die Geschwindigkeit, mit der die HauptstÃ¼tzstrukturen gedruckt werden. Es ist zu beachten, dass die HauptstÃ¼tzstrukturen nicht das Dach und den Boden umfassen.
 
 ![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
 ### **Einfluss**
-Eine zu starke Erhöhung dieser Einstellung führt zu einem Unterschied in der Durchflussrate zwischen dem Träger und dem Rest des Drucks, was zu einer Überextrusion beim Wechseln vom Träger zum Druck und zu einer Unterextrusion beim Wechseln vom Druck zum Träger führt.
+Eine zu starke ErhÃ¶hung dieser Einstellung fÃ¼hrt zu einem Unterschied in der Durchflussrate zwischen dem TrÃ¤ger und dem Rest des Drucks, was zu einer Ãœberextrusion beim Wechseln vom TrÃ¤ger zum Druck und zu einer Unterextrusion beim Wechseln vom Druck zum TrÃ¤ger fÃ¼hrt.
 
 ### **Verwendung**
-Normalerweise muss der Träger nicht sehr genau gedruckt werden, daher ist es sicher, den Träger mit einer höheren Geschwindigkeit als den Rest des Drucks zu drucken. Dies kann etwas Druckzeit sparen.
+Normalerweise muss der TrÃ¤ger nicht sehr genau gedruckt werden, daher ist es sicher, den TrÃ¤ger mit einer hÃ¶heren Geschwindigkeit als den Rest des Drucks zu drucken. Dies kann etwas Druckzeit sparen.

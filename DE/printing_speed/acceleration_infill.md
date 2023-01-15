@@ -1,11 +1,11 @@
-Füllbeschleunigung
+FÃ¼llbeschleunigung
 ====
 ### **Beschreibung**
-Diese Einstellung steuert, wie schnell die Düse beim Drucken der Füllung in verschiedene Richtungen beschleunigt.
+Diese Einstellung steuert, wie schnell die DÃ¼se beim Drucken der FÃ¼llung in verschiedene Richtungen beschleunigt.
 
 ### **Einfluss**
-Da sich die Füllung auf der Innenseite befindet, wo sie nicht sichtbar ist, hat eine Anpassung dieser Einstellung tendenziell nur geringe Auswirkungen auf die visuelle Qualität des Drucks. Fülllinien haben in der Regel lange gerade Linien, die mit hoher Geschwindigkeit gedruckt und durch scharfe Ecken verbunden werden.
+Da sich die FÃ¼llung auf der Innenseite befindet, wo sie nicht sichtbar ist, hat eine Anpassung dieser Einstellung tendenziell nur geringe Auswirkungen auf die visuelle QualitÃ¤t des Drucks. FÃ¼lllinien haben in der Regel lange gerade Linien, die mit hoher Geschwindigkeit gedruckt und durch scharfe Ecken verbunden werden.
 
 ### **Verwendung**
-Die Beschleunigung hat einen großen Einfluss auf die Druckzeit für Fülllinien. Daher ist es üblich, die Beschleunigungsrate für das Füllen höher einzustellen als die Beschleunigung für den Rest des Drucks.
-Die Füllbeschleunigung kann auf eine andere Rate als der Rest des Drucks eingestellt werden.
+Die Beschleunigung hat einen groÃŸen Einfluss auf die Druckzeit fÃ¼r FÃ¼lllinien. Daher ist es Ã¼blich, die Beschleunigungsrate fÃ¼r das FÃ¼llen hÃ¶her einzustellen als die Beschleunigung fÃ¼r den Rest des Drucks.
+Die FÃ¼llbeschleunigung kann auf eine andere Rate als der Rest des Drucks eingestellt werden.

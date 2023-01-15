@@ -1,11 +1,11 @@
-Füllgeschwindigkeit
+FÃ¼llgeschwindigkeit
 ====
 ### **Beschreibung**
-Füllgeschwindigkeit bezieht sich auf die Geschwindigkeit, mit der das Füllmaterial gedruckt wird. Diese Einstellung kann getrennt von der normalen Druckgeschwindigkeit konfiguriert werden.
+FÃ¼llgeschwindigkeit bezieht sich auf die Geschwindigkeit, mit der das FÃ¼llmaterial gedruckt wird. Diese Einstellung kann getrennt von der normalen Druckgeschwindigkeit konfiguriert werden.
 
 ![Verschiedene Strukturen mit unterschiedlichen Geschwindigkeiten gedruckt](../images/speed_difference.png)
 
 ### **Verwendung**
-Die visuelle Qualität der Füllung ist normalerweise nicht wichtig, daher kann die Füllung mit ziemlich hoher Geschwindigkeit gedruckt werden, um Zeit zu sparen. Andererseits lässt eine Erhöhung der Infill-Geschwindigkeit die Füllung auch mehr durch die Wände scheinen, weil die Düse mehr in die Wände wackelt.
+Die visuelle QualitÃ¤t der FÃ¼llung ist normalerweise nicht wichtig, daher kann die FÃ¼llung mit ziemlich hoher Geschwindigkeit gedruckt werden, um Zeit zu sparen. Andererseits lÃ¤sst eine ErhÃ¶hung der Infill-Geschwindigkeit die FÃ¼llung auch mehr durch die WÃ¤nde scheinen, weil die DÃ¼se mehr in die WÃ¤nde wackelt.
 
-Die Einstellung der Infill Speed auf einen hohen Wert kann zu einer erheblichen Durchflussänderung führen. Besonders in Kombination mit Einstellungen wie [Infill Layer Thickness](../infill/infill_sparse_thickness.md) kann der Unterschied zwischen der für die Füllung erforderlichen Durchflussrate und der für den Rest des Drucks erforderlichen Durchflussrate sehr groß sein. Beim Einstellen der Durchflussrate durch die Düse tritt eine große Verzögerung auf. Wenn die Füllung im Vergleich zum Rest zu schnell erfolgt, kann der Durchfluss ungenau sein.
+Die Einstellung der Infill Speed auf einen hohen Wert kann zu einer erheblichen DurchflussÃ¤nderung fÃ¼hren. Besonders in Kombination mit Einstellungen wie [Infill Layer Thickness](../infill/infill_sparse_thickness.md) kann der Unterschied zwischen der fÃ¼r die FÃ¼llung erforderlichen Durchflussrate und der fÃ¼r den Rest des Drucks erforderlichen Durchflussrate sehr groÃŸ sein. Beim Einstellen der Durchflussrate durch die DÃ¼se tritt eine groÃŸe VerzÃ¶gerung auf. Wenn die FÃ¼llung im Vergleich zum Rest zu schnell erfolgt, kann der Durchfluss ungenau sein.

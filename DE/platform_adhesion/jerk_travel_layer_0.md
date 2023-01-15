@@ -1,10 +1,10 @@
-Initial Layer Travel Jerk
+Anfänglicher Schichtbewegungsruck
 ====
-### **Description**
-This setting determines the speed at which the nozzle can go through corners while travelling across the build plate during the initial layer. This can be configured separately from the extrusion moves during the initial layer.
+### **Beschreibung**
+Diese Einstellung bestimmt die Geschwindigkeit, mit der die Düse Ecken passieren kann, während sie sich während der ersten Schicht über die Bauplatte bewegt. Dies kann separat von den Extrusionsbewegungen während der Anfangsschicht konfiguriert werden.
 
-### **Influence**
-During the travel moves, the adhesion between the print and the build plate is not affected by vibrations. If the build plate vibrates too much, the nozzle can still rip the print off the build plate though.
+### **Einfluss**
+Während der Fahrbewegungen wird die Haftung zwischen dem Druck und der Bauplatte nicht durch Vibrationen beeinträchtigt. Wenn die Bauplatte zu stark vibriert, kann die Düse dennoch den Druck von der Bauplatte abreißen.
 
-### **Usage**
-To avoid excessive build plate vibrations, the jerk during the travel moves of the initial layer can be set higher than the jerk during the extrusion moves, but still lower than the jerk during travel moves on different layers.
+### **Verwendung**
+Um übermäßige Bauplattenvibrationen zu vermeiden, kann der Ruck während der Fahrbewegungen der Anfangsschicht höher eingestellt werden als der Ruck während der Extrusionsbewegungen, aber immer noch niedriger als der Ruck während der Fahrbewegungen auf verschiedenen Schichten.
