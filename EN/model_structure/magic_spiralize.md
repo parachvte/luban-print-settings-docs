@@ -1,7 +1,7 @@
 Spiralize Outer Contour
 ====
 ### **Description**
-When spiralising the model, the model will not get any infill or any tops. It will only get one wall and a bottom. Crucially, if [Smooth Spiralized Contours](smooth_spiralized_contours.md) is enabled, height of the nozzle will gradually increase over the course of a layer. This way a spiral is created following the contour of the model. There will be no significant toolhead lift from one layer to another, because the nozzle is gradually moving up towards the next layer.
+When spiralising the model, the model will not get any infill or any tops. It will only get one wall and a bottom. Crucially, height of the nozzle will gradually increase over the course of a layer. This way a spiral is created following the contour of the model. There will be no significant toolhead lift from one layer to another, because the nozzle is gradually moving up towards the next layer.
 
 When printing layer by layer, the nozzle normally needs to move from one layer to the next. This movement causes the nozzle to stand almost still in XY direction for a fraction of a second, which leaves a seam on the surface called the Z seam. Spiralising the model can prevent that.
 
