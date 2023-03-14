@@ -8,7 +8,7 @@ When printing layer by layer, the nozzle normally needs to move from one layer t
 ### **Usage**
 Spiralize mode is common among many slicers. It is also known as "vase mode" sometimes, because it is a good way to print vases. Spiralize Outer Contour has the following effects:
 * Prints extremely fast.
-* The surface becomes very smooth. There is no [Z seam](../troubleshooting/seam.md) any more where it moved to the next layer if [Smooth Spiralized Contours](smooth_spiralized_contours.md) is enabled.
+* The surface becomes very smooth. There is no [Z seam](../troubleshooting/seam.md) any more where it moved to the next layer.
 * The model will not be very strong. If the model is too big, it tends to split due to [warping](../troubleshooting/warping.md).
 * It is difficult to get the print to be watertight if it is large.
 
